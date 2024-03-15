@@ -1,0 +1,12 @@
+@startuml
+
+class AABGameMode {
+    + AABGameMode()
+}
+
+class AGameModeBase {
+}
+
+AABGameMode <|-- AGameModeBase
+
+@enduml

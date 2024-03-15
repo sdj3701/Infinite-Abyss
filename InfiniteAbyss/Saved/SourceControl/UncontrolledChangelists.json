@@ -5,8 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Unreal5Project/InfiniteAbyss/Content/PlayerAndMonsterTestMap.umap",
-				"C:/Unreal5Project/InfiniteAbyss/Content/Map/PlayerAndMonsterTestMap.umap"
+				"C:/Unreal5Project/InfiniteAbyss/Content/Map/PlayerAndMonsterTestMap.umap",
+				"C:/Unreal5Project/InfiniteAbyss/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset"
 			]
 		}
 	]

@@ -8,6 +8,8 @@ public class InfiniteAbyss : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
+        PublicIncludePaths.AddRange(new string[] {"InfiniteAbyss"});
+        
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
