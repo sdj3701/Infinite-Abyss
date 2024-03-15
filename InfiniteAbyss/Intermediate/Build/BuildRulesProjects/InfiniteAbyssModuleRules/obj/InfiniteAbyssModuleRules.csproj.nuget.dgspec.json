@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Unreal5_Time\\InfiniteAbyss\\Intermediate\\Build\\BuildRulesProjects\\InfiniteAbyssModuleRules\\InfiniteAbyssModuleRules.csproj": {}
+    "C:\\Unreal5Project\\InfiniteAbyss\\Intermediate\\Build\\BuildRulesProjects\\InfiniteAbyssModuleRules\\InfiniteAbyssModuleRules.csproj": {}
   },
   "projects": {
-    "C:\\Unreal5_Time\\InfiniteAbyss\\Intermediate\\Build\\BuildRulesProjects\\InfiniteAbyssModuleRules\\InfiniteAbyssModuleRules.csproj": {
+    "C:\\Unreal5Project\\InfiniteAbyss\\Intermediate\\Build\\BuildRulesProjects\\InfiniteAbyssModuleRules\\InfiniteAbyssModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unreal5_Time\\InfiniteAbyss\\Intermediate\\Build\\BuildRulesProjects\\InfiniteAbyssModuleRules\\InfiniteAbyssModuleRules.csproj",
+        "projectUniqueName": "C:\\Unreal5Project\\InfiniteAbyss\\Intermediate\\Build\\BuildRulesProjects\\InfiniteAbyssModuleRules\\InfiniteAbyssModuleRules.csproj",
         "projectName": "InfiniteAbyssModuleRules",
-        "projectPath": "C:\\Unreal5_Time\\InfiniteAbyss\\Intermediate\\Build\\BuildRulesProjects\\InfiniteAbyssModuleRules\\InfiniteAbyssModuleRules.csproj",
+        "projectPath": "C:\\Unreal5Project\\InfiniteAbyss\\Intermediate\\Build\\BuildRulesProjects\\InfiniteAbyssModuleRules\\InfiniteAbyssModuleRules.csproj",
         "packagesPath": "C:\\Users\\newco\\.nuget\\packages\\",
-        "outputPath": "C:\\Unreal5_Time\\InfiniteAbyss\\Intermediate\\Build\\BuildRulesProjects\\InfiniteAbyssModuleRules\\obj\\",
+        "outputPath": "C:\\Unreal5Project\\InfiniteAbyss\\Intermediate\\Build\\BuildRulesProjects\\InfiniteAbyssModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
