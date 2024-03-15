@@ -12,6 +12,10 @@ AABGameMode::AABGameMode()
 	{
 		DefaultPawnClass = ThirdPersonClassRef.Class;
 	}
-	
-	PlayerControllerClass = AABPlayerController::StaticClass();
+
+	static ConstructorHelpers::FClassFinder<APlayerController> PlayerControllerClassRef(TEXT("/Script/InfiniteAbyss.ABPlayerController"));
+	if(PlayerControllerClassRef.Class)
+	{
+		PlayerControllerClass = PlayerControllerClassRef.Class;
+	}
 }

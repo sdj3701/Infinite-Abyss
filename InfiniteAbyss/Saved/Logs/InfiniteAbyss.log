@@ -1237,3 +1237,100 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.15-13.55.24:605][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.03.15-13.55.24:606][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
 [2024.03.15-13.55.24:660][346]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.03.15-13.56.07:498][868]LogHttp: Warning: 0000046BAB45C800: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.15-13.56.07:498][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 0 (Found bundle for host: 0x46b4d960000 [serially])
+[2024.03.15-13.56.07:498][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.15-13.56.07:498][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.15-13.56.07:498][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.15-13.56.07:498][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.15-13.56.07:498][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.15-13.56.07:498][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 6 (Closing connection)
+[2024.03.15-13.56.07:498][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFD6BB219-47BC-B7C1-D885-2182B5031836%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=3dc4af0c4070a86513781b8b1c7912c5%7Cc8dc13cab0244c999eebc9c960b8f483%7C80f5e905-dbcb-4e4c-a1e8-25da5d2cc06d&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 9 (  Trying 54.172.151.152:443...)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.172.151.152) port 443)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.15-13.56.07:499][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 25 (Server certificate:)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 34 (Closing connection)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: 0000046BAB45C800: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-13.56.07:500][868]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFD6BB219-47BC-B7C1-D885-2182B5031836%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=3dc4af0c4070a86513781b8b1c7912c5%7Cc8dc13cab0244c999eebc9c960b8f483%7C80f5e905-dbcb-4e4c-a1e8-25da5d2cc06d&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.15-13.59.26:305][231]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.15-13.59.28:874][517]LogLiveCoding: Display:    C:\Unreal5Project\InfiniteAbyss\Binaries\Win64\UnrealEditor-InfiniteAbyss.patch_1.lib 라이브러리 및 C:\Unreal5Project\InfiniteAbyss\Binaries\Win64\UnrealEditor-InfiniteAbyss.patch_1.exp 개체를 생성하고 있습니다.
+[2024.03.15-13.59.28:978][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.03.15-13.59.29:010][521]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.03.15-13.59.29:010][521]LogLiveCoding: Display: Live coding succeeded
+[2024.03.15-13.59.32:635][852]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-13.59.32:640][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-13.59.32:641][852]PIE: New page: PIE session: PlayerAndMonsterTestMap (2024. 3. 16. 오전 7:59:32)
+[2024.03.15-13.59.32:671][852]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_PlayerAndMonsterTestMap
+[2024.03.15-13.59.32:672][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001297s)
+[2024.03.15-13.59.32:672][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/PlayerAndMonsterTestMap.PlayerAndMonsterTestMap to /Game/Map/UEDPIE_0_PlayerAndMonsterTestMap.PlayerAndMonsterTestMap (0.001539s)
+[2024.03.15-13.59.32:675][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.03.15-13.59.32:676][852]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-13.59.32:676][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-13.59.32:676][852]LogAIModule: Creating AISystem for world PlayerAndMonsterTestMap
+[2024.03.15-13.59.32:677][852]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2024.03.15-13.59.32:677][852]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.03.15-13.59.32:677][852]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.15-13.59.32:677][852]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.15-13.59.32:677][852]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.15-13.59.32:677][852]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.15-13.59.32:678][852]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.15-13.59.32:678][852]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.15-13.59.32:678][852]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.15-13.59.32:678][852]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.15-13.59.32:678][852]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.15-13.59.32:678][852]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.15-13.59.32:678][852]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.15-13.59.32:681][852]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.15-13.59.32:709][852]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.03.15-13.59.32:710][852]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.15-13.59.32:710][852]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.15-13.59.32:710][852]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.15-13.59.32:711][852]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.03.15-13.59.32:711][852]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.03.15-13.59.32:712][852]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.03.15-13.59.32:712][852]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.03.15-13.59.32:712][852]LogInit: FAudioDevice initialized with ID 4.
+[2024.03.15-13.59.32:712][852]LogAudio: Display: Audio Device (ID: 4) registered with world 'PlayerAndMonsterTestMap'.
+[2024.03.15-13.59.32:712][852]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.15-13.59.32:715][852]LogLoad: Game class is 'ABGameMode'
+[2024.03.15-13.59.32:716][852]LogWorld: Bringing World /Game/Map/UEDPIE_0_PlayerAndMonsterTestMap.PlayerAndMonsterTestMap up for play (max tick rate 0) at 2024.03.15-22.59.32
+[2024.03.15-13.59.32:716][852]LogWorld: Bringing up level for play took: 0.000579
+[2024.03.15-13.59.32:718][852]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2024.03.15-13.59.32:722][852]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.03.15-13.59.32:722][852]PIE: Server logged in
+[2024.03.15-13.59.32:723][852]PIE: Play in editor total start time 0.082 seconds.
+[2024.03.15-13.59.34:172][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-13.59.34:172][991]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_PlayerAndMonsterTestMap
+[2024.03.15-13.59.34:172][991]LogWorld: UWorld::CleanupWorld for PlayerAndMonsterTestMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-13.59.34:172][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-13.59.34:175][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.15-13.59.34:177][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-13.59.34:179][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-13.59.34:179][991]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.15-13.59.34:179][991]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.15-13.59.34:181][991]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.15-13.59.34:185][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.03.15-13.59.34:244][993]LogPlayLevel: Display: Destroying online subsystem :Context_4
