@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Unreal5_Time\\InfiniteAbyss\\Source\\InfiniteAbyss\\InfiniteAbyss.Build.cs",
+		"C:\\Unreal5_Time\\InfiniteAbyss\\Source\\InfiniteAbyss.Target.cs",
+		"C:\\Unreal5_Time\\InfiniteAbyss\\Source\\InfiniteAbyssEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
