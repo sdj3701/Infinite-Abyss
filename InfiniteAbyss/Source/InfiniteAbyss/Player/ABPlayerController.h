@@ -13,5 +13,8 @@ UCLASS()
 class INFINITEABYSS_API AABPlayerController : public APlayerController
 {
 	GENERATED_BODY()
+
+protected:
+	virtual void BeginPlay() override;
 	
 };
