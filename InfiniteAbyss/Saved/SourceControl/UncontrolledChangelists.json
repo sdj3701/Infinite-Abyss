@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Unreal5Project/InfiniteAbyss/Content/ThirdPerson/Input/Actions/IA_Move.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/PlayerAndMonsterTestMap.umap",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Map/PlayerAndMonsterTestMap.umap",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Blueprint/BP_ABCharacterPlayer.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/CharacterControl/ABC_Quater.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/CharacterControl/ABC_Shoulder.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/IMC_Default.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/Actions/IA_ShoulderMove.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/Actions/IA_ShoulderLook.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/Actions/IA_QuaterMove.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/IMC_Shoulder.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/IMC_Quater.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/Actions/IA_ChangeControl.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/Actions/IA_Jump.uasset"
+			]
+		}
+	]
+}

@@ -3,6 +3,8 @@
 
 #include "Character/ABCharacterBase.h"
 
+#include "ABCharacterControlData.h"
+#include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
@@ -14,6 +16,10 @@ AABCharacterBase::AABCharacterBase()
 	bUseControllerRotationRoll = false;
 
 	//Capsule
+	GetCapsuleComponent()->InitCapsuleSize(42.f,96.0f);
+	GetCapsuleComponent()->SetCollisionProfileName(TEXT("Pawn"));
+	
+	//Movement
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	GetCharacterMovement()->RotationRate = FRotator(0.0f,500.0f,0.0f);
 	GetCharacterMovement()->JumpZVelocity = 700.0f;
@@ -38,5 +44,27 @@ AABCharacterBase::AABCharacterBase()
 	{
 		GetMesh()->SetAnimInstanceClass(AnimInstanceClassRef.Class);
 	}
+
+	static ConstructorHelpers::FObjectFinder<UABCharacterControlData> ShoulderDataRef(TEXT("/Script/InfiniteAbyss.ABCharacterControlData'/Game/InfiniteAbyss/CharacterControl/ABC_Shoulder.ABC_Shoulder'"));
+	if(ShoulderDataRef.Object)
+	{
+		CharacterControlManager.Add(ECharacterControlType::Shoulder, ShoulderDataRef.Object);
+	}
 	
+	static ConstructorHelpers::FObjectFinder<UABCharacterControlData> QuaterDataRef(TEXT("/Script/InfiniteAbyss.ABCharacterControlData'/Game/InfiniteAbyss/CharacterControl/ABC_Quater.ABC_Quater'"));
+	if (QuaterDataRef.Object)
+	{
+		CharacterControlManager.Add(ECharacterControlType::Quater, QuaterDataRef.Object);
+	}
+}
+
+void AABCharacterBase::SetCharacterControlData(const UABCharacterControlData* CharacterControlData)
+{
+	//Pawn
+	bUseControllerRotationYaw = CharacterControlData->bUseControllerRotationYaw;
+
+	//CharacterMovement
+	GetCharacterMovement()->bOrientRotationToMovement = CharacterControlData->bOrientRotationToMovement;
+	GetCharacterMovement()->bUseControllerDesiredRotation = CharacterControlData->bUseControllerDesiredRotation;
+	GetCharacterMovement()->RotationRate = CharacterControlData->RotationRate;
 }
