@@ -39,6 +39,15 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\InfiniteAbyss.h">
       <Filter>Source\InfiniteAbyss</Filter>
     </ClInclude>
+    <Filter Include="Source\InfiniteAbyss\Animation">
+      <UniqueIdentifier>{54FBDF61-0481-3BE2-A98D-04EF75A05E4B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Animation\ABAnimInstance.cpp">
+      <Filter>Source\InfiniteAbyss\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Animation\ABAnimInstance.h">
+      <Filter>Source\InfiniteAbyss\Animation</Filter>
+    </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Character">
       <UniqueIdentifier>{543DA22C-F0CA-391F-AC9A-3DE626D2749A}</UniqueIdentifier>
     </Filter>
@@ -46,6 +55,12 @@
       <Filter>Source\InfiniteAbyss\Character</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Character\ABCharacterBase.h">
+      <Filter>Source\InfiniteAbyss\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Character\ABCharacterControlData.cpp">
+      <Filter>Source\InfiniteAbyss\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Character\ABCharacterControlData.h">
       <Filter>Source\InfiniteAbyss\Character</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Character\ABCharacterPlayer.cpp">
