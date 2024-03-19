@@ -42,7 +42,7 @@ protected:
 	void ComboActionBegin();
 	void ComboActionEnd(class UAnimMontage* TargetMontage, bool IsProperlyEnded);
 	void SetComboCheckTimer();
-	void ComboCkeck();
+	void ComboCheck();
 	
 	int32 CurrentCombo = 0;
 	FTimerHandle ComboTimerHandle;

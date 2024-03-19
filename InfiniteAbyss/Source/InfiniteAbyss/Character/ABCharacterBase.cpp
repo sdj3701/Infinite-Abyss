@@ -130,11 +130,11 @@ void AABCharacterBase::SetComboCheckTimer()
 	float ComboEffectiveTime = (ComboActionData->EffectiveFrameCount[ComboIndex] / ComboActionData->FrameRate) / AttackSpeedRate;
 	if(ComboEffectiveTime >0.0f)
 	{
-		GetWorld()->GetTimerManager().SetTimer(ComboTimerHandle, this, &AABCharacterBase::ComboCkeck, ComboEffectiveTime, false);
+		GetWorld()->GetTimerManager().SetTimer(ComboTimerHandle, this, &AABCharacterBase::ComboCheck, ComboEffectiveTime, false);
 	}
 }
 
-void AABCharacterBase::ComboCkeck()
+void AABCharacterBase::ComboCheck()
 {
 	ComboTimerHandle.Invalidate();
 	if(HasNextComboCommand)
@@ -143,6 +143,7 @@ void AABCharacterBase::ComboCkeck()
 
 		CurrentCombo = FMath::Clamp(CurrentCombo + 1, 1, ComboActionData->MaxComboCount);
 		FName NextSection = *FString::Printf(TEXT("%s%d"), * ComboActionData->MontageSectionNamePrefix, CurrentCombo);
+		AnimInstance->Montage_JumpToSection(NextSection,ComboActionMontage);
 		SetComboCheckTimer();
 		HasNextComboCommand = false;
 	}
