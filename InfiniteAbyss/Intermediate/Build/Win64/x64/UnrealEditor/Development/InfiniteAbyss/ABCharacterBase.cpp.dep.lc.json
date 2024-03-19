@@ -39,7 +39,9 @@
             "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\networkpredictioninterface.generated.h",
             "c:\\unreal\\ue_5.3\\engine\\source\\runtime\\engine\\public\\charactermovementcomponentasync.h",
             "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementcomponentasync.generated.h",
-            "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementcomponent.generated.h"
+            "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementcomponent.generated.h",
+            "c:\\unreal5project\\infiniteabyss\\source\\infiniteabyss\\character\\abcomboactiondata.h",
+            "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\unrealeditor\\inc\\infiniteabyss\\uht\\abcomboactiondata.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
