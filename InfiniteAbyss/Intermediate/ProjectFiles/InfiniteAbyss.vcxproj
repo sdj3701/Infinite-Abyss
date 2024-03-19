@@ -110,6 +110,7 @@
     <None Include="..\..\Source\InfiniteAbyss.Target.cs"/>
     <None Include="..\..\Source\InfiniteAbyssEditor.Target.cs"/>
     <None Include="..\..\.vsconfig"/>
+    <None Include="..\..\LuModularRocksNCaves.png"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
@@ -127,6 +128,12 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Animation\ABAnimInstance.h"/>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Animation\AnimNotify_AttackHitCheck.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Animation\AnimNotify_AttackHitCheck.h"/>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Character\ABCharacterBase.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -145,12 +152,25 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Character\ABCharacterPlayer.h"/>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Character\ABComboActionData.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Character\ABComboActionData.h"/>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Game\ABGameMode.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Game\ABGameMode.h"/>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Interface\ABAnimationAttackInterface.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABAnimationAttackInterface.h"/>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Physics\ABCollision.h"/>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Player\ABPlayerController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>

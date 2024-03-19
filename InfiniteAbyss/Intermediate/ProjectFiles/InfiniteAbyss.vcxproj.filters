@@ -12,6 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\LuModularRocksNCaves.png" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -48,6 +49,12 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\Animation\ABAnimInstance.h">
       <Filter>Source\InfiniteAbyss\Animation</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Animation\AnimNotify_AttackHitCheck.cpp">
+      <Filter>Source\InfiniteAbyss\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Animation\AnimNotify_AttackHitCheck.h">
+      <Filter>Source\InfiniteAbyss\Animation</Filter>
+    </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Character">
       <UniqueIdentifier>{543DA22C-F0CA-391F-AC9A-3DE626D2749A}</UniqueIdentifier>
     </Filter>
@@ -69,6 +76,12 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\Character\ABCharacterPlayer.h">
       <Filter>Source\InfiniteAbyss\Character</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Character\ABComboActionData.cpp">
+      <Filter>Source\InfiniteAbyss\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Character\ABComboActionData.h">
+      <Filter>Source\InfiniteAbyss\Character</Filter>
+    </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Game">
       <UniqueIdentifier>{ED70939F-65FF-3E3E-908C-8C012445E074}</UniqueIdentifier>
     </Filter>
@@ -77,6 +90,21 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Game\ABGameMode.h">
       <Filter>Source\InfiniteAbyss\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\InfiniteAbyss\Interface">
+      <UniqueIdentifier>{AB9A70AF-9DBE-381D-9381-7E2479B966F6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Interface\ABAnimationAttackInterface.cpp">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABAnimationAttackInterface.h">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClInclude>
+    <Filter Include="Source\InfiniteAbyss\Physics">
+      <UniqueIdentifier>{C1C25DC5-2F03-357F-B84E-642C7B90708C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Physics\ABCollision.h">
+      <Filter>Source\InfiniteAbyss\Physics</Filter>
     </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Player">
       <UniqueIdentifier>{73538A96-2721-331D-91B6-B67A4DB825DF}</UniqueIdentifier>

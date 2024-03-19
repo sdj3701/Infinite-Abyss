@@ -15,6 +15,8 @@
             "c:\\unreal\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "c:\\unreal5project\\infiniteabyss\\source\\infiniteabyss\\interface\\abanimationattackinterface.h",
+            "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\unrealeditor\\inc\\infiniteabyss\\uht\\abanimationattackinterface.generated.h",
             "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\unrealeditor\\inc\\infiniteabyss\\uht\\abcharacterbase.generated.h",
             "c:\\unreal5project\\infiniteabyss\\source\\infiniteabyss\\character\\abcharactercontroldata.h",
             "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\unrealeditor\\inc\\infiniteabyss\\uht\\abcharactercontroldata.generated.h",
@@ -41,7 +43,8 @@
             "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementcomponentasync.generated.h",
             "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementcomponent.generated.h",
             "c:\\unreal5project\\infiniteabyss\\source\\infiniteabyss\\character\\abcomboactiondata.h",
-            "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\unrealeditor\\inc\\infiniteabyss\\uht\\abcomboactiondata.generated.h"
+            "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\unrealeditor\\inc\\infiniteabyss\\uht\\abcomboactiondata.generated.h",
+            "c:\\unreal5project\\infiniteabyss\\source\\infiniteabyss\\physics\\abcollision.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
