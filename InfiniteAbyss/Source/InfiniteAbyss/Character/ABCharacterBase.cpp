@@ -54,12 +54,6 @@ AABCharacterBase::AABCharacterBase()
 	{
 		CharacterControlManager.Add(ECharacterControlType::Shoulder, ShoulderDataRef.Object);
 	}
-	
-	static ConstructorHelpers::FObjectFinder<UABCharacterControlData> QuaterDataRef(TEXT("/Script/InfiniteAbyss.ABCharacterControlData'/Game/InfiniteAbyss/CharacterControl/ABC_Quater.ABC_Quater'"));
-	if (QuaterDataRef.Object)
-	{
-		CharacterControlManager.Add(ECharacterControlType::Quater, QuaterDataRef.Object);
-	}
 
 	static ConstructorHelpers::FObjectFinder<UAnimMontage> ComboActionMontageRef(TEXT("/Script/Engine.AnimMontage'/Game/ExternAssets/FemaleMilitaryOfficer/Animations/AM_ComboAttack.AM_ComboAttack'"));
 	if(ComboActionMontageRef.Object)
@@ -194,8 +188,6 @@ void AABCharacterBase::AttackHitCheck()
 
 	DrawDebugCapsule(GetWorld(), CapsuleOrigin, CapsuleHalfHeight, AttackRadius, FRotationMatrix::MakeFromZ(GetActorForwardVector()).ToQuat(), DrawColor, false, 5.0f);
 #endif
-	
-	
 }
 
 float AABCharacterBase::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator,
@@ -204,13 +196,14 @@ float AABCharacterBase::TakeDamage(float DamageAmount, FDamageEvent const& Damag
 	Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
 
 	SetDead();
+
+	//TODO : 방어력이나 맞으면 맞는 애니메이션 출력후 TakeDamage에서 조건을 따져 죽는 애니메이션 실행 시킬 예정
 	
 	return DamageAmount;
 }
 
 void AABCharacterBase::SetDead()
 {
-	//UE_LOG(LogTemp,Log,TEXT("Dead"));
 	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_None);
 	PlayDeadAnimation();
 	SetActorEnableCollision(false);

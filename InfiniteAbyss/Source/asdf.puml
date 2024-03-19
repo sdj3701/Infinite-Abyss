@@ -1,12 +1,68 @@
 @startuml
 
-class AABGameMode {
-    + AABGameMode()
+
+interface IABAnimationAttackInterface {
+    {abstract} + AttackHitCheck() : void
 }
 
-class AGameModeBase {
+enum ECharacterControlType {
+    Shoulder
+    Quater
 }
 
-AABGameMode <|-- AGameModeBase
+class AABCharacterBase {
+    + AABCharacterBase()
+    - SetCharacterControlData(CharacterControlData: UABCharacterControlData*)
+    - CharacterControlManager : TMap<ECharacterControlType, UABCharacterControlData*>
+    - ComboActionMontage : UAnimMontage*
+    - ComboActionData : UABComboActionData*
+    - CurrentCombo : int
+    - ComboTimerHandle : FTimerHandle
+    - HasNextComboCommand : bool
+    - DeadMontage : UAnimMontage*
+    - DeadEventDelayTime : float
+    + ProcessComboCommand() : void
+    + ComboActionBegin() : void
+    + ComboActionEnd(TargetMontage: UAnimMontage*, IsProperlyEnded: bool) : void
+    + SetComboCheckTimer() : void
+    + ComboCheck() : void
+    + TakeDamage(DamageAmount: float, DamageEvent: FDamageEvent const&, EventInstigator: AController*, DamageCauser: AActor*) : float
+    + SetDead() : void
+    + PlayDeadAnimation() : void
+}
+
+class ACharacter {
+    // Unreal Engine Base Character class
+}
+
+class AABCharacterBaseNonPlayer {
+    + AABCharacterBaseNonPlayer()
+    - SetDead() : void
+}
+class AABCharacterPlayer {
+    + AABCharacterPlayer()
+    - ChangeCharacterControl() : void
+    - SetCharacterControl(NewCharacterControlType: ECharacterControlType) : void
+    - SetCharacterControlData(CharacterControlData: UABCharacterControlData*) : void
+    - BeginPlay() : void
+    - SetupPlayerInputComponent(PlayerInputComponent: UInputComponent*) : void
+    - CameraBoom : USpringArmComponent*
+    - FollowCamera : UCameraComponent*
+    - JumpAction : UInputAction*
+    - ChangeControlAction : UInputAction*
+    - ShoulderMoveAction : UInputAction*
+    - ShoulderLookAction : UInputAction*
+    - AttackAction : UInputAction*
+    - ShoulderMove(Value: FInputActionValue&) : void
+    - ShoulderLook(Value: FInputActionValue&) : void
+    - CurrentCharacterControlType : ECharacterControlType
+    - Attack() : void
+}
+
+
+AABCharacterPlayer --|> AABCharacterBase
+AABCharacterBaseNonPlayer --|> AABCharacterBase
+AABCharacterBase --|> ACharacter
+AABCharacterBase ..|> IABAnimationAttackInterface
 
 @enduml
