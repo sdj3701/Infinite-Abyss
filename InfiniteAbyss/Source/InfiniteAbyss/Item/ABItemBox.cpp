@@ -31,7 +31,7 @@ AABItemBox::AABItemBox()
 	Mesh->SetRelativeLocation(FVector(0.0f,-3.5f,-30.0f));
 	Mesh->SetCollisionProfileName(TEXT("NoCollision"));
 
-	static ConstructorHelpers::FObjectFinder<UParticleSystem> EffectRef(TEXT("/Script/Engine.ParticleSystem'/Game/InfiniteAbyss/Effect/P_TreasureChest_Open_Mesh.P_TreasureChest_Open_Mesh'"));
+	static ConstructorHelpers::FObjectFinder<UParticleSystem> EffectRef(TEXT("/Script/Engine.ParticleSystem'/Game/ExternAssets/Mobile_Fantasy_FX/ParticleSystems/P_HolyCrash.P_HolyCrash'"));
 	if(EffectRef.Object)
 	{
 		Effect->SetTemplate(EffectRef.Object);
