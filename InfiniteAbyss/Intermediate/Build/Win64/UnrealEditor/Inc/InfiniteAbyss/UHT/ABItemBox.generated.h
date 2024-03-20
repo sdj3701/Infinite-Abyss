@@ -9,6 +9,10 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UParticleSystemComponent;
+class UPrimitiveComponent;
+struct FHitResult;
 #ifdef INFINITEABYSS_ABItemBox_generated_h
 #error "ABItemBox.generated.h already included, missing '#pragma once' in ABItemBox.h"
 #endif
@@ -17,7 +21,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABItemBox_h_12_SPARSE_DATA
 #define FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABItemBox_h_12_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABItemBox_h_12_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABItemBox_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABItemBox_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnEffectFinished); \
+	DECLARE_FUNCTION(execOnOverlapBegin);
+
+
 #define FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABItemBox_h_12_ACCESSORS
 #define FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABItemBox_h_12_INCLASS_NO_PURE_DECLS \
 private: \

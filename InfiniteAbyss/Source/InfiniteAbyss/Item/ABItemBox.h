@@ -23,4 +23,10 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, Category = Effect)
 	TObjectPtr<class UParticleSystemComponent> Effect;
+
+	UFUNCTION()
+	void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult);
+
+	UFUNCTION()
+	void OnEffectFinished(class UParticleSystemComponent* ParticleSystem);
 };

@@ -31,11 +31,11 @@
 			"InfiniteAbyss.cpp.obj",
 			"ABAnimationAttackInterface.cpp.obj",
 			"ABCharacterWidgetInterface.cpp.obj",
-			"ABItemBox.cpp.obj",
 			"ABPlayerController.cpp.obj",
 			"ABHpBarWidget.cpp.obj",
 			"ABUserWidget.cpp.obj",
-			"ABWidgetComponent.cpp.obj"
+			"ABWidgetComponent.cpp.obj",
+			"ABItemBox.cpp.obj"
 		]
 	}
 }

@@ -20,8 +20,10 @@ AABItemBox::AABItemBox()
 	Effect->SetupAttachment(Trigger);
 
 	Trigger->SetCollisionProfileName(CPROFILE_ABTRIGGER);
+	Trigger->SetBoxExtent(FVector(40.0f,42.0f,30.0f));
+	Trigger->OnComponentBeginOverlap.AddDynamic(this, &AABItemBox::OnOverlapBegin);
 
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> BoxMeshRef(TEXT(""));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> BoxMeshRef(TEXT("/Script/Engine.StaticMesh'/Game/InfiniteAbyss/Environment/Props/SM_Env_Breakables_Box1.SM_Env_Breakables_Box1'"));
 	if(BoxMeshRef.Object)
 	{
 		Mesh->SetStaticMesh(BoxMeshRef.Object);
@@ -29,8 +31,27 @@ AABItemBox::AABItemBox()
 	Mesh->SetRelativeLocation(FVector(0.0f,-3.5f,-30.0f));
 	Mesh->SetCollisionProfileName(TEXT("NoCollision"));
 
+	static ConstructorHelpers::FObjectFinder<UParticleSystem> EffectRef(TEXT("/Script/Engine.ParticleSystem'/Game/InfiniteAbyss/Effect/P_TreasureChest_Open_Mesh.P_TreasureChest_Open_Mesh'"));
+	if(EffectRef.Object)
+	{
+		Effect->SetTemplate(EffectRef.Object);
+		Effect->bAutoActivate = false;
+	}
+}
 
+void AABItemBox::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
+{
+	Effect->Activate(true);
+	Mesh->SetHiddenInGame(true);
+	SetActorEnableCollision(false);
+	Effect->OnSystemFinished.AddDynamic(this,&AABItemBox::OnEffectFinished);
 	
+}
+
+void AABItemBox::OnEffectFinished(UParticleSystemComponent* ParticleSystem)
+{
+	Destroy();
 }
 
 

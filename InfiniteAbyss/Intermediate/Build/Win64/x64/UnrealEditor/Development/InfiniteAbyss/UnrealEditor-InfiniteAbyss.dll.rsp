@@ -34,6 +34,7 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
+/NATVIS:"..\Plugins\FX\Niagara\Intermediate\Build\Win64\x64\UnrealEditor\Development\Niagara\Niagara.natvis"
 "C:\Unreal5Project\InfiniteAbyss\Intermediate\Build\Win64\x64\InfiniteAbyssEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
 "C:\Unreal5Project\InfiniteAbyss\Intermediate\Build\Win64\x64\UnrealEditor\Development\InfiniteAbyss\Module.InfiniteAbyss.cpp.obj"
 "C:\Unreal5Project\InfiniteAbyss\Intermediate\Build\Win64\x64\UnrealEditor\Development\InfiniteAbyss\ABItemBox.cpp.obj"
@@ -46,6 +47,7 @@
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"
 "..\Plugins\EnhancedInput\Intermediate\Build\Win64\x64\UnrealEditor\Development\EnhancedInput\UnrealEditor-EnhancedInput.lib"
+"..\Plugins\FX\Niagara\Intermediate\Build\Win64\x64\UnrealEditor\Development\Niagara\UnrealEditor-Niagara.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
