@@ -21,7 +21,7 @@ AABItemBox::AABItemBox()
 
 	Trigger->SetCollisionProfileName(CPROFILE_ABTRIGGER);
 
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> BoxMeshRef(TEXT(""))
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> BoxMeshRef(TEXT(""));
 	if(BoxMeshRef.Object)
 	{
 		Mesh->SetStaticMesh(BoxMeshRef.Object);

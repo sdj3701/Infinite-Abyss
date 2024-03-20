@@ -13,12 +13,10 @@
 			"ABComboActionData.gen.cpp.obj",
 			"ABGameMode.gen.cpp.obj",
 			"ABHpBarWidget.gen.cpp.obj",
-			"ABItemBox.gen.cpp.obj",
 			"ABPlayerController.gen.cpp.obj",
 			"ABUserWidget.gen.cpp.obj",
 			"ABWidgetComponent.gen.cpp.obj",
 			"AnimNotify_AttackHitCheck.gen.cpp.obj",
-			"InfiniteAbyss.init.gen.cpp.obj",
 			"ABAnimInstance.cpp.obj",
 			"AnimNotify_AttackHitCheck.cpp.obj",
 			"ABCharacterStatComponent.cpp.obj",
@@ -35,6 +33,8 @@
 			"ABHpBarWidget.cpp.obj",
 			"ABUserWidget.cpp.obj",
 			"ABWidgetComponent.cpp.obj",
+			"ABItemBox.gen.cpp.obj",
+			"InfiniteAbyss.init.gen.cpp.obj",
 			"ABItemBox.cpp.obj"
 		]
 	}
