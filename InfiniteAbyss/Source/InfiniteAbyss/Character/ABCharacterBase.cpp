@@ -10,6 +10,15 @@
 #include "ABComboActionData.h"
 #include "Physics/ABCollision.h"
 #include "Engine/DamageEvents.h"
+#include "CharacterStat/ABCharacterStatComponent.h"
+#include "UI/ABWidgetComponent.h"
+#include "UI/ABHpBarWidget.h"
+
+void AABCharacterBase::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	Stat->OnHpZero.AddUObject(this, &AABCharacterBase::SetDead);
+}
 
 // Sets default values
 AABCharacterBase::AABCharacterBase()
@@ -71,6 +80,22 @@ AABCharacterBase::AABCharacterBase()
 	if(DeadMontageRef.Object)
 	{
 		DeadMontage = DeadMontageRef.Object;
+	}
+
+	//Stat Component
+	Stat = CreateDefaultSubobject<UABCharacterStatComponent>(TEXT("Stat"));
+
+	//WidGet Component
+	HpBar = CreateDefaultSubobject<UABWidgetComponent>(TEXT("Widget"));
+	HpBar->SetupAttachment(GetMesh());
+	HpBar->SetRelativeLocation(FVector(0.0f,0.0f,180.0f));
+	static ConstructorHelpers::FClassFinder<UUserWidget> HpBarWidgetRef(TEXT("/Game/InfiniteAbyss/UI/WBP_HpBar.WBP_HpBar_C"));
+	if(HpBarWidgetRef.Class)
+	{
+		HpBar->SetWidgetClass(HpBarWidgetRef.Class);
+		HpBar->SetWidgetSpace(EWidgetSpace::Screen);
+		HpBar->SetDrawSize(FVector2D(150.0f,15.0f));
+		HpBar->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	}
 }
 
@@ -195,7 +220,7 @@ float AABCharacterBase::TakeDamage(float DamageAmount, FDamageEvent const& Damag
 {
 	Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
 
-	SetDead();
+	Stat->ApplyDamage(DamageAmount);
 
 	//TODO : 방어력이나 맞으면 맞는 애니메이션 출력후 TakeDamage에서 조건을 따져 죽는 애니메이션 실행 시킬 예정
 	
@@ -214,4 +239,15 @@ void AABCharacterBase::PlayDeadAnimation()
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 	AnimInstance->StopAllMontages(0.0f);
 	AnimInstance->Montage_Play(DeadMontage, 1.0f);
+}
+
+void AABCharacterBase::SetupCharacterWidget(UABUserWidget* InUserWidget)
+{
+	UABHpBarWidget* HpBarWidget = Cast<UABHpBarWidget>(InUserWidget);
+	if(HpBarWidget)
+	{
+		HpBarWidget->SetMaxHp(Stat->GetMaxHp());
+		HpBarWidget->UpdateHpBar(Stat->GetCurrentHp());
+		Stat->OnHpChanged.AddUObject(HpBarWidget, &UABHpBarWidget::UpdateHpBar);
+	}
 }
