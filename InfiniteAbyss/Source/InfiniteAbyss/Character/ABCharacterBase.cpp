@@ -233,8 +233,6 @@ float AABCharacterBase::TakeDamage(float DamageAmount, FDamageEvent const& Damag
 	Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
 
 	Stat->ApplyDamage(DamageAmount);
-
-	//TODO : 방어력이나 맞으면 맞는 애니메이션 출력후 TakeDamage에서 조건을 따져 죽는 애니메이션 실행 시킬 예정
 	
 	return DamageAmount;
 }
@@ -244,6 +242,7 @@ void AABCharacterBase::SetDead()
 	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_None);
 	PlayDeadAnimation();
 	SetActorEnableCollision(false);
+	HpBar->SetHiddenInGame(true);
 }
 
 void AABCharacterBase::PlayDeadAnimation()

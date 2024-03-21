@@ -33,11 +33,12 @@ class INFINITEABYSS_API AABCharacterBase : public ACharacter, public IABAnimatio
 {
 	GENERATED_BODY()
 
-	virtual void PostInitializeComponents() override;
 public:
 	// Sets default values for this character's properties
 	AABCharacterBase();
 
+	virtual void PostInitializeComponents() override;
+	
 protected:
 	virtual void SetCharacterControlData(const class UABCharacterControlData* CharacterControlData);
 
