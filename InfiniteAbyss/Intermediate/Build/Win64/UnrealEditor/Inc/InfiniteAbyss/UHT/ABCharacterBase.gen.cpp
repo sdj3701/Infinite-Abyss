@@ -11,15 +11,18 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterBase() {}
 // Cross Module References
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABCharacterBase();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABCharacterBase_NoRegister();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_UABAnimationAttackInterface_NoRegister();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_UABCharacterControlData_NoRegister();
+	INFINITEABYSS_API UClass* Z_Construct_UClass_UABCharacterItemInterface_NoRegister();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_UABCharacterStatComponent_NoRegister();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_UABCharacterWidgetInterface_NoRegister();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_UABComboActionData_NoRegister();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_UABWidgetComponent_NoRegister();
 	INFINITEABYSS_API UEnum* Z_Construct_UEnum_InfiniteAbyss_ECharacterControlType();
+	INFINITEABYSS_API UScriptStruct* Z_Construct_UScriptStruct_FTakeItemDelegateWrapper();
 	UPackage* Z_Construct_UPackage__Script_InfiniteAbyss();
 // End Cross Module References
 	static FEnumRegistrationInfo Z_Registration_Info_UEnum_ECharacterControlType;
@@ -74,6 +77,58 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterBase() {}
 		}
 		return Z_Registration_Info_UEnum_ECharacterControlType.InnerSingleton;
 	}
+	static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_TakeItemDelegateWrapper;
+class UScriptStruct* FTakeItemDelegateWrapper::StaticStruct()
+{
+	if (!Z_Registration_Info_UScriptStruct_TakeItemDelegateWrapper.OuterSingleton)
+	{
+		Z_Registration_Info_UScriptStruct_TakeItemDelegateWrapper.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FTakeItemDelegateWrapper, (UObject*)Z_Construct_UPackage__Script_InfiniteAbyss(), TEXT("TakeItemDelegateWrapper"));
+	}
+	return Z_Registration_Info_UScriptStruct_TakeItemDelegateWrapper.OuterSingleton;
+}
+template<> INFINITEABYSS_API UScriptStruct* StaticStruct<FTakeItemDelegateWrapper>()
+{
+	return FTakeItemDelegateWrapper::StaticStruct();
+}
+	struct Z_Construct_UScriptStruct_FTakeItemDelegateWrapper_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
+#endif
+		static void* NewStructOps();
+		static const UECodeGen_Private::FStructParams ReturnStructParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTakeItemDelegateWrapper_Statics::Struct_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "ModuleRelativePath", "Character/ABCharacterBase.h" },
+	};
+#endif
+	void* Z_Construct_UScriptStruct_FTakeItemDelegateWrapper_Statics::NewStructOps()
+	{
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FTakeItemDelegateWrapper>();
+	}
+	const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FTakeItemDelegateWrapper_Statics::ReturnStructParams = {
+		(UObject* (*)())Z_Construct_UPackage__Script_InfiniteAbyss,
+		nullptr,
+		&NewStructOps,
+		"TakeItemDelegateWrapper",
+		nullptr,
+		0,
+		sizeof(FTakeItemDelegateWrapper),
+		alignof(FTakeItemDelegateWrapper),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTakeItemDelegateWrapper_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTakeItemDelegateWrapper_Statics::Struct_MetaDataParams)
+	};
+	UScriptStruct* Z_Construct_UScriptStruct_FTakeItemDelegateWrapper()
+	{
+		if (!Z_Registration_Info_UScriptStruct_TakeItemDelegateWrapper.InnerSingleton)
+		{
+			UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_TakeItemDelegateWrapper.InnerSingleton, Z_Construct_UScriptStruct_FTakeItemDelegateWrapper_Statics::ReturnStructParams);
+		}
+		return Z_Registration_Info_UScriptStruct_TakeItemDelegateWrapper.InnerSingleton;
+	}
 	void AABCharacterBase::StaticRegisterNativesAABCharacterBase()
 	{
 	}
@@ -115,6 +170,15 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterBase() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_HpBar_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_HpBar;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Weapon_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_Weapon;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_TakeItemActions_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_TakeItemActions_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_TakeItemActions;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
@@ -184,6 +248,22 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterBase() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AABCharacterBase_Statics::NewProp_HpBar = { "HpBar", nullptr, (EPropertyFlags)0x00240800000a001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AABCharacterBase, HpBar), Z_Construct_UClass_UABWidgetComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABCharacterBase_Statics::NewProp_HpBar_MetaData), Z_Construct_UClass_AABCharacterBase_Statics::NewProp_HpBar_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABCharacterBase_Statics::NewProp_Weapon_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Equipment" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Character/ABCharacterBase.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AABCharacterBase_Statics::NewProp_Weapon = { "Weapon", nullptr, (EPropertyFlags)0x00240800000a001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AABCharacterBase, Weapon), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABCharacterBase_Statics::NewProp_Weapon_MetaData), Z_Construct_UClass_AABCharacterBase_Statics::NewProp_Weapon_MetaData) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AABCharacterBase_Statics::NewProp_TakeItemActions_Inner = { "TakeItemActions", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FTakeItemDelegateWrapper, METADATA_PARAMS(0, nullptr) }; // 2662587894
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABCharacterBase_Statics::NewProp_TakeItemActions_MetaData[] = {
+		{ "ModuleRelativePath", "Character/ABCharacterBase.h" },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AABCharacterBase_Statics::NewProp_TakeItemActions = { "TakeItemActions", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AABCharacterBase, TakeItemActions), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABCharacterBase_Statics::NewProp_TakeItemActions_MetaData), Z_Construct_UClass_AABCharacterBase_Statics::NewProp_TakeItemActions_MetaData) }; // 2662587894
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AABCharacterBase_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacterBase_Statics::NewProp_CharacterControlManager_ValueProp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacterBase_Statics::NewProp_CharacterControlManager_Key_KeyProp_Underlying,
@@ -194,10 +274,14 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterBase() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacterBase_Statics::NewProp_DeadMontage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacterBase_Statics::NewProp_Stat,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacterBase_Statics::NewProp_HpBar,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacterBase_Statics::NewProp_Weapon,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacterBase_Statics::NewProp_TakeItemActions_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacterBase_Statics::NewProp_TakeItemActions,
 	};
 		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AABCharacterBase_Statics::InterfaceParams[] = {
 			{ Z_Construct_UClass_UABAnimationAttackInterface_NoRegister, (int32)VTABLE_OFFSET(AABCharacterBase, IABAnimationAttackInterface), false },  // 1251488610
 			{ Z_Construct_UClass_UABCharacterWidgetInterface_NoRegister, (int32)VTABLE_OFFSET(AABCharacterBase, IABCharacterWidgetInterface), false },  // 2957541366
+			{ Z_Construct_UClass_UABCharacterItemInterface_NoRegister, (int32)VTABLE_OFFSET(AABCharacterBase, IABCharacterItemInterface), false },  // 370802060
 		};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AABCharacterBase_Statics::InterfaceParams) < 64);
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AABCharacterBase_Statics::StaticCppClassTypeInfo = {
@@ -236,16 +320,20 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterBase() {}
 	struct Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
+		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_Statics::EnumInfo[] = {
 		{ ECharacterControlType_StaticEnum, TEXT("ECharacterControlType"), &Z_Registration_Info_UEnum_ECharacterControlType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3870020337U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AABCharacterBase, AABCharacterBase::StaticClass, TEXT("AABCharacterBase"), &Z_Registration_Info_UClass_AABCharacterBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABCharacterBase), 2746342082U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_Statics::ScriptStructInfo[] = {
+		{ FTakeItemDelegateWrapper::StaticStruct, Z_Construct_UScriptStruct_FTakeItemDelegateWrapper_Statics::NewStructOps, TEXT("TakeItemDelegateWrapper"), &Z_Registration_Info_UScriptStruct_TakeItemDelegateWrapper, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTakeItemDelegateWrapper), 2662587894U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_633463260(TEXT("/Script/InfiniteAbyss"),
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AABCharacterBase, AABCharacterBase::StaticClass, TEXT("AABCharacterBase"), &Z_Registration_Info_UClass_AABCharacterBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABCharacterBase), 2220521280U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_3899104928(TEXT("/Script/InfiniteAbyss"),
 		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_Statics::ClassInfo),
-		nullptr, 0,
+		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBase_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

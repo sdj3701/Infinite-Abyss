@@ -19,7 +19,9 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\particles\\emitter.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\emitter.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\particlesystemcomponent.generated.h",
-            "c:\\unreal5project\\infiniteabyss\\source\\infiniteabyss\\physics\\abcollision.h"
+            "c:\\unreal5project\\infiniteabyss\\source\\infiniteabyss\\physics\\abcollision.h",
+            "c:\\unreal5project\\infiniteabyss\\source\\infiniteabyss\\interface\\abcharacteriteminterface.h",
+            "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\unrealeditor\\inc\\infiniteabyss\\uht\\abcharacteriteminterface.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

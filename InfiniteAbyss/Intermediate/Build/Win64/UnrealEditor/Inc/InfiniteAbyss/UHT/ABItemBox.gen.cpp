@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeABItemBox() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABItemBox();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABItemBox_NoRegister();
+	INFINITEABYSS_API UClass* Z_Construct_UClass_UABItemData_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_InfiniteAbyss();
 // End Cross Module References
 	DEFINE_FUNCTION(AABItemBox::execOnEffectFinished)
@@ -200,6 +201,10 @@ void EmptyLinkFunctionForGeneratedCodeABItemBox() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Effect_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_Effect;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Item_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_Item;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -244,10 +249,18 @@ void EmptyLinkFunctionForGeneratedCodeABItemBox() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AABItemBox_Statics::NewProp_Effect = { "Effect", nullptr, (EPropertyFlags)0x00240800000a0009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AABItemBox, Effect), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABItemBox_Statics::NewProp_Effect_MetaData), Z_Construct_UClass_AABItemBox_Statics::NewProp_Effect_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABItemBox_Statics::NewProp_Item_MetaData[] = {
+		{ "Category", "Item" },
+		{ "ModuleRelativePath", "Item/ABItemBox.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AABItemBox_Statics::NewProp_Item = { "Item", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AABItemBox, Item), Z_Construct_UClass_UABItemData_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABItemBox_Statics::NewProp_Item_MetaData), Z_Construct_UClass_AABItemBox_Statics::NewProp_Item_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AABItemBox_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABItemBox_Statics::NewProp_Trigger,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABItemBox_Statics::NewProp_Mesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABItemBox_Statics::NewProp_Effect,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABItemBox_Statics::NewProp_Item,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AABItemBox_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AABItemBox>::IsAbstract,
@@ -287,9 +300,9 @@ void EmptyLinkFunctionForGeneratedCodeABItemBox() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABItemBox_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AABItemBox, AABItemBox::StaticClass, TEXT("AABItemBox"), &Z_Registration_Info_UClass_AABItemBox, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABItemBox), 1818618378U) },
+		{ Z_Construct_UClass_AABItemBox, AABItemBox::StaticClass, TEXT("AABItemBox"), &Z_Registration_Info_UClass_AABItemBox, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABItemBox), 3828350465U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABItemBox_h_1211767844(TEXT("/Script/InfiniteAbyss"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABItemBox_h_549186872(TEXT("/Script/InfiniteAbyss"),
 		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABItemBox_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABItemBox_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

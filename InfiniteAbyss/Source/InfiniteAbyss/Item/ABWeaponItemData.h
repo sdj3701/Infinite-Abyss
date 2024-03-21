@@ -16,6 +16,6 @@ class INFINITEABYSS_API UABWeaponItemData : public UABItemData
 
 public:
 	UPROPERTY(EditAnywhere, Category = Weapon)
-	TObjectPtr<class USkeletalMesh> WeaponMesh;
+	TSoftObjectPtr<class USkeletalMesh> WeaponMesh;
 	
 };

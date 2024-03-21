@@ -9,21 +9,30 @@
   <component name="ChangeListManager">
     <list default="true" id="1c2af1f4-59ad-47ee-8461-f453a6909fcb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InfiniteAbyss.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfiniteAbyss.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_0.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_0.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_0.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_0.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_1.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_1.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_2.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_2.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ExternAssets/FemaleMilitaryOfficer/Characters/Meshes/SKL_Tubaki.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ExternAssets/FemaleMilitaryOfficer/Characters/Meshes/SKL_Tubaki.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ExternAssets/FemaleMilitaryOfficer/Characters/Meshes/SK_Tubaki.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ExternAssets/FemaleMilitaryOfficer/Characters/Meshes/SK_Tubaki.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/InfiniteAbyss/Map/PlayerAndMonsterTestMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InfiniteAbyss/Map/PlayerAndMonsterTestMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Item/Weapon/ABIW_Weapon1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Item/Weapon/ABIW_Weapon1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Mobile_Fantasy_FX/Maps/Overview.umap" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/InfiniteAbyssEditor/Development/InfiniteAbyssEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/InfiniteAbyssEditor/Development/InfiniteAbyssEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/ABCharacterBase.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/ABCharacterBase.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/ABCharacterBase.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/ABCharacterBase.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/ABCharacterBaseNonPlayer.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/ABCharacterBaseNonPlayer.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/ABCharacterPlayer.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/ABCharacterPlayer.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/ABItemBox.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/ABItemBox.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/ABWeaponItemData.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/ABWeaponItemData.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/InfiniteAbyss.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/InfiniteAbyss.init.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/InfiniteAbyssEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/InfiniteAbyssEditor/Development/DependencyCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/InfiniteAbyssEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/InfiniteAbyssEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/ABCharacterBase.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/ABCharacterBase.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/ABCharacterBase.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/ABCharacterBase.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/ABCharacterBaseNonPlayer.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/ABCharacterBaseNonPlayer.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/ABCharacterPlayer.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/ABCharacterPlayer.gen.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/ABItemBox.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/ABItemBox.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/LiveCodingInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/LiveCodingInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/LiveCodingInfo.json.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/LiveCodingInfo.json.old" afterDir="false" />
@@ -36,13 +45,20 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.lib.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.lib.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.lib.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.lib.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.sup.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.sup.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Input.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Input.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/InfiniteAbyss.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/InfiniteAbyss.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/InfiniteAbyss/Character/ABCharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InfiniteAbyss/Character/ABCharacterBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/InfiniteAbyss/Character/ABCharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InfiniteAbyss/Character/ABCharacterBase.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/InfiniteAbyss/Item/ABItemBox.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InfiniteAbyss/Item/ABItemBox.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/InfiniteAbyss/Item/ABItemBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InfiniteAbyss/Item/ABItemBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/InfiniteAbyss/Item/ABWeaponItemData.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InfiniteAbyss/Item/ABWeaponItemData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/InfiniteAbyss/UI/ABHpBarWidget.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InfiniteAbyss/UI/ABHpBarWidget.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +200,7 @@
       <workItem from="1710915826382" duration="7287000" />
       <workItem from="1710933952197" duration="1525000" />
       <workItem from="1710950118307" duration="596000" />
-      <workItem from="1710983283358" duration="1193000" />
+      <workItem from="1710983283358" duration="11850000" />
     </task>
     <servers />
   </component>

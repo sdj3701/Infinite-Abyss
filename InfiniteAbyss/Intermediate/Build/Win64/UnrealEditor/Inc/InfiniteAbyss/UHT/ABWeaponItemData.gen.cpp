@@ -32,7 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeABWeaponItemData() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_WeaponMesh_MetaData[];
 #endif
-		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_WeaponMesh;
+		static const UECodeGen_Private::FSoftObjectPropertyParams NewProp_WeaponMesh;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -57,7 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeABWeaponItemData() {}
 		{ "ModuleRelativePath", "Item/ABWeaponItemData.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UABWeaponItemData_Statics::NewProp_WeaponMesh = { "WeaponMesh", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UABWeaponItemData, WeaponMesh), Z_Construct_UClass_USkeletalMesh_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UABWeaponItemData_Statics::NewProp_WeaponMesh_MetaData), Z_Construct_UClass_UABWeaponItemData_Statics::NewProp_WeaponMesh_MetaData) };
+	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UClass_UABWeaponItemData_Statics::NewProp_WeaponMesh = { "WeaponMesh", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UABWeaponItemData, WeaponMesh), Z_Construct_UClass_USkeletalMesh_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UABWeaponItemData_Statics::NewProp_WeaponMesh_MetaData), Z_Construct_UClass_UABWeaponItemData_Statics::NewProp_WeaponMesh_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UABWeaponItemData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABWeaponItemData_Statics::NewProp_WeaponMesh,
 	};
@@ -100,9 +100,9 @@ void EmptyLinkFunctionForGeneratedCodeABWeaponItemData() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABWeaponItemData_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UABWeaponItemData, UABWeaponItemData::StaticClass, TEXT("UABWeaponItemData"), &Z_Registration_Info_UClass_UABWeaponItemData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UABWeaponItemData), 3473294652U) },
+		{ Z_Construct_UClass_UABWeaponItemData, UABWeaponItemData::StaticClass, TEXT("UABWeaponItemData"), &Z_Registration_Info_UClass_UABWeaponItemData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UABWeaponItemData), 1191850968U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABWeaponItemData_h_448272331(TEXT("/Script/InfiniteAbyss"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABWeaponItemData_h_3854266546(TEXT("/Script/InfiniteAbyss"),
 		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABWeaponItemData_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABWeaponItemData_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
