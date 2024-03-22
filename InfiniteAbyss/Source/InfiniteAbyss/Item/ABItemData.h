@@ -12,7 +12,6 @@ enum class EItemType : uint8
 	Weapon = 0,
 	Potion,
 	Scroll
-	
 };
 
 /**

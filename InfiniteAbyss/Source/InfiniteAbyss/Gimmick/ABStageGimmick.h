@@ -6,6 +6,15 @@
 #include "GameFramework/Actor.h"
 #include "ABStageGimmick.generated.h"
 
+UENUM(BlueprintType)
+enum class EStageState : uint8
+{
+	READY = 0,
+	FIGHT,
+	REWARD,
+	NEXT
+};
+
 UCLASS()
 class INFINITEABYSS_API AABStageGimmick : public AActor
 {

@@ -283,7 +283,6 @@ void AABCharacterBase::EquipWeapon(UABItemData* InItemData)
 	{
 		if(WeaponItemData->WeaponMesh.IsPending())
 		{
-			UE_LOG(LogTemp, Log, TEXT("OK"));
 			WeaponItemData->WeaponMesh.LoadSynchronous();
 		}
 		Weapon->SetSkeletalMesh(WeaponItemData->WeaponMesh.Get());

@@ -23,12 +23,13 @@ AABStageGimmick::AABStageGimmick()
 	StageTrigger->SetBoxExtent(FVector(775.0f,775.0f,250.0f));
 	StageTrigger->SetupAttachment(Stage);
 	StageTrigger->SetRelativeLocation(FVector(0.0f,0.0f,250.0f));
+	StageTrigger->SetRelativeScale3D(FVector(2.0f,2.0f,1.0f));
 	StageTrigger->SetCollisionProfileName(CPROFILE_ABTRIGGER);
 	StageTrigger->OnComponentBeginOverlap.AddDynamic(this, &AABStageGimmick::OnStageTrggerBeginOverlap);
 
 	//Gate Section
 	static FName GateSockets[] = {TEXT("+XGate"), TEXT("-XGate"), TEXT("YGate"), TEXT("-YGate")};
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> GateMeshRef(TEXT("/Script/Engine.StaticMesh'/Game/ExternItemMap/LuosCaves/Meshes/Caves_Extra/SM_lamp_parts_screen.SM_lamp_parts_screen'"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> GateMeshRef(TEXT("/Script/Engine.StaticMesh'/Game/ExternItemMap/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Rock_57.SM_LCave_P_Rock_57'"));
 	for(FName GateSocket : GateSockets)
 	{
 		UStaticMeshComponent* Gate = CreateDefaultSubobject<UStaticMeshComponent>(GateSocket);

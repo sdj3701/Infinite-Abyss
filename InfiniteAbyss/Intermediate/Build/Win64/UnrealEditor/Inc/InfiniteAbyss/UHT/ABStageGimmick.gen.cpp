@@ -18,8 +18,66 @@ void EmptyLinkFunctionForGeneratedCodeABStageGimmick() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABStageGimmick();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABStageGimmick_NoRegister();
+	INFINITEABYSS_API UEnum* Z_Construct_UEnum_InfiniteAbyss_EStageState();
 	UPackage* Z_Construct_UPackage__Script_InfiniteAbyss();
 // End Cross Module References
+	static FEnumRegistrationInfo Z_Registration_Info_UEnum_EStageState;
+	static UEnum* EStageState_StaticEnum()
+	{
+		if (!Z_Registration_Info_UEnum_EStageState.OuterSingleton)
+		{
+			Z_Registration_Info_UEnum_EStageState.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_InfiniteAbyss_EStageState, (UObject*)Z_Construct_UPackage__Script_InfiniteAbyss(), TEXT("EStageState"));
+		}
+		return Z_Registration_Info_UEnum_EStageState.OuterSingleton;
+	}
+	template<> INFINITEABYSS_API UEnum* StaticEnum<EStageState>()
+	{
+		return EStageState_StaticEnum();
+	}
+	struct Z_Construct_UEnum_InfiniteAbyss_EStageState_Statics
+	{
+		static const UECodeGen_Private::FEnumeratorParam Enumerators[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FEnumParams EnumParams;
+	};
+	const UECodeGen_Private::FEnumeratorParam Z_Construct_UEnum_InfiniteAbyss_EStageState_Statics::Enumerators[] = {
+		{ "EStageState::READY", (int64)EStageState::READY },
+		{ "EStageState::FIGHT", (int64)EStageState::FIGHT },
+		{ "EStageState::REWARD", (int64)EStageState::REWARD },
+		{ "EStageState::NEXT", (int64)EStageState::NEXT },
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_InfiniteAbyss_EStageState_Statics::Enum_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "FIGHT.Name", "EStageState::FIGHT" },
+		{ "ModuleRelativePath", "Gimmick/ABStageGimmick.h" },
+		{ "NEXT.Name", "EStageState::NEXT" },
+		{ "READY.Name", "EStageState::READY" },
+		{ "REWARD.Name", "EStageState::REWARD" },
+	};
+#endif
+	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_InfiniteAbyss_EStageState_Statics::EnumParams = {
+		(UObject*(*)())Z_Construct_UPackage__Script_InfiniteAbyss,
+		nullptr,
+		"EStageState",
+		"EStageState",
+		Z_Construct_UEnum_InfiniteAbyss_EStageState_Statics::Enumerators,
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_InfiniteAbyss_EStageState_Statics::Enumerators),
+		EEnumFlags::None,
+		(uint8)UEnum::ECppForm::EnumClass,
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_InfiniteAbyss_EStageState_Statics::Enum_MetaDataParams), Z_Construct_UEnum_InfiniteAbyss_EStageState_Statics::Enum_MetaDataParams)
+	};
+	UEnum* Z_Construct_UEnum_InfiniteAbyss_EStageState()
+	{
+		if (!Z_Registration_Info_UEnum_EStageState.InnerSingleton)
+		{
+			UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EStageState.InnerSingleton, Z_Construct_UEnum_InfiniteAbyss_EStageState_Statics::EnumParams);
+		}
+		return Z_Registration_Info_UEnum_EStageState.InnerSingleton;
+	}
 	DEFINE_FUNCTION(AABStageGimmick::execOnGateTriggerBeginOverlap)
 	{
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent);
@@ -355,13 +413,17 @@ void EmptyLinkFunctionForGeneratedCodeABStageGimmick() {}
 	AABStageGimmick::~AABStageGimmick() {}
 	struct Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics
 	{
+		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
+	};
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::EnumInfo[] = {
+		{ EStageState_StaticEnum, TEXT("EStageState"), &Z_Registration_Info_UEnum_EStageState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4167641550U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_AABStageGimmick, AABStageGimmick::StaticClass, TEXT("AABStageGimmick"), &Z_Registration_Info_UClass_AABStageGimmick, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABStageGimmick), 2169525552U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_2351927013(TEXT("/Script/InfiniteAbyss"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_1217618854(TEXT("/Script/InfiniteAbyss"),
 		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::ClassInfo),
 		nullptr, 0,
-		nullptr, 0);
+		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
