@@ -31,7 +31,6 @@
 			"ABCharacterPlayer.cpp.obj",
 			"ABComboActionData.cpp.obj",
 			"ABGameMode.cpp.obj",
-			"ABStageGimmick.cpp.obj",
 			"InfiniteAbyss.cpp.obj",
 			"ABAnimationAttackInterface.cpp.obj",
 			"ABCharacterItemInterface.cpp.obj",
@@ -42,6 +41,7 @@
 			"ABUserWidget.cpp.obj",
 			"ABWidgetComponent.cpp.obj",
 			"ABCharacterBase.cpp.obj",
+			"ABStageGimmick.cpp.obj",
 			"ABItemBox.cpp.obj",
 			"ABItemData.cpp.obj"
 		]

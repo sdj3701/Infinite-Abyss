@@ -50,17 +50,98 @@ AABStageGimmick::AABStageGimmick()
 
 		GateTriggers.Add(GateTrigger);
 	}
+
+	//State Section
+	CurrentState = EStageState::READY;
+	StateChangeActions.Add(EStageState::READY, FStageChangedDelegateWrapper(FOnStageChangedDelegate::CreateUObject(this, &AABStageGimmick::SetReady)));
+	StateChangeActions.Add(EStageState::FIGHT, FStageChangedDelegateWrapper(FOnStageChangedDelegate::CreateUObject(this, &AABStageGimmick::SetFight)));
+	StateChangeActions.Add(EStageState::REWARD, FStageChangedDelegateWrapper(FOnStageChangedDelegate::CreateUObject(this, &AABStageGimmick::SetChooseReward)));
+	StateChangeActions.Add(EStageState::NEXT, FStageChangedDelegateWrapper(FOnStageChangedDelegate::CreateUObject(this, &AABStageGimmick::SetChooseNext)));
 	
 }
 
+void AABStageGimmick::OnConstruction(const FTransform& Transform)
+{
+	Super::OnConstruction(Transform);
+
+	SetState(CurrentState);
+}
+
 void AABStageGimmick::OnStageTrggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
-	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
+                                                UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
 {
 }
 
 void AABStageGimmick::OnGateTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
 {
+}
+
+void AABStageGimmick::OpenAllGates()
+{
+	for(auto Gate : Gates)
+	{
+		(Gate.Value)->SetRelativeRotation(FRotator(0.0f,0.0f,0.0f));
+	}
+}
+
+void AABStageGimmick::CloseAllGates()
+{
+	for(auto Gate : Gates)
+	{
+		(Gate.Value)->SetRelativeRotation(FRotator::ZeroRotator);
+	}
+}
+
+void AABStageGimmick::SetState(EStageState InNewState)
+{
+	CurrentState = InNewState;
+
+	if(StateChangeActions.Contains(InNewState))
+	{
+		StateChangeActions[CurrentState].StageDelegate.ExecuteIfBound();
+	}
+}
+
+void AABStageGimmick::SetReady()
+{
+	StageTrigger->SetCollisionProfileName(CPROFILE_ABTRIGGER);
+	for(auto GateTrigger : GateTriggers)
+	{
+		GateTrigger->SetCollisionProfileName(TEXT("NoCollision"));
+	}
+
+	CloseAllGates();
+}
+
+void AABStageGimmick::SetFight()
+{
+	StageTrigger->SetCollisionProfileName(TEXT("NoCollision"));
+	for(auto GateTrigger : GateTriggers)
+	{
+		GateTrigger->SetCollisionProfileName(TEXT("NoCollision"));
+	}
+	CloseAllGates();
+}
+
+void AABStageGimmick::SetChooseReward()
+{
+	StageTrigger->SetCollisionProfileName(TEXT("NoCollision"));
+	for(auto GateTrigger : GateTriggers)
+	{
+		GateTrigger->SetCollisionProfileName(TEXT("NoCollision"));
+	}
+	CloseAllGates();
+}
+
+void AABStageGimmick::SetChooseNext()
+{
+	StageTrigger->SetCollisionProfileName(TEXT("NoCollision"));
+	for(auto GateTrigger : GateTriggers)
+	{
+		GateTrigger->SetCollisionProfileName(CPROFILE_ABTRIGGER);
+	}
+	OpenAllGates();
 }
 
 

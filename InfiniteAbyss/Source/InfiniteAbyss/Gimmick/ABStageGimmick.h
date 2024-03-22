@@ -6,6 +6,16 @@
 #include "GameFramework/Actor.h"
 #include "ABStageGimmick.generated.h"
 
+DECLARE_DELEGATE(FOnStageChangedDelegate);
+USTRUCT(BlueprintType)
+struct FStageChangedDelegateWrapper
+{
+	GENERATED_BODY()
+	FStageChangedDelegateWrapper() {}
+	FStageChangedDelegateWrapper(const FOnStageChangedDelegate& InDelegate) : StageDelegate(InDelegate){}
+	FOnStageChangedDelegate StageDelegate;
+};
+
 UENUM(BlueprintType)
 enum class EStageState : uint8
 {
@@ -22,6 +32,9 @@ class INFINITEABYSS_API AABStageGimmick : public AActor
 	
 public:	
 	AABStageGimmick();
+
+protected:
+	virtual void OnConstruction(const FTransform& Transform) override;
 	
 	//Stage Section
 protected:
@@ -45,4 +58,21 @@ protected:
 
 	UFUNCTION()
 	void OnGateTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult);
+
+	void OpenAllGates();
+	void CloseAllGates();
+	
+	//State Section
+protected:
+	UPROPERTY(EditAnywhere, Category = Stage, Meta = (AllowPrivateAccess = "true"))
+	EStageState CurrentState;
+	
+	void SetState(EStageState InNewState);
+
+	TMap<EStageState, FStageChangedDelegateWrapper> StateChangeActions;
+
+	void SetReady();
+	void SetFight();
+	void SetChooseReward();
+	void SetChooseNext();
 };
