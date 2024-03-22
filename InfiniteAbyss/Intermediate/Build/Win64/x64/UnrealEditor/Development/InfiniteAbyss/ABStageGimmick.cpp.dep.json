@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unreal5project\\infiniteabyss\\source\\infiniteabyss\\gimmick\\abstagegimmick.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\x64\\infiniteabysseditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\infiniteabyss\\definitions.infiniteabyss.h",
+            "c:\\unreal5project\\infiniteabyss\\source\\infiniteabyss\\gimmick\\abstagegimmick.h",
+            "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\unrealeditor\\inc\\infiniteabyss\\uht\\abstagegimmick.generated.h",
+            "c:\\unreal\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\unreal\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "c:\\unreal5project\\infiniteabyss\\source\\infiniteabyss\\physics\\abcollision.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
