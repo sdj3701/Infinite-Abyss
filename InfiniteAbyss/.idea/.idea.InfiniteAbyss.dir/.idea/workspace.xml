@@ -8,13 +8,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c2af1f4-59ad-47ee-8461-f453a6909fcb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InfiniteAbyss.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfiniteAbyss.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_0.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-InfiniteAbyss.patch_0.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/InfiniteAbyss/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/InfiniteAbyssEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/InfiniteAbyssEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/InfiniteAbyssEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/InfiniteAbyssEditor/Development/Makefile.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/LiveCodingInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/LiveCodingInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/LiveCodingInfo.json.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/LiveCodingInfo.json.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/Module.InfiniteAbyss.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/Module.InfiniteAbyss.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/Module.InfiniteAbyss.cpp.dep.lc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/Module.InfiniteAbyss.cpp.dep.lc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/Module.InfiniteAbyss.cpp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/Module.InfiniteAbyss.cpp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.dll.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.dll.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.dll.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.dll.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.lib.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.lib.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.lib.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/InfiniteAbyss/UnrealEditor-InfiniteAbyss.lib.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/InfiniteAbyss.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/InfiniteAbyss.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/InfiniteAbyss/Gimmick/ABStageGimmick.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InfiniteAbyss/Gimmick/ABStageGimmick.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InfiniteAbyss/Gimmick/ABStageGimmick.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InfiniteAbyss/Gimmick/ABStageGimmick.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +171,7 @@
       <workItem from="1710933952197" duration="1525000" />
       <workItem from="1710950118307" duration="596000" />
       <workItem from="1710983283358" duration="15823000" />
-      <workItem from="1711069163305" duration="14322000" />
+      <workItem from="1711069163305" duration="16240000" />
     </task>
     <servers />
   </component>
