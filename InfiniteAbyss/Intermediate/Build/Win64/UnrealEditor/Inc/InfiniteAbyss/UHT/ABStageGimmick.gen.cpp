@@ -10,12 +10,15 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeABStageGimmick() {}
 // Cross Module References
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
+	INFINITEABYSS_API UClass* Z_Construct_UClass_AABCharacterBaseNonPlayer_NoRegister();
+	INFINITEABYSS_API UClass* Z_Construct_UClass_AABItemBox_NoRegister();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABStageGimmick();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABStageGimmick_NoRegister();
 	INFINITEABYSS_API UEnum* Z_Construct_UEnum_InfiniteAbyss_EStageState();
@@ -131,6 +134,27 @@ template<> INFINITEABYSS_API UScriptStruct* StaticStruct<FStageChangedDelegateWr
 		}
 		return Z_Registration_Info_UEnum_EStageState.InnerSingleton;
 	}
+	DEFINE_FUNCTION(AABStageGimmick::execOnRewardTriggerBeginOverlap)
+	{
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent);
+		P_GET_OBJECT(AActor,Z_Param_OtherActor);
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp);
+		P_GET_PROPERTY(FIntProperty,Z_Param_OtherBodyIndex);
+		P_GET_UBOOL(Z_Param_bFromSweep);
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepHitResult);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnRewardTriggerBeginOverlap(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepHitResult);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AABStageGimmick::execOnOpponentDestroyed)
+	{
+		P_GET_OBJECT(AActor,Z_Param_DestroyedActor);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnOpponentDestroyed(Z_Param_DestroyedActor);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AABStageGimmick::execOnGateTriggerBeginOverlap)
 	{
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent);
@@ -162,6 +186,8 @@ template<> INFINITEABYSS_API UScriptStruct* StaticStruct<FStageChangedDelegateWr
 		UClass* Class = AABStageGimmick::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnGateTriggerBeginOverlap", &AABStageGimmick::execOnGateTriggerBeginOverlap },
+			{ "OnOpponentDestroyed", &AABStageGimmick::execOnOpponentDestroyed },
+			{ "OnRewardTriggerBeginOverlap", &AABStageGimmick::execOnRewardTriggerBeginOverlap },
 			{ "OnStageTrggerBeginOverlap", &AABStageGimmick::execOnStageTrggerBeginOverlap },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -246,6 +272,123 @@ template<> INFINITEABYSS_API UScriptStruct* StaticStruct<FStageChangedDelegateWr
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AABStageGimmick_OnGateTriggerBeginOverlap_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics
+	{
+		struct ABStageGimmick_eventOnOpponentDestroyed_Parms
+		{
+			AActor* DestroyedActor;
+		};
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_DestroyedActor;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::NewProp_DestroyedActor = { "DestroyedActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABStageGimmick_eventOnOpponentDestroyed_Parms, DestroyedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::NewProp_DestroyedActor,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Gimmick/ABStageGimmick.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AABStageGimmick, nullptr, "OnOpponentDestroyed", nullptr, nullptr, Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::PropPointers), sizeof(Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::ABStageGimmick_eventOnOpponentDestroyed_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::Function_MetaDataParams), Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::ABStageGimmick_eventOnOpponentDestroyed_Parms) < MAX_uint16);
+	UFunction* Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics
+	{
+		struct ABStageGimmick_eventOnRewardTriggerBeginOverlap_Parms
+		{
+			UPrimitiveComponent* OverlappedComponent;
+			AActor* OtherActor;
+			UPrimitiveComponent* OtherComp;
+			int32 OtherBodyIndex;
+			bool bFromSweep;
+			FHitResult SweepHitResult;
+		};
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OverlappedComponent_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_OverlappedComponent;
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OtherComp_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
+		static const UECodeGen_Private::FIntPropertyParams NewProp_OtherBodyIndex;
+		static void NewProp_bFromSweep_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bFromSweep;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_SweepHitResult_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_SweepHitResult;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OverlappedComponent_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OverlappedComponent = { "OverlappedComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABStageGimmick_eventOnRewardTriggerBeginOverlap_Parms, OverlappedComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OverlappedComponent_MetaData), Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OverlappedComponent_MetaData) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABStageGimmick_eventOnRewardTriggerBeginOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OtherComp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABStageGimmick_eventOnRewardTriggerBeginOverlap_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OtherComp_MetaData), Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OtherComp_MetaData) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OtherBodyIndex = { "OtherBodyIndex", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABStageGimmick_eventOnRewardTriggerBeginOverlap_Parms, OtherBodyIndex), METADATA_PARAMS(0, nullptr) };
+	void Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_bFromSweep_SetBit(void* Obj)
+	{
+		((ABStageGimmick_eventOnRewardTriggerBeginOverlap_Parms*)Obj)->bFromSweep = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_bFromSweep = { "bFromSweep", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(ABStageGimmick_eventOnRewardTriggerBeginOverlap_Parms), &Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_bFromSweep_SetBit, METADATA_PARAMS(0, nullptr) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_SweepHitResult_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_SweepHitResult = { "SweepHitResult", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABStageGimmick_eventOnRewardTriggerBeginOverlap_Parms, SweepHitResult), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_SweepHitResult_MetaData), Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_SweepHitResult_MetaData) }; // 1891709922
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OverlappedComponent,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OtherActor,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OtherComp,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_OtherBodyIndex,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_bFromSweep,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::NewProp_SweepHitResult,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Gimmick/ABStageGimmick.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AABStageGimmick, nullptr, "OnRewardTriggerBeginOverlap", nullptr, nullptr, Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::PropPointers), sizeof(Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::ABStageGimmick_eventOnRewardTriggerBeginOverlap_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00480401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::Function_MetaDataParams), Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::ABStageGimmick_eventOnRewardTriggerBeginOverlap_Parms) < MAX_uint16);
+	UFunction* Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -368,6 +511,30 @@ template<> INFINITEABYSS_API UScriptStruct* StaticStruct<FStageChangedDelegateWr
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CurrentState_MetaData[];
 #endif
 		static const UECodeGen_Private::FEnumPropertyParams NewProp_CurrentState;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_StateChangeActions_ValueProp;
+		static const UECodeGen_Private::FBytePropertyParams NewProp_StateChangeActions_Key_KeyProp_Underlying;
+		static const UECodeGen_Private::FEnumPropertyParams NewProp_StateChangeActions_Key_KeyProp;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_StateChangeActions_MetaData[];
+#endif
+		static const UECodeGen_Private::FMapPropertyParams NewProp_StateChangeActions;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OpponentClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_OpponentClass;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OpponentSpawnTime_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_OpponentSpawnTime;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_RewardBoxClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_RewardBoxClass;
+		static const UECodeGen_Private::FWeakObjectPropertyParams NewProp_RewardBoxes_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_RewardBoxes_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_RewardBoxes;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -379,6 +546,8 @@ template<> INFINITEABYSS_API UScriptStruct* StaticStruct<FStageChangedDelegateWr
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AABStageGimmick_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_AABStageGimmick_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AABStageGimmick_OnGateTriggerBeginOverlap, "OnGateTriggerBeginOverlap" }, // 1043027269
+		{ &Z_Construct_UFunction_AABStageGimmick_OnOpponentDestroyed, "OnOpponentDestroyed" }, // 36494847
+		{ &Z_Construct_UFunction_AABStageGimmick_OnRewardTriggerBeginOverlap, "OnRewardTriggerBeginOverlap" }, // 3063111432
 		{ &Z_Construct_UFunction_AABStageGimmick_OnStageTrggerBeginOverlap, "OnStageTrggerBeginOverlap" }, // 495403249
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AABStageGimmick_Statics::FuncInfo) < 2048);
@@ -436,6 +605,48 @@ template<> INFINITEABYSS_API UScriptStruct* StaticStruct<FStageChangedDelegateWr
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AABStageGimmick_Statics::NewProp_CurrentState = { "CurrentState", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AABStageGimmick, CurrentState), Z_Construct_UEnum_InfiniteAbyss_EStageState, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABStageGimmick_Statics::NewProp_CurrentState_MetaData), Z_Construct_UClass_AABStageGimmick_Statics::NewProp_CurrentState_MetaData) }; // 4167641550
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AABStageGimmick_Statics::NewProp_StateChangeActions_ValueProp = { "StateChangeActions", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FStageChangedDelegateWrapper, METADATA_PARAMS(0, nullptr) }; // 1616958710
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_AABStageGimmick_Statics::NewProp_StateChangeActions_Key_KeyProp_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AABStageGimmick_Statics::NewProp_StateChangeActions_Key_KeyProp = { "StateChangeActions_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_InfiniteAbyss_EStageState, METADATA_PARAMS(0, nullptr) }; // 4167641550
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABStageGimmick_Statics::NewProp_StateChangeActions_MetaData[] = {
+		{ "ModuleRelativePath", "Gimmick/ABStageGimmick.h" },
+	};
+#endif
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_AABStageGimmick_Statics::NewProp_StateChangeActions = { "StateChangeActions", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AABStageGimmick, StateChangeActions), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABStageGimmick_Statics::NewProp_StateChangeActions_MetaData), Z_Construct_UClass_AABStageGimmick_Statics::NewProp_StateChangeActions_MetaData) }; // 4167641550 1616958710
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABStageGimmick_Statics::NewProp_OpponentClass_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Fight" },
+		{ "ModuleRelativePath", "Gimmick/ABStageGimmick.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AABStageGimmick_Statics::NewProp_OpponentClass = { "OpponentClass", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AABStageGimmick, OpponentClass), Z_Construct_UClass_UClass, Z_Construct_UClass_AABCharacterBaseNonPlayer_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABStageGimmick_Statics::NewProp_OpponentClass_MetaData), Z_Construct_UClass_AABStageGimmick_Statics::NewProp_OpponentClass_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABStageGimmick_Statics::NewProp_OpponentSpawnTime_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Fight" },
+		{ "ModuleRelativePath", "Gimmick/ABStageGimmick.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AABStageGimmick_Statics::NewProp_OpponentSpawnTime = { "OpponentSpawnTime", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AABStageGimmick, OpponentSpawnTime), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABStageGimmick_Statics::NewProp_OpponentSpawnTime_MetaData), Z_Construct_UClass_AABStageGimmick_Statics::NewProp_OpponentSpawnTime_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABStageGimmick_Statics::NewProp_RewardBoxClass_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Reward" },
+		{ "ModuleRelativePath", "Gimmick/ABStageGimmick.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AABStageGimmick_Statics::NewProp_RewardBoxClass = { "RewardBoxClass", nullptr, (EPropertyFlags)0x0024080000020001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AABStageGimmick, RewardBoxClass), Z_Construct_UClass_UClass, Z_Construct_UClass_AABItemBox_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABStageGimmick_Statics::NewProp_RewardBoxClass_MetaData), Z_Construct_UClass_AABStageGimmick_Statics::NewProp_RewardBoxClass_MetaData) };
+	const UECodeGen_Private::FWeakObjectPropertyParams Z_Construct_UClass_AABStageGimmick_Statics::NewProp_RewardBoxes_Inner = { "RewardBoxes", nullptr, (EPropertyFlags)0x0004000000020000, UECodeGen_Private::EPropertyGenFlags::WeakObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_AABItemBox_NoRegister, METADATA_PARAMS(0, nullptr) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABStageGimmick_Statics::NewProp_RewardBoxes_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Reward" },
+		{ "ModuleRelativePath", "Gimmick/ABStageGimmick.h" },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AABStageGimmick_Statics::NewProp_RewardBoxes = { "RewardBoxes", nullptr, (EPropertyFlags)0x0024080000020001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AABStageGimmick, RewardBoxes), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABStageGimmick_Statics::NewProp_RewardBoxes_MetaData), Z_Construct_UClass_AABStageGimmick_Statics::NewProp_RewardBoxes_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AABStageGimmick_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_Stage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_StageTrigger,
@@ -446,6 +657,15 @@ template<> INFINITEABYSS_API UScriptStruct* StaticStruct<FStageChangedDelegateWr
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_GateTriggers,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_CurrentState_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_CurrentState,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_StateChangeActions_ValueProp,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_StateChangeActions_Key_KeyProp_Underlying,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_StateChangeActions_Key_KeyProp,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_StateChangeActions,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_OpponentClass,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_OpponentSpawnTime,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_RewardBoxClass,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_RewardBoxes_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABStageGimmick_Statics::NewProp_RewardBoxes,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AABStageGimmick_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AABStageGimmick>::IsAbstract,
@@ -493,9 +713,9 @@ template<> INFINITEABYSS_API UScriptStruct* StaticStruct<FStageChangedDelegateWr
 		{ FStageChangedDelegateWrapper::StaticStruct, Z_Construct_UScriptStruct_FStageChangedDelegateWrapper_Statics::NewStructOps, TEXT("StageChangedDelegateWrapper"), &Z_Registration_Info_UScriptStruct_StageChangedDelegateWrapper, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FStageChangedDelegateWrapper), 1616958710U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AABStageGimmick, AABStageGimmick::StaticClass, TEXT("AABStageGimmick"), &Z_Registration_Info_UClass_AABStageGimmick, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABStageGimmick), 3139991421U) },
+		{ Z_Construct_UClass_AABStageGimmick, AABStageGimmick::StaticClass, TEXT("AABStageGimmick"), &Z_Registration_Info_UClass_AABStageGimmick, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABStageGimmick), 825471947U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_3565428438(TEXT("/Script/InfiniteAbyss"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_619523889(TEXT("/Script/InfiniteAbyss"),
 		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_Statics::EnumInfo));

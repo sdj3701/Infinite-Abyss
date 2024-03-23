@@ -34,7 +34,6 @@
 			"ABAnimationAttackInterface.cpp.obj",
 			"ABCharacterItemInterface.cpp.obj",
 			"ABCharacterWidgetInterface.cpp.obj",
-			"ABItemBox.cpp.obj",
 			"ABItemData.cpp.obj",
 			"ABWeaponItemData.cpp.obj",
 			"ABPlayerController.cpp.obj",
@@ -43,7 +42,8 @@
 			"ABWidgetComponent.cpp.obj",
 			"ABStageGimmick.gen.cpp.obj",
 			"InfiniteAbyss.init.gen.cpp.obj",
-			"ABStageGimmick.cpp.obj"
+			"ABStageGimmick.cpp.obj",
+			"ABItemBox.cpp.obj"
 		]
 	}
 }

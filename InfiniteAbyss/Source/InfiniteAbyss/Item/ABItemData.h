@@ -21,6 +21,11 @@ UCLASS()
 class INFINITEABYSS_API UABItemData : public UPrimaryDataAsset
 {
 	GENERATED_BODY()
+public:
+	FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("ABItemData", GetFName());
+	}
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Type)

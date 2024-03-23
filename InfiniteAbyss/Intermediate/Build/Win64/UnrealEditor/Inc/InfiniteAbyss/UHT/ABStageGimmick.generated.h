@@ -29,6 +29,8 @@ template<> INFINITEABYSS_API UScriptStruct* StaticStruct<struct FStageChangedDel
 #define FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_31_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Gimmick_ABStageGimmick_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnRewardTriggerBeginOverlap); \
+	DECLARE_FUNCTION(execOnOpponentDestroyed); \
 	DECLARE_FUNCTION(execOnGateTriggerBeginOverlap); \
 	DECLARE_FUNCTION(execOnStageTrggerBeginOverlap);
 

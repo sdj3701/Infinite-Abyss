@@ -11,8 +11,6 @@
     <None Include="..\..\Source\InfiniteAbyssEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\.vsconfig" />
-    <None Include="..\..\LuModularRocksNCaves.png" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -64,6 +62,12 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\Character\ABCharacterBase.h">
       <Filter>Source\InfiniteAbyss\Character</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Character\ABCharacterBaseNonPlayer.cpp">
+      <Filter>Source\InfiniteAbyss\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Character\ABCharacterBaseNonPlayer.h">
+      <Filter>Source\InfiniteAbyss\Character</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Character\ABCharacterControlData.cpp">
       <Filter>Source\InfiniteAbyss\Character</Filter>
     </ClCompile>
@@ -82,6 +86,15 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\Character\ABComboActionData.h">
       <Filter>Source\InfiniteAbyss\Character</Filter>
     </ClInclude>
+    <Filter Include="Source\InfiniteAbyss\CharacterStat">
+      <UniqueIdentifier>{2E29F352-1053-308F-BA76-C4F97458770D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\CharacterStat\ABCharacterStatComponent.cpp">
+      <Filter>Source\InfiniteAbyss\CharacterStat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\CharacterStat\ABCharacterStatComponent.h">
+      <Filter>Source\InfiniteAbyss\CharacterStat</Filter>
+    </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Game">
       <UniqueIdentifier>{ED70939F-65FF-3E3E-908C-8C012445E074}</UniqueIdentifier>
     </Filter>
@@ -91,6 +104,15 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\Game\ABGameMode.h">
       <Filter>Source\InfiniteAbyss\Game</Filter>
     </ClInclude>
+    <Filter Include="Source\InfiniteAbyss\Gimmick">
+      <UniqueIdentifier>{568ECD8F-D526-34F3-BEAB-22DC9E16844B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Gimmick\ABStageGimmick.cpp">
+      <Filter>Source\InfiniteAbyss\Gimmick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Gimmick\ABStageGimmick.h">
+      <Filter>Source\InfiniteAbyss\Gimmick</Filter>
+    </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Interface">
       <UniqueIdentifier>{AB9A70AF-9DBE-381D-9381-7E2479B966F6}</UniqueIdentifier>
     </Filter>
@@ -99,6 +121,39 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABAnimationAttackInterface.h">
       <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterItemInterface.cpp">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterItemInterface.h">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterWidgetInterface.cpp">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterWidgetInterface.h">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClInclude>
+    <Filter Include="Source\InfiniteAbyss\Item">
+      <UniqueIdentifier>{C8CC61FA-7673-300B-9D4D-375D03FE26AC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Item\ABItemBox.cpp">
+      <Filter>Source\InfiniteAbyss\Item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Item\ABItemBox.h">
+      <Filter>Source\InfiniteAbyss\Item</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Item\ABItemData.cpp">
+      <Filter>Source\InfiniteAbyss\Item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Item\ABItemData.h">
+      <Filter>Source\InfiniteAbyss\Item</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Item\ABWeaponItemData.cpp">
+      <Filter>Source\InfiniteAbyss\Item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Item\ABWeaponItemData.h">
+      <Filter>Source\InfiniteAbyss\Item</Filter>
     </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Physics">
       <UniqueIdentifier>{C1C25DC5-2F03-357F-B84E-642C7B90708C}</UniqueIdentifier>
@@ -114,6 +169,27 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Player\ABPlayerController.h">
       <Filter>Source\InfiniteAbyss\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\InfiniteAbyss\UI">
+      <UniqueIdentifier>{E2B5585D-48A7-3AAA-8B6A-71F236593371}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\UI\ABHpBarWidget.cpp">
+      <Filter>Source\InfiniteAbyss\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\UI\ABHpBarWidget.h">
+      <Filter>Source\InfiniteAbyss\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\UI\ABUserWidget.cpp">
+      <Filter>Source\InfiniteAbyss\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\UI\ABUserWidget.h">
+      <Filter>Source\InfiniteAbyss\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\UI\ABWidgetComponent.cpp">
+      <Filter>Source\InfiniteAbyss\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\UI\ABWidgetComponent.h">
+      <Filter>Source\InfiniteAbyss\UI</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

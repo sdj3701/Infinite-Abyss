@@ -17,16 +17,13 @@
 			"ABItemBox.gen.cpp.obj",
 			"ABItemData.gen.cpp.obj",
 			"ABPlayerController.gen.cpp.obj",
-			"ABStageGimmick.gen.cpp.obj",
 			"ABUserWidget.gen.cpp.obj",
 			"ABWeaponItemData.gen.cpp.obj",
 			"ABWidgetComponent.gen.cpp.obj",
 			"AnimNotify_AttackHitCheck.gen.cpp.obj",
-			"InfiniteAbyss.init.gen.cpp.obj",
 			"ABAnimInstance.cpp.obj",
 			"AnimNotify_AttackHitCheck.cpp.obj",
 			"ABCharacterStatComponent.cpp.obj",
-			"ABCharacterBase.cpp.obj",
 			"ABCharacterBaseNonPlayer.cpp.obj",
 			"ABCharacterControlData.cpp.obj",
 			"ABCharacterPlayer.cpp.obj",
@@ -36,14 +33,17 @@
 			"ABAnimationAttackInterface.cpp.obj",
 			"ABCharacterItemInterface.cpp.obj",
 			"ABCharacterWidgetInterface.cpp.obj",
-			"ABItemBox.cpp.obj",
-			"ABItemData.cpp.obj",
-			"ABWeaponItemData.cpp.obj",
 			"ABPlayerController.cpp.obj",
 			"ABHpBarWidget.cpp.obj",
 			"ABUserWidget.cpp.obj",
 			"ABWidgetComponent.cpp.obj",
-			"ABStageGimmick.cpp.obj"
+			"ABStageGimmick.gen.cpp.obj",
+			"InfiniteAbyss.init.gen.cpp.obj",
+			"ABCharacterBase.cpp.obj",
+			"ABStageGimmick.cpp.obj",
+			"ABItemBox.cpp.obj",
+			"ABItemData.cpp.obj",
+			"ABWeaponItemData.cpp.obj"
 		]
 	}
 }

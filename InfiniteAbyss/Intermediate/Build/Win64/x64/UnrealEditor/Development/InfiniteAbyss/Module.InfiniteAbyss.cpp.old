@@ -31,7 +31,6 @@
 #include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/Interface/ABAnimationAttackInterface.cpp"
 #include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/Interface/ABCharacterItemInterface.cpp"
 #include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/Interface/ABCharacterWidgetInterface.cpp"
-#include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/Item/ABItemBox.cpp"
 #include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/Item/ABItemData.cpp"
 #include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/Item/ABWeaponItemData.cpp"
 #include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/Player/ABPlayerController.cpp"

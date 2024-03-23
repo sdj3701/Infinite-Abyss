@@ -3,8 +3,10 @@
 
 #include "Item/ABItemBox.h"
 
+#include "ABItemData.h"
 #include "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Engine/AssetManager.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "Physics/ABCollision.h"
 #include "Interface/ABCharacterItemInterface.h"
@@ -40,8 +42,29 @@ AABItemBox::AABItemBox()
 	}
 }
 
+void AABItemBox::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+
+	UAssetManager& Manager = UAssetManager::Get();
+
+	TArray<FPrimaryAssetId> Assets;
+	Manager.GetPrimaryAssetIdList(TEXT("ABItemData"), Assets);
+	ensure(0 < Assets.Num());
+
+	int32 RandomIndex = FMath::RandRange(0, Assets.Num()-1);
+	FSoftObjectPtr AssetPtr(Manager.GetPrimaryAssetPath(Assets[RandomIndex]));
+	if(AssetPtr.IsPending())
+	{
+		AssetPtr.LoadSynchronous();
+	}
+	Item = Cast<UABItemData>(AssetPtr.Get());
+	ensure(Item);
+	
+}
+
 void AABItemBox::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
-	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
+                                UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
 {
 	if(nullptr == Item)
 	{

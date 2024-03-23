@@ -69,10 +69,40 @@ protected:
 	
 	void SetState(EStageState InNewState);
 
+	UPROPERTY()
 	TMap<EStageState, FStageChangedDelegateWrapper> StateChangeActions;
 
 	void SetReady();
 	void SetFight();
 	void SetChooseReward();
 	void SetChooseNext();
+
+	//Fight Section
+protected:
+	UPROPERTY(EditAnywhere, Category = Fight, Meta = (AllowPrivateAccess ="true"))
+	TSubclassOf<class AABCharacterBaseNonPlayer> OpponentClass;
+
+	UPROPERTY(EditAnywhere, Category = Fight, Meta = (AllowPrivateAccess = "true"))
+	float OpponentSpawnTime;
+
+	UFUNCTION()
+	void OnOpponentDestroyed(AActor* DestroyedActor);
+
+	FTimerHandle OpponentTimerHandle;
+	void OnOpponentSpawn();
+
+	//Reward Section
+protected:
+	UPROPERTY(VisibleAnywhere, Category = Reward, Meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<class AABItemBox> RewardBoxClass;
+
+	UPROPERTY(VisibleAnywhere, Category = Reward, Meta = (AllowPrivateAccess = "true"))
+	TArray<TWeakObjectPtr<class AABItemBox>> RewardBoxes;
+
+	TMap<FName, FVector> RewardBoxLocations;
+
+	UFUNCTION()
+	void OnRewardTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult);
+
+	void SpawnRewardBoxes();
 };
