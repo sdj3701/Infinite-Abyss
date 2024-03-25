@@ -7,7 +7,9 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"
 #include "Item/ABItemBox.h"
+#include "Kismet/GameplayStatics.h"
 #include "Physics/ABCollision.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AABStageGimmick::AABStageGimmick()
@@ -57,6 +59,8 @@ AABStageGimmick::AABStageGimmick()
 
 		GateTriggers.Add(GateTrigger);
 	}
+	CloseTime = 1.0f;
+	CloseSpeed = 0.1f;
 
 	//State Section
 	CurrentState = EStageState::READY;
@@ -93,7 +97,7 @@ void AABStageGimmick::OnStageTrggerBeginOverlap(UPrimitiveComponent* OverlappedC
 }
 
 void AABStageGimmick::OnGateTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
-	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
+                                                UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
 {
 	check(OverlappedComponent->ComponentTags.Num() == 1);
 	FName ComponentTag = OverlappedComponent->ComponentTags[0];
@@ -119,8 +123,17 @@ void AABStageGimmick::OnGateTriggerBeginOverlap(UPrimitiveComponent* OverlappedC
 
 void AABStageGimmick::OpenAllGates()
 {
+	ElapsedTime =0;
+
 	for(auto Gate : Gates)
 	{
+		
+
+		Gate.Value->SetRelativeLocation(FVector::ZeroVector);
+		StartLocation = (Gate.Value)->GetRelativeLocation();
+		EndLocation = FVector(0.0f,0.0f,-600.0f);
+
+		GetWorldTimerManager().SetTimer(TimerHandle_GateMove, this, &AABStageGimmick::MoveGate, MoveInterval, true, 0.0f);
 		(Gate.Value)->SetVisibility(false);
 		(Gate.Value)->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	}
@@ -128,11 +141,39 @@ void AABStageGimmick::OpenAllGates()
 
 void AABStageGimmick::CloseAllGates()
 {
+	ElapsedTime =0;
+
 	for(auto Gate : Gates)
 	{
 		(Gate.Value)->SetVisibility(true);
 		(Gate.Value)->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
-		(Gate.Value)->SetRelativeLocation(FVector(0.0f,-80.5f, 0.0f));
+		(Gate.Value)->SetRelativeLocation(FVector(0.0f,0.0f, -600.0f));
+		
+		StartLocation = (Gate.Value)->GetRelativeLocation();
+		EndLocation = FVector::ZeroVector;
+
+		UE_LOG(LogTemp, Log, TEXT("GetName: %s"),  *Gate.Value.GetName());
+		GetWorldTimerManager().SetTimer(TimerHandle_GateMove, this, &AABStageGimmick::MoveGate, MoveInterval, true, 0.0f);
+	}
+}
+
+void AABStageGimmick::MoveGate()
+{
+	ElapsedTime += MoveInterval;
+
+	float Alpha = FMath::Clamp(ElapsedTime / MoveTime, 0.0f, 1.0f); // 보간 계수
+	FVector NewLocation = FMath::Lerp(StartLocation, EndLocation, Alpha); // 보간된 위치
+
+	// 게이트 이동
+	for (auto Gate : Gates)
+	{
+		(Gate.Value)->SetRelativeLocation(NewLocation);
+	}
+
+	// 이동이 완료되면 타이머 중지
+	if (Alpha >= 1.0f)
+	{
+		GetWorldTimerManager().ClearTimer(TimerHandle_GateMove);
 	}
 }
 

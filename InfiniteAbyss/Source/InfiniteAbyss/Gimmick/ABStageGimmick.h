@@ -56,11 +56,24 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = Stage, Meta = (AllowPrivateAccess = "true"))
 	TArray<TObjectPtr<class UBoxComponent>> GateTriggers;
 
+	UPROPERTY(VisibleAnywhere, Category = Stage, Meta = (AllowPrivateAccess = "true"))
+	float CloseTime;
+
+	UPROPERTY(VisibleAnywhere, Category = Stage, Meta = (AllowPrivateAccess = "true"))
+	float CloseSpeed;
+	
 	UFUNCTION()
 	void OnGateTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult);
 
+	FTimerHandle TimerHandle_GateMove;
+	float MoveInterval = 0.01f;
+	float MoveTime = 2.0f; 
+	float ElapsedTime = 0.0f;
+	FVector StartLocation;
+	FVector EndLocation;
 	void OpenAllGates();
 	void CloseAllGates();
+	void MoveGate();
 	
 	//State Section
 protected:
