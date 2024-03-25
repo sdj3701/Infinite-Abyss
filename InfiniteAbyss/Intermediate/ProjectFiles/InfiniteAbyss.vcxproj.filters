@@ -11,6 +11,7 @@
     <None Include="..\..\Source\InfiniteAbyssEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -103,6 +104,12 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Game\ABGameMode.h">
       <Filter>Source\InfiniteAbyss\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\InfiniteAbyss\GameData">
+      <UniqueIdentifier>{AA722CE5-82D7-346B-A439-856F97E50638}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\GameData\ABCharacterStat.h">
+      <Filter>Source\InfiniteAbyss\GameData</Filter>
     </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Gimmick">
       <UniqueIdentifier>{568ECD8F-D526-34F3-BEAB-22DC9E16844B}</UniqueIdentifier>

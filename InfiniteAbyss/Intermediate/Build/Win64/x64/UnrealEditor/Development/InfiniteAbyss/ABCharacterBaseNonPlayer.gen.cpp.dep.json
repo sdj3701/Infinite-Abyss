@@ -23,6 +23,8 @@
             "c:\\unreal5project\\infiniteabyss\\source\\infiniteabyss\\interface\\abcharacteriteminterface.h",
             "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\unrealeditor\\inc\\infiniteabyss\\uht\\abcharacteriteminterface.generated.h",
             "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\unrealeditor\\inc\\infiniteabyss\\uht\\abcharacterbase.generated.h",
+            "c:\\unreal\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\streamablemanager.h",
+            "c:\\unreal\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\misc\\packageaccesstracking.h",
             "c:\\unreal5project\\infiniteabyss\\intermediate\\build\\win64\\unrealeditor\\inc\\infiniteabyss\\uht\\abcharacterbasenonplayer.generated.h"
         ],
         "ImportedModules": [],

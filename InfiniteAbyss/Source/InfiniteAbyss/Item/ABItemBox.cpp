@@ -24,7 +24,6 @@ AABItemBox::AABItemBox()
 
 	Trigger->SetCollisionProfileName(CPROFILE_ABTRIGGER);
 	Trigger->SetBoxExtent(FVector(40.0f,42.0f,30.0f));
-	Trigger->OnComponentBeginOverlap.AddDynamic(this, &AABItemBox::OnOverlapBegin);
 	
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> BoxMeshRef(TEXT("/Script/Engine.StaticMesh'/Game/ExternItemMap/DefectPropsVol1/Geometry/MilitaryCrates/SM_MilitaryCrateClosed_02.SM_MilitaryCrateClosed_02'"));
 	if(BoxMeshRef.Object)
@@ -61,6 +60,8 @@ void AABItemBox::PostInitializeComponents()
 	Item = Cast<UABItemData>(AssetPtr.Get());
 	ensure(Item);
 	
+	Trigger->OnComponentBeginOverlap.AddDynamic(this, &AABItemBox::OnOverlapBegin);
+
 }
 
 void AABItemBox::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,

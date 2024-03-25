@@ -109,6 +109,7 @@
     <None Include="..\..\InfiniteAbyss.uproject"/>
     <None Include="..\..\Source\InfiniteAbyss.Target.cs"/>
     <None Include="..\..\Source\InfiniteAbyssEditor.Target.cs"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
@@ -174,6 +175,7 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Game\ABGameMode.h"/>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\GameData\ABCharacterStat.h"/>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Gimmick\ABStageGimmick.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>

@@ -33,6 +33,10 @@ class INFINITEABYSS_API AABStageGimmick : public AActor
 public:	
 	AABStageGimmick();
 
+public:
+	FORCEINLINE int32 GetStageNum() const {return CurrentStageNum;}
+	FORCEINLINE void SetStageNum(int32 NewStageNum) {CurrentStageNum = NewStageNum;}
+	
 protected:
 	virtual void OnConstruction(const FTransform& Transform) override;
 	
@@ -118,4 +122,9 @@ protected:
 	void OnRewardTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult);
 
 	void SpawnRewardBoxes();
+
+	//Stage Stat
+protected:
+	UPROPERTY(VisibleInstanceOnly, Category = Stat , Meta = (AllowPrivateAccess = "true"))
+	int32 CurrentStageNum;
 };

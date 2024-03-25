@@ -4,19 +4,27 @@
 
 #include "CoreMinimal.h"
 #include "Character/ABCharacterBase.h"
+#include "Engine/StreamableManager.h"
 #include "ABCharacterBaseNonPlayer.generated.h"
 
 /**
  * 
  */
-UCLASS()
+UCLASS(Config = InfiniteAbyss)
 class INFINITEABYSS_API AABCharacterBaseNonPlayer : public AABCharacterBase
 {
 	GENERATED_BODY()
 
 public:
 	AABCharacterBaseNonPlayer();
-
 protected:
-	virtual void SetDead() override;
+	virtual void PostInitializeComponents() override; 
+protected:
+	void SetDead() override;
+	void NPCMeshLoadCompleted();
+
+	UPROPERTY(config)
+	TArray<FSoftObjectPath> NPCMeshes;
+
+	TSharedPtr<FStreamableHandle> NPCMeshHandle;
 };
