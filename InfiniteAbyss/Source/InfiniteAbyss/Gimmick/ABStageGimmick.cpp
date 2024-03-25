@@ -114,7 +114,7 @@ void AABStageGimmick::OnGateTriggerBeginOverlap(UPrimitiveComponent* OverlappedC
 		OverlapResults,
 		NewLocation,
 		FQuat::Identity,
-		FCollisionObjectQueryParams::InitType::AllStaticObjects,
+		FCollisionObjectQueryParams::InitType::AllObjects,
 		FCollisionShape::MakeSphere(775.0f),
 		CollisionQueryParam
 		);
@@ -141,6 +141,11 @@ void AABStageGimmick::OpenAllGates()
 		EndLocation = FVector(0.0f,0.0f,-600.0f);
 
 		GetWorldTimerManager().SetTimer(TimerHandle_GateMove, this, &AABStageGimmick::MoveGate, MoveInterval, true, 0.0f);
+		
+	}
+
+	for(auto Gate : Gates)
+	{
 		(Gate.Value)->SetVisibility(false);
 		(Gate.Value)->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	}
@@ -246,7 +251,7 @@ void AABStageGimmick::OnOpponentDestroyed(AActor* DestroyedActor)
 void AABStageGimmick::OnOpponentSpawn()
 {
 	//캐릭터 스폰 위치 설정
-	const FTransform SpawnTransform((GetActorLocation() + FVector::UpVector * 88.0f *2  )/ 2) ;
+	const FTransform SpawnTransform((GetActorLocation() + FVector::UpVector * 88.0f *2  )/ 4) ;
 	AABCharacterBaseNonPlayer* ABOpponentCharacter = GetWorld()->SpawnActorDeferred<AABCharacterBaseNonPlayer>(OpponentClass,SpawnTransform );
 	if(ABOpponentCharacter)
 	{

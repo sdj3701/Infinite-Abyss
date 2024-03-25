@@ -32,7 +32,6 @@
 #include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/Character/ABComboActionData.cpp"
 #include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/GameData/ABGameSingleton.cpp"
 #include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/Game/ABGameMode.cpp"
-#include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/Gimmick/ABStageGimmick.cpp"
 #include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/InfiniteAbyss.cpp"
 #include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/Interface/ABAnimationAttackInterface.cpp"
 #include "C:/Unreal5Project/InfiniteAbyss/Source/InfiniteAbyss/Interface/ABCharacterItemInterface.cpp"
