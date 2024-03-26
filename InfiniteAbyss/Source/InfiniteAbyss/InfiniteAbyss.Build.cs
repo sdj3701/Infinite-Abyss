@@ -11,7 +11,7 @@ public class InfiniteAbyss : ModuleRules
         PublicIncludePaths.AddRange(new string[] {"InfiniteAbyss"});
 
         PublicDependencyModuleNames.AddRange(new string[]
-	        { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "UMG" ,"Niagara"});
+	        { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "UMG" ,"NavigationSystem", "AIModule", "GameplayTasks"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

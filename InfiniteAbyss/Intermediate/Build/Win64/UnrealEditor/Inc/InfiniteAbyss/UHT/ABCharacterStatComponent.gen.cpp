@@ -39,6 +39,10 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_CurrentLevel;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_AttackRadius_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_AttackRadius;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_BaseStat_MetaData[];
 #endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_BaseStat;
@@ -78,6 +82,14 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentLevel = { "CurrentLevel", nullptr, (EPropertyFlags)0x0020080000022801, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UABCharacterStatComponent, CurrentLevel), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentLevel_MetaData), Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentLevel_MetaData) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_AttackRadius_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Stat" },
+		{ "ModuleRelativePath", "CharacterStat/ABCharacterStatComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_AttackRadius = { "AttackRadius", nullptr, (EPropertyFlags)0x0020080000020801, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UABCharacterStatComponent, AttackRadius), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_AttackRadius_MetaData), Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_AttackRadius_MetaData) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_BaseStat_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Stat" },
@@ -96,6 +108,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UABCharacterStatComponent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentHp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentLevel,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_AttackRadius,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_BaseStat,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_ModifierStat,
 	};
@@ -137,9 +150,9 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_CharacterStat_ABCharacterStatComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UABCharacterStatComponent, UABCharacterStatComponent::StaticClass, TEXT("UABCharacterStatComponent"), &Z_Registration_Info_UClass_UABCharacterStatComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UABCharacterStatComponent), 1887604018U) },
+		{ Z_Construct_UClass_UABCharacterStatComponent, UABCharacterStatComponent::StaticClass, TEXT("UABCharacterStatComponent"), &Z_Registration_Info_UClass_UABCharacterStatComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UABCharacterStatComponent), 2577127969U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_CharacterStat_ABCharacterStatComponent_h_814431104(TEXT("/Script/InfiniteAbyss"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_CharacterStat_ABCharacterStatComponent_h_452781935(TEXT("/Script/InfiniteAbyss"),
 		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_CharacterStat_ABCharacterStatComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_CharacterStat_ABCharacterStatComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

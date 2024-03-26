@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterBaseNonPlayer() {}
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABCharacterBase();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABCharacterBaseNonPlayer();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABCharacterBaseNonPlayer_NoRegister();
+	INFINITEABYSS_API UClass* Z_Construct_UClass_UABCharacterAIInterface_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_InfiniteAbyss();
 // End Cross Module References
 	void AABCharacterBaseNonPlayer::StaticRegisterNativesAABCharacterBaseNonPlayer()
@@ -35,6 +36,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterBaseNonPlayer() {}
 #endif
 		static const UECodeGen_Private::FArrayPropertyParams NewProp_NPCMeshes;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -64,6 +66,10 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterBaseNonPlayer() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacterBaseNonPlayer_Statics::NewProp_NPCMeshes_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacterBaseNonPlayer_Statics::NewProp_NPCMeshes,
 	};
+		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AABCharacterBaseNonPlayer_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UABCharacterAIInterface_NoRegister, (int32)VTABLE_OFFSET(AABCharacterBaseNonPlayer, IABCharacterAIInterface), false },  // 2776587130
+		};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AABCharacterBaseNonPlayer_Statics::InterfaceParams) < 64);
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AABCharacterBaseNonPlayer_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AABCharacterBaseNonPlayer>::IsAbstract,
 	};
@@ -74,11 +80,11 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterBaseNonPlayer() {}
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_AABCharacterBaseNonPlayer_Statics::PropPointers,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_AABCharacterBaseNonPlayer_Statics::PropPointers),
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
 		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABCharacterBaseNonPlayer_Statics::Class_MetaDataParams), Z_Construct_UClass_AABCharacterBaseNonPlayer_Statics::Class_MetaDataParams)
 	};
@@ -102,9 +108,9 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterBaseNonPlayer() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBaseNonPlayer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AABCharacterBaseNonPlayer, AABCharacterBaseNonPlayer::StaticClass, TEXT("AABCharacterBaseNonPlayer"), &Z_Registration_Info_UClass_AABCharacterBaseNonPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABCharacterBaseNonPlayer), 192009529U) },
+		{ Z_Construct_UClass_AABCharacterBaseNonPlayer, AABCharacterBaseNonPlayer::StaticClass, TEXT("AABCharacterBaseNonPlayer"), &Z_Registration_Info_UClass_AABCharacterBaseNonPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABCharacterBaseNonPlayer), 3691938626U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBaseNonPlayer_h_4013439224(TEXT("/Script/InfiniteAbyss"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBaseNonPlayer_h_734392570(TEXT("/Script/InfiniteAbyss"),
 		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBaseNonPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterBaseNonPlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

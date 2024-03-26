@@ -4,6 +4,7 @@
 #include "Character/ABCharacterBaseNonPlayer.h"
 #include "Engine/AssetManager.h"
 #include "AI/ABAIController.h"
+#include "CharacterStat/ABCharacterStatComponent.h"
 
 AABCharacterBaseNonPlayer::AABCharacterBaseNonPlayer()
 {
@@ -47,4 +48,40 @@ void AABCharacterBaseNonPlayer::NPCMeshLoadCompleted()
 		}
 	}
 	NPCMeshHandle->ReleaseHandle();
+}
+
+float AABCharacterBaseNonPlayer::GetAIPatrolRadius()
+{
+	return 800.0f;
+}
+
+float AABCharacterBaseNonPlayer::GetAIDetectRange()
+{
+	return 400.0f;
+}
+
+float AABCharacterBaseNonPlayer::GetAIAttackRange()
+{
+	return Stat->GetTotalStat().AttackRange + Stat->GetAttackRadius() * 2;
+}
+
+float AABCharacterBaseNonPlayer::GetAITurnSpeed()
+{
+	return 2.0f;
+}
+
+void AABCharacterBaseNonPlayer::SetAIAttackDelegate(const FAICharacterAttackFinished& InOnAttackFinished)
+{
+	OnAttackFinished = InOnAttackFinished;
+}
+
+void AABCharacterBaseNonPlayer::AttackByAI()
+{
+	ProcessComboCommand();
+}
+
+void AABCharacterBaseNonPlayer::NotifyComboActionEnd()
+{
+	Super::NotifyComboActionEnd();
+	OnAttackFinished.ExecuteIfBound();
 }

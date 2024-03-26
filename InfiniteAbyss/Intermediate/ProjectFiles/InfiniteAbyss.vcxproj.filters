@@ -45,10 +45,31 @@
     <Filter Include="Source\InfiniteAbyss\AI">
       <UniqueIdentifier>{2C7071FD-F791-36BF-BA86-A9F11EE30E69}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\AI\ABAI.h">
+      <Filter>Source\InfiniteAbyss\AI</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\InfiniteAbyss\AI\ABAIController.cpp">
       <Filter>Source\InfiniteAbyss\AI</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\AI\ABAIController.h">
+      <Filter>Source\InfiniteAbyss\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\AI\BTService_Detect.cpp">
+      <Filter>Source\InfiniteAbyss\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\AI\BTService_Detect.h">
+      <Filter>Source\InfiniteAbyss\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\AI\BTTask_Attack.cpp">
+      <Filter>Source\InfiniteAbyss\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\AI\BTTask_Attack.h">
+      <Filter>Source\InfiniteAbyss\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\AI\BTTask_FindPatrolPos.cpp">
+      <Filter>Source\InfiniteAbyss\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\AI\BTTask_FindPatrolPos.h">
       <Filter>Source\InfiniteAbyss\AI</Filter>
     </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Animation">
@@ -145,6 +166,12 @@
       <Filter>Source\InfiniteAbyss\Interface</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABAnimationAttackInterface.h">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterAIInterface.cpp">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterAIInterface.h">
       <Filter>Source\InfiniteAbyss\Interface</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterItemInterface.cpp">
