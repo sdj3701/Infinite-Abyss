@@ -9,6 +9,8 @@
 #include "InputMappingContext.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "UI/ABHUDWidget.h"
+#include "CharacterStat/ABCharacterStatComponent.h"
 
 AABCharacterPlayer::AABCharacterPlayer()
 {
@@ -145,4 +147,16 @@ void AABCharacterPlayer::ShoulderLook(const FInputActionValue& Value)
 void AABCharacterPlayer::Attack()
 {
 	ProcessComboCommand();
+}
+
+void AABCharacterPlayer::SetupHUDWidget(UABHUDWidget* InHUDWidget)
+{
+	if(InHUDWidget)
+	{
+		InHUDWidget->UpdateStat(Stat->GetBaseStat(),Stat->GetModifierStat());
+		InHUDWidget->UpdateHpBar(Stat->GetCurrentHp());
+
+		Stat->OnStatChanged.AddUObject(InHUDWidget, &UABHUDWidget::UpdateStat);
+		Stat->OnHpChanged.AddUObject(InHUDWidget, &UABHUDWidget::UpdateHpBar);
+	}
 }

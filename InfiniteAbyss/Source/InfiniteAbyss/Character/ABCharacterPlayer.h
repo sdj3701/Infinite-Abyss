@@ -5,13 +5,14 @@
 #include "CoreMinimal.h"
 #include "Character/ABCharacterBase.h"
 #include "InputActionValue.h"
+#include "Interface/ABCharacterHUDInterface.h"
 #include "ABCharacterPlayer.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class INFINITEABYSS_API AABCharacterPlayer : public AABCharacterBase
+class INFINITEABYSS_API AABCharacterPlayer : public AABCharacterBase, public IABCharacterHUDInterface
 {
 	GENERATED_BODY()
 
@@ -63,5 +64,7 @@ protected:
 
 	void Attack();
 	
-	
+	//UI Section
+protected:
+	virtual void SetupHUDWidget(class UABHUDWidget* InHUDWidget) override;
 };

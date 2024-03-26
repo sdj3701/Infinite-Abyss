@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterPlayer() {}
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABCharacterBase();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABCharacterPlayer();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_AABCharacterPlayer_NoRegister();
+	INFINITEABYSS_API UClass* Z_Construct_UClass_UABCharacterHUDInterface_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_InfiniteAbyss();
 // End Cross Module References
 	void AABCharacterPlayer::StaticRegisterNativesAABCharacterPlayer()
@@ -60,6 +61,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterPlayer() {}
 #endif
 		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_AttackAction;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -145,6 +147,10 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterPlayer() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacterPlayer_Statics::NewProp_ShoulderLookAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacterPlayer_Statics::NewProp_AttackAction,
 	};
+		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AABCharacterPlayer_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UABCharacterHUDInterface_NoRegister, (int32)VTABLE_OFFSET(AABCharacterPlayer, IABCharacterHUDInterface), false },  // 700919192
+		};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AABCharacterPlayer_Statics::InterfaceParams) < 64);
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AABCharacterPlayer_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AABCharacterPlayer>::IsAbstract,
 	};
@@ -155,11 +161,11 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterPlayer() {}
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_AABCharacterPlayer_Statics::PropPointers,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_AABCharacterPlayer_Statics::PropPointers),
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
 		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AABCharacterPlayer_Statics::Class_MetaDataParams), Z_Construct_UClass_AABCharacterPlayer_Statics::Class_MetaDataParams)
 	};
@@ -183,9 +189,9 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterPlayer() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterPlayer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AABCharacterPlayer, AABCharacterPlayer::StaticClass, TEXT("AABCharacterPlayer"), &Z_Registration_Info_UClass_AABCharacterPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABCharacterPlayer), 270799797U) },
+		{ Z_Construct_UClass_AABCharacterPlayer, AABCharacterPlayer::StaticClass, TEXT("AABCharacterPlayer"), &Z_Registration_Info_UClass_AABCharacterPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABCharacterPlayer), 3527373496U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterPlayer_h_371532324(TEXT("/Script/InfiniteAbyss"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterPlayer_h_477073208(TEXT("/Script/InfiniteAbyss"),
 		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Character_ABCharacterPlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

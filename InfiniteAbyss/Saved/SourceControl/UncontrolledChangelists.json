@@ -7,7 +7,9 @@
 			"files": [
 				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/AI/BB_ABCharacter.uasset",
 				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/AI/BT_ABCharacter.uasset",
-				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/PlayerAndMonsterTestMap.umap"
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/PlayerAndMonsterTestMap.umap",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_ABHUD.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_CharacterStat.uasset"
 			]
 		}
 	]
