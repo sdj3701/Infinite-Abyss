@@ -12,8 +12,6 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
-    <None Include="..\..\DefectPropsVol1.png" />
-    <None Include="..\..\LuModularRocksNCaves.png" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -26,7 +24,7 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\Config\DefaultInfinieAbyss.ini">
+    <None Include="..\..\Config\DefaultInfiniteAbyss.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultInput.ini">
@@ -43,6 +41,15 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\InfiniteAbyss.h">
       <Filter>Source\InfiniteAbyss</Filter>
+    </ClInclude>
+    <Filter Include="Source\InfiniteAbyss\AI">
+      <UniqueIdentifier>{2C7071FD-F791-36BF-BA86-A9F11EE30E69}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\AI\ABAIController.cpp">
+      <Filter>Source\InfiniteAbyss\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\AI\ABAIController.h">
+      <Filter>Source\InfiniteAbyss\AI</Filter>
     </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Animation">
       <UniqueIdentifier>{54FBDF61-0481-3BE2-A98D-04EF75A05E4B}</UniqueIdentifier>
