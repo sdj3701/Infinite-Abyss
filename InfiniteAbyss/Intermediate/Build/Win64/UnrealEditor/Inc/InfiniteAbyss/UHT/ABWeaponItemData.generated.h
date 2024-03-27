@@ -29,8 +29,6 @@ public: \
 
 
 #define FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABWeaponItemData_h_16_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UABWeaponItemData(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UABWeaponItemData(UABWeaponItemData&&); \
@@ -38,7 +36,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UABWeaponItemData); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UABWeaponItemData); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UABWeaponItemData) \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UABWeaponItemData) \
 	NO_API virtual ~UABWeaponItemData();
 
 

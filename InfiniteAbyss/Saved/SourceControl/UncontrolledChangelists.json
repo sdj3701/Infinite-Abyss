@@ -9,7 +9,22 @@
 				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/AI/BT_ABCharacter.uasset",
 				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/PlayerAndMonsterTestMap.umap",
 				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_ABHUD.uasset",
-				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_CharacterStat.uasset"
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_CharacterStat.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Potion/ABIP_SmallPotion.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Potion/ABIP_MiddlePotion.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Potion/ABIP_LargePotion.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Potion/ABIP_ExtraPotion.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Scroll/ABIS_MaxHpScroll.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Scroll/ABIS_AttackScroll.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Scroll/ABIS_AttackSpeedScroll.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Scroll/ABIS_MovementScroll.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Scroll/ABIS_AllScroll.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Weapon/ABIW_Weapon2.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Weapon/ABIW_Weapon3.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_HpBar.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/GameData/ABCharacterStatTable.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Potion/ABIP_PotionTest.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Scroll/ABIS_ScrollTest.uasset"
 			]
 		}
 	]

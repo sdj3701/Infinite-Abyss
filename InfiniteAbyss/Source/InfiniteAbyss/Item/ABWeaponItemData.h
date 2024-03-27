@@ -15,6 +15,8 @@ class INFINITEABYSS_API UABWeaponItemData : public UABItemData
 {
 	GENERATED_BODY()
 public:
+	UABWeaponItemData();
+	
 	FPrimaryAssetId GetPrimaryAssetId() const override
 	{
 		return FPrimaryAssetId("ABItemData", GetFName());

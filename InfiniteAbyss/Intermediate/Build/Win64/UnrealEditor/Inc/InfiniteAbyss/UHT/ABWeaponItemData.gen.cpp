@@ -106,7 +106,6 @@ void EmptyLinkFunctionForGeneratedCodeABWeaponItemData() {}
 	{
 		return UABWeaponItemData::StaticClass();
 	}
-	UABWeaponItemData::UABWeaponItemData(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UABWeaponItemData);
 	UABWeaponItemData::~UABWeaponItemData() {}
 	struct Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_Item_ABWeaponItemData_h_Statics

@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeABHpBarWidget() {}
 	INFINITEABYSS_API UClass* Z_Construct_UClass_UABHpBarWidget_NoRegister();
 	INFINITEABYSS_API UClass* Z_Construct_UClass_UABUserWidget();
 	UMG_API UClass* Z_Construct_UClass_UProgressBar_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UTextBlock_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_InfiniteAbyss();
 // End Cross Module References
 	void UABHpBarWidget::StaticRegisterNativesUABHpBarWidget()
@@ -33,6 +34,14 @@ void EmptyLinkFunctionForGeneratedCodeABHpBarWidget() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_HpProgressBar_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_HpProgressBar;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_HpStat_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_HpStat;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_CurrentHp_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_CurrentHp;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_MaxHp_MetaData[];
 #endif
@@ -64,6 +73,19 @@ void EmptyLinkFunctionForGeneratedCodeABHpBarWidget() {}
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_HpProgressBar = { "HpProgressBar", nullptr, (EPropertyFlags)0x0024080000080008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UABHpBarWidget, HpProgressBar), Z_Construct_UClass_UProgressBar_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_HpProgressBar_MetaData), Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_HpProgressBar_MetaData) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_HpStat_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "UI/ABHpBarWidget.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_HpStat = { "HpStat", nullptr, (EPropertyFlags)0x0024080000080008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UABHpBarWidget, HpStat), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_HpStat_MetaData), Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_HpStat_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_CurrentHp_MetaData[] = {
+		{ "ModuleRelativePath", "UI/ABHpBarWidget.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_CurrentHp = { "CurrentHp", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UABHpBarWidget, CurrentHp), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_CurrentHp_MetaData), Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_CurrentHp_MetaData) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_MaxHp_MetaData[] = {
 		{ "ModuleRelativePath", "UI/ABHpBarWidget.h" },
 	};
@@ -71,6 +93,8 @@ void EmptyLinkFunctionForGeneratedCodeABHpBarWidget() {}
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_MaxHp = { "MaxHp", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UABHpBarWidget, MaxHp), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_MaxHp_MetaData), Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_MaxHp_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UABHpBarWidget_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_HpProgressBar,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_HpStat,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_CurrentHp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABHpBarWidget_Statics::NewProp_MaxHp,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UABHpBarWidget_Statics::StaticCppClassTypeInfo = {
@@ -111,9 +135,9 @@ void EmptyLinkFunctionForGeneratedCodeABHpBarWidget() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_UI_ABHpBarWidget_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UABHpBarWidget, UABHpBarWidget::StaticClass, TEXT("UABHpBarWidget"), &Z_Registration_Info_UClass_UABHpBarWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UABHpBarWidget), 2644787025U) },
+		{ Z_Construct_UClass_UABHpBarWidget, UABHpBarWidget::StaticClass, TEXT("UABHpBarWidget"), &Z_Registration_Info_UClass_UABHpBarWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UABHpBarWidget), 2285296507U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_UI_ABHpBarWidget_h_296762832(TEXT("/Script/InfiniteAbyss"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_UI_ABHpBarWidget_h_2103335893(TEXT("/Script/InfiniteAbyss"),
 		Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_UI_ABHpBarWidget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5Project_InfiniteAbyss_Source_InfiniteAbyss_UI_ABHpBarWidget_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
