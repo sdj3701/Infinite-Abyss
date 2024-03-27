@@ -4,15 +4,29 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "Interface/ABGameInterface.h"
 #include "ABGameMode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class INFINITEABYSS_API AABGameMode : public AGameModeBase
+class INFINITEABYSS_API AABGameMode : public AGameModeBase , public IABGameInterface
 {
 	GENERATED_BODY()
 public:
 	AABGameMode();
+	
+	virtual void OnPlayerScoreChanged(int32 NewPlayerScore) override;
+	virtual void OnPlayerDead() override;
+	virtual bool IsGameCleared() override;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Game)
+	int32 ClearScore;
+
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Game)
+	int32 CurrentScore;
+
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Game)
+	uint8 bIsCleard : 1;
 };

@@ -69,7 +69,6 @@ void AABItemBox::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor
 {
 	if(nullptr == Item)
 	{
-		UE_LOG(LogTemp,Log,TEXT("null"));
 		Destroy();
 		return;
 	}

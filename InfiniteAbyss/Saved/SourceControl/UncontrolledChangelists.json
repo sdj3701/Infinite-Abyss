@@ -23,6 +23,13 @@
 				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Weapon/ABIW_Weapon3.uasset",
 				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_HpBar.uasset",
 				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/GameData/ABCharacterStatTable.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_PlayerScore.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Blueprint/BP_ABGameMode.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Blueprint/BP_ABPlayerController.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/BP_ABPlayerController.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Blueprint/MyABGameMode.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Blueprint/BP_ABPlayerController.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Blueprint/BP_ABPlayerState.uasset",
 				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Potion/ABIP_PotionTest.uasset",
 				"C:/Unreal5Project/InfiniteAbyss/Content/Item/Scroll/ABIS_ScrollTest.uasset"
 			]
