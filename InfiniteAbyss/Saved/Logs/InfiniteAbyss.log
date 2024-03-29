@@ -1978,3 +1978,186 @@ Make sure 'ThirdPersonCharacter' has been compiled for  Reset Orientation and Po
 [2024.03.29-15.06.01:320][804]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.005224 seconds
 [2024.03.29-15.06.02:512][804]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/Map/Demo_Map
 [2024.03.29-15.06.02:512][804]LogSavePackage: Moving '../../../../../../Unreal5Project/InfiniteAbyss/Saved/Demo_MapE6A08C5542EFF55104B9BB9885486D75.tmp' to '../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/Demo_Map.umap'
+[2024.03.29-15.06.02:637][804]LogFileHelpers: Saving map 'Demo_Map' took 3.299
+[2024.03.29-15.06.02:645][804]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.33 sec
+[2024.03.29-15.06.02:646][804]AssetCheck: New page: Asset Save: Demo_Map
+[2024.03.29-15.06.02:647][804]LogContentValidation: Display: Validating /Script/Engine.World /Game/InfiniteAbyss/Map/Demo_Map.Demo_Map
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: ================================================
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Total job queries 3,790, among them cache hits 8 (0.21%)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Tracking 3,782 distinct input hashes that result in 2,708 distinct outputs (71.60%)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: RAM used: 70.09 MiB of 1.60 GiB budget. Usage: 4.28%
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Shaders Compiled: 3,782
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Jobs assigned 3,782, completed 3,782 (100%)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Average time worker was idle: 4.46 s
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Time job spent in pending queue: average 26.39 s, longest 59.73 s
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Job execution time: average 1.95 s, max 7.83 s
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Job life time (pending + execution): average 28.34 s, max 62.96
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Shader code size: average 38.148 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 70.99 s
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Jobs were issued in 552 batches (only local compilation was used), average 6.85 jobs/batch
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Average processing rate: 53.28 jobs/sec
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Total thread time: 774.947 s
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Total thread preprocess time: 55.588 s
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Percentage time preprocessing: 7.17%
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Effective parallelization: 10.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 3.05 sec, max 3.48 sec, min 2.16 sec)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 3.04 sec, max 5.41 sec, min 0.92 sec)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.03 sec, max 1.99 sec, min 0.66 sec)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 0.83 sec, max 0.83 sec, min 0.83 sec)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 0.80 sec, max 1.05 sec, min 0.68 sec)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.91% of total time (compiled  134 times, average 0.80 sec, max 1.05 sec, min 0.68 sec)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.23% of total time (compiled   96 times, average 0.42 sec, max 0.70 sec, min 0.24 sec)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.51% of total time (compiled   96 times, average 0.36 sec, max 0.58 sec, min 0.08 sec)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 4.39% of total time (compiled   33 times, average 1.03 sec, max 1.99 sec, min 0.66 sec)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS - 3.94% of total time (compiled   10 times, average 3.05 sec, max 3.48 sec, min 2.16 sec)
+[2024.03.29-15.06.02:651][804]LogShaderCompilers: Display: ================================================
+[2024.03.29-15.08.29:376][577]LogContentBrowser: Attempting asset rename: Demo_Map -> NPCMap
+[2024.03.29-15.08.29:404][577]LogMetaData: Removing '/Game/InfiniteAbyss/Map/NPCMap.SKEL_NPCMap_C' ref from Metadata '/Game/InfiniteAbyss/Map/Demo_Map.PackageMetaData'
+[2024.03.29-15.08.29:404][577]LogMetaData: Removing '/Game/InfiniteAbyss/Map/NPCMap.NPCMap_C' ref from Metadata '/Game/InfiniteAbyss/Map/Demo_Map.PackageMetaData'
+[2024.03.29-15.08.29:406][577]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-15.08.29:431][577]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.29-15.08.29:984][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/Map/NPCMap" FILE="../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/NPCMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.29-15.08.29:992][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.03.29-15.08.29:994][577]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/InfiniteAbyss/Map/NPCMap does not exist, will not scan.
+[2024.03.29-15.08.42:064][577]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/Map/NPCMap
+[2024.03.29-15.08.42:064][577]LogSavePackage: Moving '../../../../../../Unreal5Project/InfiniteAbyss/Saved/NPCMapA4C7EC7149F07A6CEF5D7CB1F613FE77.tmp' to '../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/NPCMap.umap'
+[2024.03.29-15.08.42:188][577]LogFileHelpers: Saving map 'NPCMap' took 12.760
+[2024.03.29-15.08.42:191][577]LogFileHelpers: InternalPromptForCheckoutAndSave took 12.7 sec (total: 16.1 sec)
+[2024.03.29-15.08.42:198][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.03.29-15.08.42:202][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.03.29-15.08.42:205][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2024.03.29-15.08.42:213][577]AssetCheck: New page: Asset Save: NPCMap
+[2024.03.29-15.08.42:213][577]LogContentValidation: Display: Validating /Script/Engine.World /Game/InfiniteAbyss/Map/NPCMap.NPCMap
+[2024.03.29-15.10.31:407][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2024.03.29-15.10.31:410][262]LogAssetEditorSubsystem: Opening Asset editor for World /Game/InfiniteAbyss/Map/NPCMap.NPCMap
+[2024.03.29-15.10.31:410][262]Cmd: MAP LOAD FILE="../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/NPCMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.29-15.10.31:410][262]LightingResults: New page: Lighting Build
+[2024.03.29-15.10.31:410][262]LoadErrors: New page: Loading map: NPCMap.umap
+[2024.03.29-15.10.31:416][262]LogWorld: UWorld::CleanupWorld for PlayerAndMonsterTestMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-15.10.31:416][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-15.10.31:416][262]MapCheck: New page: Map Check
+[2024.03.29-15.10.31:416][262]LightingResults: New page: Lighting Build
+[2024.03.29-15.10.31:420][262]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.29-15.10.31:423][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.03.29-15.10.31:425][262]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-15.10.31:428][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-15.10.31:433][262]LogWorld: UWorld::CleanupWorld for Demo_Map, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-15.10.31:436][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-15.10.31:601][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.03.29-15.10.31:608][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.03.29-15.10.32:498][262]LogAudio: Display: Audio Device (ID: 1) registered with world 'NPCMap'.
+[2024.03.29-15.10.32:498][262]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.29-15.10.32:498][262]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.29-15.10.32:498][262]LogAIModule: Creating AISystem for world NPCMap
+[2024.03.29-15.10.33:416][262]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2024.03.29-15.10.34:530][262]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 1.114516s
+[2024.03.29-15.10.37:190][262]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.29-15.10.37:439][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.03.29-15.10.37:442][262]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.29-15.10.37:443][262]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.149ms to complete.
+[2024.03.29-15.10.37:454][262]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 6.044133s (4.044133s overbudget)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: ================================================
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Total job queries 3,804, among them cache hits 20 (0.53%)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Tracking 3,784 distinct input hashes that result in 2,710 distinct outputs (71.62%)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: RAM used: 70.12 MiB of 1.60 GiB budget. Usage: 4.28%
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Shaders Compiled: 3,784
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Jobs assigned 3,784, completed 3,784 (100%)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Average time worker was idle: 4.46 s
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Time job spent in pending queue: average 26.38 s, longest 59.73 s
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Job execution time: average 1.95 s, max 7.83 s
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Job life time (pending + execution): average 28.33 s, max 62.96
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Shader code size: average 38.139 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 71.24 s
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Jobs were issued in 554 batches (only local compilation was used), average 6.83 jobs/batch
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Average processing rate: 53.12 jobs/sec
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Total thread time: 775.141 s
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Total thread preprocess time: 55.616 s
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Percentage time preprocessing: 7.17%
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Effective parallelization: 10.88 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 3.05 sec, max 3.48 sec, min 2.16 sec)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 3.04 sec, max 5.41 sec, min 0.92 sec)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.03 sec, max 1.99 sec, min 0.66 sec)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 0.83 sec, max 0.83 sec, min 0.83 sec)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 0.80 sec, max 1.05 sec, min 0.68 sec)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.91% of total time (compiled  134 times, average 0.80 sec, max 1.05 sec, min 0.68 sec)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.22% of total time (compiled   96 times, average 0.42 sec, max 0.70 sec, min 0.24 sec)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.51% of total time (compiled   96 times, average 0.36 sec, max 0.58 sec, min 0.08 sec)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 4.39% of total time (compiled   33 times, average 1.03 sec, max 1.99 sec, min 0.66 sec)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS - 3.94% of total time (compiled   10 times, average 3.05 sec, max 3.48 sec, min 2.16 sec)
+[2024.03.29-15.10.38:000][262]LogShaderCompilers: Display: ================================================
+[2024.03.29-15.10.49:628][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.03.29-15.10.50:563][834]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.29-15.10.50:623][834]LogAssetEditorSubsystem: Opening Asset editor for World /Game/InfiniteAbyss/Map/Demo_Map.Demo_Map
+[2024.03.29-15.10.50:624][834]Cmd: MAP LOAD FILE="../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/Demo_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.29-15.10.50:624][834]LightingResults: New page: Lighting Build
+[2024.03.29-15.10.50:624][834]LoadErrors: New page: Loading map: Demo_Map.umap
+[2024.03.29-15.10.50:704][834]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-15.10.50:705][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-15.10.50:705][834]MapCheck: New page: Map Check
+[2024.03.29-15.10.50:705][834]LightingResults: New page: Lighting Build
+[2024.03.29-15.10.50:711][834]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.29-15.10.50:932][834]LogUObjectHash: Compacting FUObjectHashTables data took  10.64ms
+[2024.03.29-15.10.51:035][834]LogWorld: UWorld::CleanupWorld for Demo_Map, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-15.10.51:038][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-15.10.51:226][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.03.29-15.10.51:239][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2024.03.29-15.10.52:173][834]LogAudio: Display: Audio Device (ID: 1) registered with world 'Demo_Map'.
+[2024.03.29-15.10.52:173][834]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.29-15.10.52:173][834]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.29-15.10.52:173][834]LogAIModule: Creating AISystem for world Demo_Map
+[2024.03.29-15.10.52:629][834]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2024.03.29-15.10.55:754][834]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.29-15.10.55:975][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.03.29-15.10.55:978][834]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.29-15.10.55:978][834]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.121ms to complete.
+[2024.03.29-15.10.55:979][834]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 5.355639s (3.355639s overbudget)
+[2024.03.29-15.10.58:693][938]LogObjectTools: Deleting 1 worlds: /Game/InfiniteAbyss/Map/Demo_Map.Demo_Map
+[2024.03.29-15.10.58:693][938]LogObjectTools: Currently 1 active worlds: /Game/InfiniteAbyss/Map/Demo_Map.Demo_Map
+[2024.03.29-15.11.00:923][938]LogSlate: Window 'Unable to delete level' being destroyed
+[2024.03.29-15.11.00:947][938]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2024.03.29-15.11.01:604][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.03.29-15.11.01:643][982]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.29-15.11.01:644][982]LogAssetEditorSubsystem: Opening Asset editor for World /Game/InfiniteAbyss/Map/PlayerAndMonsterTestMap.PlayerAndMonsterTestMap
+[2024.03.29-15.11.01:644][982]Cmd: MAP LOAD FILE="../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/PlayerAndMonsterTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.29-15.11.01:644][982]LightingResults: New page: Lighting Build
+[2024.03.29-15.11.01:644][982]LoadErrors: New page: Loading map: PlayerAndMonsterTestMap.umap
+[2024.03.29-15.11.01:718][982]LogWorld: UWorld::CleanupWorld for Demo_Map, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-15.11.01:718][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-15.11.01:718][982]MapCheck: New page: Map Check
+[2024.03.29-15.11.01:718][982]LightingResults: New page: Lighting Build
+[2024.03.29-15.11.01:722][982]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.29-15.11.01:909][982]LogUObjectHash: Compacting FUObjectHashTables data took   6.81ms
+[2024.03.29-15.11.01:926][982]LogWorld: UWorld::CleanupWorld for PlayerAndMonsterTestMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-15.11.01:926][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-15.11.01:932][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.03.29-15.11.01:936][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.03.29-15.11.01:941][982]LogAudio: Display: Audio Device (ID: 1) registered with world 'PlayerAndMonsterTestMap'.
+[2024.03.29-15.11.01:941][982]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.29-15.11.01:941][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.29-15.11.01:942][982]LogAIModule: Creating AISystem for world PlayerAndMonsterTestMap
+[2024.03.29-15.11.01:977][982]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.29-15.11.01:982][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.03.29-15.11.01:984][982]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.29-15.11.01:984][982]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.082ms to complete.
+[2024.03.29-15.11.04:310][118]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.29-15.11.04:372][118]LogObjectTools: Deleting 1 worlds: /Game/InfiniteAbyss/Map/Demo_Map.Demo_Map
+[2024.03.29-15.11.04:372][118]LogObjectTools: Currently 1 active worlds: /Game/InfiniteAbyss/Map/PlayerAndMonsterTestMap.PlayerAndMonsterTestMap
+[2024.03.29-15.11.04:382][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.03.29-15.11.06:241][118]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.29-15.11.06:247][118]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/InfiniteAbyss/Map/Demo_Map.Demo_Map
+	Asset Type: World
+[2024.03.29-15.11.06:423][118]LogWorld: UWorld::CleanupWorld for Demo_Map, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-15.11.06:425][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-15.11.06:534][118]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2024.03.29-15.11.06:831][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.03.29-15.11.06:839][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2024.03.29-15.11.06:842][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
