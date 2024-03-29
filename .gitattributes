@@ -1,2 +1,4 @@
 InfiniteAbyss/Content/ExternAssets filter=lfs diff=lfs merge=lfs -text
 InfiniteAbyss/Content/ExternAsset/*.psd filter=lfs diff=lfs merge=lfs -text
+InfiniteAbyss/Contetn/InfiniteAbyss/Map/*.psd filter=lfs diff=lfs merge=lfs -text
+InfiniteAbyss/Contetn/InfiniteAbyss/Map filter=lfs diff=lfs merge=lfs -text
