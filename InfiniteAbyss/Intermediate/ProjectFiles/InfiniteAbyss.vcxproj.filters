@@ -204,12 +204,6 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterWidgetInterface.h">
       <Filter>Source\InfiniteAbyss\Interface</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\InfiniteAbyss\Interface\ABGameInterface.cpp">
-      <Filter>Source\InfiniteAbyss\Interface</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABGameInterface.h">
-      <Filter>Source\InfiniteAbyss\Interface</Filter>
-    </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Item">
       <UniqueIdentifier>{C8CC61FA-7673-300B-9D4D-375D03FE26AC}</UniqueIdentifier>
     </Filter>
@@ -245,15 +239,6 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Item\ABWeaponItemData.h">
       <Filter>Source\InfiniteAbyss\Item</Filter>
-    </ClInclude>
-    <Filter Include="Source\InfiniteAbyss\NPC">
-      <UniqueIdentifier>{61832EDA-C39E-3F33-97E3-D0D29B2438D3}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\InfiniteAbyss\NPC\ABCharacterNPC.cpp">
-      <Filter>Source\InfiniteAbyss\NPC</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\InfiniteAbyss\NPC\ABCharacterNPC.h">
-      <Filter>Source\InfiniteAbyss\NPC</Filter>
     </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Physics">
       <UniqueIdentifier>{C1C25DC5-2F03-357F-B84E-642C7B90708C}</UniqueIdentifier>
