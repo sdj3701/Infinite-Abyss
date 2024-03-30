@@ -16,13 +16,16 @@ public:
 
 protected:
     UPROPERTY(VisibleAnywhere, Category = NPC, Meta = (AllowPrivateAccess = "true"))
-        TObjectPtr<class UStaticMeshComponent> NPC;
+    TObjectPtr<class UStaticMeshComponent> NPC;
 
     UPROPERTY(VisibleAnywhere, Category = NPC, Meta = (AllowPrivateAccess = "true"))
-        TObjectPtr<class UBoxComponent> NPCTrigger;
+    TObjectPtr<class UBoxComponent> NPCTrigger;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Collision")
+    bool bIsOverlapping;
 
     UFUNCTION()
-        void OnStageTrggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult);
+    void OnBoxTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult);
 
 
 };

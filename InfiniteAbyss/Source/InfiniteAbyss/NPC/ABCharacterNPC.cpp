@@ -4,6 +4,7 @@
 #include "NPC/ABCharacterNPC.h"
 #include "Components/BoxComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "Components/PrimitiveComponent.h"
 #include "Physics/ABCollision.h"
 
 // Sets default values
@@ -37,14 +38,19 @@ AABCharacterNPC::AABCharacterNPC()
     NPCTrigger->SetRelativeLocation(FVector(0.0f, 0.0f, 50.0f));
     NPCTrigger->SetupAttachment(GetMesh());
     NPCTrigger->SetCollisionProfileName(CPROFILE_ABTRIGGER);
-    NPCTrigger->OnComponentBeginOverlap.AddDynamic(this, &AABCharacterNPC::OnStageTrggerBeginOverlap);
+    NPCTrigger->OnComponentBeginOverlap.AddDynamic(this, &AABCharacterNPC::OnBoxTriggerBeginOverlap);
 
+    UE_LOG(LogTemp, Log, TEXT("NPC Trigger event binding: %s"), NPCTrigger->OnComponentBeginOverlap.IsBound() ? TEXT("Success") : TEXT("Failed"));
 
+    bIsOverlapping = false;
 
 }
 
-void AABCharacterNPC::OnStageTrggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+void AABCharacterNPC::OnBoxTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
     UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
 {
-    UE_LOG(LogTemp, Log, TEXT("Trigger"));
+    UE_LOG(LogTemp, Log, TEXT("%s"), *OtherActor->GetName());
+    
+    bIsOverlapping = true;
+    UE_LOG(LogTemp, Log, TEXT("bIsOverlapping: %s"), bIsOverlapping ? TEXT("true") : TEXT("false"));
 }

@@ -32,7 +32,7 @@ AABStageGimmick::AABStageGimmick()
 	StageTrigger->SetRelativeLocation(FVector(-1586.0f,0.0f,250.0f));
 	StageTrigger->SetRelativeScale3D(FVector(2.0f,2.0f,1.0f));
 	StageTrigger->SetCollisionProfileName(CPROFILE_ABTRIGGER);
-	StageTrigger->OnComponentBeginOverlap.AddDynamic(this, &AABStageGimmick::OnStageTrggerBeginOverlap);
+	StageTrigger->OnComponentBeginOverlap.AddDynamic(this, &AABStageGimmick::OnStageTriggerBeginOverlap);
 
 	//Gate Section
 	static FName GateSockets[] = {TEXT("+XGate"), TEXT("-XGate"), TEXT("+YGate"), TEXT("-YGate")};
@@ -95,7 +95,7 @@ void AABStageGimmick::OnConstruction(const FTransform& Transform)
 	SetState(CurrentState);
 }
 
-void AABStageGimmick::OnStageTrggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+void AABStageGimmick::OnStageTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
                                                 UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
 {
 	SetState(EStageState::FIGHT);
