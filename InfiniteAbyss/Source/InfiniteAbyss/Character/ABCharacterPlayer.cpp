@@ -2,7 +2,6 @@
 
 
 #include "Character/ABCharacterPlayer.h"
-
 #include "ABCharacterControlData.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
@@ -219,6 +218,6 @@ void AABCharacterPlayer::SetupHUDWidget(UABHUDWidget* InHUDWidget)
 
 void AABCharacterPlayer::TalkInteraction()
 {
-	UE_LOG(LogTemp, Log, TEXT("UI Creat"));
-	UE_LOG(LogTemp, Log, TEXT("CurrentInteractionType: %d"), static_cast<int32>(CurrentInteractionType));
+	//TODO : UI를 구현해야함 Widget Blueprint를 생성한다음 관리를 하는게 좋음 텍스트는 액셀이나 TEXT파일로 관리해서 불러와서 글자 하나씩 출력
+	
 }

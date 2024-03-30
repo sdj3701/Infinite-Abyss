@@ -6,9 +6,11 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/NPCMap.umap",
-				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/Actions/IA_NPCTalk.uasset",
 				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/IMC_Shoulder.uasset",
-				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/Actions/IA_Interaction.uasset"
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/Actions/IA_Interaction.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_TalkHUD.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_DialogueBox.uasset",
+				"C:/Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Input/Actions/IA_NPCTalk.uasset"
 			]
 		}
 	]

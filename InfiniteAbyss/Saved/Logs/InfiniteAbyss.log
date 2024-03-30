@@ -2039,3 +2039,160 @@ Make sure 'ThirdPersonCharacter' has been compiled for  Reset Orientation and Po
 [2024.03.30-08.21.01:126][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.03.30-08.21.01:305][667]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
 [2024.03.30-08.21.01:395][668]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.03.30-08.39.40:439][119]LogEditorClassViewer: Warning: AssetRegistry Blueprint /Game/ExternItemMap/LowPolyForest/Blueprints/Truck/BP_Truck_01.BP_Truck_01 is missing tag value for GeneratedClass. Blueprint will not be available to ClassViewer when unloaded.
+[2024.03.30-08.39.40:439][119]LogEditorClassViewer: Warning: AssetRegistry Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_FrontWheel.Truck_FrontWheel is missing tag value for GeneratedClass. Blueprint will not be available to ClassViewer when unloaded.
+[2024.03.30-08.39.40:447][119]LogEditorClassViewer: Warning: AssetRegistry Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_BackWheel.Truck_BackWheel is missing tag value for GeneratedClass. Blueprint will not be available to ClassViewer when unloaded.
+[2024.03.30-08.39.40:447][119]LogEditorClassViewer: Warning: AssetRegistry Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_FrontWheel.Sedan_FrontWheel is missing tag value for GeneratedClass. Blueprint will not be available to ClassViewer when unloaded.
+[2024.03.30-08.39.40:447][119]LogEditorClassViewer: Warning: AssetRegistry Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_BackWheel.Sedan_BackWheel is missing tag value for GeneratedClass. Blueprint will not be available to ClassViewer when unloaded.
+[2024.03.30-08.39.40:448][119]LogEditorClassViewer: Warning: AssetRegistry Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan.Sedan is missing tag value for GeneratedClass. Blueprint will not be available to ClassViewer when unloaded.
+[2024.03.30-08.39.40:448][119]LogEditorClassViewer: Warning: AssetRegistry Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Sedan_AnimBP.Sedan_AnimBP is missing tag value for GeneratedClass. Blueprint will not be available to ClassViewer when unloaded.
+[2024.03.30-08.39.42:774][119]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.03.30-08.39.42:799][119]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.03.30-08.39.42:804][119]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.03.30-08.39.42:815][120]LogAutomationController: Ignoring very large delta of 2.51 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.30-08.39.42:823][120]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.03.30-08.40.09:059][935]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_TalkHUD
+[2024.03.30-08.40.09:950][935]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.03.30-08.40.12:147][136]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_TalkHUD.WBP_TalkHUD
+[2024.03.30-08.40.12:154][136]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-08.40.12:163][136]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.30-08.40.12:185][136]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-08.40.12:186][136]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.30-08.40.12:272][136]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.03.30-08.40.12:362][136]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.03.30-08.40.13:871][136]LogBlueprintEditor: Perf: 0.8 total seconds to load all 5 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2024.03.30-08.40.13:871][136]LogBlueprintEditor: Perf: 0.3 seconds loading: /Engine/EditorBlueprintResources/ActorMacros
+[2024.03.30-08.40.13:871][136]LogBlueprintEditor: Perf: 0.2 seconds loading: /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros
+[2024.03.30-08.40.13:871][136]LogBlueprintEditor: Perf: 0.2 seconds loading: /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary
+[2024.03.30-08.40.14:190][136]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2024.03.30-08.40.15:987][136]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 1.797661s
+[2024.03.30-08.40.23:536][136]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 11.389684s (9.389684s overbudget)
+[2024.03.30-08.40.23:733][136]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Blueprints/Truck/BP_Truck_01 is missing GeneratedClass asset tag
+[2024.03.30-08.40.23:733][136]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_FrontWheel is missing GeneratedClass asset tag
+[2024.03.30-08.40.23:733][136]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_BackWheel is missing GeneratedClass asset tag
+[2024.03.30-08.40.23:734][136]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_FrontWheel is missing GeneratedClass asset tag
+[2024.03.30-08.40.23:734][136]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_BackWheel is missing GeneratedClass asset tag
+[2024.03.30-08.40.23:734][136]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan is missing GeneratedClass asset tag
+[2024.03.30-08.40.23:734][136]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Sedan_AnimBP is missing GeneratedClass asset tag
+[2024.03.30-08.40.24:462][136]LogSlate: Took 0.055166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.03.30-08.40.24:575][136]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.03.30-08.40.24:581][136]LogSlate: Took 0.004816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.03.30-08.40.24:796][137]LogAutomationController: Ignoring very large delta of 12.65 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.30-08.40.25:858][194]LogHttp: Warning: 0000051DDEFE8C00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.30-08.40.25:858][194]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 0 (Found bundle for host: 0x51cc1950000 [serially])
+[2024.03.30-08.40.25:859][194]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.30-08.40.25:859][194]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.30-08.40.25:859][194]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.30-08.40.25:859][194]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.30-08.40.25:859][194]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.30-08.40.25:859][194]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 6 (Closing connection)
+[2024.03.30-08.40.25:859][194]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B226232A6-42B8-3F81-3ADC-F7BCBFC1F430%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=572d5055486cbc251866fe95aa654798%7C586b13a4063f42dc921a1047434c2edc%7Cb33b5dd8-6dab-4cb7-ba95-8a39f2b22b26&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 9 (  Trying 44.214.17.183:443...)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (44.214.17.183) port 443)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 25 (Server certificate:)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 34 (Closing connection)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: 0000051DDEFE8C00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.30-08.40.25:899][197]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B226232A6-42B8-3F81-3ADC-F7BCBFC1F430%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=572d5055486cbc251866fe95aa654798%7C586b13a4063f42dc921a1047434c2edc%7Cb33b5dd8-6dab-4cb7-ba95-8a39f2b22b26&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.30-08.40.27:979][365]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.03.30-08.40.27:983][365]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/InfiniteAbyss/Map/NPCMap' took 0.056
+[2024.03.30-08.40.27:985][365]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/InfiniteAbyss/UI/WBP_TalkHUD] ([2] browsable assets)...
+[2024.03.30-08.40.28:038][365]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_TalkHUD.WBP_TalkHUD]
+[2024.03.30-08.40.28:038][365]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfiniteAbyss/UI/WBP_TalkHUD]
+[2024.03.30-08.40.28:098][365]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteAbyss/UI/WBP_TalkHUD_Auto2
+[2024.03.30-08.40.28:098][365]LogSavePackage: Moving '../../../../../Unreal5Project/InfiniteAbyss/Saved/WBP_TalkHUD_Auto27B701F454CB4E1CAD971C5A9B0BAC734.tmp' to '../../../../../Unreal5Project/InfiniteAbyss/Saved/Autosaves/Game/InfiniteAbyss/UI/WBP_TalkHUD_Auto2.uasset'
+[2024.03.30-08.40.28:123][365]LogFileHelpers: Auto-saving content packages took 0.141
+[2024.03.30-08.40.28:587][404]BlueprintLog: New page: Compile WBP_TalkHUD
+[2024.03.30-08.40.28:623][404]LogUObjectHash: Compacting FUObjectHashTables data took  12.33ms
+[2024.03.30-08.40.29:816][503]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.30-08.40.30:158][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/UI/WBP_TalkHUD" FILE="../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_TalkHUD.uasset" SILENT=true
+[2024.03.30-08.40.30:161][503]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/UI/WBP_TalkHUD
+[2024.03.30-08.40.30:161][503]LogSavePackage: Moving '../../../../../Unreal5Project/InfiniteAbyss/Saved/WBP_TalkHUDCA80132E4FE5431E0EE425951EE61BD7.tmp' to '../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_TalkHUD.uasset'
+[2024.03.30-08.40.30:190][503]LogFileHelpers: InternalPromptForCheckoutAndSave took 374 ms (total: 4.67 sec)
+[2024.03.30-08.40.30:203][503]AssetCheck: New page: Asset Save: WBP_TalkHUD
+[2024.03.30-08.40.30:203][503]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_TalkHUD.WBP_TalkHUD
+[2024.03.30-08.42.40:297][670]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.30-08.42.40:358][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/UI/WBP_TalkHUD" FILE="../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_TalkHUD.uasset" SILENT=true
+[2024.03.30-08.42.40:400][670]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/UI/WBP_TalkHUD
+[2024.03.30-08.42.40:401][670]LogSavePackage: Moving '../../../../../Unreal5Project/InfiniteAbyss/Saved/WBP_TalkHUDF3BD7A7648E9BD14A373D48FE625AF3F.tmp' to '../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_TalkHUD.uasset'
+[2024.03.30-08.42.40:407][670]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 4.78 sec)
+[2024.03.30-08.42.40:408][670]AssetCheck: New page: Asset Save: WBP_TalkHUD
+[2024.03.30-08.42.40:408][670]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_TalkHUD.WBP_TalkHUD
+[2024.03.30-08.42.40:834][693]BlueprintLog: New page: Compile WBP_TalkHUD
+[2024.03.30-08.42.40:884][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.03.30-08.42.41:796][736]LogSlate: Window 'WBP_TalkHUD' being destroyed
+[2024.03.30-08.42.41:819][736]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.03.30-08.42.41:819][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.30-08.42.41:858][736]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.03.30-08.42.41:858][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.30-08.42.44:421][904]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.03.30-08.42.46:944][ 38]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.03.30-08.42.46:961][ 38]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.03.30-08.42.46:984][ 38]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.03.30-08.42.46:996][ 39]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.03.30-08.43.04:551][699]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_WinTalk
+[2024.03.30-08.43.04:556][699]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.03.30-08.43.52:464][307]LogContentBrowser: Attempting asset rename: WBP_WinTalk -> WBP_DialogueBox
+[2024.03.30-08.43.53:687][307]LogMetaData: Removing '/Game/InfiniteAbyss/UI/WBP_DialogueBox.SKEL_WBP_DialogueBox_C' ref from Metadata '/Game/InfiniteAbyss/UI/WBP_WinTalk.PackageMetaData'
+[2024.03.30-08.43.53:687][307]LogMetaData: Removing '/Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox_C' ref from Metadata '/Game/InfiniteAbyss/UI/WBP_WinTalk.PackageMetaData'
+[2024.03.30-08.43.53:687][307]LogMetaData: Removing '/Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox:EventGraph.K2Node_Event_0' ref from Metadata '/Game/InfiniteAbyss/UI/WBP_WinTalk.PackageMetaData'
+[2024.03.30-08.43.53:687][307]LogMetaData: Removing '/Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox:EventGraph.K2Node_Event_1' ref from Metadata '/Game/InfiniteAbyss/UI/WBP_WinTalk.PackageMetaData'
+[2024.03.30-08.43.53:687][307]LogMetaData: Removing '/Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox:EventGraph.K2Node_Event_2' ref from Metadata '/Game/InfiniteAbyss/UI/WBP_WinTalk.PackageMetaData'
+[2024.03.30-08.43.53:745][307]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.30-08.43.53:788][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/UI/WBP_DialogueBox" FILE="../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_DialogueBox.uasset" SILENT=true
+[2024.03.30-08.43.53:790][307]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/UI/WBP_DialogueBox
+[2024.03.30-08.43.53:790][307]LogSavePackage: Moving '../../../../../Unreal5Project/InfiniteAbyss/Saved/WBP_DialogueBox003BC9994CF9273B1B6B91BBE41E22F5.tmp' to '../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_DialogueBox.uasset'
+[2024.03.30-08.43.53:812][307]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 4.84 sec)
+[2024.03.30-08.43.53:839][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.03.30-08.43.53:864][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.30-08.43.53:887][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.03.30-08.43.53:889][307]AssetCheck: New page: Asset Save: WBP_DialogueBox
+[2024.03.30-08.43.53:889][307]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox
+[2024.03.30-08.43.59:504][870]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox
+[2024.03.30-08.43.59:504][870]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-08.43.59:505][870]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.30-08.43.59:511][870]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-08.43.59:511][870]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.30-08.44.01:303][  7]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.30-08.44.01:340][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/UI/WBP_DialogueBox" FILE="../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_DialogueBox.uasset" SILENT=true
+[2024.03.30-08.44.01:342][  7]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/UI/WBP_DialogueBox
+[2024.03.30-08.44.01:342][  7]LogSavePackage: Moving '../../../../../Unreal5Project/InfiniteAbyss/Saved/WBP_DialogueBoxCAFBA82C4D35EAFC00BC13B9A8346778.tmp' to '../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_DialogueBox.uasset'
+[2024.03.30-08.44.01:346][  7]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 4.89 sec)
+[2024.03.30-08.44.01:347][  7]AssetCheck: New page: Asset Save: WBP_DialogueBox
+[2024.03.30-08.44.01:347][  7]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox
+[2024.03.30-08.44.01:748][ 40]BlueprintLog: New page: Compile WBP_DialogueBox
+[2024.03.30-08.44.01:770][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.03.30-08.44.02:519][101]LogSlate: Window 'WBP_DialogueBox' being destroyed
+[2024.03.30-08.44.02:553][101]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.03.30-08.44.02:553][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.30-08.44.02:558][101]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.03.30-08.44.02:558][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.30-08.44.03:831][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.03.30-08.44.06:154][462]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox
+[2024.03.30-08.44.06:154][462]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-08.44.06:154][462]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.30-08.44.06:160][462]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-08.44.06:160][462]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.30-08.47.17:989][673]LogSlate: Window 'Color Picker' being destroyed
