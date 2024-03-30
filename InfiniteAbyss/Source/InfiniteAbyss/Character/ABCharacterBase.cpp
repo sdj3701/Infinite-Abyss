@@ -124,6 +124,23 @@ void AABCharacterBase::SetCharacterControlData(const UABCharacterControlData* Ch
 	GetCharacterMovement()->RotationRate = CharacterControlData->RotationRate;
 }
 
+void AABCharacterBase::OnPlayerInteractionChanged(bool InInteraction)
+{
+	if(InInteraction)
+	{
+		bIsInteraction = true;
+	}
+	else
+	{
+		bIsInteraction = false;
+	}
+}
+
+bool AABCharacterBase::IsInteraction()
+{
+	return bIsInteraction;
+}
+
 void AABCharacterBase::ProcessComboCommand()
 {
 	if(CurrentCombo == 0)

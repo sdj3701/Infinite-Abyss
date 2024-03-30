@@ -28,6 +28,6 @@ public:
 	virtual float GetAIAttackRange() = 0;
 	virtual float GetAITurnSpeed() = 0;
 
-	virtual  void SetAIAttackDelegate(const FAICharacterAttackFinished& InOnAttackFinished) = 0;
+	virtual void SetAIAttackDelegate(const FAICharacterAttackFinished& InOnAttackFinished) = 0;
 	virtual void AttackByAI() = 0;
 };

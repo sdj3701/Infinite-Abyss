@@ -2,6 +2,7 @@
 
 
 #include "NPC/ABCharacterNPC.h"
+#include "Character/ABCharacterBase.h"
 #include "Components/BoxComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/PrimitiveComponent.h"
@@ -39,8 +40,7 @@ AABCharacterNPC::AABCharacterNPC()
     NPCTrigger->SetupAttachment(GetMesh());
     NPCTrigger->SetCollisionProfileName(CPROFILE_ABTRIGGER);
     NPCTrigger->OnComponentBeginOverlap.AddDynamic(this, &AABCharacterNPC::OnBoxTriggerBeginOverlap);
-
-    UE_LOG(LogTemp, Log, TEXT("NPC Trigger event binding: %s"), NPCTrigger->OnComponentBeginOverlap.IsBound() ? TEXT("Success") : TEXT("Failed"));
+    NPCTrigger->OnComponentEndOverlap.AddDynamic(this, &AABCharacterNPC::OnBoxTriggerEndOverlap);
 
     bIsOverlapping = false;
 
@@ -49,8 +49,31 @@ AABCharacterNPC::AABCharacterNPC()
 void AABCharacterNPC::OnBoxTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
     UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
 {
-    UE_LOG(LogTemp, Log, TEXT("%s"), *OtherActor->GetName());
-    
     bIsOverlapping = true;
-    UE_LOG(LogTemp, Log, TEXT("bIsOverlapping: %s"), bIsOverlapping ? TEXT("true") : TEXT("false"));
+    
+    FVector LookVector = OtherActor->GetActorLocation() - this->GetActorLocation();
+    LookVector.Z = 0.0f;
+    FRotator TargetRot = LookVector.Rotation();
+    TargetRot.Yaw -= 90.0f;
+    TargetRot.Yaw = FMath::FindDeltaAngleDegrees(0.0f, TargetRot.Yaw);
+    this->SetActorRotation(TargetRot);
+
+    if(OtherActor->IsA<AABCharacterBase>())
+    {
+        AABCharacterBase* Interaction = Cast<AABCharacterBase>(OtherActor);
+        if(!Interaction->IsInteraction())
+            Interaction->OnPlayerInteractionChanged(bIsOverlapping);
+    }
+}
+
+void AABCharacterNPC::OnBoxTriggerEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+    UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+    bIsOverlapping = false;
+    if(OtherActor->IsA<AABCharacterBase>())
+    {
+        AABCharacterBase* Interaction = Cast<AABCharacterBase>(OtherActor);
+        if(Interaction->IsInteraction())
+            Interaction->OnPlayerInteractionChanged(bIsOverlapping);
+    }
 }

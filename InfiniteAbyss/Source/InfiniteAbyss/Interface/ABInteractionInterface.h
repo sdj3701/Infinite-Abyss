@@ -4,11 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
-#include "ABCharacterWidgetInterface.generated.h"
+#include "ABInteractionInterface.generated.h"
 
 // This class does not need to be modified.
 UINTERFACE(MinimalAPI)
-class UABCharacterWidgetInterface : public UInterface
+class UABInteractionInterface : public UInterface
 {
 	GENERATED_BODY()
 };
@@ -16,11 +16,12 @@ class UABCharacterWidgetInterface : public UInterface
 /**
  * 
  */
-class INFINITEABYSS_API IABCharacterWidgetInterface
+class INFINITEABYSS_API IABInteractionInterface
 {
 	GENERATED_BODY()
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-	virtual void SetupCharacterWidget(class UABUserWidget* InUserWidget) = 0;
+	virtual void OnPlayerInteractionChanged(bool InInteraction) = 0;
+    virtual bool IsInteraction() = 0;
 };

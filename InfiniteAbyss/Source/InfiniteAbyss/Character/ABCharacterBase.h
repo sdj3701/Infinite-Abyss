@@ -7,6 +7,7 @@
 #include "Interface/ABAnimationAttackInterface.h"
 #include "Interface/ABCharacterWidgetInterface.h"
 #include "Interface/ABCharacterItemInterface.h"
+#include "Interface/ABInteractionInterface.h"
 #include "GameData/ABCharacterStat.h"
 #include "ABCharacterBase.generated.h"
 
@@ -17,6 +18,13 @@ enum class ECharacterControlType : uint8
 {
 	Shoulder,
 	Quater
+};
+
+UENUM()
+enum class EInteractionType : uint8
+{
+	Default,
+	Talking
 };
 
 DECLARE_DELEGATE_OneParam(FOnTakeItemDelegate, class UABItemData* /*InItemData*/);
@@ -30,7 +38,7 @@ struct FTakeItemDelegateWrapper
 };
 
 UCLASS()
-class INFINITEABYSS_API AABCharacterBase : public ACharacter, public IABAnimationAttackInterface, public IABCharacterWidgetInterface, public IABCharacterItemInterface
+class INFINITEABYSS_API AABCharacterBase : public ACharacter, public IABAnimationAttackInterface, public IABCharacterWidgetInterface, public IABCharacterItemInterface, public IABInteractionInterface
 {
 	GENERATED_BODY()
 
@@ -39,6 +47,12 @@ public:
 	AABCharacterBase();
 
 	virtual void PostInitializeComponents() override;
+
+	//Interaction Section
+public:
+	virtual void OnPlayerInteractionChanged(bool InInteraction) override;
+	virtual bool IsInteraction() override;
+	bool bIsInteraction = false;
 	
 protected:
 	virtual void SetCharacterControlData(const class UABCharacterControlData* CharacterControlData);
@@ -46,6 +60,9 @@ protected:
 	UPROPERTY(EditAnywhere, Category = CharacterControl, Meta = (AllowPrivateAccess = "true"))
 	TMap<ECharacterControlType, class UABCharacterControlData*> CharacterControlManager;
 
+	UPROPERTY(EditAnywhere, Category = Interaction, Meta = (AllowPrivateAccess = "true"))
+	TMap<EInteractionType, class UABCharacterControlData*> InteractionManager;
+	
 	//Combo Action Section
 protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Animation)
@@ -58,7 +75,7 @@ protected:
 
 	void ComboActionBegin();
 	void ComboActionEnd(class UAnimMontage* TargetMontage, bool IsProperlyEnded);
-	virtual  void NotifyComboActionEnd();
+	virtual void NotifyComboActionEnd();
 	void SetComboCheckTimer();
 	void ComboCheck();
 	

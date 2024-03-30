@@ -31,7 +31,9 @@ protected:
 	void ChangeCharacterControl();
 	void SetCharacterControl(ECharacterControlType NewCharacterControlType);
 	virtual void SetCharacterControlData(const class UABCharacterControlData* CharacterControlData) override;
-
+	
+	void ChangeInteractionType();
+	void SetInteractionType(EInteractionType NewInteractionType);
 	
 	//Camera Section
 protected:
@@ -57,15 +59,21 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, Meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<class UInputAction> AttackAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, Meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<class UInputAction> InteractionAction;
 	
 	void ShoulderMove(const FInputActionValue& Value);
 	void ShoulderLook(const FInputActionValue& Value);
 
 	ECharacterControlType CurrentCharacterControlType;
+	EInteractionType CurrentInteractionType;
 
 	void Attack();
 	
 	//UI Section
 protected:
 	virtual void SetupHUDWidget(class UABHUDWidget* InHUDWidget) override;
+
+	void TalkInteraction();
 };

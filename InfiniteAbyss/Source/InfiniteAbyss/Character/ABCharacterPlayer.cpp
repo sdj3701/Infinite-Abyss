@@ -56,8 +56,15 @@ AABCharacterPlayer::AABCharacterPlayer()
 	{
 		AttackAction = InputActionAttackRef.Object;
 	}
+
+	static ConstructorHelpers::FObjectFinder<UInputAction> InputActionInteractionRef(TEXT("/Script/EnhancedInput.InputAction'/Game/InfiniteAbyss/Input/Actions/IA_Interaction.IA_Interaction'"));
+	if(nullptr != InputActionInteractionRef.Object)
+	{
+		InteractionAction = InputActionInteractionRef.Object;
+	}
 	
 	CurrentCharacterControlType = ECharacterControlType::Shoulder;
+	CurrentInteractionType = EInteractionType::Default;
 }
 
 void AABCharacterPlayer::BeginPlay()
@@ -71,6 +78,7 @@ void AABCharacterPlayer::BeginPlay()
 	}
 	
 	SetCharacterControl(CurrentCharacterControlType);
+	SetInteractionType(CurrentInteractionType);
 }
 
 void AABCharacterPlayer::SetDead()
@@ -102,6 +110,8 @@ void AABCharacterPlayer::SetupPlayerInputComponent(class UInputComponent* Player
 	EnhancedInputComponent->BindAction(ShoulderMoveAction, ETriggerEvent::Triggered, this, &AABCharacterPlayer::ShoulderMove);
 	EnhancedInputComponent->BindAction(ShoulderLookAction, ETriggerEvent::Triggered, this, &AABCharacterPlayer::ShoulderLook);
 	EnhancedInputComponent->BindAction(AttackAction, ETriggerEvent::Triggered, this, &AABCharacterPlayer::Attack);
+	//G key input Code
+	EnhancedInputComponent->BindAction(InteractionAction, ETriggerEvent::Triggered, this, &AABCharacterPlayer::ChangeInteractionType);
 }
 
 void AABCharacterPlayer::ChangeCharacterControl()
@@ -147,6 +157,27 @@ void AABCharacterPlayer::SetCharacterControlData(const UABCharacterControlData* 
 	CameraBoom->bDoCollisionTest = CharacterControlData->bDoCollisionTest;
 }
 
+void AABCharacterPlayer::ChangeInteractionType()
+{
+	if(CurrentInteractionType == EInteractionType::Default && IsInteraction() == true)
+	{
+		SetInteractionType(EInteractionType::Talking);
+	}
+	else if(CurrentInteractionType == EInteractionType::Talking && IsInteraction() == false)
+	{
+		SetInteractionType(EInteractionType::Default);
+	}
+}
+
+void AABCharacterPlayer::SetInteractionType(EInteractionType NewInteractionType)
+{
+	CurrentInteractionType = NewInteractionType;
+	if(CurrentInteractionType == EInteractionType::Talking )
+	{
+		TalkInteraction();
+	}
+}
+
 void AABCharacterPlayer::ShoulderMove(const FInputActionValue& Value)
 {
 	FVector2D MovementVector = Value.Get<FVector2D>();
@@ -184,4 +215,10 @@ void AABCharacterPlayer::SetupHUDWidget(UABHUDWidget* InHUDWidget)
 		Stat->OnStatChanged.AddUObject(InHUDWidget, &UABHUDWidget::UpdateStat);
 		Stat->OnHpChanged.AddUObject(InHUDWidget, &UABHUDWidget::UpdateHpBar);
 	}
+}
+
+void AABCharacterPlayer::TalkInteraction()
+{
+	UE_LOG(LogTemp, Log, TEXT("UI Creat"));
+	UE_LOG(LogTemp, Log, TEXT("CurrentInteractionType: %d"), static_cast<int32>(CurrentInteractionType));
 }
