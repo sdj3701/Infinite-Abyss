@@ -1502,3 +1502,45 @@ Make sure 'ThirdPersonCharacter' has been compiled for  Reset Orientation and Po
 [2024.04.01-08.31.59:470][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.04.01-08.31.59:637][988]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
 [2024.04.01-08.31.59:687][989]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.04.01-08.35.09:365][257]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox
+[2024.04.01-08.35.09:404][257]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.01-08.35.09:405][257]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.01-08.35.09:413][257]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.01-08.35.09:413][257]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.01-08.35.09:540][257]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.04.01-08.35.09:750][257]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.04.01-08.35.10:437][257]LogBlueprintEditor: Perf: 0.5 total seconds to load all 5 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2024.04.01-08.35.10:437][257]LogBlueprintEditor: Perf: 0.2 seconds loading: /Engine/EditorBlueprintResources/ActorMacros
+[2024.04.01-08.35.11:362][257]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2024.04.01-08.35.12:887][257]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 1.524818s
+[2024.04.01-08.35.17:744][257]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 8.396264s (6.396264s overbudget)
+[2024.04.01-08.35.17:763][257]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Blueprints/Truck/BP_Truck_01 is missing GeneratedClass asset tag
+[2024.04.01-08.35.17:763][257]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_FrontWheel is missing GeneratedClass asset tag
+[2024.04.01-08.35.17:763][257]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_BackWheel is missing GeneratedClass asset tag
+[2024.04.01-08.35.17:763][257]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_FrontWheel is missing GeneratedClass asset tag
+[2024.04.01-08.35.17:763][257]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_BackWheel is missing GeneratedClass asset tag
+[2024.04.01-08.35.17:763][257]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan is missing GeneratedClass asset tag
+[2024.04.01-08.35.17:763][257]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Sedan_AnimBP is missing GeneratedClass asset tag
+[2024.04.01-08.35.18:313][257]LogSlate: Took 0.042169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.04.01-08.35.18:332][257]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.04.01-08.35.18:337][257]LogSlate: Took 0.004631 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.04.01-08.36.07:513][951]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.01-08.36.07:626][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/UI/WBP_DialogueBox" FILE="../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_DialogueBox.uasset" SILENT=true
+[2024.04.01-08.36.07:686][951]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.030104 seconds
+[2024.04.01-08.36.07:712][951]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/UI/WBP_DialogueBox
+[2024.04.01-08.36.07:713][951]LogSavePackage: Moving '../../../../../Unreal5Project/InfiniteAbyss/Saved/WBP_DialogueBox000561724171BF3FE61F66822E0BB29A.tmp' to '../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_DialogueBox.uasset'
+[2024.04.01-08.36.07:722][951]LogFileHelpers: InternalPromptForCheckoutAndSave took 208 ms
+[2024.04.01-08.36.07:738][951]AssetCheck: New page: Asset Save: WBP_DialogueBox
+[2024.04.01-08.36.07:738][951]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox
+[2024.04.01-08.38.37:722][676]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.04.01-08.38.41:940][864]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.04.01-08.38.59:811][888]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.01-08.39.26:589][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.04.01-08.39.26:592][147]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/InfiniteAbyss/Map/NPCMap' took 0.025
+[2024.04.01-08.39.26:593][147]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/InfiniteAbyss/UI/WBP_DialogueBox] ([2] browsable assets)...
+[2024.04.01-08.39.26:596][147]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox]
+[2024.04.01-08.39.26:596][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfiniteAbyss/UI/WBP_DialogueBox]
+[2024.04.01-08.39.26:601][147]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteAbyss/UI/WBP_DialogueBox_Auto1
+[2024.04.01-08.39.26:601][147]LogSavePackage: Moving '../../../../../Unreal5Project/InfiniteAbyss/Saved/WBP_DialogueBox_Auto121C0460C4A6F8C8CD291B997EB77B8A0.tmp' to '../../../../../Unreal5Project/InfiniteAbyss/Saved/Autosaves/Game/InfiniteAbyss/UI/WBP_DialogueBox_Auto1.uasset'
+[2024.04.01-08.39.26:602][147]LogFileHelpers: Auto-saving content packages took 0.009
+[2024.04.01-08.40.31:351][197]LogSlate: Window 'Color Picker' being destroyed
