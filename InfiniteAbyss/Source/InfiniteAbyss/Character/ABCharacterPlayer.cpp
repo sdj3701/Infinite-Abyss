@@ -12,6 +12,7 @@
 #include "CharacterStat/ABCharacterStatComponent.h"
 #include "Interface/ABGameInterface.h"
 #include "Game/ABGameMode.h"
+#include "UI/NPCTalkWidget.h"
 
 AABCharacterPlayer::AABCharacterPlayer()
 {
@@ -219,5 +220,6 @@ void AABCharacterPlayer::SetupHUDWidget(UABHUDWidget* InHUDWidget)
 void AABCharacterPlayer::TalkInteraction()
 {
 	//TODO : UI를 구현해야함 Widget Blueprint를 생성한다음 관리를 하는게 좋음 텍스트는 액셀이나 TEXT파일로 관리해서 불러와서 글자 하나씩 출력
-	
+	DialogueBoxWidget->AddToViewport();
+	UE_LOG(LogTemp, Log, TEXT("G Key Down And UI Off"));
 }

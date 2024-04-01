@@ -9,6 +9,7 @@
 #include "Interface/ABCharacterItemInterface.h"
 #include "Interface/ABInteractionInterface.h"
 #include "GameData/ABCharacterStat.h"
+#include "Components/WidgetComponent.h"
 #include "ABCharacterBase.generated.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(LogABCharacter, Log, All);
@@ -108,6 +109,12 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Widget, Meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<class UABWidgetComponent> HpBar;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Widget, Meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<class UWidgetComponent> DialogueBox;
+
+	UPROPERTY()
+	UUserWidget* DialogueBoxWidget;
+	
 	virtual void SetupCharacterWidget(UABUserWidget* InUserWidget) override;
 
 	//Item Section

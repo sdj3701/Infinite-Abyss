@@ -29,6 +29,6 @@ void UNPCAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 	{
 		Velocity = Movement->Velocity;
 		GroundSpeed = Velocity.Size2D();
-		bIsIdle = GroundSpeed  < MovingThreshould;		
+		bIsIdle = GroundSpeed  < MovingThreshould;
 	}
 }

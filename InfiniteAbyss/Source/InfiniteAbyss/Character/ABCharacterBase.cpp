@@ -14,6 +14,8 @@
 #include "UI/ABWidgetComponent.h"
 #include "UI/ABHpBarWidget.h"
 #include "Item/ABItems.h"
+#include "UI/NPCTalkWidget.h"
+#include "UI/NPCWidgetComponent.h"
 
 DEFINE_LOG_CATEGORY(LogABCharacter);
 
@@ -102,7 +104,22 @@ AABCharacterBase::AABCharacterBase()
 		HpBar->SetDrawSize(FVector2D(150.0f,15.0f));
 		HpBar->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	}
-
+	
+	DialogueBox = CreateDefaultSubobject<UWidgetComponent>(TEXT("TalkWidget"));
+	DialogueBox->SetupAttachment(GetMesh());
+	
+	static ConstructorHelpers::FClassFinder<UUserWidget> DialogueBoxWidgetRef(TEXT("/Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox_C"));
+	if(DialogueBoxWidgetRef.Class)
+	{
+		DialogueBox->SetWidgetClass(DialogueBoxWidgetRef.Class);
+		DialogueBox->SetWidgetSpace(EWidgetSpace::Screen);
+		DialogueBox->SetDrawSize(FVector2D(1.0f,1.0f));
+		DialogueBox->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		DialogueBoxWidget = CreateWidget<UUserWidget>(GetWorld(), DialogueBoxWidgetRef.Class);
+		ensure(DialogueBoxWidget);
+		DialogueBoxWidget->RemoveFromViewport();
+	}
+	
 	//Item Actions
 	TakeItemActions.Add(FTakeItemDelegateWrapper(FOnTakeItemDelegate::CreateUObject(this, &AABCharacterBase::EquipWeapon)));
 	TakeItemActions.Add(FTakeItemDelegateWrapper(FOnTakeItemDelegate::CreateUObject(this, &AABCharacterBase::DrinkPotion)));
@@ -132,6 +149,7 @@ void AABCharacterBase::OnPlayerInteractionChanged(bool InInteraction)
 	}
 	else
 	{
+		DialogueBoxWidget->RemoveFromViewport();
 		bIsInteraction = false;
 	}
 }
