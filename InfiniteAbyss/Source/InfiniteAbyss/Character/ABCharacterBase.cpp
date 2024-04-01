@@ -117,7 +117,6 @@ AABCharacterBase::AABCharacterBase()
 		DialogueBox->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 		DialogueBoxWidget = CreateWidget<UUserWidget>(GetWorld(), DialogueBoxWidgetRef.Class);
 		ensure(DialogueBoxWidget);
-		DialogueBoxWidget->RemoveFromViewport();
 	}
 	
 	//Item Actions
@@ -149,7 +148,6 @@ void AABCharacterBase::OnPlayerInteractionChanged(bool InInteraction)
 	}
 	else
 	{
-		DialogueBoxWidget->RemoveFromViewport();
 		bIsInteraction = false;
 	}
 }

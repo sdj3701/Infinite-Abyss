@@ -76,4 +76,5 @@ protected:
 	virtual void SetupHUDWidget(class UABHUDWidget* InHUDWidget) override;
 
 	void TalkInteraction();
+	void EndTalkInteraction();
 };
