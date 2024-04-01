@@ -28,7 +28,7 @@ AABCharacterNPC::AABCharacterNPC()
         GetMesh()->SetSkeletalMesh(NPCMeshRef.Object);
     }
 
-    static ConstructorHelpers::FClassFinder<UAnimInstance> AnimInstanceClassRef(TEXT("Game/ExternAssets/MedievalGirl/Demo/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C"));
+    static ConstructorHelpers::FClassFinder<UAnimInstance> AnimInstanceClassRef(TEXT("/Game/ExternAssets/MedievalGirl/Demo/Animations/ABP_NPCCharacter.ABP_NPCCharacter_C"));
     if (AnimInstanceClassRef.Class)
     {
         GetMesh()->SetAnimInstanceClass(AnimInstanceClassRef.Class);
