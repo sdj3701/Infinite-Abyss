@@ -105,7 +105,7 @@ AABCharacterBase::AABCharacterBase()
 		HpBar->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	}
 	
-	DialogueBox = CreateDefaultSubobject<UWidgetComponent>(TEXT("TalkWidget"));
+	DialogueBox = CreateDefaultSubobject<UNPCWidgetComponent>(TEXT("TalkWidget"));
 	DialogueBox->SetupAttachment(GetMesh());
 	
 	static ConstructorHelpers::FClassFinder<UUserWidget> DialogueBoxWidgetRef(TEXT("/Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox_C"));
@@ -295,6 +295,7 @@ void AABCharacterBase::PlayDeadAnimation()
 
 void AABCharacterBase::SetupCharacterWidget(UABUserWidget* InUserWidget)
 {
+	UE_LOG(LogTemp, Log, TEXT("%s"), *InUserWidget->GetName());
 	UABHpBarWidget* HpBarWidget = Cast<UABHpBarWidget>(InUserWidget);
 	if(HpBarWidget)
 	{
@@ -302,6 +303,12 @@ void AABCharacterBase::SetupCharacterWidget(UABUserWidget* InUserWidget)
 		HpBarWidget->UpdateHpBar(Stat->GetCurrentHp());
 		Stat->OnHpChanged.AddUObject(HpBarWidget, &UABHpBarWidget::UpdateHpBar);
 		Stat->OnStatChanged.AddUObject(HpBarWidget, &UABHpBarWidget::UpdateStat);
+	}
+
+	UNPCTalkWidget* NPCTalkWidget = Cast<UNPCTalkWidget>(InUserWidget);
+	if(NPCTalkWidget)
+	{
+		NPCTalkWidget->UpdateTextBlock("This game has many quests. My character completed 5 daily quests We are on a quest exploring the dungeon and defeating the boss.");
 	}
 }
 

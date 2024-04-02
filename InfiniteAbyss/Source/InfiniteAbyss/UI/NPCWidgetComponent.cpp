@@ -2,11 +2,16 @@
 
 
 #include "UI/NPCWidgetComponent.h"
+#include "ABUserWidget.h"
 #include "UI/NPCTalkWidget.h"
 
 void UNPCWidgetComponent::InitWidget()
 {
 	Super::InitWidget();
 
-	
+	UABUserWidget* ABUserWidget = Cast<UABUserWidget>(GetWidget());
+	if(ABUserWidget)
+	{
+		ABUserWidget->SetOwningActor(GetOwner());
+	}
 }

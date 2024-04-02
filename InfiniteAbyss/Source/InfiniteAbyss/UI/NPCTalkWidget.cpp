@@ -2,7 +2,9 @@
 
 
 #include "UI/NPCTalkWidget.h"
+#include "Components/Button.h"
 #include "Components/TextBlock.h"
+#include "Interface/ABCharacterWidgetInterface.h"
 
 
 UNPCTalkWidget::UNPCTalkWidget(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
@@ -16,6 +18,18 @@ void UNPCTalkWidget::NativeConstruct()
 	//UI 기능 초기화
 	UITextBlock = Cast<UTextBlock>(GetWidgetFromName(TEXT("TextBox")));
 	ensure(UITextBlock);
+	
+	IABCharacterWidgetInterface* CharacterWidget = Cast<IABCharacterWidgetInterface>(OwningActor);
+	if(CharacterWidget)
+	{
+		CharacterWidget->SetupCharacterWidget(this);
+	}
+
+	AcceptButton= Cast<UButton>(GetWidgetFromName(TEXT("AcceptButton")));
+	if(AcceptButton)
+	{
+		AcceptButton->OnClicked.AddDynamic(this, &UNPCTalkWidget::OnButtonClick);
+	}
 }
 
 void UNPCTalkWidget::UpdateTextBlock(FString NewQuestText)
@@ -25,4 +39,9 @@ void UNPCTalkWidget::UpdateTextBlock(FString NewQuestText)
 	{
 		UITextBlock->SetText(FText::FromString(NewQuestText));
 	}
+}
+
+void UNPCTalkWidget::OnButtonClick()
+{
+	UE_LOG(LogTemp, Log, TEXT("Button on Click"));
 }

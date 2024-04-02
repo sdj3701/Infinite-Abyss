@@ -110,7 +110,7 @@ protected:
 	TObjectPtr<class UABWidgetComponent> HpBar;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Widget, Meta = (AllowPrivateAccess = "true"))
-	TObjectPtr<class UWidgetComponent> DialogueBox;
+	TObjectPtr<class UNPCWidgetComponent> DialogueBox;
 
 	UPROPERTY()
 	UUserWidget* DialogueBoxWidget;

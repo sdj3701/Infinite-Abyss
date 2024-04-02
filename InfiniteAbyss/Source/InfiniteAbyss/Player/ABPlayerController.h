@@ -43,5 +43,4 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = HUD)
 	TObjectPtr<class UABHUDWidget> ABHUDWidget;
 
-	
 };

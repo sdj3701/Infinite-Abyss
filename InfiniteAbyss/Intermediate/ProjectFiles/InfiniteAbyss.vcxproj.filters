@@ -42,12 +42,6 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\InfiniteAbyss.h">
       <Filter>Source\InfiniteAbyss</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\InfiniteAbyss\NPCDialogueBoxWidget.cpp">
-      <Filter>Source\InfiniteAbyss</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\InfiniteAbyss\NPCDialogueBoxWidget.h">
-      <Filter>Source\InfiniteAbyss</Filter>
-    </ClInclude>
     <Filter Include="Source\InfiniteAbyss\AI">
       <UniqueIdentifier>{2C7071FD-F791-36BF-BA86-A9F11EE30E69}</UniqueIdentifier>
     </Filter>
