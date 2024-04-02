@@ -2636,3 +2636,280 @@ Script Stack (0 frames) :
 [2024.04.02-08.11.41:649][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.04.02-08.11.41:936][342]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
 [2024.04.02-08.11.42:175][343]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.04.02-08.12.27:955][527]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-08.12.27:962][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-08.12.27:962][527]PIE: New page: PIE session: NPCMap (2024. 4. 3. 오전 2:12:27)
+[2024.04.02-08.12.28:002][527]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.02-08.12.31:243][527]LogPlayLevel: PIE: StaticDuplicateObject took: (3.240745s)
+[2024.04.02-08.12.31:243][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (3.240781s)
+[2024.04.02-08.12.31:321][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.04.02-08.12.31:327][527]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-08.12.31:327][527]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-08.12.31:328][527]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.02-08.12.31:328][527]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2024.04.02-08.12.31:328][527]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.04.02-08.12.31:328][527]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-08.12.31:328][527]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-08.12.31:345][527]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-08.12.31:345][527]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-08.12.31:345][527]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-08.12.31:345][527]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-08.12.31:345][527]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-08.12.31:345][527]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-08.12.31:345][527]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-08.12.31:345][527]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-08.12.31:345][527]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-08.12.31:345][527]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-08.12.31:375][527]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2024.04.02-08.12.31:375][527]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-08.12.31:375][527]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-08.12.31:375][527]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-08.12.31:376][527]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.04.02-08.12.31:376][527]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.04.02-08.12.31:378][527]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.04.02-08.12.31:378][527]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.04.02-08.12.31:413][527]LogInit: FAudioDevice initialized with ID 15.
+[2024.04.02-08.12.31:413][527]LogAudio: Display: Audio Device (ID: 15) registered with world 'NPCMap'.
+[2024.04.02-08.12.31:413][527]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.02-08.12.31:446][527]LogLoad: Game class is 'ABGameMode'
+[2024.04.02-08.12.31:829][527]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.02-17.12.31
+[2024.04.02-08.12.31:833][527]LogWorld: Bringing up level for play took: 0.386281
+[2024.04.02-08.12.32:026][527]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2024.04.02-08.12.32:036][527]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.02-08.12.32:036][527]PIE: Server logged in
+[2024.04.02-08.12.32:037][527]PIE: Play in editor total start time 4.076 seconds.
+[2024.04.02-08.12.33:361][528]LogAutomationController: Ignoring very large delta of 5.41 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.02-08.12.36:121][692]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2024.04.02-08.12.36:121][692]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.02-08.12.36:121][692]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.02-08.12.36:857][744]LogTemp: Button on Click
+[2024.04.02-08.12.36:857][744]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2024.04.02-08.12.36:857][744]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.02-08.12.41:033][  1]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2024.04.02-08.12.41:033][  1]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.02-08.12.41:772][ 50]LogTemp: Button on Click
+[2024.04.02-08.12.41:772][ 50]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2024.04.02-08.12.41:772][ 50]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.02-08.12.41:772][ 50]LogTemp: Button on Click
+[2024.04.02-08.12.41:772][ 50]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.UnrealEdEngine_0:GameInstance_13.WBP_DialogueBox_C_0' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2024.04.02-08.12.43:043][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-08.12.43:043][126]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.02-08.12.43:044][126]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-08.12.43:081][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-08.12.43:129][126]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-08.12.43:134][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-08.12.43:158][126]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-08.12.43:160][126]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.02-08.12.43:160][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.02-08.12.43:162][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.02-08.12.43:167][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-08.12.43:377][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.04.02-08.12.43:958][126]LogD3D12RHI: Warning: Waited for PSO creation for 100.000000ms
+[2024.04.02-08.12.44:029][126]LogD3D12RHI: Warning: Waited for PSO creation for 200.000000ms
+[2024.04.02-08.12.44:336][127]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2024.04.02-08.15.22:911][553]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/ExternAssets/FemaleMilitaryOfficer/Animations/AM_ComboAttack.AM_ComboAttack
+[2024.04.02-08.15.23:266][553]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-08.15.23:266][553]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-08.15.23:675][553]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.04.02-08.15.24:937][553]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2024.04.02-08.15.25:496][553]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-08.15.25:496][553]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-08.15.25:849][553]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 2.938211s (0.938211s overbudget)
+[2024.04.02-08.15.26:516][553]LogViewport: Scene viewport resized to 1141x610, mode Windowed.
+[2024.04.02-08.15.26:839][554]LogAutomationController: Ignoring very large delta of 3.96 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.02-08.15.57:082][241]LogSlate: Window 'AM_ComboAttack' being destroyed
+[2024.04.02-08.15.57:127][241]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-08.15.57:127][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-08.15.57:294][241]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-08.15.57:294][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-08.16.22:149][212]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-08.16.22:154][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-08.16.22:155][212]PIE: New page: PIE session: NPCMap (2024. 4. 3. 오전 2:16:22)
+[2024.04.02-08.16.22:155][212]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.02-08.16.24:109][212]LogPlayLevel: PIE: StaticDuplicateObject took: (1.953715s)
+[2024.04.02-08.16.24:109][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.953760s)
+[2024.04.02-08.16.24:151][212]LogUObjectHash: Compacting FUObjectHashTables data took  10.36ms
+[2024.04.02-08.16.24:153][212]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-08.16.24:154][212]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-08.16.24:154][212]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.02-08.16.24:155][212]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2024.04.02-08.16.24:155][212]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.04.02-08.16.24:155][212]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-08.16.24:156][212]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-08.16.24:156][212]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-08.16.24:156][212]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-08.16.24:156][212]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-08.16.24:156][212]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-08.16.24:156][212]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-08.16.24:156][212]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-08.16.24:156][212]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-08.16.24:156][212]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-08.16.24:156][212]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-08.16.24:158][212]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-08.16.24:173][212]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2024.04.02-08.16.24:173][212]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-08.16.24:173][212]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-08.16.24:173][212]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-08.16.24:174][212]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.04.02-08.16.24:174][212]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.04.02-08.16.24:235][212]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.04.02-08.16.24:235][212]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.04.02-08.16.24:235][212]LogInit: FAudioDevice initialized with ID 16.
+[2024.04.02-08.16.24:235][212]LogAudio: Display: Audio Device (ID: 16) registered with world 'NPCMap'.
+[2024.04.02-08.16.24:235][212]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.02-08.16.24:238][212]LogLoad: Game class is 'ABGameMode'
+[2024.04.02-08.16.24:623][212]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.02-17.16.24
+[2024.04.02-08.16.24:625][212]LogWorld: Bringing up level for play took: 0.387764
+[2024.04.02-08.16.24:822][212]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2024.04.02-08.16.24:832][212]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.02-08.16.24:833][212]PIE: Server logged in
+[2024.04.02-08.16.24:833][212]PIE: Play in editor total start time 2.679 seconds.
+[2024.04.02-08.16.25:732][212]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=16
+[2024.04.02-08.16.25:784][213]LogAutomationController: Ignoring very large delta of 3.64 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.02-08.16.28:981][446]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2024.04.02-08.16.28:981][446]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.02-08.16.28:981][446]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.02-08.16.30:318][555]LogTemp: Button on Click
+[2024.04.02-08.16.30:318][555]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2024.04.02-08.16.30:318][555]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.02-08.16.33:440][787]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2024.04.02-08.16.33:440][787]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.02-08.16.38:116][125]LogViewport: Scene viewport resized to 1022x645, mode Windowed.
+[2024.04.02-08.16.38:143][126]LogViewport: Scene viewport resized to 1048x645, mode Windowed.
+[2024.04.02-08.16.38:168][127]LogViewport: Scene viewport resized to 1077x645, mode Windowed.
+[2024.04.02-08.16.38:193][128]LogViewport: Scene viewport resized to 1106x645, mode Windowed.
+[2024.04.02-08.16.38:324][129]LogViewport: Scene viewport resized to 1161x645, mode Windowed.
+[2024.04.02-08.16.38:411][130]LogViewport: Scene viewport resized to 1171x645, mode Windowed.
+[2024.04.02-08.16.38:547][131]LogViewport: Scene viewport resized to 1177x645, mode Windowed.
+[2024.04.02-08.16.38:573][132]LogViewport: Scene viewport resized to 1179x645, mode Windowed.
+[2024.04.02-08.16.38:957][169]LogViewport: Scene viewport resized to 1177x645, mode Windowed.
+[2024.04.02-08.16.39:025][172]LogViewport: Scene viewport resized to 1175x645, mode Windowed.
+[2024.04.02-08.16.39:062][173]LogViewport: Scene viewport resized to 1174x645, mode Windowed.
+[2024.04.02-08.16.39:102][174]LogViewport: Scene viewport resized to 1173x645, mode Windowed.
+[2024.04.02-08.16.39:193][177]LogViewport: Scene viewport resized to 1172x645, mode Windowed.
+[2024.04.02-08.16.39:290][178]LogViewport: Scene viewport resized to 1171x645, mode Windowed.
+[2024.04.02-08.16.39:313][179]LogViewport: Scene viewport resized to 1169x645, mode Windowed.
+[2024.04.02-08.16.39:339][180]LogViewport: Scene viewport resized to 1168x645, mode Windowed.
+[2024.04.02-08.16.39:363][181]LogViewport: Scene viewport resized to 1166x645, mode Windowed.
+[2024.04.02-08.16.39:420][186]LogViewport: Scene viewport resized to 1165x645, mode Windowed.
+[2024.04.02-08.16.39:444][187]LogViewport: Scene viewport resized to 1164x645, mode Windowed.
+[2024.04.02-08.16.39:485][188]LogViewport: Scene viewport resized to 1161x645, mode Windowed.
+[2024.04.02-08.16.39:510][189]LogViewport: Scene viewport resized to 1160x645, mode Windowed.
+[2024.04.02-08.16.40:259][277]LogViewport: Scene viewport resized to 1159x645, mode Windowed.
+[2024.04.02-08.16.40:284][278]LogViewport: Scene viewport resized to 1157x645, mode Windowed.
+[2024.04.02-08.16.40:336][279]LogViewport: Scene viewport resized to 1150x645, mode Windowed.
+[2024.04.02-08.16.40:362][280]LogViewport: Scene viewport resized to 1146x645, mode Windowed.
+[2024.04.02-08.16.40:388][281]LogViewport: Scene viewport resized to 1136x645, mode Windowed.
+[2024.04.02-08.16.40:424][282]LogViewport: Scene viewport resized to 1116x645, mode Windowed.
+[2024.04.02-08.16.40:450][283]LogViewport: Scene viewport resized to 1099x645, mode Windowed.
+[2024.04.02-08.16.40:476][284]LogViewport: Scene viewport resized to 1084x645, mode Windowed.
+[2024.04.02-08.16.40:540][285]LogViewport: Scene viewport resized to 1062x645, mode Windowed.
+[2024.04.02-08.16.40:570][286]LogViewport: Scene viewport resized to 1045x645, mode Windowed.
+[2024.04.02-08.16.40:604][287]LogViewport: Scene viewport resized to 1017x645, mode Windowed.
+[2024.04.02-08.16.40:629][288]LogViewport: Scene viewport resized to 999x645, mode Windowed.
+[2024.04.02-08.16.40:699][289]LogViewport: Scene viewport resized to 979x645, mode Windowed.
+[2024.04.02-08.16.40:782][290]LogViewport: Scene viewport resized to 948x645, mode Windowed.
+[2024.04.02-08.16.40:807][291]LogViewport: Scene viewport resized to 945x645, mode Windowed.
+[2024.04.02-08.16.40:865][292]LogViewport: Scene viewport resized to 930x645, mode Windowed.
+[2024.04.02-08.16.40:890][293]LogViewport: Scene viewport resized to 924x645, mode Windowed.
+[2024.04.02-08.16.40:915][294]LogViewport: Scene viewport resized to 923x645, mode Windowed.
+[2024.04.02-08.16.43:611][481]LogViewport: Scene viewport resized to 925x645, mode Windowed.
+[2024.04.02-08.16.43:634][482]LogViewport: Scene viewport resized to 940x645, mode Windowed.
+[2024.04.02-08.16.43:658][483]LogViewport: Scene viewport resized to 962x645, mode Windowed.
+[2024.04.02-08.16.43:681][484]LogViewport: Scene viewport resized to 984x645, mode Windowed.
+[2024.04.02-08.16.43:729][485]LogViewport: Scene viewport resized to 1018x645, mode Windowed.
+[2024.04.02-08.16.43:753][486]LogViewport: Scene viewport resized to 1025x645, mode Windowed.
+[2024.04.02-08.16.43:777][487]LogViewport: Scene viewport resized to 1028x645, mode Windowed.
+[2024.04.02-08.16.43:800][488]LogViewport: Scene viewport resized to 1030x645, mode Windowed.
+[2024.04.02-08.16.43:822][489]LogViewport: Scene viewport resized to 1034x645, mode Windowed.
+[2024.04.02-08.16.43:844][490]LogViewport: Scene viewport resized to 1039x645, mode Windowed.
+[2024.04.02-08.16.43:867][491]LogViewport: Scene viewport resized to 1047x645, mode Windowed.
+[2024.04.02-08.16.43:890][492]LogViewport: Scene viewport resized to 1054x645, mode Windowed.
+[2024.04.02-08.16.43:913][493]LogViewport: Scene viewport resized to 1059x645, mode Windowed.
+[2024.04.02-08.16.43:935][494]LogViewport: Scene viewport resized to 1060x645, mode Windowed.
+[2024.04.02-08.16.43:973][497]LogViewport: Scene viewport resized to 1061x645, mode Windowed.
+[2024.04.02-08.16.43:995][498]LogViewport: Scene viewport resized to 1064x645, mode Windowed.
+[2024.04.02-08.16.44:422][546]LogViewport: Scene viewport resized to 1062x645, mode Windowed.
+[2024.04.02-08.16.44:445][547]LogViewport: Scene viewport resized to 1055x645, mode Windowed.
+[2024.04.02-08.16.44:475][548]LogViewport: Scene viewport resized to 1035x645, mode Windowed.
+[2024.04.02-08.16.44:498][549]LogViewport: Scene viewport resized to 1015x645, mode Windowed.
+[2024.04.02-08.16.44:534][550]LogViewport: Scene viewport resized to 995x645, mode Windowed.
+[2024.04.02-08.16.44:557][551]LogViewport: Scene viewport resized to 991x645, mode Windowed.
+[2024.04.02-08.16.44:605][555]LogViewport: Scene viewport resized to 990x645, mode Windowed.
+[2024.04.02-08.16.44:668][561]LogViewport: Scene viewport resized to 988x645, mode Windowed.
+[2024.04.02-08.16.44:691][562]LogViewport: Scene viewport resized to 985x645, mode Windowed.
+[2024.04.02-08.16.44:715][563]LogViewport: Scene viewport resized to 980x645, mode Windowed.
+[2024.04.02-08.16.44:738][564]LogViewport: Scene viewport resized to 978x645, mode Windowed.
+[2024.04.02-08.16.45:013][595]LogViewport: Scene viewport resized to 977x645, mode Windowed.
+[2024.04.02-08.16.45:036][596]LogViewport: Scene viewport resized to 974x645, mode Windowed.
+[2024.04.02-08.16.45:194][597]LogViewport: Scene viewport resized to 960x645, mode Windowed.
+[2024.04.02-08.16.45:219][598]LogViewport: Scene viewport resized to 959x645, mode Windowed.
+[2024.04.02-08.16.45:243][599]LogViewport: Scene viewport resized to 958x645, mode Windowed.
+[2024.04.02-08.16.45:266][600]LogViewport: Scene viewport resized to 956x645, mode Windowed.
+[2024.04.02-08.16.45:289][601]LogViewport: Scene viewport resized to 954x645, mode Windowed.
+[2024.04.02-08.16.45:328][604]LogViewport: Scene viewport resized to 953x645, mode Windowed.
+[2024.04.02-08.16.45:350][605]LogViewport: Scene viewport resized to 952x645, mode Windowed.
+[2024.04.02-08.16.45:373][606]LogViewport: Scene viewport resized to 951x645, mode Windowed.
+[2024.04.02-08.16.45:512][621]LogViewport: Scene viewport resized to 952x645, mode Windowed.
+[2024.04.02-08.16.45:537][622]LogViewport: Scene viewport resized to 956x645, mode Windowed.
+[2024.04.02-08.16.45:559][623]LogViewport: Scene viewport resized to 958x645, mode Windowed.
+[2024.04.02-08.16.45:581][624]LogViewport: Scene viewport resized to 959x645, mode Windowed.
+[2024.04.02-08.16.45:621][627]LogViewport: Scene viewport resized to 960x645, mode Windowed.
+[2024.04.02-08.16.45:644][628]LogViewport: Scene viewport resized to 962x645, mode Windowed.
+[2024.04.02-08.16.45:666][629]LogViewport: Scene viewport resized to 963x645, mode Windowed.
+[2024.04.02-08.16.45:689][630]LogViewport: Scene viewport resized to 964x645, mode Windowed.
+[2024.04.02-08.16.45:719][632]LogViewport: Scene viewport resized to 965x645, mode Windowed.
+[2024.04.02-08.16.45:742][633]LogViewport: Scene viewport resized to 966x645, mode Windowed.
+[2024.04.02-08.16.45:897][650]LogViewport: Scene viewport resized to 968x645, mode Windowed.
+[2024.04.02-08.16.50:006][923]LogViewport: Scene viewport resized to 967x645, mode Windowed.
+[2024.04.02-08.16.50:039][924]LogViewport: Scene viewport resized to 971x645, mode Windowed.
+[2024.04.02-08.16.50:067][925]LogViewport: Scene viewport resized to 982x645, mode Windowed.
+[2024.04.02-08.16.50:092][926]LogViewport: Scene viewport resized to 995x645, mode Windowed.
+[2024.04.02-08.16.50:118][927]LogViewport: Scene viewport resized to 1000x645, mode Windowed.
+[2024.04.02-08.16.50:142][928]LogViewport: Scene viewport resized to 1002x645, mode Windowed.
+[2024.04.02-08.16.50:167][929]LogViewport: Scene viewport resized to 1004x645, mode Windowed.
+[2024.04.02-08.16.50:245][930]LogViewport: Scene viewport resized to 1012x645, mode Windowed.
+[2024.04.02-08.16.50:271][931]LogViewport: Scene viewport resized to 1037x645, mode Windowed.
+[2024.04.02-08.16.50:303][933]LogViewport: Scene viewport resized to 1038x645, mode Windowed.
+[2024.04.02-08.16.50:443][948]LogViewport: Scene viewport resized to 1039x645, mode Windowed.
+[2024.04.02-08.16.50:477][950]LogViewport: Scene viewport resized to 1040x645, mode Windowed.
+[2024.04.02-08.16.56:106][332]LogTemp: Button on Click
+[2024.04.02-08.16.56:106][332]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2024.04.02-08.16.56:106][332]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.02-08.16.56:106][332]LogTemp: Button on Click
+[2024.04.02-08.16.56:106][332]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.UnrealEdEngine_0:GameInstance_14.WBP_DialogueBox_C_0' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2024.04.02-08.17.00:262][568]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2024.04.02-08.17.00:262][568]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.02-08.17.02:360][705]LogTemp: Button on Click
+[2024.04.02-08.17.02:360][705]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2024.04.02-08.17.02:360][705]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.02-08.17.02:360][705]LogTemp: Button on Click
+[2024.04.02-08.17.02:360][705]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.UnrealEdEngine_0:GameInstance_14.WBP_DialogueBox_C_0' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2024.04.02-08.17.02:360][705]LogTemp: Button on Click
+[2024.04.02-08.17.02:360][705]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.UnrealEdEngine_0:GameInstance_14.WBP_DialogueBox_C_0' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2024.04.02-08.17.04:233][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-08.17.04:233][825]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.02-08.17.04:234][825]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-08.17.04:266][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-08.17.04:308][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-08.17.04:316][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-08.17.04:370][825]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-08.17.04:370][825]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.02-08.17.04:371][825]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.02-08.17.04:372][825]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.02-08.17.04:377][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-08.17.04:581][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.04.02-08.17.04:727][826]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2024.04.02-08.42.12:955][723]LogUObjectHash: Compacting FUObjectHashTables data took  78.94ms
+[2024.04.02-08.42.12:959][723]LogStall: Shutdown...
+[2024.04.02-08.42.13:544][723]LogStall: Shutdown complete.
+[2024.04.02-08.42.13:602][723]LogSlate: Window 'InfiniteAbyss - Unreal Editor' being destroyed
+[2024.04.02-08.42.26:557][724]LogAutomationController: Ignoring very large delta of 13.81 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.02-08.42.26:559][724]Cmd: QUIT_EDITOR
+[2024.04.02-08.42.26:560][724]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.04.02-08.42.26:637][724]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.04.02-08.42.26:638][724]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.04.02-08.42.26:638][724]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.04.02-08.42.33:819][724]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-08.42.33:819][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-08.42.34:483][724]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
