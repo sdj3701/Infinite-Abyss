@@ -166,7 +166,6 @@ void AABStageGimmick::CloseAllGates()
 		StartLocation = (Gate.Value)->GetRelativeLocation();
 		EndLocation = FVector::ZeroVector;
 
-		UE_LOG(LogTemp, Log, TEXT("GetName: %s"),  *Gate.Value.GetName());
 		GetWorldTimerManager().SetTimer(TimerHandle_GateMove, this, &AABStageGimmick::MoveGate, MoveInterval, true, 0.0f);
 	}
 }

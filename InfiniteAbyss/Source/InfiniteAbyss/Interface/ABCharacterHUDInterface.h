@@ -23,4 +23,5 @@ class INFINITEABYSS_API IABCharacterHUDInterface
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 	virtual void SetupHUDWidget(class UABHUDWidget* InHUDWidget) = 0;
+	virtual void SetupTalkWidget(class UNPCTalkWidget* InNPCTaleWidget) = 0;
 };

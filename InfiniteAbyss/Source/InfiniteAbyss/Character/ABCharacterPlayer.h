@@ -74,6 +74,7 @@ protected:
 	//UI Section
 protected:
 	virtual void SetupHUDWidget(class UABHUDWidget* InHUDWidget) override;
+	virtual void SetupTalkWidget(UNPCTalkWidget* InNPCTaleWidget) override;
 
 	void TalkInteraction();
 	void EndTalkInteraction();

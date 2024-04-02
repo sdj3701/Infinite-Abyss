@@ -5,6 +5,7 @@
 #include "Components/Button.h"
 #include "Components/TextBlock.h"
 #include "Interface/ABCharacterWidgetInterface.h"
+#include "Interface/ABCharacterHUDInterface.h"
 
 
 UNPCTalkWidget::UNPCTalkWidget(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
@@ -30,6 +31,7 @@ void UNPCTalkWidget::NativeConstruct()
 	{
 		AcceptButton->OnClicked.AddDynamic(this, &UNPCTalkWidget::OnButtonClick);
 	}
+	
 }
 
 void UNPCTalkWidget::UpdateTextBlock(FString NewQuestText)
@@ -43,5 +45,11 @@ void UNPCTalkWidget::UpdateTextBlock(FString NewQuestText)
 
 void UNPCTalkWidget::OnButtonClick()
 {
+	//TODO : 눌렀으니까 퀘스트 창이 닫히기 
 	UE_LOG(LogTemp, Log, TEXT("Button on Click"));
+	IABCharacterHUDInterface* HUDPawn = Cast<IABCharacterHUDInterface>(GetOwningPlayerPawn());
+	if(HUDPawn)
+	{
+		HUDPawn->SetupTalkWidget(this);
+	}
 }

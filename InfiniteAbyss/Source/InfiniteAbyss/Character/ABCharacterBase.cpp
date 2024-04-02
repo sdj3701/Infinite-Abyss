@@ -295,7 +295,6 @@ void AABCharacterBase::PlayDeadAnimation()
 
 void AABCharacterBase::SetupCharacterWidget(UABUserWidget* InUserWidget)
 {
-	UE_LOG(LogTemp, Log, TEXT("%s"), *InUserWidget->GetName());
 	UABHpBarWidget* HpBarWidget = Cast<UABHpBarWidget>(InUserWidget);
 	if(HpBarWidget)
 	{
