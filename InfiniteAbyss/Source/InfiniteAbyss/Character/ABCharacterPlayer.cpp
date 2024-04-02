@@ -12,6 +12,7 @@
 #include "CharacterStat/ABCharacterStatComponent.h"
 #include "Interface/ABGameInterface.h"
 #include "Game/ABGameMode.h"
+#include "Player/ABPlayerController.h"
 #include "UI/NPCTalkWidget.h"
 
 AABCharacterPlayer::AABCharacterPlayer()
@@ -224,10 +225,40 @@ void AABCharacterPlayer::SetupHUDWidget(UABHUDWidget* InHUDWidget)
 void AABCharacterPlayer::TalkInteraction()
 {
 	//TODO : UI를 구현해야함 Widget Blueprint를 생성한다음 관리를 하는게 좋음 텍스트는 액셀이나 TEXT파일로 관리해서 불러와서 글자 하나씩 출력
+	
+	
 	DialogueBoxWidget->AddToViewport();
+	MouseOn();
 }
 
 void AABCharacterPlayer::EndTalkInteraction()
 {
 	DialogueBoxWidget->RemoveFromParent();
+	MouseOff();
+}
+
+void AABCharacterPlayer::MouseOn()
+{
+	APlayerController* PlayerController = Cast<APlayerController>(GetController());
+	if(PlayerController)
+	{
+		AABPlayerController* ABPlayerController = Cast<AABPlayerController>(PlayerController);
+		if(ABPlayerController)
+		{
+			ABPlayerController->MouseCursorOn();
+		}
+	}
+}
+
+void AABCharacterPlayer::MouseOff()
+{
+	APlayerController* PlayerController = Cast<APlayerController>(GetController());
+	if(PlayerController)
+	{
+		AABPlayerController* ABPlayerController = Cast<AABPlayerController>(PlayerController);
+		if(ABPlayerController)
+		{
+			ABPlayerController->MouseCursorOff();
+		}
+	}
 }

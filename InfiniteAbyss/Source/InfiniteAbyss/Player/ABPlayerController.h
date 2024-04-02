@@ -28,6 +28,9 @@ public:
 	void GameScoreChanged(int32 NewScore);
 	void GameClear();
 	void GameOver();
+
+	void MouseCursorOn();
+	void MouseCursorOff();
 	
 protected:
 	virtual void BeginPlay() override;
@@ -40,4 +43,5 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = HUD)
 	TObjectPtr<class UABHUDWidget> ABHUDWidget;
 
+	
 };

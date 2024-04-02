@@ -77,4 +77,9 @@ protected:
 
 	void TalkInteraction();
 	void EndTalkInteraction();
+
+	//Mouse Section
+protected:
+	void MouseOn();
+	void MouseOff();
 };

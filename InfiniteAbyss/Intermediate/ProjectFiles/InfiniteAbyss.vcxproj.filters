@@ -42,6 +42,12 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\InfiniteAbyss.h">
       <Filter>Source\InfiniteAbyss</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\NPCDialogueBoxWidget.cpp">
+      <Filter>Source\InfiniteAbyss</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\NPCDialogueBoxWidget.h">
+      <Filter>Source\InfiniteAbyss</Filter>
+    </ClInclude>
     <Filter Include="Source\InfiniteAbyss\AI">
       <UniqueIdentifier>{2C7071FD-F791-36BF-BA86-A9F11EE30E69}</UniqueIdentifier>
     </Filter>
@@ -97,6 +103,12 @@
       <Filter>Source\InfiniteAbyss\Animation</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Animation\AnimNotify_AttackHitCheck.h">
+      <Filter>Source\InfiniteAbyss\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Animation\NPCAnimInstance.cpp">
+      <Filter>Source\InfiniteAbyss\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Animation\NPCAnimInstance.h">
       <Filter>Source\InfiniteAbyss\Animation</Filter>
     </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Character">
@@ -210,6 +222,12 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABGameInterface.h">
       <Filter>Source\InfiniteAbyss\Interface</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Interface\ABInteractionInterface.cpp">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABInteractionInterface.h">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Item">
       <UniqueIdentifier>{C8CC61FA-7673-300B-9D4D-375D03FE26AC}</UniqueIdentifier>
     </Filter>
@@ -301,6 +319,18 @@
       <Filter>Source\InfiniteAbyss\UI</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\UI\ABWidgetComponent.h">
+      <Filter>Source\InfiniteAbyss\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\UI\NPCTalkWidget.cpp">
+      <Filter>Source\InfiniteAbyss\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\UI\NPCTalkWidget.h">
+      <Filter>Source\InfiniteAbyss\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\UI\NPCWidgetComponent.cpp">
+      <Filter>Source\InfiniteAbyss\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\UI\NPCWidgetComponent.h">
       <Filter>Source\InfiniteAbyss\UI</Filter>
     </ClInclude>
   </ItemGroup>
