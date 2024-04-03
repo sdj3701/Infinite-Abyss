@@ -2,7 +2,6 @@
 
 
 #include "Gimmick/ABStageGimmick.h"
-
 #include "Character/ABCharacterBaseNonPlayer.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"

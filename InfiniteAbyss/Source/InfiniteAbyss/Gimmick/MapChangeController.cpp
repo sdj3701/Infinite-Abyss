@@ -2,14 +2,17 @@
 
 
 #include "Gimmick/MapChangeController.h"
-
 #include "Components/BoxComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Physics/ABCollision.h"
+#include "Character/ABCharacterBase.h"
+
 
 // Sets default values
 AMapChangeController::AMapChangeController()
 {
+	bIsOverlapping = false;
+	
 	TriggerBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Trigger"));
 	RootComponent = TriggerBox;
 
@@ -21,11 +24,17 @@ AMapChangeController::AMapChangeController()
 void AMapChangeController::OnStageTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
 {
-	UE_LOG(LogTemp,Log, TEXT("Next Level"));
 	APawn* Pawn = Cast<APawn>(OtherActor);
 	if(Pawn)
 	{
 		UGameplayStatics::OpenLevel(this, *TransferLevelName);
+		bIsOverlapping = true;
+		if(OtherActor->IsA<AABCharacterBase>())
+		{
+			AABCharacterBase* Interaction = Cast<AABCharacterBase>(OtherActor);
+			if(!Interaction->IsInteraction())
+				Interaction->OnPlayerInteractionChanged(bIsOverlapping);
+		}
 	}
 }
 

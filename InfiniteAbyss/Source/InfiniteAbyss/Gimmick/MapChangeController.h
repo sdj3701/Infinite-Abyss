@@ -18,11 +18,16 @@ protected:
 	UFUNCTION()
 	void OnStageTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult);
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Collision")
+	bool bIsOverlapping;
+
 private:
 	UPROPERTY(EditAnywhere,BlueprintReadWrite, Meta = (AllowPrivateAccess = "true"))
 	FString TransferLevelName;
 
 	UPROPERTY()
 	TObjectPtr<class UBoxComponent> TriggerBox;
+
+	
 
 };
