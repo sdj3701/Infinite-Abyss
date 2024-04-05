@@ -12,6 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\Gothic_Cathedral.png" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -175,6 +176,12 @@
       <Filter>Source\InfiniteAbyss\Gimmick</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Gimmick\ABStageGimmick.h">
+      <Filter>Source\InfiniteAbyss\Gimmick</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Gimmick\MapChangeController.cpp">
+      <Filter>Source\InfiniteAbyss\Gimmick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Gimmick\MapChangeController.h">
       <Filter>Source\InfiniteAbyss\Gimmick</Filter>
     </ClInclude>
     <Filter Include="Source\InfiniteAbyss\Interface">

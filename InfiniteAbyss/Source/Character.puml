@@ -1,0 +1,162 @@
+@startuml
+
+class AABCharacterBase {
+    + AABCharacterBase()
+    + PostInitializeComponents() : void
+    + OnPlayerInteractionChanged(InInteraction: bool) : void
+    + IsInteraction() : bool
+    - bIsInteraction : bool
+    - CharacterControlManager : TMap<ECharacterControlType, UABCharacterControlData*>
+    - InteractionManager : TMap<EInteractionType, UABCharacterControlData*>
+    - ComboActionMontage : UAnimMontage
+    - ComboActionData : UABComboActionData
+    - CurrentCombo : int32
+    - ComboTimerHandle : FTimerHandle
+    - HasNextComboCommand : bool
+    - DeadMontage : UAnimMontage
+    - DeadEventDelayTime : float
+    - Stat : UABCharacterStatComponent
+    - HpBar : UABWidgetComponent
+    - DialogueBox : UNPCWidgetComponent
+    - DialogueBoxWidget : UUserWidget
+    - Weapon : USkeletalMeshComponent
+    - TakeItemActions : TArray<FTakeItemDelegateWrapper>
+    + GetLevel() : int32
+    + SetLevel(InNewLevel: int32) : void
+    + ApplyStat(BaseStat: FABCharacterStat, ModifierStat: FABCharacterStat) : void
+}
+interface IABAnimationAttackInterface {
+    + ProcessComboCommand() : void
+    + ComboActionBegin() : void
+    + ComboActionEnd(TargetMontage: UAnimMontage, IsProperlyEnded: bool) : void
+    + NotifyComboActionEnd() : void
+    + AttackHitCheck() : void
+}
+interface IABCharacterWidgetInterface {
+    + SetupCharacterWidget(InUserWidget: UABUserWidget*) : void
+}
+interface IABCharacterItemInterface {
+    + TakeItem(InItemData: UABItemData*) : void
+    + DrinkPotion(InItemData: UABItemData*) : void
+    + EquipWeapon(InItemData: UABItemData*) : void
+    + ReadScroll(InItemData: UABItemData*) : void
+}
+interface IABInteractionInterface {
+    + OnPlayerInteractionChanged(InInteraction: bool) : void
+    + IsInteraction() : bool
+}
+class AABCharacterPlayer {
+    + AABCharacterPlayer()
+    + BeginPlay() : void
+    + SetDead() : void
+    + SetupPlayerInputComponent(PlayerInputComponent: UInputComponent*) : void
+    - ChangeCharacterControl() : void
+    - SetCharacterControl(NewCharacterControlType: ECharacterControlType) : void
+    - SetCharacterControlData(CharacterControlData: UABCharacterControlData*) : void
+    - ChangeInteractionType() : void
+    - SetInteractionType(NewInteractionType: EInteractionType) : void
+    - ShoulderMove(const Value: FInputActionValue&) : void
+    - ShoulderLook(const Value: FInputActionValue&) : void
+    - Attack() : void
+    - SetupHUDWidget(InHUDWidget: UABHUDWidget*) : void
+    - SetupTalkWidget(InNPCTaleWidget: UNPCTalkWidget*) : void
+    - TalkInteraction() : void
+    - EndTalkInteraction() : void
+    - MouseOn() : void
+    - MouseOff() : void
+    - CameraBoom : USpringArmComponent
+    - FollowCamera : UCameraComponent
+    - JumpAction : UInputAction
+    - ChangeControlAction : UInputAction
+    - ShoulderMoveAction : UInputAction
+    - ShoulderLookAction : UInputAction
+    - AttackAction : UInputAction
+    - InteractionAction : UInputAction
+    - CurrentCharacterControlType : ECharacterControlType
+    - CurrentInteractionType : EInteractionType
+}
+class AABCharacterBaseNonPlayer {
+    + AABCharacterBaseNonPlayer()
+    - PostInitializeComponents() : void
+    - SetDead() : void
+    - NPCMeshLoadCompleted() : void
+    - NPCMeshes : TArray<FSoftObjectPath>
+    - NPCMeshHandle : TSharedPtr<FStreamableHandle>
+    - GetAIPatrolRadius() : float
+    - GetAIDetectRange() : float
+    - GetAIAttackRange() : float
+    - GetAITurnSpeed() : float
+    - SetAIAttackDelegate(InOnAttackFinished: FAICharacterAttackFinished&) : void
+    - AttackByAI() : void
+    - OnAttackFinished : FAICharacterAttackFinished
+    - NotifyComboActionEnd() : void
+}
+interface IABCharacterAIInterface {
+    + GetAIPatrolRadius() : float
+    + GetAIDetectRange() : float
+    + GetAIAttackRange() : float
+    + GetAITurnSpeed() : float
+    + SetAIAttackDelegate(InOnAttackFinished: FAICharacterAttackFinished&) : void
+    + AttackByAI() : void
+}
+class UABCharacterStatComponent {
+    + UABCharacterStatComponent()
+    - InitializeComponent() : void
+    - OnHpZero : FOnHpZeroDelegate
+    - OnHpChanged : FOnHpChangedDelegate
+    - OnStatChanged : FOnStatChangedDelegate
+    + SetLevelStat(InNewLevel: int32) : void
+    + GetCurrentLevel() : float
+    + AddBaseStat(InAddBaseStat: const FABCharacterStat&) : void
+    + SetBaseStat(InBaseStat: const FABCharacterStat&) : void
+    + SetModifierStat(InModifierStat: const FABCharacterStat&) : void
+    + GetBaseStat() : const FABCharacterStat&
+    + GetModifierStat() : const FABCharacterStat&
+    + GetTotalStat() : FABCharacterStat
+    + GetCurrentHp() : float
+    + HealHp(InHealAmount: float) : void
+    + GetAttackRadius() : float
+    + ApplyDamage(InDamage: float) : float
+    - SetHp(NewHp: float) : void
+    - CurrentHp : float
+    - CurrentLevel : float
+    - AttackRadius : float
+    - BaseStat : FABCharacterStat
+    - ModifierStat : FABCharacterStat
+}
+
+class UActorComponent {
+    + UActorComponent()
+}
+class AABPlayerController {
+    + AABPlayerController()
+    + K2_OnScoreChange(NewScore: int32) : void
+    + K2_OnGameClear() : void
+    + K2_OnGameOver() : void
+    + GameScoreChanged(NewScore: int32) : void
+    + GameClear() : void
+    + GameOver() : void
+    + MouseCursorOn() : void
+    + MouseCursorOff() : void
+    - BeginPlay() : void
+    - ABHUDWidgetClass : TSubclassOf<class UABHUDWidget>
+    - ABHUDWidget : TObjectPtr<class UABHUDWidget>
+}
+
+class APlayerController {
+    + APlayerController()
+}
+
+AABPlayerController --|> APlayerController
+UABCharacterStatComponent --|> UActorComponent
+AABCharacterBaseNonPlayer --|> AABCharacterBase
+AABCharacterBaseNonPlayer --|> IABCharacterAIInterface
+AABCharacterPlayer .up.|> AABCharacterBase
+AABCharacterBase .up.|> ACharacter
+AABCharacterBase ..> IABAnimationAttackInterface
+AABCharacterBase ..> IABCharacterWidgetInterface
+AABCharacterBase ..> IABCharacterItemInterface
+AABCharacterBase ..> IABInteractionInterface
+
+@enduml
+
