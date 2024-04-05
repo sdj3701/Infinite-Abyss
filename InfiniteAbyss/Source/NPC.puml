@@ -1,15 +1,19 @@
 @startuml
 
-class UNPCAnimInstance {
-    + UNPCAnimInstance()
-    + NativeInitializeAnimation() : void
-    + NativeUpdateAnimation(DeltaSeconds: float) : void
-    - Owner : ACharacter*
-    - Movement : UCharacterMovementComponent*
-    - Velocity : FVector
-    - GroundSpeed : float
-    - bIsIdle : uint8
-    - MovingThreshould : float
+class AABCharacterNPC {
+    + AABCharacterNPC()
+    - NPC : TObjectPtr<class UStaticMeshComponent>
+    - NPCTrigger : TObjectPtr<class UBoxComponent>
+    - bIsOverlapping : bool
+    - OnBoxTriggerBeginOverlap(OverlappedComponent: UPrimitiveComponent, OtherActor: AActor, OtherComp: UPrimitiveComponent, OtherBodyIndex: int32, bFromSweep: bool, SweepHitResult: FHitResult) : void
+    - OnBoxTriggerEndOverlap(OverlappedComponent: UPrimitiveComponent, OtherActor: AActor, OtherComp: UPrimitiveComponent, OtherBodyIndex: int32) : void
 }
+
+class ACharacter {
+    + ACharacter()
+}
+
+
+AABCharacterNPC -up-|> ACharacter
 
 @enduml

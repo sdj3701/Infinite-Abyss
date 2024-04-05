@@ -1,15 +1,80 @@
 @startuml
 
-class UNPCAnimInstance {
-    + UNPCAnimInstance()
-    + NativeInitializeAnimation() : void
-    + NativeUpdateAnimation(DeltaSeconds: float) : void
-    - Owner : ACharacter*
-    - Movement : UCharacterMovementComponent*
-    - Velocity : FVector
-    - GroundSpeed : float
-    - bIsIdle : uint8
-    - MovingThreshould : float
+class UABUserWidget {
+    + SetOwningActor(NewOwner: AActor*) : void
+    - OwningActor : TObjectPtr<class AActor>
 }
+
+class UUserWidget {
+    + UUserWidget()
+}
+class UABHUDWidget {
+    + UABHUDWidget(ObjectInitializer: const FObjectInitializer&)
+    + UpdateStat(BaseStat: const FABCharacterStat&, ModifierStat: const FABCharacterStat&) : void
+    + UpdateHpBar(NewCurrentHp: float) : void
+    - NativeConstruct() : void
+    - HpBar : TObjectPtr<class UABHpBarWidget>
+    - CharacterStat : TObjectPtr<class UABCharacterStatWidget>
+}
+
+class UUserWidget {
+    + UUserWidget()
+}
+class UABHpBarWidget {
+    + UABHpBarWidget(ObjectInitializer: const FObjectInitializer&)
+    - NativeConstruct() : void
+    + UpdateStat(BaseStat: const FABCharacterStat&, ModifierStat: const FABCharacterStat&) : void
+    + UpdateHpBar(NewCurrentHp: float) : void
+    + GetHpStatText() : FString
+    - HpProgressBar : TObjectPtr<class UProgressBar>
+    - HpStat : TObjectPtr<class UTextBlock>
+    - CurrentHp : float
+    - MaxHp : float
+}
+
+class UABUserWidget {
+    + UABUserWidget()
+}
+class UABWidgetComponent {
+    + InitWidget() : void
+}
+
+class UWidgetComponent {
+}
+class UABCharacterStatWidget {
+    + NativeConstruct() : void
+    + UpdateStat(BaseStat: FABCharacterStat, ModifierStat: FABCharacterStat) : void
+}
+
+class UUserWidget {
+}
+class UNPCWidgetComponent {
+    + InitWidget() : void
+}
+
+class UWidgetComponent {
+}
+class UNPCTalkWidget {
+    + NativeConstruct() : void
+    + SetQuestText(NewQuestText: FString) : void
+    + UpdateTextBlock(NewQuestText: FString) : void
+    + OnButtonClick() : void
+}
+class UABUserWidget {
+}
+class UTextBlock {
+}
+class UButton {
+}
+
+UNPCTalkWidget --|> UABUserWidget
+UNPCTalkWidget "1" --> "*" UTextBlock
+UNPCTalkWidget "1" --> "1" UButton
+UNPCWidgetComponent --|> UWidgetComponent
+UABCharacterStatWidget --|> UUserWidget
+UABWidgetComponent --|> UWidgetComponent
+UABHpBarWidget --|> UABUserWidget
+UABHUDWidget --|> UUserWidget
+UABUserWidget --|> UUserWidget
 
 @enduml

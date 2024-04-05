@@ -1,15 +1,21 @@
 @startuml
 
-class UNPCAnimInstance {
-    + UNPCAnimInstance()
-    + NativeInitializeAnimation() : void
-    + NativeUpdateAnimation(DeltaSeconds: float) : void
-    - Owner : ACharacter*
-    - Movement : UCharacterMovementComponent*
-    - Velocity : FVector
-    - GroundSpeed : float
-    - bIsIdle : uint8
-    - MovingThreshould : float
+class UABGameSingleton {
+    + Get() : UABGameSingleton&
+    + GetCharacterStat(int32 InLevel) const : FABCharacterStat
+    - CharacterMaxLevel : int32
+    - CharacterStatTable : TArray<FABCharacterStat>
 }
+class FABCharacterStat {
+    + MaxHp : float
+    + Attack : float
+    + AttackRange : float
+    + AttackSpeed : float
+    + MovementSpeed : float
+    + FABCharacterStat()
+    + operator+(const FABCharacterStat& Other) const : FABCharacterStat
+}
+FABCharacterStat --|> FTableRowBase
+UABGameSingleton --|> UObject
 
 @enduml

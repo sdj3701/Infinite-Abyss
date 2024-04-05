@@ -1,15 +1,49 @@
 @startuml
 
-class UNPCAnimInstance {
-    + UNPCAnimInstance()
-    + NativeInitializeAnimation() : void
-    + NativeUpdateAnimation(DeltaSeconds: float) : void
-    - Owner : ACharacter*
-    - Movement : UCharacterMovementComponent*
-    - Velocity : FVector
-    - GroundSpeed : float
-    - bIsIdle : uint8
-    - MovingThreshould : float
+class AABItemBox {
+    + GetTrigger() : UBoxComponent*
+    + PostInitializeComponents() : void
+    + OnOverlapBegin(OverlappedComponent: UPrimitiveComponent*, OtherActor: AActor*, OtherComp: UPrimitiveComponent*, OtherBodyIndex: int32, bFromSweep: bool, SweepHitResult: FHitResult) : void
+    + OnEffectFinished(ParticleSystem: UParticleSystemComponent*) : void
 }
+class UBoxComponent {
+}
+class UStaticMeshComponent {
+}
+class UParticleSystemComponent {
+}
+class UABItemData {
+}
+class UABItemData {
+    + GetPrimaryAssetId() : FPrimaryAssetId
+    - Type : EItemType
+}
+enum EItemType {
+    Weapon
+    Potion
+    Scroll
+}
+class UABPotionItemData {
+    + GetPrimaryAssetId() : FPrimaryAssetId
+    - HealAmount : float
+}
+class UABScrollItemData {
+    + GetPrimaryAssetId() : FPrimaryAssetId
+    - BaseStat : FABCharacterStat
+}
+class UABWeaponItemData {
+    + GetPrimaryAssetId() : FPrimaryAssetId
+    - WeaponMesh : TSoftObjectPtr<class USkeletalMesh>
+    - ModifierStat : FABCharacterStat
+}
+UABWeaponItemData --|> UABItemData
+UABScrollItemData --|> UABItemData
+UABPotionItemData --|> UABItemData
+UABItemData --|> UPrimaryDataAsset
+AABItemBox --|> AActor
+AABItemBox "1" --> "1" UBoxComponent
+AABItemBox "1" --> "1" UStaticMeshComponent
+AABItemBox "1" --> "1" UParticleSystemComponent
+AABItemBox "1" --> "1" UABItemData
 
 @enduml
