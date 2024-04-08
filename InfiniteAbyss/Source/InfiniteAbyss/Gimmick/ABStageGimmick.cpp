@@ -260,7 +260,8 @@ void AABStageGimmick::OnOpponentDestroyed(AActor* DestroyedActor)
 void AABStageGimmick::OnOpponentSpawn()
 {
 	//캐릭터 스폰 위치 설정
-	const FTransform SpawnTransform((GetActorLocation() + FVector::UpVector * 88.0f *2  )/ 4) ;
+	const FTransform SpawnTransform((GetActorLocation() + FVector::UpVector * 88.0f)) ;
+	//UE_LOG(LogTemp,Log,TEXT("%f, %f, %f"),SpawnTransform.GetLocation().X, SpawnTransform.GetLocation().Y,SpawnTransform.GetLocation().Z);
 	AABCharacterBaseNonPlayer* ABOpponentCharacter = GetWorld()->SpawnActorDeferred<AABCharacterBaseNonPlayer>(OpponentClass,SpawnTransform );
 	if(ABOpponentCharacter)
 	{

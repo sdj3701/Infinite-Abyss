@@ -171,6 +171,12 @@
     <Filter Include="Source\InfiniteAbyss\Gimmick">
       <UniqueIdentifier>{568ECD8F-D526-34F3-BEAB-22DC9E16844B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Gimmick\ABNPCSpawner.cpp">
+      <Filter>Source\InfiniteAbyss\Gimmick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Gimmick\ABNPCSpawner.h">
+      <Filter>Source\InfiniteAbyss\Gimmick</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Gimmick\ABStageGimmick.cpp">
       <Filter>Source\InfiniteAbyss\Gimmick</Filter>
     </ClCompile>
