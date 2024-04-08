@@ -4,10 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Character/ABCharacterBase.h"
 #include "ABCharacterNPC.generated.h"
 
 UCLASS()
-class INFINITEABYSS_API AABCharacterNPC : public ACharacter
+class INFINITEABYSS_API AABCharacterNPC : public AABCharacterBase
 {
     GENERATED_BODY()
 

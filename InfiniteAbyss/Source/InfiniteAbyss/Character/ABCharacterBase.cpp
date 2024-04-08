@@ -178,7 +178,7 @@ void AABCharacterBase::ProcessComboCommand()
 void AABCharacterBase::ComboActionBegin()
 {
 	//Combo Status
-	CurrentCombo = 1;
+	CurrentCombo += 1;
 
 	//Movement Setting
 	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_None);
@@ -186,6 +186,7 @@ void AABCharacterBase::ComboActionBegin()
 	//Animation Setting
 	const float AttackSpeedRate = Stat->GetTotalStat().AttackSpeed;
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	// TODO :  if 문으로 플레어 인지 아닌지 확인해서 Montage를 나눠 작업해야 할 듯
 	AnimInstance->Montage_Play(ComboActionMontage, AttackSpeedRate);
 	
 	FOnMontageEnded EndDelegate;
