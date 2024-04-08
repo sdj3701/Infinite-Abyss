@@ -13,5 +13,6 @@ void UNPCWidgetComponent::InitWidget()
 	if(ABUserWidget)
 	{
 		ABUserWidget->SetOwningActor(GetOwner());
+		ABUserWidget->SetVisibility(ESlateVisibility::Hidden); 
 	}
 }
