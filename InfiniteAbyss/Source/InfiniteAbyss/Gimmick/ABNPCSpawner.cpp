@@ -9,6 +9,7 @@
 #include "Components/BoxComponent.h"
 #include "Interface/ABGameInterface.h"
 #include "Physics/ABCollision.h"
+#include "Item/ABItemBox.h"
 
 AABNPCSpawner::AABNPCSpawner()
 {
@@ -19,6 +20,9 @@ AABNPCSpawner::AABNPCSpawner()
 
 	//클래스 동적 생성
 	OpponentClass = AABCharacterBaseNonPlayer::StaticClass();
+
+	//아이템 박스
+	RewardBoxClass = AABItemBox::StaticClass();
 }
 
 void AABNPCSpawner::OnStageTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
@@ -40,5 +44,34 @@ void AABNPCSpawner::OnStageTriggerBeginOverlap(UPrimitiveComponent* OverlappedCo
 
 void AABNPCSpawner::OnOpponentDestroyed(AActor* DestroyedActor)
 {
-	UE_LOG(LogTemp, Log, TEXT("OnOpponentDestroyed"));
+	SpawnRewardBoxes(DestroyedActor);
+}
+
+void AABNPCSpawner::SpawnRewardBoxes(AActor* DestroyedActor)
+{
+	FTransform SpawnTransform(DestroyedActor->GetActorLocation() + FVector(0.0f,0.0f,-30.0f));
+	AABItemBox* RewardBoxActor = GetWorld()->SpawnActorDeferred<AABItemBox>(RewardBoxClass, SpawnTransform);
+	if(RewardBoxActor)
+	{
+		RewardBoxActor->GetTrigger()->OnComponentBeginOverlap.AddDynamic(this, &AABNPCSpawner::OnRewardTriggerBeginOverlap);
+		RewardBoxes.Add(RewardBoxActor);
+	}
+}
+
+void AABNPCSpawner::OnRewardTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
+{
+	UE_LOG(LogTemp, Log, TEXT("OnRewardTriggerBeginOverlap"));
+	for(const auto& RewardBox : RewardBoxes)
+	{
+		if(RewardBox.IsValid())
+		{
+			AABItemBox* ValidItemBox = RewardBox.Get();
+			AActor* OverlappedBox = OverlappedComponent->GetOwner();
+			if(OverlappedBox != ValidItemBox)
+			{
+				ValidItemBox->Destroy();
+			}
+		}
+	}
 }
