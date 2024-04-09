@@ -23,6 +23,7 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = Fight, Meta = (AllowPrivateAccess ="true"))
 	TSubclassOf<class AABCharacterBaseNonPlayer> OpponentClass;
+	
 	UFUNCTION()
 	void OnOpponentDestroyed(AActor* DestroyedActor);
 };

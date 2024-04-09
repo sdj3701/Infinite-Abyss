@@ -7,6 +7,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/PrimitiveComponent.h"
 #include "Physics/ABCollision.h"
+#include "Character/ABCharacterPlayer.h"
 
 // Sets default values
 AABCharacterNPC::AABCharacterNPC()
@@ -70,10 +71,14 @@ void AABCharacterNPC::OnBoxTriggerEndOverlap(UPrimitiveComponent* OverlappedComp
     UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
     bIsOverlapping = false;
-    if(OtherActor->IsA<AABCharacterBase>())
+    AABCharacterPlayer* Player = Cast<AABCharacterPlayer>(OtherActor);
+    if(Player)
     {
-        AABCharacterBase* Interaction = Cast<AABCharacterBase>(OtherActor);
-        if(Interaction->IsInteraction())
-            Interaction->OnPlayerInteractionChanged(bIsOverlapping);
+        if(OtherActor->IsA<AABCharacterBase>())
+        {
+            AABCharacterBase* Interaction = Cast<AABCharacterBase>(OtherActor);
+            if(Interaction->IsInteraction())
+                Interaction->OnPlayerInteractionChanged(bIsOverlapping);
+        }
     }
 }

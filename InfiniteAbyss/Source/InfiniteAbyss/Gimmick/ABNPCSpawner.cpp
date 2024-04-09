@@ -5,6 +5,7 @@
 
 #include "Character/ABCharacterBase.h"
 #include "Character/ABCharacterBaseNonPlayer.h"
+#include "Character/ABCharacterPlayer.h"
 #include "Components/BoxComponent.h"
 #include "Interface/ABGameInterface.h"
 #include "Physics/ABCollision.h"
@@ -23,11 +24,17 @@ AABNPCSpawner::AABNPCSpawner()
 void AABNPCSpawner::OnStageTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
 {
-	const FTransform SpawnTransform(GetActorLocation());
-	AABCharacterBaseNonPlayer* ABOpponentCharacter = GetWorld()->SpawnActorDeferred<AABCharacterBaseNonPlayer>(OpponentClass, SpawnTransform);
-	if(ABOpponentCharacter)
+	AABCharacterPlayer* Player = Cast<AABCharacterPlayer>(OtherActor);
+	if(Player)
 	{
-		ABOpponentCharacter->OnDestroyed.AddDynamic(this, &AABNPCSpawner::OnOpponentDestroyed);
+		const FTransform SpawnTransform(GetActorLocation() + FVector(100,0,0));
+		AABCharacterBaseNonPlayer* ABOpponentCharacter = GetWorld()->SpawnActorDeferred<AABCharacterBaseNonPlayer>(OpponentClass, SpawnTransform);
+		if(ABOpponentCharacter)
+		{
+			ABOpponentCharacter->OnDestroyed.AddDynamic(this, &AABNPCSpawner::OnOpponentDestroyed);
+			ABOpponentCharacter->SetLevel(0);
+			ABOpponentCharacter->FinishSpawning(SpawnTransform);
+		}
 	}
 }
 
