@@ -45,6 +45,9 @@ void AABItemBox::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 
+	Trigger->SetCollisionProfileName(CPROFILE_ABTRIGGER);
+	Trigger->SetBoxExtent(FVector(40.0f,42.0f,30.0f));
+	
 	UAssetManager& Manager = UAssetManager::Get();
 
 	TArray<FPrimaryAssetId> Assets;

@@ -31,9 +31,6 @@ protected:
 
 	void SpawnRewardBoxes(AActor* DestroyedActor);
 
-	UFUNCTION()
-	void OnRewardTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult);
-
 	UPROPERTY(VisibleAnywhere, Category = Reward, Meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class AABItemBox> RewardBoxClass;
 	
