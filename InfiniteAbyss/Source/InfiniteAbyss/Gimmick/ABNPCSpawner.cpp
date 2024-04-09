@@ -49,7 +49,8 @@ void AABNPCSpawner::OnOpponentDestroyed(AActor* DestroyedActor)
 
 void AABNPCSpawner::SpawnRewardBoxes(AActor* DestroyedActor)
 {
-	FTransform SpawnTransform(DestroyedActor->GetActorLocation() + FVector(0.0f,0.0f,-30.0f));
+	FTransform SpawnTransform(DestroyedActor->GetActorLocation() + FVector(0.0f,0.0f,-40.0f));
+	//액터를 동기식으로 생성
 	AABItemBox* RewardBoxActor = GetWorld()->SpawnActor<AABItemBox>(RewardBoxClass, SpawnTransform);
 	if(RewardBoxActor)
 	{
