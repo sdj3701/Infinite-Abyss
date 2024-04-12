@@ -63,6 +63,19 @@ AABCharacterPlayer::AABCharacterPlayer()
 	{
 		InteractionAction = InputActionInteractionRef.Object;
 	}
+
+	static ConstructorHelpers::FObjectFinder<UInputAction> InputActionRollRef(TEXT("/Script/EnhancedInput.InputAction'/Game/InfiniteAbyss/Input/Actions/IA_Roll.IA_Roll'"));
+	if(nullptr != InputActionRollRef.Object)
+	{
+		RollAction = InputActionRollRef.Object;
+	}
+
+	// Roll Animation
+	static ConstructorHelpers::FObjectFinder<UAnimMontage> RollMontageRef(TEXT("/Script/Engine.AnimMontage'/Game/ExternAssets/FemaleMilitaryOfficer/Animations/AM_Roll.AM_Roll'"));
+	if(RollMontageRef.Object)
+	{
+		RollActionMontage = RollMontageRef.Object;
+	}
 	
 	CurrentCharacterControlType = ECharacterControlType::Shoulder;
 	CurrentInteractionType = EInteractionType::Default;
@@ -113,6 +126,7 @@ void AABCharacterPlayer::SetupPlayerInputComponent(class UInputComponent* Player
 	EnhancedInputComponent->BindAction(AttackAction, ETriggerEvent::Triggered, this, &AABCharacterPlayer::Attack);
 	//G key input Code
 	EnhancedInputComponent->BindAction(InteractionAction, ETriggerEvent::Triggered, this, &AABCharacterPlayer::ChangeInteractionType);
+	EnhancedInputComponent->BindAction(RollAction, ETriggerEvent::Triggered, this, &AABCharacterPlayer::PlayRoll);
 }
 
 void AABCharacterPlayer::ChangeCharacterControl()
@@ -181,6 +195,22 @@ void AABCharacterPlayer::SetInteractionType(EInteractionType NewInteractionType)
 	{
 		EndTalkInteraction();
 	}
+}
+
+void AABCharacterPlayer::PlayRoll()
+{
+	if(!bIsRollCheck)
+	{
+		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+		AnimInstance->StopAllMontages(0.0f);
+		AnimInstance->Montage_Play(RollActionMontage, 1.0f);
+		bIsRollCheck = true;
+	}
+}
+
+void AABCharacterPlayer::RollEndCheck()
+{
+	bIsRollCheck = false;
 }
 
 void AABCharacterPlayer::ShoulderMove(const FInputActionValue& Value)

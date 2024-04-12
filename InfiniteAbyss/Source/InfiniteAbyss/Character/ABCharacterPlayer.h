@@ -6,13 +6,14 @@
 #include "Character/ABCharacterBase.h"
 #include "InputActionValue.h"
 #include "Interface/ABCharacterHUDInterface.h"
+#include "Interface/ABAnimationRollInterface.h"
 #include "ABCharacterPlayer.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class INFINITEABYSS_API AABCharacterPlayer : public AABCharacterBase, public IABCharacterHUDInterface
+class INFINITEABYSS_API AABCharacterPlayer : public AABCharacterBase, public IABCharacterHUDInterface, public IABAnimationRollInterface
 {
 	GENERATED_BODY()
 
@@ -34,6 +35,15 @@ protected:
 	
 	void ChangeInteractionType();
 	void SetInteractionType(EInteractionType NewInteractionType);
+
+	//Roll Section
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Roll, Meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<class UAnimMontage> RollActionMontage;
+	
+	void PlayRoll();
+	virtual void RollEndCheck() override;
+	bool bIsRollCheck;
 	
 	//Camera Section
 protected:
@@ -62,6 +72,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, Meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<class UInputAction> InteractionAction;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, Meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<class UInputAction> RollAction;
 	
 	void ShoulderMove(const FInputActionValue& Value);
 	void ShoulderLook(const FInputActionValue& Value);
