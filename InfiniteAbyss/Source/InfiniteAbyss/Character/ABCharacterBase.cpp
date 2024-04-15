@@ -16,6 +16,7 @@
 #include "Item/ABItems.h"
 #include "UI/NPCTalkWidget.h"
 #include "UI/NPCWidgetComponent.h"
+#include "Interface/ABCharacterNPCInterface.h"
 
 DEFINE_LOG_CATEGORY(LogABCharacter);
 
@@ -255,6 +256,13 @@ void AABCharacterBase::AttackHitCheck()
 	bool HitDetected = GetWorld()->SweepSingleByChannel(OutHitResult, Start, End, FQuat::Identity, CCHANNEL_ABACTION, FCollisionShape::MakeSphere(AttackRadius), Params);
 	if(HitDetected)
 	{
+		IABCharacterNPCInterface* HitNPC = Cast<IABCharacterNPCInterface>(OutHitResult.GetActor());
+		if(HitNPC)
+		{
+			UE_LOG(LogTemp, Log, TEXT("NPC Hit Return"));
+			return;
+		}
+
 		FDamageEvent DamageEvent;
 		OutHitResult.GetActor()->TakeDamage(AttackDamage, DamageEvent,GetController(),this);
 	}

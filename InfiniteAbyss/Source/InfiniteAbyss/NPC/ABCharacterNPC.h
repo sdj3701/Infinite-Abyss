@@ -5,10 +5,11 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Character/ABCharacterBase.h"
+#include "Interface/ABCharacterNPCInterface.h"
 #include "ABCharacterNPC.generated.h"
 
 UCLASS()
-class INFINITEABYSS_API AABCharacterNPC : public AABCharacterBase
+class INFINITEABYSS_API AABCharacterNPC : public AABCharacterBase, public IABCharacterNPCInterface
 {
     GENERATED_BODY()
 
@@ -25,6 +26,11 @@ protected:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Collision")
     bool bIsOverlapping;
 
+    virtual AActor* GetNPCActor() const override
+    {
+        return const_cast<AABCharacterNPC*>(this);
+    }
+    
     UFUNCTION()
     void OnBoxTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult);
 

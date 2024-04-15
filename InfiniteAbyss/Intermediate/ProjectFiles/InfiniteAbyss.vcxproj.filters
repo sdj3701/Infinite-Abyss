@@ -99,6 +99,12 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\Animation\AnimNotify_AttackHitCheck.h">
       <Filter>Source\InfiniteAbyss\Animation</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Animation\AnimNotify_RollCheck.cpp">
+      <Filter>Source\InfiniteAbyss\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Animation\AnimNotify_RollCheck.h">
+      <Filter>Source\InfiniteAbyss\Animation</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Animation\NPCAnimInstance.cpp">
       <Filter>Source\InfiniteAbyss\Animation</Filter>
     </ClCompile>
@@ -196,6 +202,12 @@
       <Filter>Source\InfiniteAbyss\Interface</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABAnimationAttackInterface.h">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Interface\ABAnimationRollInterface.cpp">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABAnimationRollInterface.h">
       <Filter>Source\InfiniteAbyss\Interface</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterAIInterface.cpp">

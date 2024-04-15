@@ -44,11 +44,11 @@ AABCharacterNPC::AABCharacterNPC()
     NPCTrigger->OnComponentEndOverlap.AddDynamic(this, &AABCharacterNPC::OnBoxTriggerEndOverlap);
 
     bIsOverlapping = false;
-
+    
 }
 
 void AABCharacterNPC::OnBoxTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
-    UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
+                                               UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepHitResult)
 {
     bIsOverlapping = true;
     
