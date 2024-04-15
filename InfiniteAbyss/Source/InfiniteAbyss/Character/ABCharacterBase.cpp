@@ -258,10 +258,8 @@ void AABCharacterBase::AttackHitCheck()
 	{
 		IABCharacterNPCInterface* HitNPC = Cast<IABCharacterNPCInterface>(OutHitResult.GetActor());
 		if(HitNPC)
-		{
-			UE_LOG(LogTemp, Log, TEXT("NPC Hit Return"));
 			return;
-		}
+		
 
 		FDamageEvent DamageEvent;
 		OutHitResult.GetActor()->TakeDamage(AttackDamage, DamageEvent,GetController(),this);
