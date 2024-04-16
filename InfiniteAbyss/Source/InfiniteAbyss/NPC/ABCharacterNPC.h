@@ -17,8 +17,6 @@ public:
     AABCharacterNPC();
 
 protected:
-    UPROPERTY(VisibleAnywhere, Category = NPC, Meta = (AllowPrivateAccess = "true"))
-    TObjectPtr<class UStaticMeshComponent> NPC;
 
     UPROPERTY(VisibleAnywhere, Category = NPC, Meta = (AllowPrivateAccess = "true"))
     TObjectPtr<class UBoxComponent> NPCTrigger;
