@@ -54,6 +54,12 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\AI\ABAIController.h">
       <Filter>Source\InfiniteAbyss\AI</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\AI\ABBossAIController.cpp">
+      <Filter>Source\InfiniteAbyss\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\AI\ABBossAIController.h">
+      <Filter>Source\InfiniteAbyss\AI</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\InfiniteAbyss\AI\BTDecorator_AttackInRange.cpp">
       <Filter>Source\InfiniteAbyss\AI</Filter>
     </ClCompile>
@@ -130,6 +136,12 @@
       <Filter>Source\InfiniteAbyss\Character</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Character\ABCharacterControlData.h">
+      <Filter>Source\InfiniteAbyss\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Character\ABCharacterNonPlayerBoss.cpp">
+      <Filter>Source\InfiniteAbyss\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Character\ABCharacterNonPlayerBoss.h">
       <Filter>Source\InfiniteAbyss\Character</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Character\ABCharacterPlayer.cpp">
@@ -226,6 +238,12 @@
       <Filter>Source\InfiniteAbyss\Interface</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterItemInterface.h">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterNPCInterface.cpp">
+      <Filter>Source\InfiniteAbyss\Interface</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterNPCInterface.h">
       <Filter>Source\InfiniteAbyss\Interface</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Interface\ABCharacterWidgetInterface.cpp">

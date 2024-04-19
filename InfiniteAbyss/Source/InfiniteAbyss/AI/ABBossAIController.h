@@ -21,6 +21,7 @@ public:
 	void StopAI();
 
 protected:
+	//어떤 컨트롤러가 폰에 빙의 해서 조정을 할때 생기는 이벤트
 	virtual void OnPossess(APawn* InPawn) override;
 	
 private:
