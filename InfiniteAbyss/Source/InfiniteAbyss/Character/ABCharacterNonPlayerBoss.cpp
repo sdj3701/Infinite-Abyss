@@ -83,4 +83,10 @@ void AABCharacterNonPlayerBoss::AttackByAI()
 	ProcessComboCommand();
 }
 
+void AABCharacterNonPlayerBoss::NotifyComboActionEnd()
+{
+	Super::NotifyComboActionEnd();
+	OnAttackFinished.ExecuteIfBound();
+}
+
 
