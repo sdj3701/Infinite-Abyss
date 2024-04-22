@@ -26,7 +26,6 @@ AABCharacterNonPlayerBoss::AABCharacterNonPlayerBoss()
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> BossRef(TEXT("/Script/Engine.SkeletalMesh'/Game/ExternAssets/SwordVFX/Characters/Mannequins/Meshes/SKM_Manny.SKM_Manny'"));
 	if(BossRef.Object)
 	{
-		UE_LOG(LogTemp, Log , TEXT("YesMEsh"));
 		GetMesh()->SetSkeletalMesh(BossRef.Object);
 	}
 

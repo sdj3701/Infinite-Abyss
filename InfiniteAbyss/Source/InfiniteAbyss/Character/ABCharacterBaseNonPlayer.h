@@ -8,9 +8,6 @@
 #include "Interface/ABCharacterAIInterface.h"
 #include "ABCharacterBaseNonPlayer.generated.h"
 
-/**
- * 
- */
 UCLASS(Config = InfiniteAbyss)
 class INFINITEABYSS_API AABCharacterBaseNonPlayer : public AABCharacterBase , public IABCharacterAIInterface
 {
