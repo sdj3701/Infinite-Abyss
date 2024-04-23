@@ -29,6 +29,13 @@ AABCharacterNonPlayerBoss::AABCharacterNonPlayerBoss()
 		GetMesh()->SetSkeletalMesh(BossRef.Object);
 	}
 
+	static ConstructorHelpers::FClassFinder<UAnimInstance> BossAniRef(TEXT("/Game/ExternAssets/Oriental_Sword_AnimSet/demo/Characters/Mannequins/Rigs/ABP_ABBossCharacter.ABP_ABBossCharacter_C"));
+	if(BossAniRef.Class)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Create Animation"));
+		GetMesh()->SetAnimInstanceClass(BossAniRef.Class);
+	}
+
 	AIControllerClass = AABBossAIController::StaticClass();
 	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
 }

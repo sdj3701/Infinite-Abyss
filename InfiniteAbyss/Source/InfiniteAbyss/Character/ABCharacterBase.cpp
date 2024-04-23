@@ -260,7 +260,6 @@ void AABCharacterBase::AttackHitCheck()
 		if(HitNPC)
 			return;
 		
-
 		FDamageEvent DamageEvent;
 		OutHitResult.GetActor()->TakeDamage(AttackDamage, DamageEvent,GetController(),this);
 	}
