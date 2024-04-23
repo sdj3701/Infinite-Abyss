@@ -37,10 +37,12 @@ void AABCharacterNonPlayerBoss::SetDead()
 {
 	Super::SetDead();
 	
-	AABAIController* ABAIContorller = Cast<AABAIController>(GetController());
-	if(ABAIContorller)
+	AABBossAIController* ABBossAIContorller = Cast<AABBossAIController>(GetController());
+
+	if(ABBossAIContorller)
 	{
-		ABAIContorller->StopAI();
+		UE_LOG(LogTemp, Log , TEXT("AI Dead"));
+		ABBossAIContorller->StopAI();
 	}
 	
 	FTimerHandle DeadTimerhandle;
@@ -54,12 +56,12 @@ void AABCharacterNonPlayerBoss::SetDead()
 
 float AABCharacterNonPlayerBoss::GetAIPatrolRadius()
 {
-	return 4000.0f;
+	return 800.0f;
 }
 
 float AABCharacterNonPlayerBoss::GetAIDetectRange()
 {
-	return 500.0f;
+	return 400.0f;
 }
 
 float AABCharacterNonPlayerBoss::GetAIAttackRange()
@@ -69,7 +71,7 @@ float AABCharacterNonPlayerBoss::GetAIAttackRange()
 
 float AABCharacterNonPlayerBoss::GetAITurnSpeed()
 {
-	return 1.0f;
+	return 2.0f;
 }
 
 void AABCharacterNonPlayerBoss::SetAIAttackDelegate(const FAICharacterAttackFinished& InOnAttackFinished)

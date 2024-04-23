@@ -42,6 +42,7 @@ void UBTService_Detect::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeM
 
 	TArray<FOverlapResult> OverlapResults;
 	FCollisionQueryParams CollisionQueryParam(SCENE_QUERY_STAT(Detect), false, ControllingPawn);
+	//플레이어가 여러명일 수 있음
 	bool bResult = World->OverlapMultiByChannel(
 		OverlapResults,
 		Center,
