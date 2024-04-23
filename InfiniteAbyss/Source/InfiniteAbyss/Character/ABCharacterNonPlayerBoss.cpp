@@ -32,7 +32,6 @@ AABCharacterNonPlayerBoss::AABCharacterNonPlayerBoss()
 	static ConstructorHelpers::FClassFinder<UAnimInstance> BossAniRef(TEXT("/Game/ExternAssets/Oriental_Sword_AnimSet/demo/Characters/Mannequins/Rigs/ABP_ABBossCharacter.ABP_ABBossCharacter_C"));
 	if(BossAniRef.Class)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Create Animation"));
 		GetMesh()->SetAnimInstanceClass(BossAniRef.Class);
 	}
 
@@ -48,7 +47,6 @@ void AABCharacterNonPlayerBoss::SetDead()
 
 	if(ABBossAIContorller)
 	{
-		UE_LOG(LogTemp, Log , TEXT("AI Dead"));
 		ABBossAIContorller->StopAI();
 	}
 	
