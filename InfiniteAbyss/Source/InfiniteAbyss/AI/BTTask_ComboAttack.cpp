@@ -40,7 +40,7 @@ EBTNodeResult::Type UBTTask_ComboAttack::ExecuteTask(UBehaviorTreeComponent& Own
 	);
 
 	AIPawn->SetAIAttackDelegate(OnAttackFinished);
-	BossAIPawn->SkillByAI();
+	BossAIPawn->ComboAttackByAI();
 	
 	return EBTNodeResult::InProgress;;
 }

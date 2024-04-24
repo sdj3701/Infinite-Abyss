@@ -4,17 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "BehaviorTree/BTService.h"
-#include "BTService_CoolTiem.generated.h"
+#include "BTService_CoolTime.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class INFINITEABYSS_API UBTService_CoolTiem : public UBTService
+class INFINITEABYSS_API UBTService_CoolTime : public UBTService
 {
 	GENERATED_BODY()
 public:
-	UBTService_CoolTiem();
+	UBTService_CoolTime();
 	float DetectCoolTime;
 
 protected:
