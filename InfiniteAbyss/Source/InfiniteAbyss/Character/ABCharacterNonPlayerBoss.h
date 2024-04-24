@@ -6,10 +6,11 @@
 #include "Character/ABCharacterBase.h"
 #include "Engine/StreamableManager.h"
 #include "Interface/ABCharacterAIInterface.h"
+#include "Interface/ABCharacterBossAIInterface.h"
 #include "ABCharacterNonPlayerBoss.generated.h"
 
 UCLASS()
-class INFINITEABYSS_API AABCharacterNonPlayerBoss : public AABCharacterBase, public IABCharacterAIInterface
+class INFINITEABYSS_API AABCharacterNonPlayerBoss : public AABCharacterBase, public IABCharacterAIInterface , public IABCharacterBossAIInterface
 {
 	GENERATED_BODY()
 
@@ -30,6 +31,19 @@ protected:
 	virtual void AttackByAI() override;
 	
 	FAICharacterAttackFinished OnAttackFinished;
-
+	
 	virtual void NotifyComboActionEnd() override;
+
+	//AI Skill and Combo
+protected:
+	virtual float GetAICoolTime() override;
+	
+	virtual void ComboAttackByAI() override;
+	virtual void SkillByAI() override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Combo, Meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<class UAnimMontage> BossComboMontage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Skill, Meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<class UAnimMontage> SkillActionMontage;
 };

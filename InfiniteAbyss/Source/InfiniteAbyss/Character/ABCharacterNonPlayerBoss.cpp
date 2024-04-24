@@ -35,6 +35,12 @@ AABCharacterNonPlayerBoss::AABCharacterNonPlayerBoss()
 		GetMesh()->SetAnimInstanceClass(BossAniRef.Class);
 	}
 
+	static ConstructorHelpers::FObjectFinder<UAnimMontage> BossComboActionRef(TEXT("/Script/Engine.AnimMontage'/Game/ExternAssets/FemaleMilitaryOfficer/Animations/SwordAnimSet/AM_ABBossCombo.AM_ABBossCombo'"));
+	if(BossComboActionRef.Object)
+	{
+		BossComboMontage = BossComboActionRef.Object;
+	}
+
 	AIControllerClass = AABBossAIController::StaticClass();
 	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
 }
@@ -93,6 +99,23 @@ void AABCharacterNonPlayerBoss::NotifyComboActionEnd()
 {
 	Super::NotifyComboActionEnd();
 	OnAttackFinished.ExecuteIfBound();
+}
+
+float AABCharacterNonPlayerBoss::GetAICoolTime()
+{
+	return 5.0f;
+}
+
+void AABCharacterNonPlayerBoss::ComboAttackByAI()
+{
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	AnimInstance->StopAllMontages(0.0f);
+	AnimInstance->Montage_Play(BossComboMontage, 1.0f);
+}
+
+void AABCharacterNonPlayerBoss::SkillByAI()
+{
+	UE_LOG(LogTemp, Log, TEXT("Skill On"));
 }
 
 
