@@ -1797,3 +1797,308 @@ Make sure 'ThirdPersonCharacter' has been compiled for  Reset Orientation and Po
 [2024.04.24-07.26.51:578][ 77]Display: Reload/Re-instancing Complete: No object changes detected
 [2024.04.24-07.26.51:578][ 77]LogLiveCoding: Error: Live coding failed, please see Live console for more information
 [2024.04.24-07.29.47:858][774]LogDerivedDataCache: C:/Users/djthe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:50.122 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 26157 files in 27808 folders with total size 8644 MiB.
+[2024.04.24-08.25.33:548][337]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.24-08.25.33:598][337]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.04.24-08.25.45:024][372]LogLiveCoding: Display:    C:\Unreal5Project\InfiniteAbyss\Binaries\Win64\UnrealEditor-InfiniteAbyss.patch_2.lib 라이브러리 및 C:\Unreal5Project\InfiniteAbyss\Binaries\Win64\UnrealEditor-InfiniteAbyss.patch_2.exp 개체를 생성하고 있습니다.
+[2024.04.24-08.25.45:420][373]LogClass: UPackage /Script/InfiniteAbyss Reload.
+[2024.04.24-08.25.45:433][373]LogClass: Could not find existing class BTDecorator_CoolTimeCheck in package /Script/InfiniteAbyss for reload, assuming new or modified class
+[2024.04.24-08.25.45:433][373]LogClass: Could not find existing class BTService_CoolTiem in package /Script/InfiniteAbyss for reload, assuming new or modified class
+[2024.04.24-08.25.45:536][373]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Blueprints/Truck/BP_Truck_01 is missing GeneratedClass asset tag
+[2024.04.24-08.25.45:536][373]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_FrontWheel is missing GeneratedClass asset tag
+[2024.04.24-08.25.45:536][373]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_BackWheel is missing GeneratedClass asset tag
+[2024.04.24-08.25.45:537][373]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_FrontWheel is missing GeneratedClass asset tag
+[2024.04.24-08.25.45:537][373]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_BackWheel is missing GeneratedClass asset tag
+[2024.04.24-08.25.45:537][373]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan is missing GeneratedClass asset tag
+[2024.04.24-08.25.45:537][373]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Sedan_AnimBP is missing GeneratedClass asset tag
+[2024.04.24-08.25.45:593][373]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.04.24-08.25.45:837][374]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes new, 48 classes unchanged, 4 enums unchanged, 3 scriptstructs unchanged, 12 functions remapped, 3 scriptstructs remapped
+[2024.04.24-08.25.45:837][374]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.04.24-08.29.47:861][100]LogDerivedDataCache: C:/Users/djthe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:50.124 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 26157 files in 27808 folders with total size 8644 MiB.
+[2024.04.24-08.29.54:859][121]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.24-08.30.04:433][149]LogLiveCoding: Display:    C:\Unreal5Project\InfiniteAbyss\Binaries\Win64\UnrealEditor-InfiniteAbyss.patch_3.lib 라이브러리 및 C:\Unreal5Project\InfiniteAbyss\Binaries\Win64\UnrealEditor-InfiniteAbyss.patch_3.exp 개체를 생성하고 있습니다.
+[2024.04.24-08.30.04:707][150]LogClass: UPackage /Script/InfiniteAbyss Reload.
+[2024.04.24-08.30.04:805][150]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Blueprints/Truck/BP_Truck_01 is missing GeneratedClass asset tag
+[2024.04.24-08.30.04:805][150]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_FrontWheel is missing GeneratedClass asset tag
+[2024.04.24-08.30.04:805][150]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_BackWheel is missing GeneratedClass asset tag
+[2024.04.24-08.30.04:805][150]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_FrontWheel is missing GeneratedClass asset tag
+[2024.04.24-08.30.04:805][150]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_BackWheel is missing GeneratedClass asset tag
+[2024.04.24-08.30.04:805][150]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan is missing GeneratedClass asset tag
+[2024.04.24-08.30.04:805][150]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Sedan_AnimBP is missing GeneratedClass asset tag
+[2024.04.24-08.30.04:842][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.04.24-08.30.05:052][151]Display: Reload/Re-instancing Complete: 1 package changed, 50 classes unchanged, 4 enums unchanged, 3 scriptstructs unchanged, 12 functions remapped, 3 scriptstructs remapped
+[2024.04.24-08.30.05:053][151]LogLiveCoding: Display: Live coding succeeded
+[2024.04.24-08.31.34:973][964]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.24-08.31.35:004][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/AI/BT_ABBossCharacter" FILE="../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/AI/BT_ABBossCharacter.uasset" SILENT=true
+[2024.04.24-08.31.35:009][964]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/AI/BT_ABBossCharacter
+[2024.04.24-08.31.35:010][964]LogSavePackage: Moving '../../../../../../Unreal5Project/InfiniteAbyss/Saved/BT_ABBossCharacter8FDFE568443865827DB195AAFF4F0AB4.tmp' to '../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/AI/BT_ABBossCharacter.uasset'
+[2024.04.24-08.31.35:016][964]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 263 ms)
+[2024.04.24-08.31.35:019][964]AssetCheck: New page: Asset Save: BT_ABBossCharacter
+[2024.04.24-08.31.35:019][964]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/InfiniteAbyss/AI/BT_ABBossCharacter.BT_ABBossCharacter
+[2024.04.24-08.31.39:344][319]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2024.04.24-08.31.39:344][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.24-08.31.39:391][319]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2024.04.24-08.31.39:391][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.24-08.31.40:392][370]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2024.04.24-08.31.40:392][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.24-08.31.40:428][370]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2024.04.24-08.31.40:428][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.24-08.31.41:728][452]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.24-08.31.41:741][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.24-08.31.41:741][452]PIE: New page: PIE session: NPCMap (2024. 4. 25. 오전 2:31:41)
+[2024.04.24-08.31.41:741][452]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.24-08.31.43:637][452]LogPlayLevel: PIE: StaticDuplicateObject took: (1.895596s)
+[2024.04.24-08.31.43:637][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.895681s)
+[2024.04.24-08.31.43:652][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.04.24-08.31.43:668][452]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.24-08.31.43:668][452]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.24-08.31.43:669][452]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.24-08.31.43:669][452]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2024.04.24-08.31.43:669][452]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.04.24-08.31.43:669][452]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.24-08.31.43:669][452]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.24-08.31.43:669][452]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.24-08.31.43:669][452]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.24-08.31.43:669][452]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.24-08.31.43:669][452]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.24-08.31.43:669][452]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.24-08.31.43:669][452]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.24-08.31.43:670][452]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.24-08.31.43:670][452]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.24-08.31.43:670][452]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.24-08.31.43:672][452]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.24-08.31.43:707][452]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.24-08.31.43:709][452]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.24-08.31.43:709][452]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.24-08.31.43:710][452]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.24-08.31.43:711][452]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.04.24-08.31.43:711][452]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.04.24-08.31.43:712][452]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.04.24-08.31.43:712][452]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.04.24-08.31.43:712][452]LogInit: FAudioDevice initialized with ID 4.
+[2024.04.24-08.31.43:712][452]LogAudio: Display: Audio Device (ID: 4) registered with world 'NPCMap'.
+[2024.04.24-08.31.43:712][452]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.24-08.31.43:718][452]LogLoad: Game class is 'ABGameMode'
+[2024.04.24-08.31.44:107][452]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.24-17.31.44
+[2024.04.24-08.31.44:111][452]LogWorld: Bringing up level for play took: 0.392641
+[2024.04.24-08.31.44:391][452]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2024.04.24-08.31.44:401][452]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.24-08.31.44:401][452]PIE: Server logged in
+[2024.04.24-08.31.44:402][452]PIE: Play in editor total start time 2.667 seconds.
+[2024.04.24-08.31.44:943][452]LogAutomationController: Ignoring very large delta of 3.22 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.24-08.31.48:524][671]LogTemp: Skill On
+[2024.04.24-08.32.02:105][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.24-08.32.02:105][515]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.24-08.32.02:106][515]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.24-08.32.02:142][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.24-08.32.02:148][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.24-08.32.02:151][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.24-08.32.02:160][515]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.24-08.32.02:171][515]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.24-08.32.02:171][515]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.24-08.32.02:174][515]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.24-08.32.02:178][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.24-08.32.02:400][515]LogUObjectHash: Compacting FUObjectHashTables data took  10.34ms
+[2024.04.24-08.32.02:461][516]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2024.04.24-08.32.14:770][281]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.24-08.32.14:900][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/Map/NPCMap" FILE="../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/NPCMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.24-08.32.14:918][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.04.24-08.32.16:422][281]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/Map/NPCMap
+[2024.04.24-08.32.16:422][281]LogSavePackage: Moving '../../../../../../Unreal5Project/InfiniteAbyss/Saved/NPCMap39A70AAC4566C9108C99BEB619BEF290.tmp' to '../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/NPCMap.umap'
+[2024.04.24-08.32.16:439][281]LogFileHelpers: Saving map 'NPCMap' took 1.540
+[2024.04.24-08.32.16:446][281]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.67 sec (total: 1.93 sec)
+[2024.04.24-08.32.16:452][281]AssetCheck: New page: Asset Save: NPCMap
+[2024.04.24-08.32.16:452][281]LogContentValidation: Display: Validating /Script/Engine.World /Game/InfiniteAbyss/Map/NPCMap.NPCMap
+[2024.04.24-08.32.50:604][581]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.24-08.33.01:617][958]LogLiveCoding: Display:    C:\Unreal5Project\InfiniteAbyss\Binaries\Win64\UnrealEditor-InfiniteAbyss.patch_4.lib 라이브러리 및 C:\Unreal5Project\InfiniteAbyss\Binaries\Win64\UnrealEditor-InfiniteAbyss.patch_4.exp 개체를 생성하고 있습니다.
+[2024.04.24-08.33.02:222][959]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Blueprints/Truck/BP_Truck_01 is missing GeneratedClass asset tag
+[2024.04.24-08.33.02:223][959]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_FrontWheel is missing GeneratedClass asset tag
+[2024.04.24-08.33.02:223][959]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_BackWheel is missing GeneratedClass asset tag
+[2024.04.24-08.33.02:223][959]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_FrontWheel is missing GeneratedClass asset tag
+[2024.04.24-08.33.02:223][959]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_BackWheel is missing GeneratedClass asset tag
+[2024.04.24-08.33.02:223][959]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan is missing GeneratedClass asset tag
+[2024.04.24-08.33.02:223][959]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Sedan_AnimBP is missing GeneratedClass asset tag
+[2024.04.24-08.33.02:252][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.04.24-08.33.02:463][960]Display: Reload/Re-instancing Complete: 1 package changed, 50 classes unchanged, 4 enums unchanged, 3 scriptstructs unchanged, 12 functions remapped, 3 scriptstructs remapped
+[2024.04.24-08.33.02:463][960]LogLiveCoding: Display: Live coding succeeded
+[2024.04.24-08.33.04:018][995]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.24-08.33.04:027][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.24-08.33.04:028][995]PIE: New page: PIE session: NPCMap (2024. 4. 25. 오전 2:33:04)
+[2024.04.24-08.33.04:028][995]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.24-08.33.05:455][995]LogPlayLevel: PIE: StaticDuplicateObject took: (1.427095s)
+[2024.04.24-08.33.05:455][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.427135s)
+[2024.04.24-08.33.05:462][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.04.24-08.33.05:465][995]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.24-08.33.05:465][995]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.24-08.33.05:466][995]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.24-08.33.05:466][995]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2024.04.24-08.33.05:466][995]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.04.24-08.33.05:466][995]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.24-08.33.05:466][995]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.24-08.33.05:466][995]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.24-08.33.05:466][995]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.24-08.33.05:466][995]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.24-08.33.05:466][995]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.24-08.33.05:466][995]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.24-08.33.05:466][995]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.24-08.33.05:466][995]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.24-08.33.05:466][995]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.24-08.33.05:466][995]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.24-08.33.05:469][995]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.24-08.33.05:497][995]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.24-08.33.05:498][995]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.24-08.33.05:498][995]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.24-08.33.05:498][995]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.24-08.33.05:499][995]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.04.24-08.33.05:499][995]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.04.24-08.33.05:500][995]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.04.24-08.33.05:500][995]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.04.24-08.33.05:500][995]LogInit: FAudioDevice initialized with ID 5.
+[2024.04.24-08.33.05:500][995]LogAudio: Display: Audio Device (ID: 5) registered with world 'NPCMap'.
+[2024.04.24-08.33.05:500][995]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.24-08.33.05:503][995]LogLoad: Game class is 'ABGameMode'
+[2024.04.24-08.33.05:814][995]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.24-17.33.05
+[2024.04.24-08.33.05:816][995]LogWorld: Bringing up level for play took: 0.313607
+[2024.04.24-08.33.05:997][995]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2024.04.24-08.33.06:006][995]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.24-08.33.06:007][995]PIE: Server logged in
+[2024.04.24-08.33.06:007][995]PIE: Play in editor total start time 1.984 seconds.
+[2024.04.24-08.33.06:478][995]LogAutomationController: Ignoring very large delta of 2.47 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.24-08.33.08:685][136]LogTemp: Skill On
+[2024.04.24-08.33.14:908][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.24-08.33.14:908][524]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.24-08.33.14:909][524]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.24-08.33.14:947][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.24-08.33.14:952][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.24-08.33.14:955][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.24-08.33.14:969][524]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.24-08.33.14:969][524]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.24-08.33.14:969][524]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.24-08.33.14:972][524]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.24-08.33.14:977][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.24-08.33.15:186][524]LogUObjectHash: Compacting FUObjectHashTables data took   8.98ms
+[2024.04.24-08.33.15:220][525]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2024.04.24-08.33.43:345][842]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.24-08.33.47:409][ 86]LogLiveCoding: Display:    C:\Unreal5Project\InfiniteAbyss\Binaries\Win64\UnrealEditor-InfiniteAbyss.patch_5.lib 라이브러리 및 C:\Unreal5Project\InfiniteAbyss\Binaries\Win64\UnrealEditor-InfiniteAbyss.patch_5.exp 개체를 생성하고 있습니다.
+[2024.04.24-08.33.47:491][ 87]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Blueprints/Truck/BP_Truck_01 is missing GeneratedClass asset tag
+[2024.04.24-08.33.47:491][ 87]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_FrontWheel is missing GeneratedClass asset tag
+[2024.04.24-08.33.47:491][ 87]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_BackWheel is missing GeneratedClass asset tag
+[2024.04.24-08.33.47:491][ 87]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_FrontWheel is missing GeneratedClass asset tag
+[2024.04.24-08.33.47:491][ 87]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_BackWheel is missing GeneratedClass asset tag
+[2024.04.24-08.33.47:491][ 87]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan is missing GeneratedClass asset tag
+[2024.04.24-08.33.47:491][ 87]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Sedan_AnimBP is missing GeneratedClass asset tag
+[2024.04.24-08.33.47:518][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.04.24-08.33.47:588][ 88]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.04.24-08.33.47:588][ 88]LogLiveCoding: Display: Live coding succeeded
+[2024.04.24-08.33.49:103][167]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.24-08.33.49:112][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.24-08.33.49:113][167]PIE: New page: PIE session: NPCMap (2024. 4. 25. 오전 2:33:49)
+[2024.04.24-08.33.49:113][167]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.24-08.33.50:612][167]LogPlayLevel: PIE: StaticDuplicateObject took: (1.499224s)
+[2024.04.24-08.33.50:612][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.499265s)
+[2024.04.24-08.33.50:619][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.04.24-08.33.50:622][167]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.24-08.33.50:622][167]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.24-08.33.50:622][167]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.24-08.33.50:623][167]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2024.04.24-08.33.50:623][167]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.04.24-08.33.50:623][167]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.24-08.33.50:623][167]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.24-08.33.50:623][167]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.24-08.33.50:623][167]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.24-08.33.50:623][167]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.24-08.33.50:623][167]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.24-08.33.50:623][167]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.24-08.33.50:623][167]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.24-08.33.50:623][167]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.24-08.33.50:623][167]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.24-08.33.50:623][167]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.24-08.33.50:625][167]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.24-08.33.50:654][167]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.24-08.33.50:654][167]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.24-08.33.50:654][167]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.24-08.33.50:654][167]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.24-08.33.50:655][167]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.04.24-08.33.50:655][167]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.04.24-08.33.50:657][167]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.04.24-08.33.50:657][167]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.04.24-08.33.50:657][167]LogInit: FAudioDevice initialized with ID 6.
+[2024.04.24-08.33.50:657][167]LogAudio: Display: Audio Device (ID: 6) registered with world 'NPCMap'.
+[2024.04.24-08.33.50:657][167]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.04.24-08.33.50:660][167]LogLoad: Game class is 'ABGameMode'
+[2024.04.24-08.33.51:020][167]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.24-17.33.51
+[2024.04.24-08.33.51:022][167]LogWorld: Bringing up level for play took: 0.362317
+[2024.04.24-08.33.51:214][167]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2024.04.24-08.33.51:222][167]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.24-08.33.51:222][167]PIE: Server logged in
+[2024.04.24-08.33.51:224][167]PIE: Play in editor total start time 2.115 seconds.
+[2024.04.24-08.33.51:695][167]LogAutomationController: Ignoring very large delta of 2.60 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.24-08.33.53:104][251]LogTemp: Skill On
+[2024.04.24-08.33.58:809][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.24-08.33.58:809][619]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.24-08.33.58:810][619]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.24-08.33.58:846][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.24-08.33.58:850][619]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.24-08.33.58:853][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.24-08.33.58:866][619]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.24-08.33.58:866][619]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.04.24-08.33.58:866][619]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.04.24-08.33.58:870][619]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.04.24-08.33.58:873][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.24-08.33.59:099][619]LogUObjectHash: Compacting FUObjectHashTables data took   8.15ms
+[2024.04.24-08.33.59:142][620]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2024.04.24-08.33.59:772][659]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.24-08.33.59:781][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.24-08.33.59:781][659]PIE: New page: PIE session: NPCMap (2024. 4. 25. 오전 2:33:59)
+[2024.04.24-08.33.59:805][659]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.24-08.34.01:240][659]LogPlayLevel: PIE: StaticDuplicateObject took: (1.434337s)
+[2024.04.24-08.34.01:240][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.434386s)
+[2024.04.24-08.34.01:244][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.04.24-08.34.01:248][659]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.24-08.34.01:248][659]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.24-08.34.01:248][659]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.24-08.34.01:248][659]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2024.04.24-08.34.01:248][659]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.04.24-08.34.01:249][659]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.24-08.34.01:249][659]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.24-08.34.01:249][659]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.24-08.34.01:249][659]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.24-08.34.01:249][659]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.24-08.34.01:249][659]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.24-08.34.01:249][659]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.24-08.34.01:249][659]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.24-08.34.01:249][659]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.24-08.34.01:249][659]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.24-08.34.01:249][659]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.24-08.34.01:251][659]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.24-08.34.01:279][659]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.24-08.34.01:279][659]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.24-08.34.01:279][659]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.24-08.34.01:279][659]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.24-08.34.01:280][659]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.04.24-08.34.01:280][659]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.04.24-08.34.01:282][659]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.04.24-08.34.01:282][659]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.04.24-08.34.01:282][659]LogInit: FAudioDevice initialized with ID 7.
+[2024.04.24-08.34.01:282][659]LogAudio: Display: Audio Device (ID: 7) registered with world 'NPCMap'.
+[2024.04.24-08.34.01:282][659]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.24-08.34.01:284][659]LogLoad: Game class is 'ABGameMode'
+[2024.04.24-08.34.01:585][659]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.24-17.34.01
+[2024.04.24-08.34.01:587][659]LogWorld: Bringing up level for play took: 0.302426
+[2024.04.24-08.34.01:767][659]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2024.04.24-08.34.01:776][659]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.24-08.34.01:776][659]PIE: Server logged in
+[2024.04.24-08.34.01:776][659]PIE: Play in editor total start time 1.998 seconds.
+[2024.04.24-08.34.02:197][659]LogAutomationController: Ignoring very large delta of 2.43 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.24-08.34.03:577][744]LogTemp: Skill On
+[2024.04.24-08.34.06:720][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.24-08.34.06:720][964]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.24-08.34.06:721][964]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.24-08.34.06:761][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.24-08.34.06:765][964]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.24-08.34.06:768][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.24-08.34.06:776][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.24-08.34.06:784][964]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.24-08.34.06:785][964]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.24-08.34.06:786][964]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.24-08.34.07:004][964]LogUObjectHash: Compacting FUObjectHashTables data took  11.10ms
+[2024.04.24-08.34.07:057][965]LogPlayLevel: Display: Destroying online subsystem :Context_64

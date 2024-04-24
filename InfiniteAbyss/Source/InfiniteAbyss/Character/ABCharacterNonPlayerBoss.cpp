@@ -111,10 +111,14 @@ void AABCharacterNonPlayerBoss::ComboAttackByAI()
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 	AnimInstance->StopAllMontages(0.0f);
 	AnimInstance->Montage_Play(BossComboMontage, 1.0f);
+	UE_LOG(LogTemp, Log, TEXT("Combo On"));
 }
 
 void AABCharacterNonPlayerBoss::SkillByAI()
 {
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	AnimInstance->StopAllMontages(0.0f);
+	AnimInstance->Montage_Play(BossComboMontage, 1.0f);
 	UE_LOG(LogTemp, Log, TEXT("Skill On"));
 }
 
