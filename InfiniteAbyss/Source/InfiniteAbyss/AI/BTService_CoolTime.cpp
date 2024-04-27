@@ -45,6 +45,11 @@ void UBTService_CoolTime::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* Nod
 	{
 		AIPawn->ComboAttackByAI();
 		DetectCoolTime = AIPawn->GetAICoolTime();
+		OwnerComp.GetBlackboardComponent()->SetValueAsBool("SkillCheck", true);
+	}
+	else
+	{
+		OwnerComp.GetBlackboardComponent()->SetValueAsBool("SkillCheck", false);
 	}
 
 }

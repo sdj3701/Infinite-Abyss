@@ -34,8 +34,8 @@ bool UBTDecorator_CoolTimeCheck::CalculateRawConditionValue(UBehaviorTreeCompone
 		return false;
 	}
 
-	float AttackRangeWithRadius = AIPawn->GetAICoolTime();
-	bResult = (0 >= AttackRangeWithRadius);
+	float CoolTime = AIPawn->GetAICoolTime();
+	bResult = (0 >= CoolTime);
 	
 	return bResult;
 }
