@@ -8,6 +8,7 @@
 #include "BehaviorTree//BlackboardComponent.h"
 #include "Physics/ABCollision.h"
 #include "DrawDebugHelpers.h"
+#include "WorldPartition/ContentBundle/ContentBundleLog.h"
 
 
 UBTService_CoolTime::UBTService_CoolTime()
@@ -27,28 +28,31 @@ void UBTService_CoolTime::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* Nod
 		return;
 	}
 
-	FVector Center = ControllingPawn->GetActorLocation();
 	UWorld* World = ControllingPawn->GetWorld();
 	if(nullptr == World)
 	{
 		return;
 	}
 
-	IABCharacterBossAIInterface* AIPawn = Cast<IABCharacterBossAIInterface>(ControllingPawn);
-	if(nullptr == AIPawn)
+	IABCharacterBossAIInterface* BossAIPawn = Cast<IABCharacterBossAIInterface>(ControllingPawn);
+	if(nullptr == BossAIPawn)
 	{
 		return;
 	}
 
-	DetectCoolTime -= Interval;
+	DetectCoolTime = BossAIPawn->GetAICoolTime();
+	UE_LOG(LogTemp, Log, TEXT("%f"),DetectCoolTime);
+
 	if(DetectCoolTime <= 0)
 	{
-		AIPawn->ComboAttackByAI();
-		DetectCoolTime = AIPawn->GetAICoolTime();
+		BossAIPawn->SetAICoolTime(DetectCoolTime);
 		OwnerComp.GetBlackboardComponent()->SetValueAsBool("SkillCheck", true);
+		//DetectCoolTime = AIPawn->ComboAttackCoolTime();
 	}
 	else
 	{
+		DetectCoolTime -= Interval;
+		BossAIPawn->SetAICoolTime(DetectCoolTime);
 		OwnerComp.GetBlackboardComponent()->SetValueAsBool("SkillCheck", false);
 	}
 

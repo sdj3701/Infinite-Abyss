@@ -21,7 +21,10 @@ class INFINITEABYSS_API IABCharacterBossAIInterface
 	GENERATED_BODY()
 
 public:
+	virtual float ComboAttackCoolTime() = 0;
+	
 	virtual float GetAICoolTime() = 0;
+	virtual float SetAICoolTime(float InCoolTime) = 0;
 	
 	virtual void ComboAttackByAI() = 0;
 	virtual void SkillByAI() = 0;

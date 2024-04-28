@@ -11,6 +11,7 @@
 // Sets default values
 AABCharacterNonPlayerBoss::AABCharacterNonPlayerBoss()
 {
+	CoolTime = 5.0f;
 	//TODO : Mesh
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = false;
@@ -44,6 +45,13 @@ AABCharacterNonPlayerBoss::AABCharacterNonPlayerBoss()
 	AIControllerClass = AABBossAIController::StaticClass();
 	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
 }
+
+float AABCharacterNonPlayerBoss::SetAICoolTime(float InCoolTime)
+{
+	CoolTime = InCoolTime;
+	return CoolTime;
+}
+
 
 void AABCharacterNonPlayerBoss::SetDead()
 {
@@ -101,9 +109,14 @@ void AABCharacterNonPlayerBoss::NotifyComboActionEnd()
 	OnAttackFinished.ExecuteIfBound();
 }
 
-float AABCharacterNonPlayerBoss::GetAICoolTime()
+float AABCharacterNonPlayerBoss::ComboAttackCoolTime()
 {
 	return 5.0f;
+}
+
+float AABCharacterNonPlayerBoss::GetAICoolTime()
+{
+	return CoolTime;
 }
 
 void AABCharacterNonPlayerBoss::ComboAttackByAI()
@@ -111,7 +124,6 @@ void AABCharacterNonPlayerBoss::ComboAttackByAI()
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 	AnimInstance->StopAllMontages(0.0f);
 	AnimInstance->Montage_Play(BossComboMontage, 1.0f);
-	UE_LOG(LogTemp, Log, TEXT("Combo On"));
 }
 
 void AABCharacterNonPlayerBoss::SkillByAI()
@@ -119,7 +131,6 @@ void AABCharacterNonPlayerBoss::SkillByAI()
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 	AnimInstance->StopAllMontages(0.0f);
 	AnimInstance->Montage_Play(BossComboMontage, 1.0f);
-	UE_LOG(LogTemp, Log, TEXT("Skill On"));
 }
 
 

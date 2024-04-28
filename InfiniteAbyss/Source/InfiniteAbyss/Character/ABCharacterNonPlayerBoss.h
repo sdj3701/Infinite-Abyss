@@ -16,7 +16,6 @@ class INFINITEABYSS_API AABCharacterNonPlayerBoss : public AABCharacterBase, pub
 
 public:
 	AABCharacterNonPlayerBoss();
-
 protected:
 	virtual void SetDead() override;
 
@@ -36,7 +35,11 @@ protected:
 
 	//AI Skill and Combo
 protected:
+	virtual float ComboAttackCoolTime() override;
+	
 	virtual float GetAICoolTime() override;
+	virtual float SetAICoolTime(float InCoolTime) override;
+	float CoolTime;
 	
 	virtual void ComboAttackByAI() override;
 	virtual void SkillByAI() override;
