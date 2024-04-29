@@ -28,4 +28,8 @@ public:
 	
 	virtual void ComboAttackByAI() = 0;
 	virtual void SkillByAI() = 0;
+
+	virtual void MoveSpeedDown() = 0;
+	virtual void MoveSpeedReset() = 0;
+	virtual void ComboEndCheck() = 0;
 };

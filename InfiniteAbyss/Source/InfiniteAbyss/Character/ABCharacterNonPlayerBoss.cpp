@@ -7,6 +7,8 @@
 #include "CharacterStat/ABCharacterStatComponent.h"
 #include "Character/ABCharacterBase.h"
 #include "Components/CapsuleComponent.h"
+#include "GameData/ABCharacterStat.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 AABCharacterNonPlayerBoss::AABCharacterNonPlayerBoss()
@@ -121,9 +123,14 @@ float AABCharacterNonPlayerBoss::GetAICoolTime()
 
 void AABCharacterNonPlayerBoss::ComboAttackByAI()
 {
-	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
-	AnimInstance->StopAllMontages(0.0f);
-	AnimInstance->Montage_Play(BossComboMontage, 1.0f);
+	if(!ComboCheck)
+	{
+		MoveSpeedDown();
+		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+		AnimInstance->StopAllMontages(0.0f);
+		AnimInstance->Montage_Play(BossComboMontage, 1.0f);
+		ComboCheck = true;
+	}
 }
 
 void AABCharacterNonPlayerBoss::SkillByAI()
@@ -132,5 +139,27 @@ void AABCharacterNonPlayerBoss::SkillByAI()
 	AnimInstance->StopAllMontages(0.0f);
 	AnimInstance->Montage_Play(BossComboMontage, 1.0f);
 }
+
+void AABCharacterNonPlayerBoss::MoveSpeedDown()
+{
+	float MoveSpeed = (Stat->GetBaseStat() + Stat->GetModifierStat()).MovementSpeed;
+	GetCharacterMovement()->MaxWalkSpeed = MoveSpeed/2;
+}
+
+void AABCharacterNonPlayerBoss::MoveSpeedReset()
+{
+	float MoveSpeed = (Stat->GetBaseStat() + Stat->GetModifierStat()).MovementSpeed;
+	GetCharacterMovement()->MaxWalkSpeed = MoveSpeed*2;
+}
+
+void AABCharacterNonPlayerBoss::ComboEndCheck()
+{
+	ComboCheck = false;
+	MoveSpeedReset();
+	SetAICoolTime(ComboAttackCoolTime());
+	UE_LOG(LogTemp, Log, TEXT("EndCombo"));
+}
+
+
 
 

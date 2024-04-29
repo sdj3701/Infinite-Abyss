@@ -7,6 +7,7 @@
 #include "Engine/StreamableManager.h"
 #include "Interface/ABCharacterAIInterface.h"
 #include "Interface/ABCharacterBossAIInterface.h"
+#include "GameData/ABCharacterStat.h"
 #include "ABCharacterNonPlayerBoss.generated.h"
 
 UCLASS()
@@ -49,4 +50,10 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Skill, Meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<class UAnimMontage> SkillActionMontage;
+
+	virtual void MoveSpeedDown() override;
+	virtual void MoveSpeedReset() override;
+
+	virtual void ComboEndCheck() override;
+	bool ComboCheck;
 };

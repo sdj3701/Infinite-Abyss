@@ -40,14 +40,11 @@ EBTNodeResult::Type UBTTask_ComboAttack::ExecuteTask(UBehaviorTreeComponent& Own
 	);
 
 	AIPawn->SetAIAttackDelegate(OnAttackFinished);
-	// TODO : 스킬 쿨타임 갱신 코드 추가
-	UE_LOG(LogTemp, Log, TEXT("Check : %f"), BossAIPawn->GetAICoolTime());
 	if(BossAIPawn->GetAICoolTime() <= 0)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Test"));
 		BossAIPawn->ComboAttackByAI();
+		// TODO : 사용과 동시에 쿨타임을 돌리고 싶으면 여기서 작업 OR 콤보 공격이 끝나고 쿨타임을 적용하고 싶으면 ComboEnd에서 작업
 		BossAIPawn->SetAICoolTime(BossAIPawn->ComboAttackCoolTime());
-		UE_LOG(LogTemp, Log, TEXT("Check : %f"), BossAIPawn->GetAICoolTime());
 	}
 	
 	return EBTNodeResult::Succeeded;
