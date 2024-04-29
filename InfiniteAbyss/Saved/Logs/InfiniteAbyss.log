@@ -1834,3 +1834,1778 @@ Make sure 'ThirdPersonCharacter' has been compiled for  Reset Orientation and Po
 [2024.04.29-07.24.14:238][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.04.29-07.24.14:275][769]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
 [2024.04.29-07.24.14:275][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-07.26.11:771][462]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/InfiniteAbyss/AI/BT_ABBossCharacter.BT_ABBossCharacter
+[2024.04.29-07.26.11:841][462]LogSlate: Took 0.005371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.04.29-07.26.26:082][481]LogViewport: Scene viewport resized to 1504x813, mode Windowed.
+[2024.04.29-07.26.26:116][482]LogViewport: Scene viewport resized to 1525x813, mode Windowed.
+[2024.04.29-07.26.26:152][483]LogViewport: Scene viewport resized to 1574x813, mode Windowed.
+[2024.04.29-07.26.26:196][484]LogViewport: Scene viewport resized to 1644x813, mode Windowed.
+[2024.04.29-07.26.26:238][485]LogViewport: Scene viewport resized to 1703x813, mode Windowed.
+[2024.04.29-07.26.26:297][486]LogViewport: Scene viewport resized to 1778x813, mode Windowed.
+[2024.04.29-07.26.26:364][487]LogViewport: Scene viewport resized to 1808x813, mode Windowed.
+[2024.04.29-07.26.26:427][488]LogViewport: Scene viewport resized to 1810x813, mode Windowed.
+[2024.04.29-07.26.26:489][489]LogViewport: Scene viewport resized to 1835x813, mode Windowed.
+[2024.04.29-07.26.26:681][498]LogViewport: Scene viewport resized to 1832x813, mode Windowed.
+[2024.04.29-07.26.26:716][499]LogViewport: Scene viewport resized to 1819x813, mode Windowed.
+[2024.04.29-07.26.26:774][501]LogViewport: Scene viewport resized to 1818x813, mode Windowed.
+[2024.04.29-07.26.26:816][502]LogViewport: Scene viewport resized to 1817x813, mode Windowed.
+[2024.04.29-07.26.26:850][503]LogViewport: Scene viewport resized to 1815x813, mode Windowed.
+[2024.04.29-07.26.26:884][504]LogViewport: Scene viewport resized to 1811x813, mode Windowed.
+[2024.04.29-07.26.26:935][505]LogViewport: Scene viewport resized to 1806x813, mode Windowed.
+[2024.04.29-07.26.26:975][506]LogViewport: Scene viewport resized to 1805x813, mode Windowed.
+[2024.04.29-07.26.27:016][507]LogViewport: Scene viewport resized to 1799x813, mode Windowed.
+[2024.04.29-07.26.27:048][508]LogViewport: Scene viewport resized to 1791x813, mode Windowed.
+[2024.04.29-07.26.27:089][509]LogViewport: Scene viewport resized to 1780x813, mode Windowed.
+[2024.04.29-07.26.27:135][510]LogViewport: Scene viewport resized to 1768x813, mode Windowed.
+[2024.04.29-07.26.27:178][511]LogViewport: Scene viewport resized to 1744x813, mode Windowed.
+[2024.04.29-07.26.27:219][512]LogViewport: Scene viewport resized to 1708x813, mode Windowed.
+[2024.04.29-07.26.27:263][513]LogViewport: Scene viewport resized to 1670x813, mode Windowed.
+[2024.04.29-07.26.27:303][514]LogViewport: Scene viewport resized to 1648x813, mode Windowed.
+[2024.04.29-07.26.27:350][515]LogViewport: Scene viewport resized to 1617x813, mode Windowed.
+[2024.04.29-07.26.27:395][516]LogViewport: Scene viewport resized to 1611x813, mode Windowed.
+[2024.04.29-07.26.32:530][820]LogViewport: Scene viewport resized to 1612x813, mode Windowed.
+[2024.04.29-07.26.32:564][821]LogViewport: Scene viewport resized to 1596x813, mode Windowed.
+[2024.04.29-07.26.32:597][822]LogViewport: Scene viewport resized to 1555x813, mode Windowed.
+[2024.04.29-07.26.32:638][823]LogViewport: Scene viewport resized to 1440x813, mode Windowed.
+[2024.04.29-07.26.32:679][824]LogViewport: Scene viewport resized to 1276x813, mode Windowed.
+[2024.04.29-07.26.32:746][825]LogViewport: Scene viewport resized to 1071x813, mode Windowed.
+[2024.04.29-07.26.32:811][826]LogViewport: Scene viewport resized to 1010x813, mode Windowed.
+[2024.04.29-07.26.32:868][827]LogViewport: Scene viewport resized to 979x813, mode Windowed.
+[2024.04.29-07.26.32:912][828]LogViewport: Scene viewport resized to 967x813, mode Windowed.
+[2024.04.29-07.26.33:137][840]LogViewport: Scene viewport resized to 968x813, mode Windowed.
+[2024.04.29-07.26.33:173][841]LogViewport: Scene viewport resized to 975x813, mode Windowed.
+[2024.04.29-07.26.33:209][842]LogViewport: Scene viewport resized to 986x813, mode Windowed.
+[2024.04.29-07.26.33:248][843]LogViewport: Scene viewport resized to 1006x813, mode Windowed.
+[2024.04.29-07.26.33:285][844]LogViewport: Scene viewport resized to 1022x813, mode Windowed.
+[2024.04.29-07.26.33:319][845]LogViewport: Scene viewport resized to 1027x813, mode Windowed.
+[2024.04.29-07.26.33:448][852]LogViewport: Scene viewport resized to 1029x813, mode Windowed.
+[2024.04.29-07.26.33:486][853]LogViewport: Scene viewport resized to 1031x813, mode Windowed.
+[2024.04.29-07.26.33:524][854]LogViewport: Scene viewport resized to 1032x813, mode Windowed.
+[2024.04.29-07.26.33:573][856]LogViewport: Scene viewport resized to 1034x813, mode Windowed.
+[2024.04.29-07.26.33:630][859]LogViewport: Scene viewport resized to 1035x813, mode Windowed.
+[2024.04.29-07.26.33:669][860]LogViewport: Scene viewport resized to 1039x813, mode Windowed.
+[2024.04.29-07.26.33:709][861]LogViewport: Scene viewport resized to 1043x813, mode Windowed.
+[2024.04.29-07.26.33:740][862]LogViewport: Scene viewport resized to 1049x813, mode Windowed.
+[2024.04.29-07.26.33:779][863]LogViewport: Scene viewport resized to 1056x813, mode Windowed.
+[2024.04.29-07.26.33:814][864]LogViewport: Scene viewport resized to 1066x813, mode Windowed.
+[2024.04.29-07.26.33:849][865]LogViewport: Scene viewport resized to 1072x813, mode Windowed.
+[2024.04.29-07.26.33:888][866]LogViewport: Scene viewport resized to 1073x813, mode Windowed.
+[2024.04.29-07.26.34:720][926]LogViewport: Scene viewport resized to 1075x813, mode Windowed.
+[2024.04.29-07.26.34:754][927]LogViewport: Scene viewport resized to 1077x813, mode Windowed.
+[2024.04.29-07.26.34:789][928]LogViewport: Scene viewport resized to 1079x813, mode Windowed.
+[2024.04.29-07.26.34:823][929]LogViewport: Scene viewport resized to 1080x813, mode Windowed.
+[2024.04.29-07.26.34:857][930]LogViewport: Scene viewport resized to 1085x813, mode Windowed.
+[2024.04.29-07.26.37:732][136]LogViewport: Scene viewport resized to 1088x813, mode Windowed.
+[2024.04.29-07.26.37:767][137]LogViewport: Scene viewport resized to 1104x813, mode Windowed.
+[2024.04.29-07.26.37:804][138]LogViewport: Scene viewport resized to 1134x813, mode Windowed.
+[2024.04.29-07.26.37:840][139]LogViewport: Scene viewport resized to 1169x813, mode Windowed.
+[2024.04.29-07.26.37:879][140]LogViewport: Scene viewport resized to 1202x813, mode Windowed.
+[2024.04.29-07.26.37:920][141]LogViewport: Scene viewport resized to 1223x813, mode Windowed.
+[2024.04.29-07.26.37:958][142]LogViewport: Scene viewport resized to 1228x813, mode Windowed.
+[2024.04.29-07.26.38:009][144]LogViewport: Scene viewport resized to 1229x813, mode Windowed.
+[2024.04.29-07.26.38:277][161]LogViewport: Scene viewport resized to 1230x813, mode Windowed.
+[2024.04.29-07.26.38:314][162]LogViewport: Scene viewport resized to 1233x813, mode Windowed.
+[2024.04.29-07.26.38:344][163]LogViewport: Scene viewport resized to 1238x813, mode Windowed.
+[2024.04.29-07.26.38:379][164]LogViewport: Scene viewport resized to 1244x813, mode Windowed.
+[2024.04.29-07.26.38:413][165]LogViewport: Scene viewport resized to 1250x813, mode Windowed.
+[2024.04.29-07.26.38:450][166]LogViewport: Scene viewport resized to 1257x813, mode Windowed.
+[2024.04.29-07.26.38:486][167]LogViewport: Scene viewport resized to 1264x813, mode Windowed.
+[2024.04.29-07.26.38:523][168]LogViewport: Scene viewport resized to 1266x813, mode Windowed.
+[2024.04.29-07.26.38:559][169]LogViewport: Scene viewport resized to 1268x813, mode Windowed.
+[2024.04.29-07.26.38:596][170]LogViewport: Scene viewport resized to 1270x813, mode Windowed.
+[2024.04.29-07.26.38:646][172]LogViewport: Scene viewport resized to 1271x813, mode Windowed.
+[2024.04.29-07.26.38:994][195]LogViewport: Scene viewport resized to 1272x813, mode Windowed.
+[2024.04.29-07.26.39:155][205]LogViewport: Scene viewport resized to 1273x813, mode Windowed.
+[2024.04.29-07.26.39:221][208]LogViewport: Scene viewport resized to 1275x813, mode Windowed.
+[2024.04.29-07.26.39:256][209]LogViewport: Scene viewport resized to 1277x813, mode Windowed.
+[2024.04.29-07.26.39:290][210]LogViewport: Scene viewport resized to 1279x813, mode Windowed.
+[2024.04.29-07.26.39:327][211]LogViewport: Scene viewport resized to 1280x813, mode Windowed.
+[2024.04.29-07.26.39:367][212]LogViewport: Scene viewport resized to 1284x813, mode Windowed.
+[2024.04.29-07.26.39:400][213]LogViewport: Scene viewport resized to 1286x813, mode Windowed.
+[2024.04.29-07.26.39:451][215]LogViewport: Scene viewport resized to 1287x813, mode Windowed.
+[2024.04.29-07.26.39:491][216]LogViewport: Scene viewport resized to 1288x813, mode Windowed.
+[2024.04.29-07.26.39:619][224]LogViewport: Scene viewport resized to 1289x813, mode Windowed.
+[2024.04.29-07.26.39:844][239]LogViewport: Scene viewport resized to 1288x813, mode Windowed.
+[2024.04.29-07.26.39:881][240]LogViewport: Scene viewport resized to 1285x813, mode Windowed.
+[2024.04.29-07.26.39:918][241]LogViewport: Scene viewport resized to 1281x813, mode Windowed.
+[2024.04.29-07.26.39:956][242]LogViewport: Scene viewport resized to 1277x813, mode Windowed.
+[2024.04.29-07.26.39:992][243]LogViewport: Scene viewport resized to 1271x813, mode Windowed.
+[2024.04.29-07.26.40:029][244]LogViewport: Scene viewport resized to 1270x813, mode Windowed.
+[2024.04.29-07.26.40:378][267]LogViewport: Scene viewport resized to 1269x813, mode Windowed.
+[2024.04.29-07.27.59:408][454]LogViewport: Scene viewport resized to 1269x816, mode Windowed.
+[2024.04.29-07.27.59:447][455]LogViewport: Scene viewport resized to 1269x822, mode Windowed.
+[2024.04.29-07.27.59:480][456]LogViewport: Scene viewport resized to 1269x825, mode Windowed.
+[2024.04.29-07.27.59:519][457]LogViewport: Scene viewport resized to 1269x837, mode Windowed.
+[2024.04.29-07.27.59:560][458]LogViewport: Scene viewport resized to 1269x849, mode Windowed.
+[2024.04.29-07.27.59:601][459]LogViewport: Scene viewport resized to 1269x859, mode Windowed.
+[2024.04.29-07.27.59:645][460]LogViewport: Scene viewport resized to 1269x873, mode Windowed.
+[2024.04.29-07.27.59:690][461]LogViewport: Scene viewport resized to 1269x889, mode Windowed.
+[2024.04.29-07.27.59:737][462]LogViewport: Scene viewport resized to 1269x899, mode Windowed.
+[2024.04.29-07.27.59:798][463]LogViewport: Scene viewport resized to 1269x906, mode Windowed.
+[2024.04.29-07.27.59:855][464]LogViewport: Scene viewport resized to 1269x909, mode Windowed.
+[2024.04.29-07.28.00:278][488]LogViewport: Scene viewport resized to 1269x910, mode Windowed.
+[2024.04.29-07.28.00:316][489]LogViewport: Scene viewport resized to 1269x911, mode Windowed.
+[2024.04.29-07.28.00:700][513]LogViewport: Scene viewport resized to 1269x910, mode Windowed.
+[2024.04.29-07.28.01:621][577]LogViewport: Scene viewport resized to 1269x909, mode Windowed.
+[2024.04.29-07.28.01:825][590]LogViewport: Scene viewport resized to 1269x907, mode Windowed.
+[2024.04.29-07.28.40:947][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.04.29-07.28.40:956][414]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/InfiniteAbyss/Map/NPCMap' took 0.021
+[2024.04.29-07.28.40:957][414]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfiniteAbyss/AI/BT_ABBossCharacter] ([1] browsable assets)...
+[2024.04.29-07.28.40:957][414]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfiniteAbyss/AI/BT_ABBossCharacter]
+[2024.04.29-07.28.40:961][414]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteAbyss/AI/BT_ABBossCharacter_Auto1
+[2024.04.29-07.28.40:962][414]LogSavePackage: Moving '../../../../../../Unreal5Project/InfiniteAbyss/Saved/BT_ABBossCharacter_Auto1CFB56B41463956BF5A4CEEA378DE7119.tmp' to '../../../../../../Unreal5Project/InfiniteAbyss/Saved/Autosaves/Game/InfiniteAbyss/AI/BT_ABBossCharacter_Auto1.uasset'
+[2024.04.29-07.28.40:962][414]LogFileHelpers: Auto-saving content packages took 0.007
+[2024.04.29-07.29.04:582][485]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.29-07.29.04:590][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.29-07.29.04:590][485]PIE: New page: PIE session: NPCMap (2024. 4. 30. 오전 1:29:04)
+[2024.04.29-07.29.04:590][485]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-07.29.06:275][485]LogPlayLevel: PIE: StaticDuplicateObject took: (1.684284s)
+[2024.04.29-07.29.06:275][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.684337s)
+[2024.04.29-07.29.06:280][485]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.04.29-07.29.06:282][485]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-07.29.06:282][485]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-07.29.06:283][485]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.29-07.29.06:283][485]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2024.04.29-07.29.06:283][485]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.04.29-07.29.06:283][485]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.29-07.29.06:283][485]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.29-07.29.06:283][485]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.29-07.29.06:283][485]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.29-07.29.06:283][485]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.29-07.29.06:283][485]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.29-07.29.06:283][485]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.29-07.29.06:283][485]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.29-07.29.06:283][485]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.29-07.29.06:283][485]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.29-07.29.06:283][485]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.29-07.29.06:285][485]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.29-07.29.06:314][485]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.29-07.29.06:314][485]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.29-07.29.06:314][485]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.29-07.29.06:314][485]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.29-07.29.06:315][485]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.04.29-07.29.06:315][485]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.04.29-07.29.06:317][485]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.04.29-07.29.06:317][485]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.04.29-07.29.06:317][485]LogInit: FAudioDevice initialized with ID 6.
+[2024.04.29-07.29.06:317][485]LogAudio: Display: Audio Device (ID: 6) registered with world 'NPCMap'.
+[2024.04.29-07.29.06:317][485]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.04.29-07.29.06:319][485]LogLoad: Game class is 'ABGameMode'
+[2024.04.29-07.29.06:740][485]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.29-16.29.06
+[2024.04.29-07.29.06:744][485]LogWorld: Bringing up level for play took: 0.424373
+[2024.04.29-07.29.06:987][485]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.04.29-07.29.06:996][485]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.29-07.29.06:996][485]PIE: Server logged in
+[2024.04.29-07.29.06:996][485]PIE: Play in editor total start time 2.409 seconds.
+[2024.04.29-07.29.07:513][486]LogTemp: 5.000000
+[2024.04.29-07.29.08:213][521]LogTemp: 4.500000
+[2024.04.29-07.29.08:749][558]LogTemp: 4.000000
+[2024.04.29-07.29.09:358][602]LogTemp: 3.500000
+[2024.04.29-07.29.09:963][644]LogTemp: 3.000000
+[2024.04.29-07.29.10:514][683]LogTemp: 2.500000
+[2024.04.29-07.29.10:957][714]LogTemp: 2.000000
+[2024.04.29-07.29.11:364][743]LogTemp: 1.500000
+[2024.04.29-07.29.11:954][784]LogTemp: 1.000000
+[2024.04.29-07.29.12:522][819]LogTemp: 0.500000
+[2024.04.29-07.29.12:992][850]LogTemp: 0.000000
+[2024.04.29-07.29.13:515][882]LogTemp: 0.000000
+[2024.04.29-07.29.13:988][909]LogTemp: 0.000000
+[2024.04.29-07.29.14:502][940]LogTemp: 0.000000
+[2024.04.29-07.29.15:100][976]LogTemp: 0.000000
+[2024.04.29-07.29.15:579][  6]LogTemp: 0.000000
+[2024.04.29-07.29.16:031][ 32]LogTemp: 0.000000
+[2024.04.29-07.29.16:529][ 61]LogTemp: 0.000000
+[2024.04.29-07.29.17:113][ 94]LogTemp: 0.000000
+[2024.04.29-07.29.17:541][119]LogTemp: 0.000000
+[2024.04.29-07.29.18:126][154]LogTemp: 0.000000
+[2024.04.29-07.29.18:699][189]LogTemp: 0.000000
+[2024.04.29-07.29.19:226][222]LogTemp: 0.000000
+[2024.04.29-07.29.19:746][255]LogTemp: 0.000000
+[2024.04.29-07.29.20:320][290]LogTemp: 0.000000
+[2024.04.29-07.29.20:827][321]LogTemp: 0.000000
+[2024.04.29-07.29.21:240][347]LogTemp: 0.000000
+[2024.04.29-07.29.21:698][376]LogTemp: 0.000000
+[2024.04.29-07.29.22:243][410]LogTemp: 0.000000
+[2024.04.29-07.29.22:666][436]LogTemp: 0.000000
+[2024.04.29-07.29.23:203][468]LogTemp: 0.000000
+[2024.04.29-07.29.23:781][503]LogTemp: 0.000000
+[2024.04.29-07.29.24:277][533]LogTemp: 0.000000
+[2024.04.29-07.29.24:879][568]LogTemp: 0.000000
+[2024.04.29-07.29.25:359][597]LogTemp: 0.000000
+[2024.04.29-07.29.25:800][624]LogTemp: 0.000000
+[2024.04.29-07.29.26:253][648]LogTemp: 0.000000
+[2024.04.29-07.29.26:839][678]LogTemp: 0.000000
+[2024.04.29-07.29.27:424][713]LogTemp: 0.000000
+[2024.04.29-07.29.27:828][737]LogTemp: 0.000000
+[2024.04.29-07.29.28:274][764]LogTemp: 0.000000
+[2024.04.29-07.29.28:812][796]LogTemp: 0.000000
+[2024.04.29-07.29.29:365][828]LogTemp: 0.000000
+[2024.04.29-07.29.29:875][856]LogTemp: 0.000000
+[2024.04.29-07.29.30:310][882]LogTemp: 0.000000
+[2024.04.29-07.29.30:409][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-07.29.30:409][886]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-07.29.30:410][886]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-07.29.30:449][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-07.29.30:453][886]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.29-07.29.30:456][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-07.29.30:466][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-07.29.30:472][886]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.04.29-07.29.30:472][886]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.04.29-07.29.30:474][886]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.04.29-07.29.30:716][886]LogUObjectHash: Compacting FUObjectHashTables data took  10.56ms
+[2024.04.29-07.29.30:766][887]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.04.29-07.29.31:977][961]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.29-07.29.32:102][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/Map/NPCMap" FILE="../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/NPCMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.29-07.29.32:120][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.04.29-07.29.33:665][961]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/Map/NPCMap
+[2024.04.29-07.29.33:666][961]LogSavePackage: Moving '../../../../../../Unreal5Project/InfiniteAbyss/Saved/NPCMap6495CFD144E1CADE714AE2B64492EDD9.tmp' to '../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/NPCMap.umap'
+[2024.04.29-07.29.33:683][961]LogFileHelpers: Saving map 'NPCMap' took 1.582
+[2024.04.29-07.29.33:688][961]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.71 sec (total: 1.77 sec)
+[2024.04.29-07.29.33:693][961]AssetCheck: New page: Asset Save: NPCMap
+[2024.04.29-07.29.33:693][961]LogContentValidation: Display: Validating /Script/Engine.World /Game/InfiniteAbyss/Map/NPCMap.NPCMap
+[2024.04.29-07.29.35:482][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.29-07.29.35:525][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/AI/BT_ABBossCharacter" FILE="../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/AI/BT_ABBossCharacter.uasset" SILENT=true
+[2024.04.29-07.29.35:531][ 81]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/AI/BT_ABBossCharacter
+[2024.04.29-07.29.35:531][ 81]LogSavePackage: Moving '../../../../../../Unreal5Project/InfiniteAbyss/Saved/BT_ABBossCharacterCD0A2AC34E6BD408809EB8BCC8B35685.tmp' to '../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/AI/BT_ABBossCharacter.uasset'
+[2024.04.29-07.29.35:540][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 1.83 sec)
+[2024.04.29-07.29.35:542][ 81]AssetCheck: New page: Asset Save: BT_ABBossCharacter
+[2024.04.29-07.29.35:542][ 81]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/InfiniteAbyss/AI/BT_ABBossCharacter.BT_ABBossCharacter
+[2024.04.29-07.29.43:254][443]LogViewport: Scene viewport resized to 1271x907, mode Windowed.
+[2024.04.29-07.29.43:292][444]LogViewport: Scene viewport resized to 1275x907, mode Windowed.
+[2024.04.29-07.29.43:328][445]LogViewport: Scene viewport resized to 1309x907, mode Windowed.
+[2024.04.29-07.29.43:362][446]LogViewport: Scene viewport resized to 1383x907, mode Windowed.
+[2024.04.29-07.29.43:396][447]LogViewport: Scene viewport resized to 1469x907, mode Windowed.
+[2024.04.29-07.29.43:433][448]LogViewport: Scene viewport resized to 1557x907, mode Windowed.
+[2024.04.29-07.29.43:471][449]LogViewport: Scene viewport resized to 1620x907, mode Windowed.
+[2024.04.29-07.29.43:518][450]LogViewport: Scene viewport resized to 1678x907, mode Windowed.
+[2024.04.29-07.29.43:561][451]LogViewport: Scene viewport resized to 1737x907, mode Windowed.
+[2024.04.29-07.29.43:608][452]LogViewport: Scene viewport resized to 1824x907, mode Windowed.
+[2024.04.29-07.29.43:650][453]LogViewport: Scene viewport resized to 1874x907, mode Windowed.
+[2024.04.29-07.29.43:867][464]LogViewport: Scene viewport resized to 1877x907, mode Windowed.
+[2024.04.29-07.29.43:903][465]LogViewport: Scene viewport resized to 1886x907, mode Windowed.
+[2024.04.29-07.29.43:944][466]LogViewport: Scene viewport resized to 1909x907, mode Windowed.
+[2024.04.29-07.29.43:991][467]LogViewport: Scene viewport resized to 1917x907, mode Windowed.
+[2024.04.29-07.29.44:050][469]LogViewport: Scene viewport resized to 1919x907, mode Windowed.
+[2024.04.29-07.29.44:094][470]LogViewport: Scene viewport resized to 1924x907, mode Windowed.
+[2024.04.29-07.29.44:133][471]LogViewport: Scene viewport resized to 1930x907, mode Windowed.
+[2024.04.29-07.29.44:174][472]LogViewport: Scene viewport resized to 1940x907, mode Windowed.
+[2024.04.29-07.29.44:890][517]LogViewport: Scene viewport resized to 1938x907, mode Windowed.
+[2024.04.29-07.29.44:929][518]LogViewport: Scene viewport resized to 1934x907, mode Windowed.
+[2024.04.29-07.29.44:969][519]LogViewport: Scene viewport resized to 1931x907, mode Windowed.
+[2024.04.29-07.29.45:013][520]LogViewport: Scene viewport resized to 1930x907, mode Windowed.
+[2024.04.29-07.29.45:052][521]LogViewport: Scene viewport resized to 1928x907, mode Windowed.
+[2024.04.29-07.29.45:482][548]LogViewport: Scene viewport resized to 1926x907, mode Windowed.
+[2024.04.29-07.29.45:514][549]LogViewport: Scene viewport resized to 1925x907, mode Windowed.
+[2024.04.29-07.29.45:591][553]LogViewport: Scene viewport resized to 1923x907, mode Windowed.
+[2024.04.29-07.29.45:632][554]LogViewport: Scene viewport resized to 1919x907, mode Windowed.
+[2024.04.29-07.29.45:669][555]LogViewport: Scene viewport resized to 1915x907, mode Windowed.
+[2024.04.29-07.29.45:713][556]LogViewport: Scene viewport resized to 1913x907, mode Windowed.
+[2024.04.29-07.29.45:755][557]LogViewport: Scene viewport resized to 1912x907, mode Windowed.
+[2024.04.29-07.29.46:050][575]LogViewport: Scene viewport resized to 1911x907, mode Windowed.
+[2024.04.29-07.29.46:090][576]LogViewport: Scene viewport resized to 1909x907, mode Windowed.
+[2024.04.29-07.29.46:674][615]LogViewport: Scene viewport resized to 1911x907, mode Windowed.
+[2024.04.29-07.29.46:717][616]LogViewport: Scene viewport resized to 1915x907, mode Windowed.
+[2024.04.29-07.29.46:753][617]LogViewport: Scene viewport resized to 1918x907, mode Windowed.
+[2024.04.29-07.29.46:795][618]LogViewport: Scene viewport resized to 1919x907, mode Windowed.
+[2024.04.29-07.29.46:832][619]LogViewport: Scene viewport resized to 1922x907, mode Windowed.
+[2024.04.29-07.29.46:881][621]LogViewport: Scene viewport resized to 1923x907, mode Windowed.
+[2024.04.29-07.29.46:926][622]LogViewport: Scene viewport resized to 1932x907, mode Windowed.
+[2024.04.29-07.29.47:168][635]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-07.29.48:219][706]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-07.29.48:487][724]LogViewport: Scene viewport resized to 1930x907, mode Windowed.
+[2024.04.29-07.29.48:529][725]LogViewport: Scene viewport resized to 1906x907, mode Windowed.
+[2024.04.29-07.29.48:566][726]LogViewport: Scene viewport resized to 1855x907, mode Windowed.
+[2024.04.29-07.29.48:612][727]LogViewport: Scene viewport resized to 1799x907, mode Windowed.
+[2024.04.29-07.29.48:650][728]LogViewport: Scene viewport resized to 1752x907, mode Windowed.
+[2024.04.29-07.29.48:692][729]LogViewport: Scene viewport resized to 1697x907, mode Windowed.
+[2024.04.29-07.29.48:741][730]LogViewport: Scene viewport resized to 1647x907, mode Windowed.
+[2024.04.29-07.29.48:787][731]LogViewport: Scene viewport resized to 1602x907, mode Windowed.
+[2024.04.29-07.29.48:829][732]LogViewport: Scene viewport resized to 1566x907, mode Windowed.
+[2024.04.29-07.29.48:878][733]LogViewport: Scene viewport resized to 1546x907, mode Windowed.
+[2024.04.29-07.29.48:895][733]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-07.29.48:919][734]LogViewport: Scene viewport resized to 1535x907, mode Windowed.
+[2024.04.29-07.29.48:965][735]LogViewport: Scene viewport resized to 1529x907, mode Windowed.
+[2024.04.29-07.29.49:243][752]LogViewport: Scene viewport resized to 1527x907, mode Windowed.
+[2024.04.29-07.29.49:278][753]LogViewport: Scene viewport resized to 1521x907, mode Windowed.
+[2024.04.29-07.29.49:413][760]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-07.29.49:594][772]LogViewport: Scene viewport resized to 1524x907, mode Windowed.
+[2024.04.29-07.29.49:634][773]LogViewport: Scene viewport resized to 1529x907, mode Windowed.
+[2024.04.29-07.29.49:667][774]LogViewport: Scene viewport resized to 1538x907, mode Windowed.
+[2024.04.29-07.29.49:704][775]LogViewport: Scene viewport resized to 1549x907, mode Windowed.
+[2024.04.29-07.29.49:743][776]LogViewport: Scene viewport resized to 1555x907, mode Windowed.
+[2024.04.29-07.29.49:828][780]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-07.29.49:906][785]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-07.29.50:394][818]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-07.29.50:708][839]LogViewport: Scene viewport resized to 1556x907, mode Windowed.
+[2024.04.29-07.29.50:746][840]LogViewport: Scene viewport resized to 1557x907, mode Windowed.
+[2024.04.29-07.29.50:971][854]LogViewport: Scene viewport resized to 1560x907, mode Windowed.
+[2024.04.29-07.29.51:009][855]LogViewport: Scene viewport resized to 1566x907, mode Windowed.
+[2024.04.29-07.29.51:045][856]LogViewport: Scene viewport resized to 1569x907, mode Windowed.
+[2024.04.29-07.29.51:864][909]LogViewport: Scene viewport resized to 1570x907, mode Windowed.
+[2024.04.29-07.29.51:901][910]LogViewport: Scene viewport resized to 1578x907, mode Windowed.
+[2024.04.29-07.29.51:933][911]LogViewport: Scene viewport resized to 1582x907, mode Windowed.
+[2024.04.29-07.29.51:973][912]LogViewport: Scene viewport resized to 1584x907, mode Windowed.
+[2024.04.29-07.29.53:588][ 16]LogViewport: Scene viewport resized to 1579x907, mode Windowed.
+[2024.04.29-07.29.53:630][ 17]LogViewport: Scene viewport resized to 1562x907, mode Windowed.
+[2024.04.29-07.29.53:669][ 18]LogViewport: Scene viewport resized to 1557x907, mode Windowed.
+[2024.04.29-07.29.53:711][ 19]LogViewport: Scene viewport resized to 1556x907, mode Windowed.
+[2024.04.29-07.29.53:753][ 20]LogViewport: Scene viewport resized to 1554x907, mode Windowed.
+[2024.04.29-07.29.53:795][ 21]LogViewport: Scene viewport resized to 1547x907, mode Windowed.
+[2024.04.29-07.29.53:831][ 22]LogViewport: Scene viewport resized to 1536x907, mode Windowed.
+[2024.04.29-07.29.53:875][ 23]LogViewport: Scene viewport resized to 1533x907, mode Windowed.
+[2024.04.29-07.29.54:083][ 35]LogViewport: Scene viewport resized to 1534x907, mode Windowed.
+[2024.04.29-07.29.54:122][ 36]LogViewport: Scene viewport resized to 1541x907, mode Windowed.
+[2024.04.29-07.29.54:152][ 37]LogViewport: Scene viewport resized to 1545x907, mode Windowed.
+[2024.04.29-07.29.54:194][ 38]LogViewport: Scene viewport resized to 1547x907, mode Windowed.
+[2024.04.29-07.29.55:940][152]LogViewport: Scene viewport resized to 1546x907, mode Windowed.
+[2024.04.29-07.29.55:984][153]LogViewport: Scene viewport resized to 1542x907, mode Windowed.
+[2024.04.29-07.29.56:020][154]LogViewport: Scene viewport resized to 1538x907, mode Windowed.
+[2024.04.29-07.29.56:062][155]LogViewport: Scene viewport resized to 1535x907, mode Windowed.
+[2024.04.29-07.29.56:100][156]LogViewport: Scene viewport resized to 1534x907, mode Windowed.
+[2024.04.29-07.29.56:141][157]LogViewport: Scene viewport resized to 1530x907, mode Windowed.
+[2024.04.29-07.29.56:181][158]LogViewport: Scene viewport resized to 1525x907, mode Windowed.
+[2024.04.29-07.29.56:220][159]LogViewport: Scene viewport resized to 1523x907, mode Windowed.
+[2024.04.29-07.29.56:447][172]LogViewport: Scene viewport resized to 1522x907, mode Windowed.
+[2024.04.29-07.29.58:972][340]LogViewport: Scene viewport resized to 1522x906, mode Windowed.
+[2024.04.29-07.29.59:004][341]LogViewport: Scene viewport resized to 1522x901, mode Windowed.
+[2024.04.29-07.29.59:037][342]LogViewport: Scene viewport resized to 1522x894, mode Windowed.
+[2024.04.29-07.29.59:079][343]LogViewport: Scene viewport resized to 1522x885, mode Windowed.
+[2024.04.29-07.29.59:117][344]LogViewport: Scene viewport resized to 1522x876, mode Windowed.
+[2024.04.29-07.29.59:155][345]LogViewport: Scene viewport resized to 1522x866, mode Windowed.
+[2024.04.29-07.29.59:197][346]LogViewport: Scene viewport resized to 1522x855, mode Windowed.
+[2024.04.29-07.29.59:241][347]LogViewport: Scene viewport resized to 1522x843, mode Windowed.
+[2024.04.29-07.29.59:286][348]LogViewport: Scene viewport resized to 1522x832, mode Windowed.
+[2024.04.29-07.29.59:329][349]LogViewport: Scene viewport resized to 1522x824, mode Windowed.
+[2024.04.29-07.29.59:372][350]LogViewport: Scene viewport resized to 1522x818, mode Windowed.
+[2024.04.29-07.29.59:407][351]LogViewport: Scene viewport resized to 1522x815, mode Windowed.
+[2024.04.29-07.29.59:453][352]LogViewport: Scene viewport resized to 1522x808, mode Windowed.
+[2024.04.29-07.29.59:487][353]LogViewport: Scene viewport resized to 1522x801, mode Windowed.
+[2024.04.29-07.29.59:519][354]LogViewport: Scene viewport resized to 1522x793, mode Windowed.
+[2024.04.29-07.29.59:558][355]LogViewport: Scene viewport resized to 1522x782, mode Windowed.
+[2024.04.29-07.29.59:588][356]LogViewport: Scene viewport resized to 1522x771, mode Windowed.
+[2024.04.29-07.29.59:628][357]LogViewport: Scene viewport resized to 1522x759, mode Windowed.
+[2024.04.29-07.29.59:668][358]LogViewport: Scene viewport resized to 1522x751, mode Windowed.
+[2024.04.29-07.29.59:701][359]LogViewport: Scene viewport resized to 1522x750, mode Windowed.
+[2024.04.29-07.30.00:016][379]LogViewport: Scene viewport resized to 1522x752, mode Windowed.
+[2024.04.29-07.30.00:052][380]LogViewport: Scene viewport resized to 1522x754, mode Windowed.
+[2024.04.29-07.30.00:087][381]LogViewport: Scene viewport resized to 1522x756, mode Windowed.
+[2024.04.29-07.30.00:130][383]LogViewport: Scene viewport resized to 1522x759, mode Windowed.
+[2024.04.29-07.30.00:166][384]LogViewport: Scene viewport resized to 1522x762, mode Windowed.
+[2024.04.29-07.30.00:225][387]LogViewport: Scene viewport resized to 1522x763, mode Windowed.
+[2024.04.29-07.30.00:266][388]LogViewport: Scene viewport resized to 1522x770, mode Windowed.
+[2024.04.29-07.30.00:303][389]LogViewport: Scene viewport resized to 1522x773, mode Windowed.
+[2024.04.29-07.30.00:338][390]LogViewport: Scene viewport resized to 1522x779, mode Windowed.
+[2024.04.29-07.30.00:376][391]LogViewport: Scene viewport resized to 1522x786, mode Windowed.
+[2024.04.29-07.30.00:409][392]LogViewport: Scene viewport resized to 1522x788, mode Windowed.
+[2024.04.29-07.30.00:476][395]LogViewport: Scene viewport resized to 1522x790, mode Windowed.
+[2024.04.29-07.30.00:801][416]LogViewport: Scene viewport resized to 1522x791, mode Windowed.
+[2024.04.29-07.30.00:839][417]LogViewport: Scene viewport resized to 1522x793, mode Windowed.
+[2024.04.29-07.30.00:901][420]LogViewport: Scene viewport resized to 1522x794, mode Windowed.
+[2024.04.29-07.31.22:258][917]LogViewport: Scene viewport resized to 1712x794, mode Windowed.
+[2024.04.29-07.31.22:343][918]LogViewport: Scene viewport resized to 1722x794, mode Windowed.
+[2024.04.29-07.31.22:376][919]LogViewport: Scene viewport resized to 1735x794, mode Windowed.
+[2024.04.29-07.31.22:418][920]LogViewport: Scene viewport resized to 1737x794, mode Windowed.
+[2024.04.29-07.31.22:688][935]LogViewport: Scene viewport resized to 1739x794, mode Windowed.
+[2024.04.29-07.31.22:731][936]LogViewport: Scene viewport resized to 1748x794, mode Windowed.
+[2024.04.29-07.31.22:768][937]LogViewport: Scene viewport resized to 1757x794, mode Windowed.
+[2024.04.29-07.31.22:807][938]LogViewport: Scene viewport resized to 1767x794, mode Windowed.
+[2024.04.29-07.31.22:849][939]LogViewport: Scene viewport resized to 1775x794, mode Windowed.
+[2024.04.29-07.31.22:891][940]LogViewport: Scene viewport resized to 1777x794, mode Windowed.
+[2024.04.29-07.31.23:080][951]LogViewport: Scene viewport resized to 1778x794, mode Windowed.
+[2024.04.29-07.31.23:200][958]LogViewport: Scene viewport resized to 1777x794, mode Windowed.
+[2024.04.29-07.31.23:239][959]LogViewport: Scene viewport resized to 1773x794, mode Windowed.
+[2024.04.29-07.31.23:276][960]LogViewport: Scene viewport resized to 1771x794, mode Windowed.
+[2024.04.29-07.31.23:361][964]LogViewport: Scene viewport resized to 1768x794, mode Windowed.
+[2024.04.29-07.31.23:399][965]LogViewport: Scene viewport resized to 1762x794, mode Windowed.
+[2024.04.29-07.31.23:442][966]LogViewport: Scene viewport resized to 1753x794, mode Windowed.
+[2024.04.29-07.31.23:479][967]LogViewport: Scene viewport resized to 1752x794, mode Windowed.
+[2024.04.29-07.31.23:766][984]LogViewport: Scene viewport resized to 1754x794, mode Windowed.
+[2024.04.29-07.31.28:784][321]LogViewport: Scene viewport resized to 1739x794, mode Windowed.
+[2024.04.29-07.31.28:810][322]LogViewport: Scene viewport resized to 1703x794, mode Windowed.
+[2024.04.29-07.31.28:854][323]LogViewport: Scene viewport resized to 1609x794, mode Windowed.
+[2024.04.29-07.31.28:893][324]LogViewport: Scene viewport resized to 1491x794, mode Windowed.
+[2024.04.29-07.31.28:945][325]LogViewport: Scene viewport resized to 1329x794, mode Windowed.
+[2024.04.29-07.31.28:984][326]LogViewport: Scene viewport resized to 1218x794, mode Windowed.
+[2024.04.29-07.31.29:027][327]LogViewport: Scene viewport resized to 1150x794, mode Windowed.
+[2024.04.29-07.31.29:063][328]LogViewport: Scene viewport resized to 1120x794, mode Windowed.
+[2024.04.29-07.31.29:100][329]LogViewport: Scene viewport resized to 1107x794, mode Windowed.
+[2024.04.29-07.31.29:137][330]LogViewport: Scene viewport resized to 1105x794, mode Windowed.
+[2024.04.29-07.31.29:450][351]LogViewport: Scene viewport resized to 1106x794, mode Windowed.
+[2024.04.29-07.31.29:486][352]LogViewport: Scene viewport resized to 1111x794, mode Windowed.
+[2024.04.29-07.31.29:519][353]LogViewport: Scene viewport resized to 1113x794, mode Windowed.
+[2024.04.29-07.31.29:562][355]LogViewport: Scene viewport resized to 1114x794, mode Windowed.
+[2024.04.29-07.31.29:598][356]LogViewport: Scene viewport resized to 1117x794, mode Windowed.
+[2024.04.29-07.31.29:629][357]LogViewport: Scene viewport resized to 1118x794, mode Windowed.
+[2024.04.29-07.31.29:664][358]LogViewport: Scene viewport resized to 1121x794, mode Windowed.
+[2024.04.29-07.31.29:699][359]LogViewport: Scene viewport resized to 1127x794, mode Windowed.
+[2024.04.29-07.31.29:737][360]LogViewport: Scene viewport resized to 1133x794, mode Windowed.
+[2024.04.29-07.31.29:775][361]LogViewport: Scene viewport resized to 1136x794, mode Windowed.
+[2024.04.29-07.31.29:810][362]LogViewport: Scene viewport resized to 1148x794, mode Windowed.
+[2024.04.29-07.31.29:845][363]LogViewport: Scene viewport resized to 1159x794, mode Windowed.
+[2024.04.29-07.31.30:183][384]LogViewport: Scene viewport resized to 1158x794, mode Windowed.
+[2024.04.29-07.31.30:220][385]LogViewport: Scene viewport resized to 1149x794, mode Windowed.
+[2024.04.29-07.31.30:254][386]LogViewport: Scene viewport resized to 1145x794, mode Windowed.
+[2024.04.29-07.31.36:698][640]LogViewport: Scene viewport resized to 1146x794, mode Windowed.
+[2024.04.29-07.31.36:734][641]LogViewport: Scene viewport resized to 1149x794, mode Windowed.
+[2024.04.29-07.31.36:769][642]LogViewport: Scene viewport resized to 1152x794, mode Windowed.
+[2024.04.29-07.31.36:803][643]LogViewport: Scene viewport resized to 1155x794, mode Windowed.
+[2024.04.29-07.31.36:842][644]LogViewport: Scene viewport resized to 1159x794, mode Windowed.
+[2024.04.29-07.31.36:874][645]LogViewport: Scene viewport resized to 1161x794, mode Windowed.
+[2024.04.29-07.31.36:909][646]LogViewport: Scene viewport resized to 1163x794, mode Windowed.
+[2024.04.29-07.31.37:477][682]LogViewport: Scene viewport resized to 1162x794, mode Windowed.
+[2024.04.29-07.31.37:518][683]LogViewport: Scene viewport resized to 1161x794, mode Windowed.
+[2024.04.29-07.31.37:588][687]LogViewport: Scene viewport resized to 1159x794, mode Windowed.
+[2024.04.29-07.31.37:623][688]LogViewport: Scene viewport resized to 1158x794, mode Windowed.
+[2024.04.29-07.31.37:669][690]LogViewport: Scene viewport resized to 1157x794, mode Windowed.
+[2024.04.29-07.31.38:278][731]LogViewport: Scene viewport resized to 1155x794, mode Windowed.
+[2024.04.29-07.31.49:640][537]LogViewport: Scene viewport resized to 1155x796, mode Windowed.
+[2024.04.29-07.31.49:673][538]LogViewport: Scene viewport resized to 1155x806, mode Windowed.
+[2024.04.29-07.31.49:706][539]LogViewport: Scene viewport resized to 1155x816, mode Windowed.
+[2024.04.29-07.31.49:747][540]LogViewport: Scene viewport resized to 1155x824, mode Windowed.
+[2024.04.29-07.31.49:779][541]LogViewport: Scene viewport resized to 1155x830, mode Windowed.
+[2024.04.29-07.31.49:812][542]LogViewport: Scene viewport resized to 1155x840, mode Windowed.
+[2024.04.29-07.31.49:844][543]LogViewport: Scene viewport resized to 1155x848, mode Windowed.
+[2024.04.29-07.31.49:889][544]LogViewport: Scene viewport resized to 1155x860, mode Windowed.
+[2024.04.29-07.31.49:925][545]LogViewport: Scene viewport resized to 1155x866, mode Windowed.
+[2024.04.29-07.31.49:984][546]LogViewport: Scene viewport resized to 1155x872, mode Windowed.
+[2024.04.29-07.31.50:036][547]LogViewport: Scene viewport resized to 1155x879, mode Windowed.
+[2024.04.29-07.31.50:091][548]LogViewport: Scene viewport resized to 1155x886, mode Windowed.
+[2024.04.29-07.31.50:145][549]LogViewport: Scene viewport resized to 1155x889, mode Windowed.
+[2024.04.29-07.31.50:217][551]LogViewport: Scene viewport resized to 1155x890, mode Windowed.
+[2024.04.29-07.31.50:264][552]LogViewport: Scene viewport resized to 1155x898, mode Windowed.
+[2024.04.29-07.31.50:296][553]LogViewport: Scene viewport resized to 1155x903, mode Windowed.
+[2024.04.29-07.31.50:351][554]LogViewport: Scene viewport resized to 1155x906, mode Windowed.
+[2024.04.29-07.31.50:530][563]LogViewport: Scene viewport resized to 1155x908, mode Windowed.
+[2024.04.29-07.31.50:655][570]LogViewport: Scene viewport resized to 1155x909, mode Windowed.
+[2024.04.29-07.31.50:765][576]LogViewport: Scene viewport resized to 1155x910, mode Windowed.
+[2024.04.29-07.31.50:805][577]LogViewport: Scene viewport resized to 1155x911, mode Windowed.
+[2024.04.29-07.32.03:474][437]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.29-07.32.03:484][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.29-07.32.03:484][437]PIE: New page: PIE session: NPCMap (2024. 4. 30. 오전 1:32:03)
+[2024.04.29-07.32.03:484][437]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-07.32.04:973][437]LogPlayLevel: PIE: StaticDuplicateObject took: (1.489448s)
+[2024.04.29-07.32.04:973][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.489509s)
+[2024.04.29-07.32.04:979][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.04.29-07.32.04:983][437]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-07.32.04:983][437]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-07.32.04:983][437]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.29-07.32.04:984][437]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2024.04.29-07.32.04:984][437]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.04.29-07.32.04:984][437]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.29-07.32.04:984][437]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.29-07.32.04:984][437]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.29-07.32.04:984][437]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.29-07.32.04:984][437]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.29-07.32.04:984][437]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.29-07.32.04:984][437]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.29-07.32.04:984][437]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.29-07.32.04:984][437]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.29-07.32.04:984][437]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.29-07.32.04:984][437]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.29-07.32.04:986][437]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.29-07.32.05:018][437]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.29-07.32.05:018][437]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.29-07.32.05:018][437]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.29-07.32.05:018][437]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.29-07.32.05:019][437]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.04.29-07.32.05:019][437]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.04.29-07.32.05:021][437]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.04.29-07.32.05:021][437]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.04.29-07.32.05:021][437]LogInit: FAudioDevice initialized with ID 7.
+[2024.04.29-07.32.05:021][437]LogAudio: Display: Audio Device (ID: 7) registered with world 'NPCMap'.
+[2024.04.29-07.32.05:021][437]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.29-07.32.05:023][437]LogLoad: Game class is 'ABGameMode'
+[2024.04.29-07.32.05:335][437]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.29-16.32.05
+[2024.04.29-07.32.05:338][437]LogWorld: Bringing up level for play took: 0.314111
+[2024.04.29-07.32.05:527][437]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.04.29-07.32.05:536][437]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.29-07.32.05:536][437]PIE: Server logged in
+[2024.04.29-07.32.05:537][437]PIE: Play in editor total start time 2.056 seconds.
+[2024.04.29-07.32.06:214][443]LogTemp: 5.000000
+[2024.04.29-07.32.07:046][501]LogTemp: 4.500000
+[2024.04.29-07.32.07:553][538]LogTemp: 4.000000
+[2024.04.29-07.32.07:965][568]LogTemp: 3.500000
+[2024.04.29-07.32.08:378][595]LogTemp: 3.000000
+[2024.04.29-07.32.08:928][632]LogTemp: 2.500000
+[2024.04.29-07.32.09:390][664]LogTemp: 2.000000
+[2024.04.29-07.32.09:853][697]LogTemp: 1.500000
+[2024.04.29-07.32.10:271][726]LogTemp: 1.000000
+[2024.04.29-07.32.10:848][766]LogTemp: 0.500000
+[2024.04.29-07.32.11:428][803]LogTemp: 0.000000
+[2024.04.29-07.32.12:007][841]LogTemp: 0.000000
+[2024.04.29-07.32.12:724][887]LogTemp: 5.000000
+[2024.04.29-07.32.12:884][897]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-07.32.13:244][919]LogTemp: 4.500000
+[2024.04.29-07.32.13:797][953]LogTemp: 4.000000
+[2024.04.29-07.32.14:395][989]LogTemp: 3.500000
+[2024.04.29-07.32.14:427][991]LogTemp: EndCombo
+[2024.04.29-07.32.14:806][ 15]LogTemp: 5.000000
+[2024.04.29-07.32.15:279][ 43]LogTemp: 4.500000
+[2024.04.29-07.32.15:713][ 68]LogTemp: 4.000000
+[2024.04.29-07.32.16:296][102]LogTemp: 3.500000
+[2024.04.29-07.32.16:764][131]LogTemp: 3.000000
+[2024.04.29-07.32.17:330][167]LogTemp: 2.500000
+[2024.04.29-07.32.17:858][202]LogTemp: 2.000000
+[2024.04.29-07.32.18:365][234]LogTemp: 1.500000
+[2024.04.29-07.32.18:855][268]LogTemp: 1.000000
+[2024.04.29-07.32.19:451][308]LogTemp: 0.500000
+[2024.04.29-07.32.19:998][343]LogTemp: 0.000000
+[2024.04.29-07.32.20:434][369]LogTemp: 0.000000
+[2024.04.29-07.32.20:967][400]LogTemp: 0.000000
+[2024.04.29-07.32.21:486][430]LogTemp: 0.000000
+[2024.04.29-07.32.21:923][456]LogTemp: 0.000000
+[2024.04.29-07.32.22:473][488]LogTemp: 0.000000
+[2024.04.29-07.32.22:945][517]LogTemp: 0.000000
+[2024.04.29-07.32.23:496][549]LogTemp: 0.000000
+[2024.04.29-07.32.23:933][575]LogTemp: 0.000000
+[2024.04.29-07.32.24:513][610]LogTemp: 0.000000
+[2024.04.29-07.32.25:077][643]LogTemp: 0.000000
+[2024.04.29-07.32.25:618][676]LogTemp: 0.000000
+[2024.04.29-07.32.26:176][710]LogTemp: 0.000000
+[2024.04.29-07.32.26:716][743]LogTemp: 0.000000
+[2024.04.29-07.32.27:179][771]LogTemp: 0.000000
+[2024.04.29-07.32.27:623][798]LogTemp: 0.000000
+[2024.04.29-07.32.28:184][831]LogTemp: 0.000000
+[2024.04.29-07.32.28:607][856]LogTemp: 0.000000
+[2024.04.29-07.32.29:101][886]LogTemp: 0.000000
+[2024.04.29-07.32.29:665][920]LogTemp: 0.000000
+[2024.04.29-07.32.30:263][957]LogTemp: 0.000000
+[2024.04.29-07.32.30:818][989]LogTemp: 0.000000
+[2024.04.29-07.32.31:384][ 22]LogTemp: 0.000000
+[2024.04.29-07.32.31:869][ 50]LogTemp: 0.000000
+[2024.04.29-07.32.32:301][ 76]LogTemp: 0.000000
+[2024.04.29-07.32.32:574][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-07.32.32:574][ 90]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-07.32.32:575][ 90]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-07.32.32:613][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-07.32.32:617][ 90]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.29-07.32.32:620][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-07.32.32:630][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-07.32.32:637][ 90]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.29-07.32.32:637][ 90]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.29-07.32.32:639][ 90]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.29-07.32.32:860][ 90]LogUObjectHash: Compacting FUObjectHashTables data took  10.50ms
+[2024.04.29-07.32.32:908][ 91]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.04.29-07.33.02:429][652]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.29-07.33.02:437][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.29-07.33.02:437][652]PIE: New page: PIE session: NPCMap (2024. 4. 30. 오전 1:33:02)
+[2024.04.29-07.33.02:437][652]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-07.33.03:843][652]LogPlayLevel: PIE: StaticDuplicateObject took: (1.405958s)
+[2024.04.29-07.33.03:843][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.405989s)
+[2024.04.29-07.33.03:848][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.04.29-07.33.03:851][652]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-07.33.03:851][652]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-07.33.03:851][652]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.29-07.33.03:852][652]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2024.04.29-07.33.03:852][652]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.04.29-07.33.03:852][652]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.29-07.33.03:852][652]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.29-07.33.03:852][652]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.29-07.33.03:852][652]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.29-07.33.03:852][652]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.29-07.33.03:852][652]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.29-07.33.03:852][652]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.29-07.33.03:852][652]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.29-07.33.03:852][652]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.29-07.33.03:852][652]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.29-07.33.03:852][652]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.29-07.33.03:854][652]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.29-07.33.03:885][652]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.29-07.33.03:885][652]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.29-07.33.03:885][652]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.29-07.33.03:885][652]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.29-07.33.03:885][652]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.04.29-07.33.03:885][652]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.04.29-07.33.03:887][652]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.04.29-07.33.03:887][652]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.04.29-07.33.03:887][652]LogInit: FAudioDevice initialized with ID 8.
+[2024.04.29-07.33.03:887][652]LogAudio: Display: Audio Device (ID: 8) registered with world 'NPCMap'.
+[2024.04.29-07.33.03:887][652]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.04.29-07.33.03:889][652]LogLoad: Game class is 'ABGameMode'
+[2024.04.29-07.33.04:181][652]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.29-16.33.04
+[2024.04.29-07.33.04:184][652]LogWorld: Bringing up level for play took: 0.294374
+[2024.04.29-07.33.04:368][652]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.04.29-07.33.04:377][652]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.29-07.33.04:377][652]PIE: Server logged in
+[2024.04.29-07.33.04:377][652]PIE: Play in editor total start time 1.943 seconds.
+[2024.04.29-07.33.04:799][653]LogTemp: 5.000000
+[2024.04.29-07.33.05:720][710]LogTemp: 4.500000
+[2024.04.29-07.33.06:201][747]LogTemp: 4.000000
+[2024.04.29-07.33.06:625][781]LogTemp: 3.500000
+[2024.04.29-07.33.07:178][825]LogTemp: 3.000000
+[2024.04.29-07.33.07:722][868]LogTemp: 2.500000
+[2024.04.29-07.33.08:261][911]LogTemp: 2.000000
+[2024.04.29-07.33.08:766][951]LogTemp: 1.500000
+[2024.04.29-07.33.09:326][995]LogTemp: 1.000000
+[2024.04.29-07.33.09:798][ 30]LogTemp: 0.500000
+[2024.04.29-07.33.10:789][103]LogTemp: 0.000000
+[2024.04.29-07.33.11:345][143]LogTemp: 0.000000
+[2024.04.29-07.33.11:843][178]LogTemp: 0.000000
+[2024.04.29-07.33.12:516][225]LogTemp: 5.000000
+[2024.04.29-07.33.12:967][256]LogTemp: 4.500000
+[2024.04.29-07.33.13:529][295]LogTemp: 4.000000
+[2024.04.29-07.33.14:008][327]LogTemp: 3.500000
+[2024.04.29-07.33.14:447][356]LogTemp: 3.000000
+[2024.04.29-07.33.14:461][357]LogTemp: EndCombo
+[2024.04.29-07.33.14:898][388]LogTemp: 5.000000
+[2024.04.29-07.33.15:316][418]LogTemp: 4.500000
+[2024.04.29-07.33.15:835][456]LogTemp: 4.000000
+[2024.04.29-07.33.16:381][496]LogTemp: 3.500000
+[2024.04.29-07.33.16:840][529]LogTemp: 3.000000
+[2024.04.29-07.33.17:389][568]LogTemp: 2.500000
+[2024.04.29-07.33.17:966][609]LogTemp: 2.000000
+[2024.04.29-07.33.18:404][640]LogTemp: 1.500000
+[2024.04.29-07.33.19:012][683]LogTemp: 1.000000
+[2024.04.29-07.33.19:454][712]LogTemp: 0.500000
+[2024.04.29-07.33.19:912][743]LogTemp: 0.000000
+[2024.04.29-07.33.20:422][778]LogTemp: 0.000000
+[2024.04.29-07.33.20:956][814]LogTemp: 0.000000
+[2024.04.29-07.33.21:449][846]LogTemp: 0.000000
+[2024.04.29-07.33.21:872][875]LogTemp: 0.000000
+[2024.04.29-07.33.22:467][914]LogTemp: 0.000000
+[2024.04.29-07.33.22:943][947]LogTemp: 0.000000
+[2024.04.29-07.33.23:449][981]LogTemp: 0.000000
+[2024.04.29-07.33.23:982][ 17]LogTemp: 0.000000
+[2024.04.29-07.33.24:470][ 49]LogTemp: 0.000000
+[2024.04.29-07.33.25:054][ 89]LogTemp: 0.000000
+[2024.04.29-07.33.25:500][119]LogTemp: 0.000000
+[2024.04.29-07.33.26:030][155]LogTemp: 0.000000
+[2024.04.29-07.33.26:563][191]LogTemp: 0.000000
+[2024.04.29-07.33.27:069][225]LogTemp: 0.000000
+[2024.04.29-07.33.27:626][263]LogTemp: 0.000000
+[2024.04.29-07.33.28:052][293]LogTemp: 0.000000
+[2024.04.29-07.33.28:489][323]LogTemp: 0.000000
+[2024.04.29-07.33.29:064][363]LogTemp: 0.000000
+[2024.04.29-07.33.29:672][406]LogTemp: 0.000000
+[2024.04.29-07.33.30:272][448]LogTemp: 0.000000
+[2024.04.29-07.33.30:742][480]LogTemp: 0.000000
+[2024.04.29-07.33.31:218][513]LogTemp: 0.000000
+[2024.04.29-07.33.31:679][545]LogTemp: 0.000000
+[2024.04.29-07.33.32:189][580]LogTemp: 0.000000
+[2024.04.29-07.33.32:459][598]LogTemp: 0.000000
+[2024.04.29-07.33.33:216][650]LogTemp: 5.000000
+[2024.04.29-07.33.33:817][690]LogTemp: 4.500000
+[2024.04.29-07.33.34:385][728]LogTemp: 4.000000
+[2024.04.29-07.33.34:911][763]LogTemp: 3.500000
+[2024.04.29-07.33.35:229][784]LogTemp: EndCombo
+[2024.04.29-07.33.35:445][798]LogTemp: 5.000000
+[2024.04.29-07.33.35:932][830]LogTemp: 4.500000
+[2024.04.29-07.33.36:380][860]LogTemp: 4.000000
+[2024.04.29-07.33.36:842][891]LogTemp: 3.500000
+[2024.04.29-07.33.37:282][921]LogTemp: 3.000000
+[2024.04.29-07.33.37:802][956]LogTemp: 2.500000
+[2024.04.29-07.33.38:315][992]LogTemp: 2.000000
+[2024.04.29-07.33.38:729][ 20]LogTemp: 1.500000
+[2024.04.29-07.33.39:152][ 48]LogTemp: 1.000000
+[2024.04.29-07.33.39:665][ 82]LogTemp: 0.500000
+[2024.04.29-07.33.40:120][112]LogTemp: 0.000000
+[2024.04.29-07.33.40:769][156]LogTemp: 0.000000
+[2024.04.29-07.33.41:231][186]LogTemp: 0.000000
+[2024.04.29-07.33.41:664][215]LogTemp: 0.000000
+[2024.04.29-07.33.42:234][253]LogTemp: 0.000000
+[2024.04.29-07.33.42:336][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-07.33.42:336][258]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-07.33.42:337][258]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-07.33.42:370][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-07.33.42:374][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.29-07.33.42:378][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-07.33.42:389][258]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.29-07.33.42:390][258]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.04.29-07.33.42:390][258]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.04.29-07.33.42:393][258]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.04.29-07.33.42:397][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-07.33.42:597][258]LogUObjectHash: Compacting FUObjectHashTables data took   7.27ms
+[2024.04.29-07.33.42:643][259]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.04.29-07.34.17:673][438]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-07.34.38:822][842]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-07.34.39:407][884]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-07.34.39:715][906]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-07.34.44:471][244]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-07.35.02:465][582]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.29-07.35.02:472][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.29-07.35.02:472][582]PIE: New page: PIE session: NPCMap (2024. 4. 30. 오전 1:35:02)
+[2024.04.29-07.35.02:474][582]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-07.35.03:947][582]LogPlayLevel: PIE: StaticDuplicateObject took: (1.472875s)
+[2024.04.29-07.35.03:947][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.472911s)
+[2024.04.29-07.35.03:952][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.04.29-07.35.03:955][582]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-07.35.03:955][582]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-07.35.03:955][582]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.29-07.35.03:955][582]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2024.04.29-07.35.03:955][582]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.04.29-07.35.03:955][582]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.29-07.35.03:955][582]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.29-07.35.03:955][582]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.29-07.35.03:955][582]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.29-07.35.03:955][582]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.29-07.35.03:956][582]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.29-07.35.03:956][582]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.29-07.35.03:956][582]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.29-07.35.03:956][582]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.29-07.35.03:956][582]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.29-07.35.03:956][582]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.29-07.35.03:958][582]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.29-07.35.03:985][582]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.29-07.35.03:986][582]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.29-07.35.03:986][582]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.29-07.35.03:986][582]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.29-07.35.03:987][582]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.04.29-07.35.03:987][582]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.04.29-07.35.03:988][582]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.04.29-07.35.03:988][582]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.04.29-07.35.03:988][582]LogInit: FAudioDevice initialized with ID 9.
+[2024.04.29-07.35.03:988][582]LogAudio: Display: Audio Device (ID: 9) registered with world 'NPCMap'.
+[2024.04.29-07.35.03:988][582]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.04.29-07.35.03:990][582]LogLoad: Game class is 'ABGameMode'
+[2024.04.29-07.35.04:307][582]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.29-16.35.04
+[2024.04.29-07.35.04:309][582]LogWorld: Bringing up level for play took: 0.319098
+[2024.04.29-07.35.04:548][582]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.04.29-07.35.04:556][582]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.29-07.35.04:557][582]PIE: Server logged in
+[2024.04.29-07.35.04:557][582]PIE: Play in editor total start time 2.087 seconds.
+[2024.04.29-07.35.05:058][583]LogTemp: 5.000000
+[2024.04.29-07.35.05:641][611]LogTemp: 4.500000
+[2024.04.29-07.35.06:050][642]LogTemp: 4.000000
+[2024.04.29-07.35.06:595][684]LogTemp: 3.500000
+[2024.04.29-07.35.07:098][726]LogTemp: 3.000000
+[2024.04.29-07.35.07:684][775]LogTemp: 2.500000
+[2024.04.29-07.35.08:275][823]LogTemp: 2.000000
+[2024.04.29-07.35.08:838][870]LogTemp: 1.500000
+[2024.04.29-07.35.09:333][911]LogTemp: 1.000000
+[2024.04.29-07.35.09:853][954]LogTemp: 0.500000
+[2024.04.29-07.35.10:382][996]LogTemp: 0.000000
+[2024.04.29-07.35.10:836][ 32]LogTemp: 0.000000
+[2024.04.29-07.35.11:375][ 76]LogTemp: 0.000000
+[2024.04.29-07.35.11:901][118]LogTemp: 0.000000
+[2024.04.29-07.35.12:420][159]LogTemp: 0.000000
+[2024.04.29-07.35.12:940][199]LogTemp: 0.000000
+[2024.04.29-07.35.13:364][232]LogTemp: 0.000000
+[2024.04.29-07.35.13:947][276]LogTemp: 0.000000
+[2024.04.29-07.35.14:373][308]LogTemp: 0.000000
+[2024.04.29-07.35.14:856][345]LogTemp: 0.000000
+[2024.04.29-07.35.15:435][385]LogTemp: 0.000000
+[2024.04.29-07.35.16:031][425]LogTemp: 0.000000
+[2024.04.29-07.35.16:465][455]LogTemp: 0.000000
+[2024.04.29-07.35.17:011][494]LogTemp: 0.000000
+[2024.04.29-07.35.17:488][529]LogTemp: 0.000000
+[2024.04.29-07.35.18:066][571]LogTemp: 0.000000
+[2024.04.29-07.35.18:778][623]LogTemp: 5.000000
+[2024.04.29-07.35.19:197][653]LogTemp: 4.500000
+[2024.04.29-07.35.19:688][685]LogTemp: 4.000000
+[2024.04.29-07.35.20:178][717]LogTemp: 3.500000
+[2024.04.29-07.35.20:584][743]LogTemp: 3.000000
+[2024.04.29-07.35.20:780][755]LogTemp: EndCombo
+[2024.04.29-07.35.21:052][772]LogTemp: 5.000000
+[2024.04.29-07.35.22:051][836]LogTemp: 4.500000
+[2024.04.29-07.35.22:648][874]LogTemp: 4.000000
+[2024.04.29-07.35.23:157][907]LogTemp: 3.500000
+[2024.04.29-07.35.23:691][941]LogTemp: 3.000000
+[2024.04.29-07.35.24:116][968]LogTemp: 2.500000
+[2024.04.29-07.35.24:726][  7]LogTemp: 2.000000
+[2024.04.29-07.35.25:162][ 35]LogTemp: 1.500000
+[2024.04.29-07.35.25:635][ 66]LogTemp: 1.000000
+[2024.04.29-07.35.26:045][ 92]LogTemp: 0.500000
+[2024.04.29-07.35.26:508][123]LogTemp: 0.000000
+[2024.04.29-07.35.27:090][161]LogTemp: 5.000000
+[2024.04.29-07.35.27:588][193]LogTemp: 4.500000
+[2024.04.29-07.35.28:186][231]LogTemp: 4.000000
+[2024.04.29-07.35.28:753][267]LogTemp: 3.500000
+[2024.04.29-07.35.29:194][295]LogTemp: 3.000000
+[2024.04.29-07.35.29:237][298]LogTemp: EndCombo
+[2024.04.29-07.35.29:552][318]LogTemp: 5.000000
+[2024.04.29-07.35.30:032][349]LogTemp: 4.500000
+[2024.04.29-07.35.30:669][390]LogTemp: 4.000000
+[2024.04.29-07.35.31:241][429]LogTemp: 3.500000
+[2024.04.29-07.35.31:802][470]LogTemp: 3.000000
+[2024.04.29-07.35.32:251][503]LogTemp: 2.500000
+[2024.04.29-07.35.32:778][541]LogTemp: 2.000000
+[2024.04.29-07.35.33:326][582]LogTemp: 1.500000
+[2024.04.29-07.35.33:746][613]LogTemp: 1.000000
+[2024.04.29-07.35.34:331][656]LogTemp: 0.500000
+[2024.04.29-07.35.34:919][699]LogTemp: 0.000000
+[2024.04.29-07.35.35:521][744]LogTemp: 0.000000
+[2024.04.29-07.35.36:129][789]LogTemp: 5.000000
+[2024.04.29-07.35.36:626][824]LogTemp: 4.500000
+[2024.04.29-07.35.37:195][865]LogTemp: 4.000000
+[2024.04.29-07.35.37:606][895]LogTemp: 3.500000
+[2024.04.29-07.35.38:046][924]LogTemp: EndCombo
+[2024.04.29-07.35.38:047][924]LogTemp: 5.000000
+[2024.04.29-07.35.38:633][962]LogTemp: 4.500000
+[2024.04.29-07.35.39:181][997]LogTemp: 4.000000
+[2024.04.29-07.35.39:615][ 26]LogTemp: 3.500000
+[2024.04.29-07.35.40:029][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-07.35.40:029][ 52]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-07.35.40:030][ 52]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-07.35.40:065][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-07.35.40:069][ 52]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.29-07.35.40:072][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-07.35.40:078][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-07.35.40:083][ 52]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.04.29-07.35.40:083][ 52]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.04.29-07.35.40:085][ 52]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.04.29-07.35.40:300][ 52]LogUObjectHash: Compacting FUObjectHashTables data took  10.72ms
+[2024.04.29-07.35.40:433][ 53]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.04.29-07.41.19:499][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.04.29-07.41.20:888][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/InfiniteAbyss/Map/NPCMap_Auto2
+[2024.04.29-07.41.20:890][146]LogSavePackage: Moving '../../../../../../Unreal5Project/InfiniteAbyss/Saved/NPCMap_Auto255EB718642F86C5134DDBD892ACDCC3F.tmp' to '../../../../../../Unreal5Project/InfiniteAbyss/Saved/Autosaves/Game/InfiniteAbyss/Map/NPCMap_Auto2.umap'
+[2024.04.29-07.41.20:892][146]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Unreal5Project/InfiniteAbyss/Saved/Autosaves/Game/InfiniteAbyss/Map/NPCMap_Auto2.umap is in the /Temp path, will not scan.
+[2024.04.29-07.41.20:894][146]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/InfiniteAbyss/Map/NPCMap' took 1.400
+[2024.04.29-07.41.20:894][146]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.400
+[2024.04.29-07.41.35:334][193]LogSlate: Window 'BT_ABBossCharacter' being destroyed
+[2024.04.29-07.41.37:464][350]LogViewport: Scene viewport resized to 1157x911, mode Windowed.
+[2024.04.29-07.41.37:508][351]LogViewport: Scene viewport resized to 1176x911, mode Windowed.
+[2024.04.29-07.41.37:540][352]LogViewport: Scene viewport resized to 1238x911, mode Windowed.
+[2024.04.29-07.41.37:574][353]LogViewport: Scene viewport resized to 1333x911, mode Windowed.
+[2024.04.29-07.41.37:612][354]LogViewport: Scene viewport resized to 1451x911, mode Windowed.
+[2024.04.29-07.41.37:649][355]LogViewport: Scene viewport resized to 1528x911, mode Windowed.
+[2024.04.29-07.41.37:684][356]LogViewport: Scene viewport resized to 1584x911, mode Windowed.
+[2024.04.29-07.41.37:728][357]LogViewport: Scene viewport resized to 1636x911, mode Windowed.
+[2024.04.29-07.41.37:769][358]LogViewport: Scene viewport resized to 1677x911, mode Windowed.
+[2024.04.29-07.41.37:808][359]LogViewport: Scene viewport resized to 1725x911, mode Windowed.
+[2024.04.29-07.41.37:847][360]LogViewport: Scene viewport resized to 1768x911, mode Windowed.
+[2024.04.29-07.41.37:886][361]LogViewport: Scene viewport resized to 1795x911, mode Windowed.
+[2024.04.29-07.41.37:926][362]LogViewport: Scene viewport resized to 1817x911, mode Windowed.
+[2024.04.29-07.41.37:969][363]LogViewport: Scene viewport resized to 1828x911, mode Windowed.
+[2024.04.29-07.41.38:010][364]LogViewport: Scene viewport resized to 1862x911, mode Windowed.
+[2024.04.29-07.41.38:053][365]LogViewport: Scene viewport resized to 1909x911, mode Windowed.
+[2024.04.29-07.41.38:092][366]LogViewport: Scene viewport resized to 1914x911, mode Windowed.
+[2024.04.29-07.41.38:476][392]LogViewport: Scene viewport resized to 1912x911, mode Windowed.
+[2024.04.29-07.41.38:519][393]LogViewport: Scene viewport resized to 1905x911, mode Windowed.
+[2024.04.29-07.41.38:558][394]LogViewport: Scene viewport resized to 1891x911, mode Windowed.
+[2024.04.29-07.41.38:596][395]LogViewport: Scene viewport resized to 1876x911, mode Windowed.
+[2024.04.29-07.41.38:633][396]LogViewport: Scene viewport resized to 1870x911, mode Windowed.
+[2024.04.29-07.41.39:152][432]LogViewport: Scene viewport resized to 1867x911, mode Windowed.
+[2024.04.29-07.41.39:198][433]LogViewport: Scene viewport resized to 1856x911, mode Windowed.
+[2024.04.29-07.41.39:235][434]LogViewport: Scene viewport resized to 1849x911, mode Windowed.
+[2024.04.29-07.41.39:273][435]LogViewport: Scene viewport resized to 1845x911, mode Windowed.
+[2024.04.29-07.41.39:622][459]LogViewport: Scene viewport resized to 1846x911, mode Windowed.
+[2024.04.29-07.41.39:668][460]LogViewport: Scene viewport resized to 1854x911, mode Windowed.
+[2024.04.29-07.41.39:696][461]LogViewport: Scene viewport resized to 1859x911, mode Windowed.
+[2024.04.29-07.41.39:734][462]LogViewport: Scene viewport resized to 1864x911, mode Windowed.
+[2024.04.29-07.41.39:770][463]LogViewport: Scene viewport resized to 1869x911, mode Windowed.
+[2024.04.29-07.41.39:808][464]LogViewport: Scene viewport resized to 1876x911, mode Windowed.
+[2024.04.29-07.41.39:846][465]LogViewport: Scene viewport resized to 1883x911, mode Windowed.
+[2024.04.29-07.41.39:887][466]LogViewport: Scene viewport resized to 1891x911, mode Windowed.
+[2024.04.29-07.41.39:923][467]LogViewport: Scene viewport resized to 1896x911, mode Windowed.
+[2024.04.29-07.41.39:963][468]LogViewport: Scene viewport resized to 1901x911, mode Windowed.
+[2024.04.29-07.41.40:011][470]LogViewport: Scene viewport resized to 1902x911, mode Windowed.
+[2024.04.29-07.41.40:050][471]LogViewport: Scene viewport resized to 1905x911, mode Windowed.
+[2024.04.29-07.41.40:162][478]LogViewport: Scene viewport resized to 1907x911, mode Windowed.
+[2024.04.29-07.41.40:363][491]LogViewport: Scene viewport resized to 1906x911, mode Windowed.
+[2024.04.29-07.41.40:409][492]LogViewport: Scene viewport resized to 1896x911, mode Windowed.
+[2024.04.29-07.41.40:441][493]LogViewport: Scene viewport resized to 1887x911, mode Windowed.
+[2024.04.29-07.41.40:485][494]LogViewport: Scene viewport resized to 1879x911, mode Windowed.
+[2024.04.29-07.41.40:524][495]LogViewport: Scene viewport resized to 1874x911, mode Windowed.
+[2024.04.29-07.41.40:567][496]LogViewport: Scene viewport resized to 1871x911, mode Windowed.
+[2024.04.29-07.41.40:608][497]LogViewport: Scene viewport resized to 1870x911, mode Windowed.
+[2024.04.29-07.41.40:646][498]LogViewport: Scene viewport resized to 1869x911, mode Windowed.
+[2024.04.29-07.41.41:056][527]LogViewport: Scene viewport resized to 1866x911, mode Windowed.
+[2024.04.29-07.41.41:098][528]LogViewport: Scene viewport resized to 1865x911, mode Windowed.
+[2024.04.29-07.41.43:537][703]LogViewport: Scene viewport resized to 1863x911, mode Windowed.
+[2024.04.29-07.41.43:579][704]LogViewport: Scene viewport resized to 1857x911, mode Windowed.
+[2024.04.29-07.41.43:618][705]LogViewport: Scene viewport resized to 1846x911, mode Windowed.
+[2024.04.29-07.41.43:656][706]LogViewport: Scene viewport resized to 1823x911, mode Windowed.
+[2024.04.29-07.41.43:692][707]LogViewport: Scene viewport resized to 1788x911, mode Windowed.
+[2024.04.29-07.41.43:729][708]LogViewport: Scene viewport resized to 1746x911, mode Windowed.
+[2024.04.29-07.41.43:768][709]LogViewport: Scene viewport resized to 1717x911, mode Windowed.
+[2024.04.29-07.41.43:807][710]LogViewport: Scene viewport resized to 1702x911, mode Windowed.
+[2024.04.29-07.41.43:847][711]LogViewport: Scene viewport resized to 1682x911, mode Windowed.
+[2024.04.29-07.41.43:885][712]LogViewport: Scene viewport resized to 1657x911, mode Windowed.
+[2024.04.29-07.41.43:923][713]LogViewport: Scene viewport resized to 1648x911, mode Windowed.
+[2024.04.29-07.41.43:970][715]LogViewport: Scene viewport resized to 1647x911, mode Windowed.
+[2024.04.29-07.41.44:011][716]LogViewport: Scene viewport resized to 1639x911, mode Windowed.
+[2024.04.29-07.41.44:042][717]LogViewport: Scene viewport resized to 1628x911, mode Windowed.
+[2024.04.29-07.41.44:077][718]LogViewport: Scene viewport resized to 1623x911, mode Windowed.
+[2024.04.29-07.41.44:174][724]LogViewport: Scene viewport resized to 1621x911, mode Windowed.
+[2024.04.29-07.41.44:217][725]LogViewport: Scene viewport resized to 1615x911, mode Windowed.
+[2024.04.29-07.41.44:855][771]LogViewport: Scene viewport resized to 1612x911, mode Windowed.
+[2024.04.29-07.41.44:898][772]LogViewport: Scene viewport resized to 1600x911, mode Windowed.
+[2024.04.29-07.41.44:936][773]LogViewport: Scene viewport resized to 1597x911, mode Windowed.
+[2024.04.29-07.41.47:460][957]LogViewport: Scene viewport resized to 1597x908, mode Windowed.
+[2024.04.29-07.41.47:501][958]LogViewport: Scene viewport resized to 1597x901, mode Windowed.
+[2024.04.29-07.41.47:538][959]LogViewport: Scene viewport resized to 1597x891, mode Windowed.
+[2024.04.29-07.41.47:574][960]LogViewport: Scene viewport resized to 1597x878, mode Windowed.
+[2024.04.29-07.41.47:610][961]LogViewport: Scene viewport resized to 1597x867, mode Windowed.
+[2024.04.29-07.41.47:649][962]LogViewport: Scene viewport resized to 1597x855, mode Windowed.
+[2024.04.29-07.41.47:686][963]LogViewport: Scene viewport resized to 1597x842, mode Windowed.
+[2024.04.29-07.41.47:727][964]LogViewport: Scene viewport resized to 1597x828, mode Windowed.
+[2024.04.29-07.41.47:761][965]LogViewport: Scene viewport resized to 1597x819, mode Windowed.
+[2024.04.29-07.41.47:795][966]LogViewport: Scene viewport resized to 1597x810, mode Windowed.
+[2024.04.29-07.41.47:828][967]LogViewport: Scene viewport resized to 1597x801, mode Windowed.
+[2024.04.29-07.41.47:858][968]LogViewport: Scene viewport resized to 1597x793, mode Windowed.
+[2024.04.29-07.41.47:891][969]LogViewport: Scene viewport resized to 1597x784, mode Windowed.
+[2024.04.29-07.41.47:926][970]LogViewport: Scene viewport resized to 1597x779, mode Windowed.
+[2024.04.29-07.41.47:962][971]LogViewport: Scene viewport resized to 1597x778, mode Windowed.
+[2024.04.29-07.41.47:993][972]LogViewport: Scene viewport resized to 1597x773, mode Windowed.
+[2024.04.29-07.41.48:027][973]LogViewport: Scene viewport resized to 1597x768, mode Windowed.
+[2024.04.29-07.41.48:057][974]LogViewport: Scene viewport resized to 1597x764, mode Windowed.
+[2024.04.29-07.41.48:090][975]LogViewport: Scene viewport resized to 1597x761, mode Windowed.
+[2024.04.29-07.41.48:124][976]LogViewport: Scene viewport resized to 1597x759, mode Windowed.
+[2024.04.29-07.41.48:295][988]LogViewport: Scene viewport resized to 1597x758, mode Windowed.
+[2024.04.29-07.41.48:756][ 22]LogViewport: Scene viewport resized to 1597x756, mode Windowed.
+[2024.04.29-07.41.48:805][ 23]LogViewport: Scene viewport resized to 1597x754, mode Windowed.
+[2024.04.29-07.41.48:839][ 24]LogViewport: Scene viewport resized to 1597x752, mode Windowed.
+[2024.04.29-07.41.48:875][ 25]LogViewport: Scene viewport resized to 1597x748, mode Windowed.
+[2024.04.29-07.41.48:910][ 26]LogViewport: Scene viewport resized to 1597x747, mode Windowed.
+[2024.04.29-07.41.48:942][ 27]LogViewport: Scene viewport resized to 1597x745, mode Windowed.
+[2024.04.29-07.41.48:971][ 28]LogViewport: Scene viewport resized to 1597x743, mode Windowed.
+[2024.04.29-07.41.49:003][ 29]LogViewport: Scene viewport resized to 1597x742, mode Windowed.
+[2024.04.29-07.41.49:228][ 45]LogViewport: Scene viewport resized to 1597x743, mode Windowed.
+[2024.04.29-07.41.49:737][ 83]LogViewport: Scene viewport resized to 1597x744, mode Windowed.
+[2024.04.29-07.41.49:782][ 84]LogViewport: Scene viewport resized to 1597x747, mode Windowed.
+[2024.04.29-07.41.52:403][282]LogViewport: Scene viewport resized to 1596x747, mode Windowed.
+[2024.04.29-07.41.52:449][283]LogViewport: Scene viewport resized to 1584x747, mode Windowed.
+[2024.04.29-07.41.52:486][284]LogViewport: Scene viewport resized to 1570x747, mode Windowed.
+[2024.04.29-07.41.52:526][285]LogViewport: Scene viewport resized to 1552x747, mode Windowed.
+[2024.04.29-07.41.52:560][286]LogViewport: Scene viewport resized to 1543x747, mode Windowed.
+[2024.04.29-07.41.52:600][287]LogViewport: Scene viewport resized to 1541x747, mode Windowed.
+[2024.04.29-07.41.52:646][288]LogViewport: Scene viewport resized to 1531x747, mode Windowed.
+[2024.04.29-07.41.52:688][289]LogViewport: Scene viewport resized to 1525x747, mode Windowed.
+[2024.04.29-07.41.52:731][290]LogViewport: Scene viewport resized to 1524x747, mode Windowed.
+[2024.04.29-07.41.52:801][294]LogViewport: Scene viewport resized to 1523x747, mode Windowed.
+[2024.04.29-07.41.52:843][295]LogViewport: Scene viewport resized to 1518x747, mode Windowed.
+[2024.04.29-07.41.52:873][296]LogViewport: Scene viewport resized to 1517x747, mode Windowed.
+[2024.04.29-07.41.52:992][304]LogViewport: Scene viewport resized to 1516x747, mode Windowed.
+[2024.04.29-07.41.53:035][305]LogViewport: Scene viewport resized to 1511x747, mode Windowed.
+[2024.04.29-07.41.53:072][306]LogViewport: Scene viewport resized to 1509x747, mode Windowed.
+[2024.04.29-07.41.53:203][315]LogViewport: Scene viewport resized to 1508x747, mode Windowed.
+[2024.04.29-07.41.53:249][316]LogViewport: Scene viewport resized to 1506x747, mode Windowed.
+[2024.04.29-07.41.57:295][623]LogViewport: Scene viewport resized to 1506x750, mode Windowed.
+[2024.04.29-07.41.57:338][624]LogViewport: Scene viewport resized to 1506x753, mode Windowed.
+[2024.04.29-07.41.57:373][625]LogViewport: Scene viewport resized to 1506x759, mode Windowed.
+[2024.04.29-07.41.57:403][626]LogViewport: Scene viewport resized to 1506x765, mode Windowed.
+[2024.04.29-07.41.57:436][627]LogViewport: Scene viewport resized to 1506x768, mode Windowed.
+[2024.04.29-07.41.57:466][628]LogViewport: Scene viewport resized to 1506x769, mode Windowed.
+[2024.04.29-08.23.40:639][184]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/InfiniteAbyss/AI/BT_ABBossCharacter.BT_ABBossCharacter
+[2024.04.29-08.23.56:245][768]LogDerivedDataCache: C:/Users/djthe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:48.048 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 24934 files in 26520 folders with total size 8479 MiB.
+[2024.04.29-08.26.35:927][338]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.29-08.26.35:969][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/Map/NPCMap" FILE="../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/NPCMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.29-08.26.35:991][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.04.29-08.26.37:429][338]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/Map/NPCMap
+[2024.04.29-08.26.37:430][338]LogSavePackage: Moving '../../../../../../Unreal5Project/InfiniteAbyss/Saved/NPCMap64DF86114AC43E72053A59B6780C7C40.tmp' to '../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/Map/NPCMap.umap'
+[2024.04.29-08.26.37:455][338]LogFileHelpers: Saving map 'NPCMap' took 1.487
+[2024.04.29-08.26.37:460][338]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.53 sec (total: 3.36 sec)
+[2024.04.29-08.26.37:463][338]AssetCheck: New page: Asset Save: NPCMap
+[2024.04.29-08.26.37:464][338]LogContentValidation: Display: Validating /Script/Engine.World /Game/InfiniteAbyss/Map/NPCMap.NPCMap
+[2024.04.29-08.26.38:251][397]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/InfiniteAbyss/AI/BB_ABBossCharacter.BB_ABBossCharacter
+[2024.04.29-08.33.17:298][703]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/InfiniteAbyss/AI/BT_ABBossCharacter.BT_ABBossCharacter
+[2024.04.29-09.15.48:867][731]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/ExternAssets/FemaleMilitaryOfficer/Animations/SwordAnimSet/AM_ABBossCombo.AM_ABBossCombo
+[2024.04.29-09.15.48:871][731]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-09.15.48:871][731]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-09.15.48:882][731]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.04.29-09.15.49:099][731]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-09.15.49:099][731]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-09.15.49:195][731]LogViewport: Scene viewport resized to 1525x749, mode Windowed.
+[2024.04.29-09.23.55:335][834]LogDerivedDataCache: C:/Users/djthe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:47.137 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 24934 files in 26520 folders with total size 8479 MiB.
+[2024.04.29-09.24.48:354][122]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-09.24.48:354][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-09.24.48:388][122]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-09.24.48:388][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-09.25.22:571][761]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.29-09.25.22:579][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.29-09.25.22:579][761]PIE: New page: PIE session: NPCMap (2024. 4. 30. 오전 3:25:22)
+[2024.04.29-09.25.22:579][761]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-09.25.24:388][761]LogPlayLevel: PIE: StaticDuplicateObject took: (1.808534s)
+[2024.04.29-09.25.24:388][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.808713s)
+[2024.04.29-09.25.24:407][761]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.04.29-09.25.24:412][761]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-09.25.24:412][761]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-09.25.24:412][761]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.29-09.25.24:412][761]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2024.04.29-09.25.24:412][761]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.04.29-09.25.24:412][761]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.29-09.25.24:412][761]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.29-09.25.24:412][761]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.29-09.25.24:412][761]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.29-09.25.24:412][761]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.29-09.25.24:412][761]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.29-09.25.24:412][761]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.29-09.25.24:412][761]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.29-09.25.24:414][761]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.29-09.25.24:414][761]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.29-09.25.24:414][761]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.29-09.25.24:416][761]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.29-09.25.24:448][761]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.29-09.25.24:448][761]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.29-09.25.24:448][761]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.29-09.25.24:448][761]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.29-09.25.24:450][761]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.04.29-09.25.24:450][761]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.04.29-09.25.24:452][761]LogInit: FAudioDevice initialized with ID 10.
+[2024.04.29-09.25.24:452][761]LogAudio: Display: Audio Device (ID: 10) registered with world 'NPCMap'.
+[2024.04.29-09.25.24:452][761]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.04.29-09.25.24:452][761]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.29-09.25.24:452][761]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.04.29-09.25.24:456][761]LogLoad: Game class is 'ABGameMode'
+[2024.04.29-09.25.24:849][761]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.29-18.25.24
+[2024.04.29-09.25.24:851][761]LogWorld: Bringing up level for play took: 0.395057
+[2024.04.29-09.25.25:165][761]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.04.29-09.25.25:176][761]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.29-09.25.25:176][761]PIE: Server logged in
+[2024.04.29-09.25.25:177][761]PIE: Play in editor total start time 2.598 seconds.
+[2024.04.29-09.25.25:683][762]LogTemp: 5.000000
+[2024.04.29-09.25.26:202][790]LogTemp: 4.500000
+[2024.04.29-09.25.26:651][831]LogTemp: 4.000000
+[2024.04.29-09.25.27:109][872]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-09.25.27:202][881]LogTemp: 3.500000
+[2024.04.29-09.25.27:680][923]LogTemp: 3.000000
+[2024.04.29-09.25.27:868][939]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-09.25.28:103][960]LogTemp: 2.500000
+[2024.04.29-09.25.28:370][984]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2024.04.29-09.25.28:370][984]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.29-09.25.28:370][984]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.29-09.25.28:624][  7]LogTemp: 2.000000
+[2024.04.29-09.25.29:101][ 49]LogTemp: 1.500000
+[2024.04.29-09.25.29:640][ 99]LogTemp: 1.000000
+[2024.04.29-09.25.30:134][145]LogTemp: 0.500000
+[2024.04.29-09.25.30:680][192]LogTemp: 0.000000
+[2024.04.29-09.25.31:167][223]LogTemp: 0.000000
+[2024.04.29-09.25.31:422][240]LogTemp: Button on Click
+[2024.04.29-09.25.31:422][240]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2024.04.29-09.25.31:422][240]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.29-09.25.31:728][259]LogTemp: 0.000000
+[2024.04.29-09.25.32:172][290]LogTemp: 0.000000
+[2024.04.29-09.25.32:704][336]LogTemp: 0.000000
+[2024.04.29-09.25.33:120][372]LogTemp: 0.000000
+[2024.04.29-09.25.33:699][422]LogTemp: 0.000000
+[2024.04.29-09.25.34:297][474]LogTemp: 0.000000
+[2024.04.29-09.25.34:888][524]LogTemp: 0.000000
+[2024.04.29-09.25.35:295][558]LogTemp: 0.000000
+[2024.04.29-09.25.35:697][591]LogTemp: 0.000000
+[2024.04.29-09.25.35:942][606]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Tubaki1) ...
+[2024.04.29-09.25.36:226][628]LogTemp: 0.000000
+[2024.04.29-09.25.36:668][664]LogTemp: 0.000000
+[2024.04.29-09.25.37:151][705]LogTemp: 0.000000
+[2024.04.29-09.25.37:588][741]LogTemp: 0.000000
+[2024.04.29-09.25.38:088][779]LogTemp: 0.000000
+[2024.04.29-09.25.38:630][822]LogTemp: 0.000000
+[2024.04.29-09.25.39:180][865]LogTemp: 0.000000
+[2024.04.29-09.25.39:729][908]LogTemp: 0.000000
+[2024.04.29-09.25.40:193][943]LogTemp: 0.000000
+[2024.04.29-09.25.40:734][984]LogTemp: 0.000000
+[2024.04.29-09.25.41:240][ 23]LogTemp: 0.000000
+[2024.04.29-09.25.41:733][ 61]LogTemp: 0.000000
+[2024.04.29-09.25.42:025][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-09.25.42:026][ 80]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-09.25.42:027][ 80]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-09.25.42:064][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-09.25.42:071][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.29-09.25.42:075][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-09.25.42:093][ 80]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.29-09.25.42:093][ 80]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.29-09.25.42:093][ 80]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.29-09.25.42:096][ 80]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.29-09.25.42:100][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-09.25.42:332][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   9.17ms
+[2024.04.29-09.25.42:471][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.04.29-09.25.53:503][302]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-09.26.11:109][377]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.29-09.26.11:116][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.29-09.26.11:116][377]PIE: New page: PIE session: NPCMap (2024. 4. 30. 오전 3:26:11)
+[2024.04.29-09.26.11:116][377]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-09.26.12:670][377]LogPlayLevel: PIE: StaticDuplicateObject took: (1.553872s)
+[2024.04.29-09.26.12:670][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.553914s)
+[2024.04.29-09.26.12:676][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.04.29-09.26.12:682][377]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-09.26.12:682][377]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-09.26.12:683][377]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.29-09.26.12:683][377]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2024.04.29-09.26.12:683][377]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.04.29-09.26.12:683][377]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.29-09.26.12:683][377]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.29-09.26.12:683][377]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.29-09.26.12:683][377]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.29-09.26.12:683][377]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.29-09.26.12:683][377]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.29-09.26.12:683][377]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.29-09.26.12:683][377]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.29-09.26.12:683][377]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.29-09.26.12:683][377]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.29-09.26.12:683][377]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.29-09.26.12:685][377]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.29-09.26.12:714][377]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.29-09.26.12:714][377]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.29-09.26.12:714][377]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.29-09.26.12:715][377]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.29-09.26.12:715][377]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.04.29-09.26.12:715][377]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.04.29-09.26.12:718][377]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.04.29-09.26.12:718][377]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.04.29-09.26.12:718][377]LogInit: FAudioDevice initialized with ID 11.
+[2024.04.29-09.26.12:718][377]LogAudio: Display: Audio Device (ID: 11) registered with world 'NPCMap'.
+[2024.04.29-09.26.12:718][377]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.29-09.26.12:719][377]LogLoad: Game class is 'ABGameMode'
+[2024.04.29-09.26.13:019][377]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.29-18.26.13
+[2024.04.29-09.26.13:021][377]LogWorld: Bringing up level for play took: 0.301848
+[2024.04.29-09.26.13:214][377]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.04.29-09.26.13:224][377]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.29-09.26.13:224][377]PIE: Server logged in
+[2024.04.29-09.26.13:226][377]PIE: Play in editor total start time 2.11 seconds.
+[2024.04.29-09.26.13:681][378]LogTemp: 5.000000
+[2024.04.29-09.26.14:240][408]LogTemp: 4.500000
+[2024.04.29-09.26.14:650][444]LogTemp: 4.000000
+[2024.04.29-09.26.15:248][496]LogTemp: 3.500000
+[2024.04.29-09.26.15:480][516]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-09.26.15:722][539]LogTemp: 3.000000
+[2024.04.29-09.26.16:317][600]LogTemp: 2.500000
+[2024.04.29-09.26.16:859][651]LogTemp: 2.000000
+[2024.04.29-09.26.17:330][693]LogTemp: 1.500000
+[2024.04.29-09.26.17:841][740]LogTemp: 1.000000
+[2024.04.29-09.26.18:442][795]LogTemp: 0.500000
+[2024.04.29-09.26.18:885][831]LogTemp: 0.000000
+[2024.04.29-09.26.19:354][873]LogTemp: 0.000000
+[2024.04.29-09.26.19:854][918]LogTemp: 0.000000
+[2024.04.29-09.26.20:261][955]LogTemp: 0.000000
+[2024.04.29-09.26.20:786][  1]LogTemp: 0.000000
+[2024.04.29-09.26.21:190][ 37]LogTemp: 0.000000
+[2024.04.29-09.26.21:634][ 75]LogTemp: 0.000000
+[2024.04.29-09.26.22:155][120]LogTemp: 0.000000
+[2024.04.29-09.26.22:611][158]LogTemp: 0.000000
+[2024.04.29-09.26.23:067][197]LogTemp: 0.000000
+[2024.04.29-09.26.23:512][234]LogTemp: 0.000000
+[2024.04.29-09.26.23:926][267]LogTemp: 0.000000
+[2024.04.29-09.26.24:434][309]LogTemp: 0.000000
+[2024.04.29-09.26.24:899][348]LogTemp: 0.000000
+[2024.04.29-09.26.25:330][384]LogTemp: 0.000000
+[2024.04.29-09.26.25:922][429]LogTemp: 0.000000
+[2024.04.29-09.26.26:464][472]LogTemp: 0.000000
+[2024.04.29-09.26.27:046][518]LogTemp: 0.000000
+[2024.04.29-09.26.27:558][559]LogTemp: 0.000000
+[2024.04.29-09.26.28:152][607]LogTemp: 0.000000
+[2024.04.29-09.26.28:759][655]LogTemp: 0.000000
+[2024.04.29-09.26.29:183][689]LogTemp: 0.000000
+[2024.04.29-09.26.29:771][736]LogTemp: 0.000000
+[2024.04.29-09.26.30:175][769]LogTemp: 0.000000
+[2024.04.29-09.26.30:656][807]LogTemp: 0.000000
+[2024.04.29-09.26.31:156][847]LogTemp: 0.000000
+[2024.04.29-09.26.31:560][880]LogTemp: 0.000000
+[2024.04.29-09.26.31:713][892]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2024.04.29-09.26.31:713][892]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.29-09.26.31:713][892]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.29-09.26.32:154][926]LogTemp: 0.000000
+[2024.04.29-09.26.32:692][968]LogTemp: 0.000000
+[2024.04.29-09.26.33:202][  8]LogTemp: 0.000000
+[2024.04.29-09.26.33:703][ 48]LogTemp: 0.000000
+[2024.04.29-09.26.34:138][ 84]LogTemp: 0.000000
+[2024.04.29-09.26.34:641][125]LogTemp: Button on Click
+[2024.04.29-09.26.34:641][125]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2024.04.29-09.26.34:641][125]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.29-09.26.34:719][131]LogTemp: 0.000000
+[2024.04.29-09.26.35:316][180]LogTemp: 0.000000
+[2024.04.29-09.26.35:817][221]LogTemp: 0.000000
+[2024.04.29-09.26.36:307][260]LogTemp: 0.000000
+[2024.04.29-09.26.36:885][304]LogTemp: 0.000000
+[2024.04.29-09.26.37:317][338]LogTemp: 0.000000
+[2024.04.29-09.26.37:732][372]LogTemp: 0.000000
+[2024.04.29-09.26.38:270][409]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_DS_DeathSeller1) ...
+[2024.04.29-09.26.38:288][410]LogTemp: 0.000000
+[2024.04.29-09.26.38:293][410]LogShaderCompilers: Display: ================================================
+[2024.04.29-09.26.38:294][410]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.29-09.26.38:294][410]LogShaderCompilers: Display: Total job queries 349, among them cache hits 70 (20.06%)
+[2024.04.29-09.26.38:294][410]LogShaderCompilers: Display: Tracking 279 distinct input hashes that result in 197 distinct outputs (70.61%)
+[2024.04.29-09.26.38:294][410]LogShaderCompilers: Display: RAM used: 6.52 MiB of 1.60 GiB budget. Usage: 0.40%
+[2024.04.29-09.26.38:294][410]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.29-09.26.38:294][410]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.04.29-09.26.38:294][410]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.04.29-09.26.38:294][410]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.04.29-09.26.38:294][410]LogShaderCompilers: Display: ================================================
+[2024.04.29-09.26.38:834][450]LogTemp: 0.000000
+[2024.04.29-09.26.39:409][501]LogTemp: 0.000000
+[2024.04.29-09.26.39:967][551]LogTemp: 0.000000
+[2024.04.29-09.26.40:499][597]LogTemp: 0.000000
+[2024.04.29-09.26.41:054][644]LogTemp: 0.000000
+[2024.04.29-09.26.41:519][684]LogTemp: 0.000000
+[2024.04.29-09.26.42:054][728]LogTemp: 0.000000
+[2024.04.29-09.26.42:527][764]LogTemp: 0.000000
+[2024.04.29-09.26.42:782][781]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_GolamRigged_5) ...
+[2024.04.29-09.26.43:004][799]LogTemp: 0.000000
+[2024.04.29-09.26.43:551][837]LogTemp: 0.000000
+[2024.04.29-09.26.44:038][873]LogTemp: 0.000000
+[2024.04.29-09.26.44:577][913]LogTemp: 0.000000
+[2024.04.29-09.26.45:149][958]LogTemp: 0.000000
+[2024.04.29-09.26.45:640][996]LogTemp: 0.000000
+[2024.04.29-09.26.46:179][ 40]LogTemp: 0.000000
+[2024.04.29-09.26.46:700][ 82]LogTemp: 0.000000
+[2024.04.29-09.26.47:088][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-09.26.47:088][111]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-09.26.47:089][111]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-09.26.47:124][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-09.26.47:128][111]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.29-09.26.47:131][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-09.26.47:145][111]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.29-09.26.47:145][111]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.29-09.26.47:145][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.29-09.26.47:148][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.29-09.26.47:153][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-09.26.47:365][111]LogUObjectHash: Compacting FUObjectHashTables data took  11.09ms
+[2024.04.29-09.26.47:515][112]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.04.29-09.28.19:810][462]LogViewport: Scene viewport resized to 1413x769, mode Windowed.
+[2024.04.29-09.28.20:352][463]LogViewport: Scene viewport resized to 1409x769, mode Windowed.
+[2024.04.29-09.28.20:397][464]LogViewport: Scene viewport resized to 1423x769, mode Windowed.
+[2024.04.29-09.28.20:434][465]LogViewport: Scene viewport resized to 1427x769, mode Windowed.
+[2024.04.29-09.28.21:071][513]LogViewport: Scene viewport resized to 1428x769, mode Windowed.
+[2024.04.29-09.28.21:109][514]LogViewport: Scene viewport resized to 1431x769, mode Windowed.
+[2024.04.29-09.28.21:139][515]LogViewport: Scene viewport resized to 1435x769, mode Windowed.
+[2024.04.29-09.28.21:177][516]LogViewport: Scene viewport resized to 1437x769, mode Windowed.
+[2024.04.29-09.28.21:241][520]LogViewport: Scene viewport resized to 1438x769, mode Windowed.
+[2024.04.29-09.28.21:276][521]LogViewport: Scene viewport resized to 1440x769, mode Windowed.
+[2024.04.29-09.28.21:318][522]LogViewport: Scene viewport resized to 1442x769, mode Windowed.
+[2024.04.29-09.28.21:359][523]LogViewport: Scene viewport resized to 1444x769, mode Windowed.
+[2024.04.29-09.28.22:566][569]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.29-09.28.22:649][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.29-09.28.22:649][569]PIE: New page: PIE session: NPCMap (2024. 4. 30. 오전 3:28:22)
+[2024.04.29-09.28.22:649][569]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-09.28.24:420][569]LogPlayLevel: PIE: StaticDuplicateObject took: (1.770847s)
+[2024.04.29-09.28.24:420][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.770882s)
+[2024.04.29-09.28.24:426][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.04.29-09.28.24:428][569]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-09.28.24:428][569]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-09.28.24:428][569]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.29-09.28.24:433][569]LogPlayLevel: PIE: World Init took: (0.004414s)
+[2024.04.29-09.28.24:433][569]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.04.29-09.28.24:433][569]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.29-09.28.24:433][569]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.29-09.28.24:433][569]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.29-09.28.24:433][569]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.29-09.28.24:433][569]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.29-09.28.24:433][569]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.29-09.28.24:433][569]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.29-09.28.24:433][569]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.29-09.28.24:433][569]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.29-09.28.24:433][569]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.29-09.28.24:433][569]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.29-09.28.24:435][569]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.29-09.28.24:464][569]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.29-09.28.24:465][569]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.29-09.28.24:465][569]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.29-09.28.24:465][569]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.29-09.28.24:465][569]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.04.29-09.28.24:465][569]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.04.29-09.28.24:467][569]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.04.29-09.28.24:467][569]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.04.29-09.28.24:467][569]LogInit: FAudioDevice initialized with ID 12.
+[2024.04.29-09.28.24:467][569]LogAudio: Display: Audio Device (ID: 12) registered with world 'NPCMap'.
+[2024.04.29-09.28.24:467][569]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.29-09.28.24:470][569]LogLoad: Game class is 'ABGameMode'
+[2024.04.29-09.28.24:879][569]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.29-18.28.24
+[2024.04.29-09.28.24:882][569]LogWorld: Bringing up level for play took: 0.411963
+[2024.04.29-09.28.25:147][569]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.04.29-09.28.25:155][569]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.29-09.28.25:155][569]PIE: Server logged in
+[2024.04.29-09.28.25:156][569]PIE: Play in editor total start time 2.507 seconds.
+[2024.04.29-09.28.25:729][570]LogTemp: 5.000000
+[2024.04.29-09.28.26:151][589]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.29-09.28.26:231][594]LogTemp: 4.500000
+[2024.04.29-09.28.26:694][618]LogTemp: 4.000000
+[2024.04.29-09.28.27:268][659]LogTemp: 3.500000
+[2024.04.29-09.28.27:802][700]LogTemp: 3.000000
+[2024.04.29-09.28.27:866][705]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2024.04.29-09.28.27:866][705]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.29-09.28.27:866][705]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.29-09.28.28:354][742]LogTemp: 2.500000
+[2024.04.29-09.28.28:956][788]LogTemp: 2.000000
+[2024.04.29-09.28.29:543][834]LogTemp: 1.500000
+[2024.04.29-09.28.29:957][867]LogTemp: 1.000000
+[2024.04.29-09.28.30:403][906]LogViewport: Scene viewport resized to 1442x769, mode Windowed.
+[2024.04.29-09.28.30:418][907]LogViewport: Scene viewport resized to 1440x769, mode Windowed.
+[2024.04.29-09.28.30:457][908]LogViewport: Scene viewport resized to 1432x769, mode Windowed.
+[2024.04.29-09.28.30:481][909]LogViewport: Scene viewport resized to 1426x769, mode Windowed.
+[2024.04.29-09.28.30:505][910]LogViewport: Scene viewport resized to 1421x769, mode Windowed.
+[2024.04.29-09.28.30:533][911]LogViewport: Scene viewport resized to 1417x769, mode Windowed.
+[2024.04.29-09.28.30:563][912]LogViewport: Scene viewport resized to 1414x769, mode Windowed.
+[2024.04.29-09.28.30:589][913]LogViewport: Scene viewport resized to 1411x769, mode Windowed.
+[2024.04.29-09.28.30:614][914]LogViewport: Scene viewport resized to 1410x769, mode Windowed.
+[2024.04.29-09.28.30:641][915]LogViewport: Scene viewport resized to 1406x769, mode Windowed.
+[2024.04.29-09.28.30:667][916]LogViewport: Scene viewport resized to 1404x769, mode Windowed.
+[2024.04.29-09.28.30:697][917]LogViewport: Scene viewport resized to 1401x769, mode Windowed.
+[2024.04.29-09.28.30:719][918]LogViewport: Scene viewport resized to 1400x769, mode Windowed.
+[2024.04.29-09.28.30:917][940]LogViewport: Scene viewport resized to 1399x769, mode Windowed.
+[2024.04.29-09.28.30:970][942]LogViewport: Scene viewport resized to 1395x769, mode Windowed.
+[2024.04.29-09.28.30:993][943]LogViewport: Scene viewport resized to 1394x769, mode Windowed.
+[2024.04.29-09.28.31:059][949]LogViewport: Scene viewport resized to 1393x769, mode Windowed.
+[2024.04.29-09.28.31:093][951]LogViewport: Scene viewport resized to 1391x769, mode Windowed.
+[2024.04.29-09.28.31:239][967]LogViewport: Scene viewport resized to 1389x769, mode Windowed.
+[2024.04.29-09.28.31:272][969]LogViewport: Scene viewport resized to 1387x769, mode Windowed.
+[2024.04.29-09.28.32:043][ 60]LogViewport: Scene viewport resized to 1386x769, mode Windowed.
+[2024.04.29-09.28.32:106][ 62]LogViewport: Scene viewport resized to 1385x769, mode Windowed.
+[2024.04.29-09.28.32:330][ 87]LogViewport: Scene viewport resized to 1384x769, mode Windowed.
+[2024.04.29-09.28.32:452][ 97]LogViewport: Scene viewport resized to 1383x769, mode Windowed.
+[2024.04.29-09.28.32:486][ 99]LogViewport: Scene viewport resized to 1382x769, mode Windowed.
+[2024.04.29-09.28.32:510][100]LogViewport: Scene viewport resized to 1381x769, mode Windowed.
+[2024.04.29-09.28.32:879][142]LogViewport: Scene viewport resized to 1380x769, mode Windowed.
+[2024.04.29-09.28.32:947][144]LogViewport: Scene viewport resized to 1379x769, mode Windowed.
+[2024.04.29-09.28.32:979][146]LogViewport: Scene viewport resized to 1378x769, mode Windowed.
+[2024.04.29-09.28.35:048][383]LogTemp: 0.500000
+[2024.04.29-09.28.35:657][425]LogTemp: 0.000000
+[2024.04.29-09.28.35:941][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-09.28.35:941][443]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-09.28.35:942][443]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-09.28.35:987][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-09.28.35:994][443]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.29-09.28.36:000][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-09.28.36:017][443]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.29-09.28.36:017][443]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.29-09.28.36:017][443]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.29-09.28.36:020][443]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.29-09.28.36:024][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-09.28.36:296][443]LogUObjectHash: Compacting FUObjectHashTables data took   7.79ms
+[2024.04.29-09.28.36:453][444]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.04.29-09.29.32:271][654]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.29-09.29.32:280][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.29-09.29.32:280][654]PIE: New page: PIE session: NPCMap (2024. 4. 30. 오전 3:29:32)
+[2024.04.29-09.29.32:280][654]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-09.29.34:334][654]LogPlayLevel: PIE: StaticDuplicateObject took: (2.055193s)
+[2024.04.29-09.29.34:335][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (2.055238s)
+[2024.04.29-09.29.34:341][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.04.29-09.29.34:345][654]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-09.29.34:345][654]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-09.29.34:346][654]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.29-09.29.34:346][654]LogPlayLevel: PIE: World Init took: (0.001367s)
+[2024.04.29-09.29.34:346][654]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.04.29-09.29.34:346][654]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.29-09.29.34:346][654]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.29-09.29.34:346][654]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.29-09.29.34:346][654]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.29-09.29.34:346][654]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.29-09.29.34:346][654]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.29-09.29.34:346][654]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.29-09.29.34:346][654]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.29-09.29.34:347][654]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.29-09.29.34:347][654]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.29-09.29.34:347][654]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.29-09.29.34:349][654]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.29-09.29.34:389][654]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.29-09.29.34:389][654]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.29-09.29.34:389][654]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.29-09.29.34:389][654]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.29-09.29.34:390][654]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.04.29-09.29.34:390][654]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.04.29-09.29.34:392][654]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.04.29-09.29.34:392][654]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.04.29-09.29.34:392][654]LogInit: FAudioDevice initialized with ID 13.
+[2024.04.29-09.29.34:392][654]LogAudio: Display: Audio Device (ID: 13) registered with world 'NPCMap'.
+[2024.04.29-09.29.34:392][654]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.29-09.29.34:394][654]LogLoad: Game class is 'ABGameMode'
+[2024.04.29-09.29.34:809][654]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.29-18.29.34
+[2024.04.29-09.29.34:813][654]LogWorld: Bringing up level for play took: 0.417552
+[2024.04.29-09.29.35:048][654]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.04.29-09.29.35:058][654]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.29-09.29.35:059][654]PIE: Server logged in
+[2024.04.29-09.29.35:060][654]PIE: Play in editor total start time 2.781 seconds.
+[2024.04.29-09.29.35:798][656]LogTemp: 5.000000
+[2024.04.29-09.29.36:349][688]LogTemp: 4.500000
+[2024.04.29-09.29.36:786][721]LogTemp: 4.000000
+[2024.04.29-09.29.37:376][765]LogTemp: 3.500000
+[2024.04.29-09.29.37:803][797]LogTemp: 3.000000
+[2024.04.29-09.29.38:329][836]LogTemp: 2.500000
+[2024.04.29-09.29.38:879][877]LogTemp: 2.000000
+[2024.04.29-09.29.39:366][912]LogTemp: 1.500000
+[2024.04.29-09.29.39:862][947]LogTemp: 1.000000
+[2024.04.29-09.29.40:348][983]LogTemp: 0.500000
+[2024.04.29-09.29.40:821][ 17]LogTemp: 0.000000
+[2024.04.29-09.29.41:354][ 54]LogTemp: 0.000000
+[2024.04.29-09.29.41:864][ 81]LogTemp: 0.000000
+[2024.04.29-09.29.42:353][114]LogTemp: 0.000000
+[2024.04.29-09.29.42:852][140]LogTemp: 0.000000
+[2024.04.29-09.29.43:281][166]LogTemp: 0.000000
+[2024.04.29-09.29.43:724][193]LogTemp: 0.000000
+[2024.04.29-09.29.44:320][234]LogTemp: 0.000000
+[2024.04.29-09.29.44:854][270]LogTemp: 0.000000
+[2024.04.29-09.29.45:346][305]LogTemp: 0.000000
+[2024.04.29-09.29.45:860][339]LogTemp: 0.000000
+[2024.04.29-09.29.46:305][369]LogTemp: 0.000000
+[2024.04.29-09.29.46:862][405]LogTemp: 0.000000
+[2024.04.29-09.29.47:301][434]LogTemp: 0.000000
+[2024.04.29-09.29.47:707][461]LogTemp: 0.000000
+[2024.04.29-09.29.48:117][488]LogTemp: 0.000000
+[2024.04.29-09.29.48:533][515]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2024.04.29-09.29.48:533][515]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.29-09.29.48:533][515]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.29-09.29.48:550][516]LogTemp: 0.000000
+[2024.04.29-09.29.49:129][553]LogTemp: 0.000000
+[2024.04.29-09.29.49:689][590]LogTemp: 0.000000
+[2024.04.29-09.29.50:261][628]LogTemp: 0.000000
+[2024.04.29-09.29.50:749][660]LogTemp: 0.000000
+[2024.04.29-09.29.50:940][673]LogTemp: Button on Click
+[2024.04.29-09.29.50:940][673]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2024.04.29-09.29.50:940][673]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.29-09.29.51:169][687]LogTemp: 0.000000
+[2024.04.29-09.29.51:679][720]LogTemp: 0.000000
+[2024.04.29-09.29.52:161][749]LogTemp: 0.000000
+[2024.04.29-09.29.52:604][777]LogTemp: 0.000000
+[2024.04.29-09.29.53:039][804]LogTemp: 0.000000
+[2024.04.29-09.29.53:563][837]LogTemp: 0.000000
+[2024.04.29-09.29.54:103][871]LogTemp: 0.000000
+[2024.04.29-09.29.54:624][906]LogTemp: 0.000000
+[2024.04.29-09.29.55:076][935]LogTemp: 0.000000
+[2024.04.29-09.29.55:633][970]LogTemp: 0.000000
+[2024.04.29-09.29.56:146][  2]LogTemp: 0.000000
+[2024.04.29-09.29.56:698][ 38]LogTemp: 0.000000
+[2024.04.29-09.29.57:208][ 71]LogTemp: 0.000000
+[2024.04.29-09.29.57:819][110]LogTemp: 0.000000
+[2024.04.29-09.29.58:412][147]LogTemp: 0.000000
+[2024.04.29-09.29.58:936][180]LogTemp: 0.000000
+[2024.04.29-09.29.59:404][210]LogTemp: 0.000000
+[2024.04.29-09.29.59:867][239]LogTemp: 0.000000
+[2024.04.29-09.30.00:336][269]LogTemp: 0.000000
+[2024.04.29-09.30.00:382][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-09.30.00:382][270]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-09.30.00:384][270]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-09.30.00:431][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-09.30.00:436][270]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.29-09.30.00:440][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-09.30.00:455][270]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.29-09.30.00:455][270]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.29-09.30.00:455][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.29-09.30.00:457][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.29-09.30.00:461][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-09.30.00:747][270]LogUObjectHash: Compacting FUObjectHashTables data took   9.04ms
+[2024.04.29-09.30.00:919][271]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.04.29-10.23.56:281][ 19]LogDerivedDataCache: C:/Users/djthe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:48.082 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 24952 files in 26538 folders with total size 8480 MiB.
+[2024.04.29-11.10.57:364][128]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_DialogueBox.WBP_DialogueBox
+[2024.04.29-11.10.57:367][128]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.10.57:367][128]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.10.57:375][128]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.10.57:375][128]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.10.57:383][128]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.04.29-11.10.57:394][128]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.04.29-11.10.58:798][128]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Blueprints/Truck/BP_Truck_01 is missing GeneratedClass asset tag
+[2024.04.29-11.10.58:798][128]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_FrontWheel is missing GeneratedClass asset tag
+[2024.04.29-11.10.58:798][128]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Truck_BackWheel is missing GeneratedClass asset tag
+[2024.04.29-11.10.58:798][128]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_FrontWheel is missing GeneratedClass asset tag
+[2024.04.29-11.10.58:798][128]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan_BackWheel is missing GeneratedClass asset tag
+[2024.04.29-11.10.58:798][128]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Blueprint/Sedan is missing GeneratedClass asset tag
+[2024.04.29-11.10.58:798][128]LogBlueprint: Warning: Blueprint /Game/ExternItemMap/LowPolyForest/Models/Vehicles/Truck/Sedan_AnimBP is missing GeneratedClass asset tag
+[2024.04.29-11.10.58:896][128]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.04.29-11.12.22:293][209]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.22:293][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.22:300][209]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.22:300][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.23:497][294]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_ABHUD.WBP_ABHUD
+[2024.04.29-11.12.23:498][294]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.23:498][294]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.23:509][294]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.23:509][294]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.25:446][509]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.25:446][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.25:451][509]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.25:451][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.26:326][572]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_CharacterStat.WBP_CharacterStat
+[2024.04.29-11.12.26:327][572]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.26:327][572]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.26:336][572]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.26:337][572]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.28:038][757]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.28:038][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.28:042][757]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.28:042][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.31:227][  9]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_HpBar.WBP_HpBar
+[2024.04.29-11.12.31:227][  9]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.31:227][  9]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.31:239][  9]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.31:239][  9]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.33:626][279]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.33:626][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.33:631][279]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.33:631][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.35:692][444]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_PlayerScore.WBP_PlayerScore
+[2024.04.29-11.12.35:692][444]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.35:692][444]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.35:704][444]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.35:704][444]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.37:532][646]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.37:532][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.37:536][646]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.37:536][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.38:352][708]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_TalkHUD.WBP_TalkHUD
+[2024.04.29-11.12.38:352][708]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.38:352][708]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.38:366][708]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.38:366][708]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.41:840][110]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.41:840][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.41:845][110]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.41:845][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.45:955][480]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_ABHUD.WBP_ABHUD
+[2024.04.29-11.12.45:955][480]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.45:955][480]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.45:966][480]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.45:966][480]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.49:912][936]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.49:912][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.49:918][936]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.12.49:918][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.12.51:213][ 39]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_ABHUD.WBP_ABHUD
+[2024.04.29-11.12.51:214][ 39]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.51:214][ 39]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.12.51:227][ 39]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.12.51:227][ 39]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.13.12:908][544]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.29-11.13.12:940][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/UI/WBP_ABHUD" FILE="../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_ABHUD.uasset" SILENT=true
+[2024.04.29-11.13.12:944][544]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/UI/WBP_ABHUD
+[2024.04.29-11.13.12:944][544]LogSavePackage: Moving '../../../../../../Unreal5Project/InfiniteAbyss/Saved/WBP_ABHUD909B2A0447085CDA82EE8185A9267476.tmp' to '../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_ABHUD.uasset'
+[2024.04.29-11.13.12:953][544]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 3.40 sec)
+[2024.04.29-11.13.12:955][544]AssetCheck: New page: Asset Save: WBP_ABHUD
+[2024.04.29-11.13.12:955][544]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_ABHUD.WBP_ABHUD
+[2024.04.29-11.18.45:473][566]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_HpBar.WBP_HpBar
+[2024.04.29-11.18.45:474][566]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.18.45:474][566]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.18.45:484][566]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.18.45:484][566]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.18.51:125][225]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.18.51:125][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.18.51:138][225]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.18.51:138][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.18.56:380][754]BlueprintLog: New page: Compile WBP_ABHUD
+[2024.04.29-11.18.56:437][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.04.29-11.18.58:063][931]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.18.58:064][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.18.58:069][931]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.18.58:069][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.18.59:258][ 30]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.29-11.18.59:267][ 30]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.29-11.18.59:267][ 30]PIE: New page: PIE session: NPCMap (2024. 4. 30. 오전 5:18:59)
+[2024.04.29-11.18.59:267][ 30]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-11.19.01:157][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (1.889782s)
+[2024.04.29-11.19.01:157][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.889848s)
+[2024.04.29-11.19.01:171][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.04.29-11.19.01:175][ 30]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.19.01:175][ 30]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.19.01:175][ 30]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.29-11.19.01:176][ 30]LogPlayLevel: PIE: World Init took: (0.001489s)
+[2024.04.29-11.19.01:176][ 30]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.04.29-11.19.01:176][ 30]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.29-11.19.01:176][ 30]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.29-11.19.01:176][ 30]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.29-11.19.01:176][ 30]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.29-11.19.01:176][ 30]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.29-11.19.01:176][ 30]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.29-11.19.01:176][ 30]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.29-11.19.01:176][ 30]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.29-11.19.01:177][ 30]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.29-11.19.01:177][ 30]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.29-11.19.01:177][ 30]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.29-11.19.01:180][ 30]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.29-11.19.01:212][ 30]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.29-11.19.01:213][ 30]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.29-11.19.01:213][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.29-11.19.01:213][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.29-11.19.01:214][ 30]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.04.29-11.19.01:214][ 30]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.04.29-11.19.01:216][ 30]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.04.29-11.19.01:216][ 30]LogInit: FAudioDevice initialized with ID 14.
+[2024.04.29-11.19.01:216][ 30]LogAudio: Display: Audio Device (ID: 14) registered with world 'NPCMap'.
+[2024.04.29-11.19.01:216][ 30]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.04.29-11.19.01:216][ 30]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.04.29-11.19.01:221][ 30]LogLoad: Game class is 'ABGameMode'
+[2024.04.29-11.19.01:573][ 30]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.29-20.19.01
+[2024.04.29-11.19.01:577][ 30]LogWorld: Bringing up level for play took: 0.354884
+[2024.04.29-11.19.01:829][ 30]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.04.29-11.19.01:840][ 30]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.29-11.19.01:840][ 30]PIE: Server logged in
+[2024.04.29-11.19.01:841][ 30]PIE: Play in editor total start time 2.575 seconds.
+[2024.04.29-11.19.02:573][ 36]LogTemp: 5.000000
+[2024.04.29-11.19.03:091][ 86]LogTemp: 4.500000
+[2024.04.29-11.19.03:656][140]LogTemp: 4.000000
+[2024.04.29-11.19.04:214][191]LogTemp: 3.500000
+[2024.04.29-11.19.04:644][228]LogTemp: 3.000000
+[2024.04.29-11.19.05:090][268]LogTemp: 2.500000
+[2024.04.29-11.19.05:636][316]LogTemp: 2.000000
+[2024.04.29-11.19.06:045][354]LogTemp: 1.500000
+[2024.04.29-11.19.06:471][396]LogTemp: 1.000000
+[2024.04.29-11.19.07:055][453]LogTemp: 0.500000
+[2024.04.29-11.19.07:630][503]LogTemp: 0.000000
+[2024.04.29-11.19.08:142][538]LogTemp: 0.000000
+[2024.04.29-11.19.08:493][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-11.19.08:493][558]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-11.19.08:495][558]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.19.08:530][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.19.08:535][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.29-11.19.08:540][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.19.08:560][558]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.29-11.19.08:560][558]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.04.29-11.19.08:560][558]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.29-11.19.08:563][558]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.29-11.19.08:569][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-11.19.08:774][558]LogUObjectHash: Compacting FUObjectHashTables data took  10.70ms
+[2024.04.29-11.19.08:925][559]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2024.04.29-11.19.25:869][757]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_ABHUD.WBP_ABHUD
+[2024.04.29-11.19.25:870][757]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.19.25:870][757]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.19.25:884][757]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.19.25:884][757]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.19.40:732][512]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.29-11.19.40:767][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/UI/WBP_ABHUD" FILE="../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_ABHUD.uasset" SILENT=true
+[2024.04.29-11.19.40:771][512]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/UI/WBP_ABHUD
+[2024.04.29-11.19.40:773][512]LogSavePackage: Moving '../../../../../../Unreal5Project/InfiniteAbyss/Saved/WBP_ABHUDC794DEC04281511A1D28B68D8CC6FD48.tmp' to '../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_ABHUD.uasset'
+[2024.04.29-11.19.40:780][512]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 3.45 sec)
+[2024.04.29-11.19.40:782][512]AssetCheck: New page: Asset Save: WBP_ABHUD
+[2024.04.29-11.19.40:783][512]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_ABHUD.WBP_ABHUD
+[2024.04.29-11.19.43:148][737]BlueprintLog: New page: Compile WBP_ABHUD
+[2024.04.29-11.19.43:169][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.04.29-11.19.44:303][870]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.29-11.19.44:334][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteAbyss/UI/WBP_ABHUD" FILE="../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_ABHUD.uasset" SILENT=true
+[2024.04.29-11.19.44:337][870]LogSavePackage: Moving output files for package: /Game/InfiniteAbyss/UI/WBP_ABHUD
+[2024.04.29-11.19.44:337][870]LogSavePackage: Moving '../../../../../../Unreal5Project/InfiniteAbyss/Saved/WBP_ABHUD4B37A70C4189144F2DA7AC85AEA90F77.tmp' to '../../../../../../Unreal5Project/InfiniteAbyss/Content/InfiniteAbyss/UI/WBP_ABHUD.uasset'
+[2024.04.29-11.19.44:343][870]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 3.49 sec)
+[2024.04.29-11.19.44:344][870]AssetCheck: New page: Asset Save: WBP_ABHUD
+[2024.04.29-11.19.44:344][870]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_ABHUD.WBP_ABHUD
+[2024.04.29-11.19.46:283][ 48]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.29-11.19.46:289][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.29-11.19.46:289][ 48]PIE: New page: PIE session: NPCMap (2024. 4. 30. 오전 5:19:46)
+[2024.04.29-11.19.46:289][ 48]LogPlayLevel: Creating play world package: /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-11.19.48:200][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (1.911150s)
+[2024.04.29-11.19.48:200][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteAbyss/Map/NPCMap.NPCMap to /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap (1.911195s)
+[2024.04.29-11.19.48:213][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.04.29-11.19.48:215][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.19.48:215][ 48]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.19.48:216][ 48]LogAIModule: Creating AISystem for world NPCMap
+[2024.04.29-11.19.48:216][ 48]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2024.04.29-11.19.48:216][ 48]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.04.29-11.19.48:216][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.29-11.19.48:216][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.29-11.19.48:216][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.29-11.19.48:216][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.29-11.19.48:216][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.29-11.19.48:216][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.29-11.19.48:216][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.29-11.19.48:216][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.29-11.19.48:216][ 48]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.29-11.19.48:216][ 48]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.29-11.19.48:216][ 48]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.29-11.19.48:218][ 48]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.29-11.19.48:250][ 48]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(Realtek USB Audio)
+[2024.04.29-11.19.48:250][ 48]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.29-11.19.48:250][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.29-11.19.48:250][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.29-11.19.48:250][ 48]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.04.29-11.19.48:252][ 48]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.04.29-11.19.48:253][ 48]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.04.29-11.19.48:253][ 48]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.04.29-11.19.48:253][ 48]LogInit: FAudioDevice initialized with ID 15.
+[2024.04.29-11.19.48:253][ 48]LogAudio: Display: Audio Device (ID: 15) registered with world 'NPCMap'.
+[2024.04.29-11.19.48:253][ 48]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.29-11.19.48:257][ 48]LogLoad: Game class is 'ABGameMode'
+[2024.04.29-11.19.48:557][ 48]LogWorld: Bringing World /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap.NPCMap up for play (max tick rate 0) at 2024.04.29-20.19.48
+[2024.04.29-11.19.48:559][ 48]LogWorld: Bringing up level for play took: 0.302723
+[2024.04.29-11.19.48:796][ 48]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2024.04.29-11.19.48:806][ 48]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.29-11.19.48:806][ 48]PIE: Server logged in
+[2024.04.29-11.19.48:806][ 48]PIE: Play in editor total start time 2.518 seconds.
+[2024.04.29-11.19.49:583][ 55]LogTemp: 5.000000
+[2024.04.29-11.19.50:049][ 97]LogTemp: 4.500000
+[2024.04.29-11.19.50:640][150]LogTemp: 4.000000
+[2024.04.29-11.19.51:060][190]LogTemp: 3.500000
+[2024.04.29-11.19.51:162][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-11.19.51:162][195]LogWorld: BeginTearingDown for /Game/InfiniteAbyss/Map/UEDPIE_0_NPCMap
+[2024.04.29-11.19.51:163][195]LogWorld: UWorld::CleanupWorld for NPCMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.19.51:197][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.19.51:202][195]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.29-11.19.51:207][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.19.51:228][195]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.29-11.19.51:228][195]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.29-11.19.51:228][195]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.29-11.19.51:230][195]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.29-11.19.51:236][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.29-11.19.51:431][195]LogUObjectHash: Compacting FUObjectHashTables data took  11.04ms
+[2024.04.29-11.19.51:562][196]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.04.29-11.19.57:413][694]LogViewport: Scene viewport resized to 1380x769, mode Windowed.
+[2024.04.29-11.19.57:455][695]LogViewport: Scene viewport resized to 1393x769, mode Windowed.
+[2024.04.29-11.19.57:487][696]LogViewport: Scene viewport resized to 1403x769, mode Windowed.
+[2024.04.29-11.19.57:520][697]LogViewport: Scene viewport resized to 1411x769, mode Windowed.
+[2024.04.29-11.19.57:556][698]LogViewport: Scene viewport resized to 1418x769, mode Windowed.
+[2024.04.29-11.19.57:593][699]LogViewport: Scene viewport resized to 1424x769, mode Windowed.
+[2024.04.29-11.19.57:624][700]LogViewport: Scene viewport resized to 1430x769, mode Windowed.
+[2024.04.29-11.19.57:659][701]LogViewport: Scene viewport resized to 1435x769, mode Windowed.
+[2024.04.29-11.19.57:693][702]LogViewport: Scene viewport resized to 1443x769, mode Windowed.
+[2024.04.29-11.19.57:725][703]LogViewport: Scene viewport resized to 1450x769, mode Windowed.
+[2024.04.29-11.19.57:757][704]LogViewport: Scene viewport resized to 1454x769, mode Windowed.
+[2024.04.29-11.19.57:789][705]LogViewport: Scene viewport resized to 1456x769, mode Windowed.
+[2024.04.29-11.19.57:824][706]LogViewport: Scene viewport resized to 1457x769, mode Windowed.
+[2024.04.29-11.19.57:857][707]LogViewport: Scene viewport resized to 1459x769, mode Windowed.
+[2024.04.29-11.19.57:891][708]LogViewport: Scene viewport resized to 1463x769, mode Windowed.
+[2024.04.29-11.19.57:926][709]LogViewport: Scene viewport resized to 1467x769, mode Windowed.
+[2024.04.29-11.19.57:961][710]LogViewport: Scene viewport resized to 1469x769, mode Windowed.
+[2024.04.29-11.19.58:158][727]LogViewport: Scene viewport resized to 1470x769, mode Windowed.
+[2024.04.29-11.19.58:199][728]LogViewport: Scene viewport resized to 1473x769, mode Windowed.
+[2024.04.29-11.19.58:227][729]LogViewport: Scene viewport resized to 1477x769, mode Windowed.
+[2024.04.29-11.19.58:261][730]LogViewport: Scene viewport resized to 1479x769, mode Windowed.
+[2024.04.29-11.19.58:294][731]LogViewport: Scene viewport resized to 1481x769, mode Windowed.
+[2024.04.29-11.19.58:325][732]LogViewport: Scene viewport resized to 1486x769, mode Windowed.
+[2024.04.29-11.19.58:355][733]LogViewport: Scene viewport resized to 1491x769, mode Windowed.
+[2024.04.29-11.19.58:391][734]LogViewport: Scene viewport resized to 1492x769, mode Windowed.
+[2024.04.29-11.19.58:626][754]LogViewport: Scene viewport resized to 1493x769, mode Windowed.
+[2024.04.29-11.19.58:662][755]LogViewport: Scene viewport resized to 1496x769, mode Windowed.
+[2024.04.29-11.19.58:694][756]LogViewport: Scene viewport resized to 1502x769, mode Windowed.
+[2024.04.29-11.19.58:728][757]LogViewport: Scene viewport resized to 1506x769, mode Windowed.
+[2024.04.29-11.19.58:764][758]LogViewport: Scene viewport resized to 1508x769, mode Windowed.
+[2024.04.29-11.19.58:796][759]LogViewport: Scene viewport resized to 1511x769, mode Windowed.
+[2024.04.29-11.19.58:828][760]LogViewport: Scene viewport resized to 1513x769, mode Windowed.
+[2024.04.29-11.19.58:953][770]LogViewport: Scene viewport resized to 1514x769, mode Windowed.
+[2024.04.29-11.19.58:993][771]LogViewport: Scene viewport resized to 1516x769, mode Windowed.
+[2024.04.29-11.19.59:019][772]LogViewport: Scene viewport resized to 1517x769, mode Windowed.
+[2024.04.29-11.19.59:301][796]LogViewport: Scene viewport resized to 1516x769, mode Windowed.
+[2024.04.29-11.19.59:340][797]LogViewport: Scene viewport resized to 1513x769, mode Windowed.
+[2024.04.29-11.19.59:379][798]LogViewport: Scene viewport resized to 1509x769, mode Windowed.
+[2024.04.29-11.19.59:409][799]LogViewport: Scene viewport resized to 1505x769, mode Windowed.
+[2024.04.29-11.19.59:477][803]LogViewport: Scene viewport resized to 1504x769, mode Windowed.
+[2024.04.29-11.20.16:592][318]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.20.16:592][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.20.16:597][318]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-11.20.16:597][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-11.23.55:337][378]LogDerivedDataCache: C:/Users/djthe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:47.136 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 24952 files in 26538 folders with total size 8480 MiB.
+[2024.04.29-11.48.47:573][933]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_ABHUD.WBP_ABHUD
+[2024.04.29-11.48.47:573][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.48.47:573][933]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-11.48.47:586][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-11.48.47:586][933]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-12.23.56:270][486]LogDerivedDataCache: C:/Users/djthe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:48.069 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 24952 files in 26538 folders with total size 8480 MiB.
+[2024.04.29-12.31.01:804][302]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-12.31.01:804][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-12.31.01:859][302]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-12.31.01:859][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-12.31.26:813][250]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_ABHUD.WBP_ABHUD
+[2024.04.29-12.31.26:813][250]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-12.31.26:813][250]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-12.31.26:826][250]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-12.31.26:826][250]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-12.34.52:506][ 63]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_CharacterStat.WBP_CharacterStat
+[2024.04.29-12.34.52:506][ 63]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-12.34.52:506][ 63]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-12.34.52:517][ 63]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-12.34.52:517][ 63]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-12.35.06:857][ 18]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-12.35.06:857][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-12.35.06:863][ 18]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.04.29-12.35.06:863][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.29-12.35.10:267][263]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/InfiniteAbyss/UI/WBP_HpBar.WBP_HpBar
+[2024.04.29-12.35.10:268][263]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-12.35.10:268][263]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-12.35.10:280][263]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.29-12.35.10:280][263]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.29-12.50.18:256][273]LogD3D12RHI: Error: Queues[(uint32)QueueType].D3DCommandQueue->GetTimestampFrequency(&Frequency) failed 
+ at D:\build\++UE5\Sync\Engine\Source\Runtime\D3D12RHI\Private\D3D12Device.cpp:750 
+ with error DXGI_ERROR_DEVICE_REMOVED
+
+[2024.04.29-12.50.18:260][273]LogRHI: Error: [Aftermath] Status: Stopped
+[2024.04.29-12.50.18:264][273]LogRHI: Error: [Aftermath] Failed to get Aftermath stack data
+[2024.04.29-12.50.18:264][273]LogD3D12RHI: Error: [GPUBreadCrumb]	3D Queue 0
+
+[2024.04.29-12.50.18:264][273]LogD3D12RHI: Error: [GPUBreadCrumb] Last tracked GPU operations:
+[2024.04.29-12.50.18:265][273]LogD3D12RHI: Error: [GPUBreadCrumb]	Copy Queue 0
+
+[2024.04.29-12.50.18:276][273]LogD3D12RHI: Error: [GPUBreadCrumb]	Compute Queue 0
+
+[2024.04.29-12.50.18:287][273]LogD3D12RHI: Error: DRED: No breadcrumb head found.
+[2024.04.29-12.50.18:287][273]LogD3D12RHI: Error: DRED: No PageFault data.
+[2024.04.29-12.50.18:287][273]LogD3D12RHI: Error: Memory Info from frame ID 209467:
+[2024.04.29-12.50.18:287][273]LogD3D12RHI: Error: 	Budget:	11242.00 MB
+[2024.04.29-12.50.18:287][273]LogD3D12RHI: Error: 	Used:	4102.30 MB
+[2024.04.29-12.51.03:869][273]LogRHI: Error: Breadcrumbs 'RHIThread'
+
+[2024.04.29-12.51.03:869][273]LogWindows: FPlatformMisc::RequestExit(0, WindowsPlatformCrashContext.ReportGPUCrash)
+[2024.04.29-12.51.03:869][273]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0, WindowsPlatformCrashContext.ReportGPUCrash)
+[2024.04.29-12.51.03:869][273]LogCore: Engine exit requested (reason: Win RequestExit)
+[2024.04.29-12.51.03:870][273]LogWindows: FPlatformMisc::RequestExit(1, D3D12Util.TerminateOnGPUCrash)
+[2024.04.29-12.51.03:870][273]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3, D3D12Util.TerminateOnGPUCrash)
+[2024.04.29-12.51.03:870][273]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
