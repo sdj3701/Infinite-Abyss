@@ -18,7 +18,7 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent, Category = Game, Meta = (DisplayName = "OnScoreChangedCpp"))
 	void K2_OnScoreChange(int32 NewScore);
-
+	
 	UFUNCTION(BlueprintImplementableEvent, Category = Game, Meta = (DisplayName = "OnGameClearCpp"))
 	void K2_OnGameClear();
 	

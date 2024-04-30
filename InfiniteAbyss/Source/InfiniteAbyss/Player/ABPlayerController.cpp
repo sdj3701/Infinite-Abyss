@@ -58,9 +58,9 @@ void AABPlayerController::BeginPlay()
 	FInputModeGameOnly GameOnlyInputMode;
 	SetInputMode(GameOnlyInputMode);
 
-	// ABHUDWidget = CreateWidget<UABHUDWidget>(this, ABHUDWidgetClass);
-	// if(ABHUDWidget)
-	// {
-	// 	ABHUDWidget->AddToViewport();
-	// }
+	ABHUDWidget = CreateWidget<UABHUDWidget>(this, ABHUDWidgetClass);
+	if(ABHUDWidget)
+	{
+		ABHUDWidget->AddToViewport();
+	}
 }
