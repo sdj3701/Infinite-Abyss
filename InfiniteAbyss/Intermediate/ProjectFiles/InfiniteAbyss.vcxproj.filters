@@ -123,6 +123,12 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\Animation\AnimNotify_AttackHitCheck.h">
       <Filter>Source\InfiniteAbyss\Animation</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\Animation\AnimNotify_BossComboEndCheck.cpp">
+      <Filter>Source\InfiniteAbyss\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\Animation\AnimNotify_BossComboEndCheck.h">
+      <Filter>Source\InfiniteAbyss\Animation</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\InfiniteAbyss\Animation\AnimNotify_RollCheck.cpp">
       <Filter>Source\InfiniteAbyss\Animation</Filter>
     </ClCompile>
