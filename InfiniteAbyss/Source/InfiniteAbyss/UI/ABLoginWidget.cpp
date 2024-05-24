@@ -3,6 +3,3 @@
 
 #include "UI/ABLoginWidget.h"
 
-UABLoginWidget::UABLoginWidget()
-{
-}

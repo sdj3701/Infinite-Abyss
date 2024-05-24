@@ -15,6 +15,5 @@ class INFINITEABYSS_API UABLoginWidget : public UUserWidget
 	GENERATED_BODY()
 
 public:
-	UABLoginWidget();
 	
 };

@@ -375,6 +375,12 @@
     <ClInclude Include="..\..\Source\InfiniteAbyss\UI\ABHUDWidget.h">
       <Filter>Source\InfiniteAbyss\UI</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\InfiniteAbyss\UI\ABLoginWidget.cpp">
+      <Filter>Source\InfiniteAbyss\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InfiniteAbyss\UI\ABLoginWidget.h">
+      <Filter>Source\InfiniteAbyss\UI</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\InfiniteAbyss\UI\ABUserWidget.cpp">
       <Filter>Source\InfiniteAbyss\UI</Filter>
     </ClCompile>
